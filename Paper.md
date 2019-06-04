@@ -10,20 +10,18 @@ we have been solving a variety of software and organizational problems.
 Through these achievements, we have been adjusting our responsibilities and approaches
 from software quality to software delivery, profitability, and organizational processes.
 
-
-### TODO ここから
-This report is explaining
-our approaches
-based on experiments
-becoming a team of [Transformational Leaders](https://en.wikipedia.org/wiki/Transformational_leadership)
-responsible for software delivery performance, organizational culture, persuing "WOW DX" (= Great Developer eXperience for LINERS).
-
-SETをチームにし、学習し続ける組織として、対象のSubject以外についても改善を広げていった
-「Transformational Leaderのチーム」だと言える。
+This report is about how and why we are becoming a team of [Transformational Leaders](https://en.wikipedia.org/wiki/Transformational_leadership) that is responsible for software delivery performance and organizational culture based on experiments.
+<br />
+<br />
+<br />
 
 
 
 ## 1. Introduction
+persuing "WOW DX" (= Great Developer eXperience for LINERS).
+<br />
+<br />
+<br />
 
 
 
@@ -202,6 +200,6 @@ SETをチームにし、学習し続ける組織として、対象のSubject以�
 
 
 ## REFERENCES
-- Release It! 2nd Edition
-- Accelerate
-- Scrum@Scale
+- ["Release It!, 2nd Edition: Design and Deploy Production-Ready Software" by Michael Nygard](http://shop.oreilly.com/product/9781680502398.do%0A)
+- ["ACCELERATE: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations" by Nicole Forsgren, Jez Humble, and Gene Kim](https://itrevolution.com/book/accelerate/)
+- ["Scrum@Scale: An Interview with Agile Manifesto Co-Author and Scrum Co-Founder Jeff Sutherland"](https://www.infoq.com/articles/sutherland-scrum/)
