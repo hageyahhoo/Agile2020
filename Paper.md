@@ -1,22 +1,45 @@
 
-**フォーマットはこれから直す**
-
-# Objective/Title
-Growing Transformational Leader Team
-* SETとして、"WOW DX” を実現していった過程をまとめられると良さげ
+# Growing and Expanding Transformational Leaders Team (with Experiments)
 
 
 
-# Abstract
-SETとしてLINEに入社
-Microservicesの品質の問題と向き合ってきた
+## Abstract
+Since I joined LINE Corporation as the first member of [SET (Software Engineer in Test)](---) in 2017,
+we have been solving a variety of software and organizational problems.
+
+Through these achievements, we have been adjusting our responsibilities and approaches
+from software quality to software delivery, profitability, and organizational processes.
+
+
+### TODO ここから
+This report is explaining
+our approaches
+based on experiments
+becoming a team of [Transformational Leaders](https://en.wikipedia.org/wiki/Transformational_leadership)
+responsible for software delivery performance, organizational culture, persuing "WOW DX" (= Great Developer eXperience for LINERS).
+
 SETをチームにし、学習し続ける組織として、対象のSubject以外についても改善を広げていった
 「Transformational Leaderのチーム」だと言える。
-そのポイントをまとめるよ！
 
 
 
-# Challenges
+## 1. Introduction
+
+
+
+## 2. Background
+- Beyond Quality Assurance
+    - Software Delivery (Performance)
+    - Organizational Performance/Culture
+
+- Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
+- Solving problems beyond "silos"
+- Need to learn a lot
+- Expansion
+
+
+
+## 3. Challenges
 立ち上げ期もそうだが、今年に入ってからの状況変化によりフォーカスしたい。
 * Increasing outages at/between Microservices
     * Build quality inが出来ていない
@@ -36,7 +59,7 @@ SETをチームにし、学習し続ける組織として、対象のSubject以�
 
 
 
-# Approaches
+# 4. Approaches
 * Increasing outages at/between Microservices
     * Work with Developers
         * Guide Developer Testing
@@ -72,7 +95,11 @@ SETをチームにし、学習し続ける組織として、対象のSubject以�
 
 
 
-# Next Challenge
+## 5. Lessons Learned
+
+
+
+## 6. Next Challenge
 * Testable Infrastructure
     * Production-like test environment (with k8s and Containers)
     * Immutable Test Infrastructure (with k8s and Containers)
@@ -82,7 +109,11 @@ SETをチームにし、学習し続ける組織として、対象のSubject以�
 
 
 
-# Points
+## 7. Conclusions
+
+
+
+## Points
 * Solution Platformer -> Transformational Leader Team
     * Work with Developersの比率：縦80%、横20%
         * 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
@@ -94,8 +125,7 @@ SETをチームにし、学習し続ける組織として、対象のSubject以�
 
 
 
-
-# Memo（あとでどこかに入れてみる）
+## Memo（あとでどこかに入れてみる）
 
 （後付けでも）テストスクリプトを書くこと
 * 効能
@@ -131,7 +161,8 @@ SETをチームにし、学習し続ける組織として、対象のSubject以�
     * 「技術で他者を責める」から、「他者を繋いでいく」方向を！
 
 
-# Misc.
+
+## Misc.
 * SET as a LEAN LEADER, communication driver, and Product refiner?
     * Make Product Development Lean with Testing & Test Automation
         * Eliminate Waste
@@ -169,7 +200,8 @@ SETをチームにし、学習し続ける組織として、対象のSubject以�
         * 継続的なインパクト：DX強化？
 
 
-# Links
-* Release It! 2nd Edition
-* Accelerate
-* Scrum@Scale
+
+## REFERENCES
+- Release It! 2nd Edition
+- Accelerate
+- Scrum@Scale
