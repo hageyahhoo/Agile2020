@@ -80,6 +80,8 @@ persuing "WOW DX" (= Great Developer eXperience for LINERS).
 * Poor organization?
     * Increase presence
         * Make presentations about our activities toward organizations
+        - Impact Meeting
+            - [Four Questions to Fix Low Attendance at Your Sprint Reviews](https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews)
     * Milestones as the pointer of conversation
         * User Storyと同じ
         * Mike Cohnさんのブログとのリンクが欲しい
