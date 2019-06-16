@@ -7,57 +7,70 @@
 Since I joined LINE Corporation as the first member of [SET (Software Engineer in Test)](---) in 2017,
 we have been solving a variety of software and organizational problems.
 
-Through these achievements, we have been adjusting our responsibilities and approaches
+Through these achievements, we have been adjusting our responsibilities
 from software quality to software delivery, profitability, and organizational processes.
 
-This report is about how and why we are becoming a team of [Transformational Leaders](https://en.wikipedia.org/wiki/Transformational_leadership) that is responsible for software delivery performance and organizational culture based on experiments.
+This report is about why and how we are becoming a team of [Transformational Leaders](https://en.wikipedia.org/wiki/Transformational_leadership) that is responsible for software delivery performance and organizational culture based on experiments.
 <br />
 <br />
 <br />
 
 
 
-## 1. Introduction
-persuing "WOW DX" (= Great Developer eXperience for LINERS).
+## 1. INTRODUCTION
+
+### LINE自体の説明
+LINE is a free chat & telecommunication service since 2012?
+Increasing features
+Applying [Microservice Architecture](https://martinfowler.com/articles/microservices.html)
+scaling out, independent, fast delivery
+
+
+### LINEの成長による弊害とSETの誕生
+However, Microservices have been increasing dramatically
+External services have been increasing (e.g. Fintech)
+
+**Outages have been increasing**
+
+To solve increasing outages and reduce revenue lost & customers,
+LINE decided to open new positions as Scrum Master, DevOps engineer, and SET.
 <br />
 <br />
 <br />
 
 
 
-## 2. Background
-- Beyond Quality Assurance
-    - Software Delivery (Performance)
-    - Organizational Performance/Culture
-
+## 2. BACKGROUND, CHALLENGES, DETAILS
+⭐️初期から今まで続く課題を整理する
 - Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
 - Solving problems beyond "silos"
-- Need to learn a lot
-- Expansion
 
 
 
-## 3. Challenges
-立ち上げ期もそうだが、今年に入ってからの状況変化によりフォーカスしたい。
-* Increasing outages at/between Microservices
+- Increasing outages at/between Microservices
     * Build quality inが出来ていない
     * Hard to test Microservices!
     * There are little knowledge/patterns for testing Microservices.
-* Shortage of knowledge for problem-solving
 
+- Shortage of knowledge for problem-solving
 
-* SET’s mission was vague
+- SET’s mission was vague
     * Continuous Decision Making
-* Troubles in Testing
+- Troubles in Testing
     * Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
     * Hard to identify the points to collaborate with developers.
-* Poor organization?
+- Poor organization?
     * ミーティングや情報共有が下手など
     * 組織横断の課題解決を出来る人が少ない
+<br />
+<br />
+<br />
 
 
 
-# 4. Approaches
+## 3. EXPERIMENTS, SUCCESS AND FAILURES
+
+### Approaches
 * Increasing outages at/between Microservices
     * Work with Developers
         * Guide Developer Testing
@@ -92,10 +105,22 @@ persuing "WOW DX" (= Great Developer eXperience for LINERS).
 * 判断基準としてのFour Key Metrics
     * Sales/Profit/Employee Satisfaction
     * Profit/Productivity/Market Share
+<br />
+<br />
+<br />
 
 
 
 ## 5. Lessons Learned
+- Beyond Quality Assurance
+    - Software Delivery (Performance)
+    - Organizational Performance/Culture
+
+- Need to learn a lot
+- Expansion
+<br />
+<br />
+<br />
 
 
 
@@ -106,10 +131,16 @@ persuing "WOW DX" (= Great Developer eXperience for LINERS).
         * Reduce barriers of testing
     * Container as Mock/Test Harnesses
         * Make testing easier
+<br />
+<br />
+<br />
 
 
 
 ## 7. Conclusions
+<br />
+<br />
+<br />
 
 
 
@@ -199,9 +230,17 @@ persuing "WOW DX" (= Great Developer eXperience for LINERS).
         * 簡潔な説明：エレベーターピッチ・User Story
         * 継続的なインパクト：DX強化？
 
+- persuing "WOW DX" (= Great Developer eXperience for LINERS).
+<br />
+<br />
+<br />
+
 
 
 ## REFERENCES
 - ["Release It!, 2nd Edition: Design and Deploy Production-Ready Software" by Michael Nygard](http://shop.oreilly.com/product/9781680502398.do%0A)
 - ["ACCELERATE: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations" by Nicole Forsgren, Jez Humble, and Gene Kim](https://itrevolution.com/book/accelerate/)
 - ["Scrum@Scale: An Interview with Agile Manifesto Co-Author and Scrum Co-Founder Jeff Sutherland"](https://www.infoq.com/articles/sutherland-scrum/)
+<br />
+<br />
+<br />
