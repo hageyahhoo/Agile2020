@@ -22,14 +22,12 @@ This report is about why and how we are becoming a team of [Transformational Lea
 
 After the first release, LINE has been increasing users and messages transferred rapidly and globally. Especially, high sound quality with free, and the `sticker` feature that we can send a variety of rich emoticons as a message attracted a lot of users.
 
-In order to adapt to the rapid growth of LINE, we have been improving LINE's architectures and code base iteratively. We chose [Microservice Architecture](https://martinfowler.com/articles/microservices.html) to earn scaling out, independent development, and fast delivery capabilities.
+For adapting to the rapid growth of LINE, we have been improving LINE's architectures and code base iteratively. We chose [Microservice Architecture](https://martinfowler.com/articles/microservices.html) to earn scaling out, independent development, and fast delivery capabilities.
 
 **However, outages of LINE have also been increasing.** Features, especially `fintech` ones like payments and banking, have been increasing dramatically. Troubles at `Integration Points` among each Microservices have also been increasing. They mean increases of negative monetary impacts to LINE users.
 
-## TODO ここから
-To reduce and solve those outages
-LINE Corporation decided to open new positions as Scrum Master, DevOps engineer, and SET.
-
+For reducing outages and improving product development processes,
+LINE Corporation decided to open new positions for a Scrum Master, a DevOps engineer, and an SET.
 <br />
 <br />
 <br />
