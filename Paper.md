@@ -232,9 +232,16 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
 
 
 ## REFERENCES
-- ["Release It!, 2nd Edition: Design and Deploy Production-Ready Software" by Michael Nygard](http://shop.oreilly.com/product/9781680502398.do%0A)
-- ["ACCELERATE: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations" by Nicole Forsgren, Jez Humble, and Gene Kim](https://itrevolution.com/book/accelerate/)
-- ["Scrum@Scale: An Interview with Agile Manifesto Co-Author and Scrum Co-Founder Jeff Sutherland"](https://www.infoq.com/articles/sutherland-scrum/)
+- ["Release It!, 2nd Edition: Design and Deploy Production-Ready Software"](http://shop.oreilly.com/product/9781680502398.do%0A) by Michael Nygard
+- ["ACCELERATE: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"](https://itrevolution.com/book/accelerate/) by Nicole Forsgren, Jez Humble, and Gene Kim
+- [Sutherland] Sutherland, Jeff, "Scrum@Scale: An Interview with Agile Manifesto Co-Author and Scrum Co-Founder Jeff Sutherland" InfoQ
+    - https://www.infoq.com/articles/sutherland-scrum/
+- [Luci] Lucian, Chris, “Growing the Mob” Agile 2017 Conference, Orlando, Florida
+    - https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf
+- [Luci] Lucian, Chris, "Learning to Experiment" Agile 2018 Conference, San Diego, California
+    - https://www.agilealliance.org/wp-content/uploads/2018/02/C.Lucian.-Learning-to-Experiment.pdf
+- [Ito] Ito, Hiroyuki, "Technology-Driven Development: Using Automation and Development Techniques to Grow an Agile Culture" Agile 2014 Conference, Orlando, Florida
+    - https://www.agilealliance.org/wp-content/uploads/2015/12/ExperienceReport.2014.Ito_.pdf
 <br />
 <br />
 <br />
