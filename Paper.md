@@ -18,12 +18,13 @@ This report is about why and how we are becoming a team of [Transformational Lea
 
 
 ## 1. INTRODUCTION
+`LINE` is a free chatting and telecommunication service for smartphones that has released since **2012**. Our company name is derived from this service.
 
-### LINE自体の説明
-LINE is a free chat & telecommunication service since 2012?
-Increasing features
-Applying [Microservice Architecture](https://martinfowler.com/articles/microservices.html)
-scaling out, independent, fast delivery
+After the first release, LINE has been increasing users and messages transferred rapidly and globally. Especially, high sound quality with free and the `sticker` feature that we can send a variety of rich emoticons as a message attracted a lot of users.
+
+In order to adapt to the rapid growth of LINE, we have been improving LINE's architectures and code base iteratively.
+
+We chose [Microservice Architecture](https://martinfowler.com/articles/microservices.html) to earn scaling out, independent development, and fast delivery capabilities.
 
 
 ### LINEの成長による弊害とSETの誕生
