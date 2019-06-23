@@ -34,7 +34,8 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
 
 
 
-## 2. BACKGROUND, CHALLENGES, DETAILS
+## 2. CLARIFY AND ADJUST RESPONSIBILITIES TO START
+### TODO
 ⭐️初期から今まで続く課題を整理する
 - Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
 - Solving problems beyond "silos"
@@ -62,7 +63,10 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
 
 
 
-## 3. EXPERIMENTS, SUCCESS AND FAILURES
+## 3. SHIFT VERTICALLY
+ORGANIZATIONAL CHANGE, PROCESS INNOVATION, AND SAFETY
+
+### EXPERIMENTS, SUCCESS AND FAILURES
 
 ### Approaches
 * Increasing outages at/between Microservices
@@ -105,6 +109,10 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
 
 
 
+## 4. BECOME TRANSFORMATIONAL LEADERS
+
+
+
 ## 5. Lessons Learned
 - Beyond Quality Assurance
     - Software Delivery (Performance)
@@ -118,7 +126,7 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
 
 
 
-## 6. Next Challenge
+## 6. WHAT'S NEXT?
 * Testable Infrastructure
     * Production-like test environment (with k8s and Containers)
     * Immutable Test Infrastructure (with k8s and Containers)
@@ -131,14 +139,7 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
 
 
 
-## 7. Conclusions
-<br />
-<br />
-<br />
-
-
-
-## Points
+## 7. CONCLUSIONS
 * Solution Platformer -> Transformational Leader Team
     * Work with Developersの比率：縦80%、横20%
         * 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
@@ -147,11 +148,13 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
     * "WOW DX”!
 * コンサル型ではなく、実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
     * Scrum@Scale
+<br />
+<br />
+<br />
 
 
 
 ## Memo（あとでどこかに入れてみる）
-
 （後付けでも）テストスクリプトを書くこと
 * 効能
     * 書くことで、コードを理解しやすくなる
