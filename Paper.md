@@ -110,6 +110,8 @@ ORGANIZATIONAL CHANGE, PROCESS INNOVATION, AND SAFETY
 
 
 ## 4. BECOME TRANSFORMATIONAL LEADERS
+- Learning Session
+  -> Replacable managers (due to my long and bad conditions)
 
 
 
