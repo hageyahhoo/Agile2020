@@ -129,12 +129,16 @@ ORGANIZATIONAL CHANGE, PROCESS INNOVATION, AND SAFETY
 
 
 ## 6. WHAT'S NEXT?
-* Testable Infrastructure
-    * Production-like test environment (with k8s and Containers)
-    * Immutable Test Infrastructure (with k8s and Containers)
-        * Reduce barriers of testing
-    * Container as Mock/Test Harnesses
-        * Make testing easier
+`Testable Infrastructure`
+- Production-like test environment (with k8s and Containers)
+- Immutable Test Infrastructure (with k8s and Containers)
+    - Reduce barriers of testing
+- Container as Mock/Test Harnesses
+    - Make testing easier
+
+We are investigating [Testcontainers](https://www.testcontainers.org/):
+- [Immutable and disposable RDBMS for testing](https://www.testcontainers.org/modules/databases/)
+- [E2E Testing with WebDriver](https://www.testcontainers.org/modules/webdriver_containers/)
 <br />
 <br />
 <br />
