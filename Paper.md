@@ -35,28 +35,37 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
 
 
 ## 2. CLARIFY AND ADJUST RESPONSIBILITIES TO START
-### TODO
-⭐️初期から今まで続く課題を整理する
+⭐️ TODO
+
 - Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
 - Solving problems beyond "silos"
 
 
-
-- Increasing outages at/between Microservices
-    * Build quality inが出来ていない
-    * Hard to test Microservices!
-    * There are little knowledge/patterns for testing Microservices.
-
-- Shortage of knowledge for problem-solving
-
+### CHALLENGES
 - SET’s mission was vague
-    * Continuous Decision Making
 - Troubles in Testing
-    * Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
-    * Hard to identify the points to collaborate with developers.
+    - Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
+    - Hard to identify the points to collaborate with developers.
+- Shortage of knowledge for problem-solving
 - Poor organization?
     * ミーティングや情報共有が下手など
     * 組織横断の課題解決を出来る人が少ない
+
+
+### ACTIONS
+- Learning
+    - Utilize Test Scripts to understand products
+    - Focus on outage reports
+- Give impacts constantly (* "How Google Tests Software")
+    - Achieve something every week and share them with coworkers and decision makers
+    - Show results quantitatively
+- Incremental and iterative consensus
+    - Lead decision making by proposing rough milestones
+    - All decision makers have agile mindsets
+        - Didn't require fixed schedules
+
+
+### RETROSPECTIVE
 <br />
 <br />
 <br />
@@ -66,9 +75,14 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
 ## 3. SHIFT VERTICALLY
 ORGANIZATIONAL CHANGE, PROCESS INNOVATION, AND SAFETY
 
-### EXPERIMENTS, SUCCESS AND FAILURES
+### CHALLENGES
+- Increasing outages at/between Microservices
+    * Build quality inが出来ていない
+    * Hard to test Microservices!
+    * There are little knowledge/patterns for testing Microservices.
 
-### Approaches
+
+### ACTIONS
 * Increasing outages at/between Microservices
     * Work with Developers
         * Guide Developer Testing
@@ -103,6 +117,12 @@ ORGANIZATIONAL CHANGE, PROCESS INNOVATION, AND SAFETY
 * 判断基準としてのFour Key Metrics
     * Sales/Profit/Employee Satisfaction
     * Profit/Productivity/Market Share
+
+
+### RETROSPECTIVE
+- Experiments
+    - Utilize failures as a source of learning
+
 <br />
 <br />
 <br />
@@ -110,12 +130,20 @@ ORGANIZATIONAL CHANGE, PROCESS INNOVATION, AND SAFETY
 
 
 ## 4. BECOME TRANSFORMATIONAL LEADERS
+
+### CHALLENGES
+
+
+### ACTIONS
 - Learning Session
-  -> Replacable managers (due to my long and bad conditions)
+    -> Replacable managers (due to my long and bad conditions)
+
+
+### RETROSPECTIVE
 
 
 
-## 5. Lessons Learned
+## 5. LESSONS LEARNED
 - Beyond Quality Assurance
     - Software Delivery (Performance)
     - Organizational Performance/Culture
