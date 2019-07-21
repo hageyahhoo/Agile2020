@@ -18,9 +18,9 @@ This report is about why and how we are becoming a team of [Transformational Lea
 
 
 ## 1. INTRODUCTION
-`LINE` is a free chatting and telecommunication service for smartphones that has released since **2012**. Our company name is derived from this service.
+`LINE` is a free chatting and telecommunication service for smartphones that has released since 2011. Our company name is derived from this service.
 
-After the first release, LINE has been increasing users and messages transferred rapidly and globally. Especially, high sound quality with free, and the `sticker` feature that we can send a variety of rich emoticons as a message attracted a lot of users.
+After the first release, LINE Corporation has been increasing users and messages transferred rapidly and globally. Especially, high sound quality with free, and the `sticker` feature that we can send a variety of rich emoticons as a message attracted a lot of users.
 
 For adapting to the rapid growth of LINE, we have been improving LINE's architectures and code base iteratively. We chose [Microservice Architecture](https://martinfowler.com/articles/microservices.html) to earn scaling out, independent development, and fast delivery capabilities.
 
@@ -28,6 +28,7 @@ For adapting to the rapid growth of LINE, we have been improving LINE's architec
 
 For reducing outages and improving product development processes,
 LINE Corporation decided to open new positions for a Scrum Master, a DevOps engineer, and an SET.
+I joined LINE Corporation as the first member of SET in 2017.
 <br />
 <br />
 <br />
@@ -35,13 +36,11 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
 
 
 ## 2. CLARIFY AND ADJUST RESPONSIBILITIES TO START
-⭐️ TODO
-
-- Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
-- Solving problems beyond "silos"
-
 
 ### CHALLENGES
+When I joied LINE Corporation, there were lots of problems that relate to not only software quality but a variety of software and organizational problems.
+
+⭐️ TODO
 - SET’s mission was vague
 - Troubles in Testing
     - Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
@@ -50,6 +49,10 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
 - Poor organization?
     * ミーティングや情報共有が下手など
     * 組織横断の課題解決を出来る人が少ない
+- Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
+- Solving problems beyond "silos"
+<br />
+<br />
 
 
 ### ACTIONS
@@ -63,9 +66,12 @@ LINE Corporation decided to open new positions for a Scrum Master, a DevOps engi
     - Lead decision making by proposing rough milestones
     - All decision makers have agile mindsets
         - Didn't require fixed schedules
+<br />
+<br />
 
 
 ### RETROSPECTIVE
+- Show results from business perspective, not only from technical one
 <br />
 <br />
 <br />
@@ -80,6 +86,8 @@ ORGANIZATIONAL CHANGE, PROCESS INNOVATION, AND SAFETY
     * Build quality inが出来ていない
     * Hard to test Microservices!
     * There are little knowledge/patterns for testing Microservices.
+<br />
+<br />
 
 
 ### ACTIONS
@@ -117,12 +125,13 @@ ORGANIZATIONAL CHANGE, PROCESS INNOVATION, AND SAFETY
 * 判断基準としてのFour Key Metrics
     * Sales/Profit/Employee Satisfaction
     * Profit/Productivity/Market Share
+<br />
+<br />
 
 
 ### RETROSPECTIVE
 - Experiments
     - Utilize failures as a source of learning
-
 <br />
 <br />
 <br />
@@ -132,14 +141,57 @@ ORGANIZATIONAL CHANGE, PROCESS INNOVATION, AND SAFETY
 ## 4. BECOME TRANSFORMATIONAL LEADERS
 
 ### CHALLENGES
+<br />
+<br />
 
 
 ### ACTIONS
 - Learning Session
     -> Replacable managers (due to my long and bad conditions)
+- Implement Test Automation and related techniques by working with product development team
+- Used examples of test scripts
+    - Quick returns
+    - Run them in front of members (= demo)
+    - Run means repeatable & 安心感
+        - Stateless or Immutable
+    - Smells
+        - これを「TDDに反するから意味がない」という人がいれば、他者を理解する意欲・スキルのない人と判断できる
+
+
+* SET as a LEAN LEADER, communication driver, and Product refiner?
+    * Make Product Development Lean with Testing & Test Automation
+        * Eliminate Waste
+        * Eliminate meetings by reducing adjustment & non-productive communication
+    * Adjustment : By automated test
+        * SET's main activity is communication
+        * Using test scripts is good.
+        * Create, show, share vision to proceed with collaboration
+        * Many developers and managers are not understanding testing properly.
+        * Communication! Communication! Communication!
+        * Make friends each other
+* 技術は必須、しかし技術によりすぎてもダメ。
+    * Necessary to implement product & test properly (to make awesome)
+    * Only technology does not solve all issues
+    * Use technology as a communication driver is good.
+* Gather information from Gemma & know more about each test
+    * Know the real problem
+    * Based on Test Automation
+    * Make product better
+    * Developer/Manager が目的・メリットを理解し共感できる程度の詳細さでレポートしよう。
+        * Context が不足していることは理解している。それを埋めるためにコミュニケーションを取るための道具として使おう。
+<br />
+<br />
 
 
 ### RETROSPECTIVE
+- Just guidelines and references didn't work
+    - Need to work with members
+- Show results iteratively
+    Especially to stakeholders
+- Experience success with new ways
+<br />
+<br />
+<br />
 
 
 
@@ -174,14 +226,15 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
 
 
 ## 7. CONCLUSIONS
-* Solution Platformer -> Transformational Leader Team
+- Team of Transformational Leaders
     * Work with Developersの比率：縦80%、横20%
         * 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
         * 横：具体的施策まで踏み込めない恐れはあるが、全体的視点では動きやすい
     * 究極は、CTOチームとして、DXの改善＆ビジネス価値の提供を実現する
     * "WOW DX”!
-* コンサル型ではなく、実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
-    * Scrum@Scale
+        - persuing "WOW DX" (= Great Developer eXperience for LINERS).
+- コンサル型ではなく、実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
+    - Scrum@Scale
 <br />
 <br />
 <br />
@@ -189,20 +242,6 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
 
 
 ## Memo（あとでどこかに入れてみる）
-（後付けでも）テストスクリプトを書くこと
-* 効能
-    * 書くことで、コードを理解しやすくなる
-        * 読むだけでは、間違いがいくらでも起こり得る（true/falseとか!とか）
-    * 動かして確認できるため、安心感を得られる
-        * 特定のメソッドを動かすための前提条件（fixtureやメソッド事前呼び出しなど）が分かる
-        * ステートレスであれば、失敗しても問題ない
-    * 後日プログラムを修正する際の開始点にできる
-    * ＼心理的安全性！／
-    * テストスクリプトは、コミュニケーションの道具でもある
-* Smells
-    * これを「TDDに反するから意味がない」という人がいれば、他者を理解する意欲・スキルのない人と判断できる
-
-
 "Feature Team” だけで十分か？（特に組織論）
 * MSAの適用範囲拡大と、そこへの課題認識
     * お互いへの無関心の拡大
@@ -222,46 +261,19 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
     * 全体を追うという意味でのpracticeを確立していく必要性
     * 「技術で他者を責める」から、「他者を繋いでいく」方向を！
 
-
-
-## Misc.
-* SET as a LEAN LEADER, communication driver, and Product refiner?
-    * Make Product Development Lean with Testing & Test Automation
-        * Eliminate Waste
-        * Eliminate meetings by reducing adjustment & non-productive communication
-    * Adjustment : By automated test
-        * SET's main activity is communication
-        * Using test scripts is good.
-        * Create, show, share vision to proceed with collaboration
-        * Many developers and managers are not understanding testing properly.
-        * Communication! Communication! Communication!
-        * Make friends each other
-* 技術は必須、しかし技術によりすぎてもダメ。
-    * Necessary to implement product & test properly (to make awesome)
-    * Only technology does not solve all issues
-    * Use technology as a communication driver is good.
-* Gather information from Gemma & know more about each test
-    * Know the real problem
-    * Based on Test Automation
-    * Make product better
-    * Developer/Manager が目的・メリットを理解し共感できる程度の詳細さでレポートしよう。
-        * Context が不足していることは理解している。それを埋めるためにコミュニケーションを取るための道具として使おう。
-* 2017/10/23 (Mon)
-    * 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
-        * SET/Agile は、その点で価値がある/価値を示す必要がある。
-    * ベンチャーであれば、Technical Excellence のみで乗り切れる部分もあるが、expansion/ongoing では無理がある。
-        * 仕組みを作り、それを広める。
-        * 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
-    * 技術的側面から切り込む必要があるので、技術力も必須。
-    * 「SET」という単語にはローカル性がある。
-        * Google の SET は、結果としてあの定義になっている。
+* 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
+    * SET/Agile は、その点で価値がある/価値を示す必要がある。
+* ベンチャーであれば、Technical Excellence のみで乗り切れる部分もあるが、expansion/ongoing では無理がある。
+    * 仕組みを作り、それを広める。
+    * 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
+* 技術的側面から切り込む必要があるので、技術力も必須。
+* 「SET」という単語にはローカル性がある。
+    * Google の SET は、結果としてあの定義になっている。
 * Quality Assuranceからの脱却
     * 「品質」→ビジネス価値の向上・ビジネス損失の削減・DXの向上
     * Next Engineering Management
         * 簡潔な説明：エレベーターピッチ・User Story
         * 継続的なインパクト：DX強化？
-
-- persuing "WOW DX" (= Great Developer eXperience for LINERS).
 <br />
 <br />
 <br />
@@ -282,3 +294,9 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
 <br />
 <br />
 <br />
+
+
+
+# レビュアー向け補足
+- Markdownでの見易さを考慮して、文ではなく意味の単位で改行しています。
+    - 後日、Wordでリリース版を作成する際、これらの改行は削除します。
