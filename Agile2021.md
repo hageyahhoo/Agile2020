@@ -26,6 +26,12 @@ Using [Design Sprint](https://www.thesprintbook.com/)
 - Start small
 - Experiment every week
 
+- First Round : 2019/07/24
+    - Demonstrated test scripts for API with Karate
+    - Karateを利用している人はいるが一人だけ。メンバーへの事前共有もなく、納得感がないことがわかった
+    - 次の1週間で、Pure JUnit・Rest Assured・Kotlin Testの3つのテストサンプルを作って比較することに
+        - 2-3日のアクションですぐにフィードバックを得られるため、作り過ぎてからのやり直しで心が折れる自体は回避
+
 <br />
 <br />
 <br />
