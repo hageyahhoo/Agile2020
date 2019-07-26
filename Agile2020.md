@@ -1,14 +1,11 @@
-
-# Growing and Expanding Transformational Leaders Team (with Experiments)
+# Growing and Expanding Transformational Leaders Team with Experiments
 
 
 
 ## Abstract
-Since I joined LINE Corporation as the first member of [SET (Software Engineer in Test)](---) in 2017,
-we have been solving a variety of software and organizational problems.
+Since I joined LINE Corporation as the first member of `SET (Software Engineer in Test)` in 2017, we have been solving a variety of software and organizational problems.
 
-Through these achievements, we have been adjusting our responsibilities
-from software quality to software delivery, profitability, and organizational processes.
+Through these achievements, we have been adjusting our responsibilities from software quality to software delivery, profitability, and organizational processes.
 
 This report is about why and how we are becoming a team of [Transformational Leaders](https://en.wikipedia.org/wiki/Transformational_leadership) that is responsible for software delivery performance and organizational culture based on experiments.
 <br />
@@ -50,28 +47,73 @@ Moreover, there were few leaders to solve problems which affect more than one te
 
 
 ### ACTIONS
-1) Share understanding by discovering and verbalizing needs
-No verbalized needs/problems
-Gather information
+`Product Discovery` (by David Hussman)
+
+Analyze target products to test
+Analyze outage reports
+Talk to stakeholders directly
+
+
+# Analyze target products to test
+With Continuous Integration and Static Code Analysis
+- Code coverage
+- The amount of technical debts
+- Priorities to improve
+
+# Analyze Outage Reports
+Reports == Treasure-trove
+We can know
+- problematic products
+- causes of outages
+- impact on sales and profit
+- how to reduce outage and MTTR
+
+# Talk to stakeholders directly
+Troubles == Src of Ideas
+- They may have non-verbalized troubles
+- Verbalizing their troubles will be the start of collaboration
+- Direct and honest conversation is good to know troubles deeply
+
+
+# Establish Solutions
+- Decide target products based on
+  - frequency of outages
+  - impact on sales and profit
+- Aim to make failure detection faster and reduce MTTR
+- Utilize Test Automation
+- Validate ideas by working with developers and QAs
+
+
+# Iterative Consensus
+- Propose ideas and get feedback weekly
+- Discover proper solutions gradually
+- Achieve a consensus on solutions step by step
+- Re-examine solutions constantly
+
+
+
+
+
+1) Clarify objective, missions, and responsibilities of SET
+- Share understanding by discovering and verbalizing needs
+- No verbalized needs/problems
+- Gather information
+
 
 
 2) Shortage of knowlege
 - Learning
     - Utilize Test Scripts to understand products
+        - Including Static Code Analysis
     - Focus on outage reports
-
-- Troubles in Testing
-    - Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
-    - Hard to identify the points to collaborate with developers.
-- Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
-
 
 
 3) Beyond silos
-I already experienced working beyond silos at Rakuten, Inc.
+- Talked directly
+- I already experienced working beyond silos at Rakuten, Inc.
 
 
-3) Establish proposals and solutions to solve above needs
+4) Establish proposals and solutions to solve above needs
 Iterative consensus on above ones with managers/executive
 Re-examine solutions constantly and iteratively
 
@@ -79,18 +121,22 @@ Re-examine solutions constantly and iteratively
     - Lead decision making by proposing rough milestones
     - All decision makers have agile mindsets
         - Didn't require fixed schedules
+- within 45 days
 
 
 - `Give impacts constantly`
     - Achieve something every week and share them with coworkers and decision makers
     - Show results quantitatively
-
+- `3 KPIs`: Sales, Profit, and Employee Satisfaction
 <br />
 <br />
 
 
 ### RETROSPECTIVE
 - Show results from business perspective, not only from technical one
+- Troubles in Testing
+    - Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
+    - Hard to identify the points to collaborate with developers.
 <br />
 <br />
 <br />
@@ -301,11 +347,12 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
 
 
 ## REFERENCES
+- `software delivery performance and organizational culture`
+    - ["ACCELERATE: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"](https://itrevolution.com/book/accelerate/) by Nicole Forsgren, Jez Humble, and Gene Kim
 - `Integration Points`:
     - ["Release It!, 2nd Edition: Design and Deploy Production-Ready Software"](http://shop.oreilly.com/product/9781680502398.do%0A) by Michael Nygard
 - `Give impacts constantly`:
     - ["How Google Tests Software"](https://www.amazon.com/dp/B007MQLMF2) by by James A. Whittaker, Jason Arbon, and Jeff Carollo
-- ["ACCELERATE: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"](https://itrevolution.com/book/accelerate/) by Nicole Forsgren, Jez Humble, and Gene Kim
 - [Sutherland] Sutherland, Jeff, "Scrum@Scale: An Interview with Agile Manifesto Co-Author and Scrum Co-Founder Jeff Sutherland" InfoQ
     - https://www.infoq.com/articles/sutherland-scrum/
 - [Luci] Lucian, Chris, “Growing the Mob” Agile 2017 Conference, Orlando, Florida
