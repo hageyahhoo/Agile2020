@@ -90,7 +90,7 @@ Troubles == Src of Ideas
 - Achieve a consensus on solutions step by step
 - Re-examine solutions constantly
 
-
+# Providing results every week
 
 
 
@@ -98,7 +98,6 @@ Troubles == Src of Ideas
 - Share understanding by discovering and verbalizing needs
 - No verbalized needs/problems
 - Gather information
-
 
 
 2) Shortage of knowlege
