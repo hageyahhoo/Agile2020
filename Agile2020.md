@@ -35,37 +35,56 @@ I joined LINE Corporation as the first member of SET in 2017.
 
 
 
-## 2. CLARIFY AND ADJUST RESPONSIBILITIES TO START
+## 2. CLARIFY DEMANDS AND RESPONSIBILITIES TO START
 
 ### CHALLENGES
-When I joied LINE Corporation, there were lots of problems that relate to not only software quality but a variety of software and organizational problems.
+When I joined LINE Corporation, there were lots of problems which relate to not only software quality but a variety of software and organizational problems.
 
-⭐️ TODO
-- SET’s mission was vague
-- Troubles in Testing
-    - Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
-    - Hard to identify the points to collaborate with developers.
-- Shortage of knowledge for problem-solving
-- Poor organization?
-    * ミーティングや情報共有が下手など
-    * 組織横断の課題解決を出来る人が少ない
-- Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
-- Solving problems beyond "silos"
+The biggest challenge was the confusions and disagreements about SET among stakeholders. There were no clear objective, missions, and responsibilities of SET. Additionally, there were no shared understanding about SET. Therefore, I needed to clarify them at first.
+
+Other big challenge was that I was a newbie of LINE Corporation and I didn't have enough knowledge of our services, architectures, technologies used, and so on.
+
+Moreover, there were few leaders to solve problems which affect more than one team and/or service. In other words, few leaders could act beyond silos. We have been widely adopting to Microservice Architecture. It was critical to overcome this problem for solving outages quickly and properly with less impacts to users.
 <br />
 <br />
 
 
 ### ACTIONS
+1) Share understanding by discovering and verbalizing needs
+No verbalized needs/problems
+Gather information
+
+
+2) Shortage of knowlege
 - Learning
     - Utilize Test Scripts to understand products
     - Focus on outage reports
-- Give impacts constantly (* "How Google Tests Software")
-    - Achieve something every week and share them with coworkers and decision makers
-    - Show results quantitatively
+
+- Troubles in Testing
+    - Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
+    - Hard to identify the points to collaborate with developers.
+- Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
+
+
+
+3) Beyond silos
+I already experienced working beyond silos at Rakuten, Inc.
+
+
+3) Establish proposals and solutions to solve above needs
+Iterative consensus on above ones with managers/executive
+Re-examine solutions constantly and iteratively
+
 - Incremental and iterative consensus
     - Lead decision making by proposing rough milestones
     - All decision makers have agile mindsets
         - Didn't require fixed schedules
+
+
+- `Give impacts constantly`
+    - Achieve something every week and share them with coworkers and decision makers
+    - Show results quantitatively
+
 <br />
 <br />
 
@@ -83,6 +102,7 @@ ORGANIZATIONAL CHANGE, PROCESS INNOVATION, AND SAFETY
 
 ### CHALLENGES
 - Increasing outages at/between Microservices
+- Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
     * Build quality inが出来ていない
     * Hard to test Microservices!
     * There are little knowledge/patterns for testing Microservices.
@@ -281,7 +301,10 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
 
 
 ## REFERENCES
-- ["Release It!, 2nd Edition: Design and Deploy Production-Ready Software"](http://shop.oreilly.com/product/9781680502398.do%0A) by Michael Nygard
+- `Integration Points`:
+    - ["Release It!, 2nd Edition: Design and Deploy Production-Ready Software"](http://shop.oreilly.com/product/9781680502398.do%0A) by Michael Nygard
+- `Give impacts constantly`:
+    - ["How Google Tests Software"](https://www.amazon.com/dp/B007MQLMF2) by by James A. Whittaker, Jason Arbon, and Jeff Carollo
 - ["ACCELERATE: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"](https://itrevolution.com/book/accelerate/) by Nicole Forsgren, Jez Humble, and Gene Kim
 - [Sutherland] Sutherland, Jeff, "Scrum@Scale: An Interview with Agile Manifesto Co-Author and Scrum Co-Founder Jeff Sutherland" InfoQ
     - https://www.infoq.com/articles/sutherland-scrum/
