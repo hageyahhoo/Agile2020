@@ -7,7 +7,7 @@ Since I joined LINE Corporation as the first member of `SET (Software Engineer i
 
 Through these achievements, we have been adjusting our responsibilities from software quality to software delivery, profitability, and organizational processes.
 
-This report is about why and how we are becoming a team of [Transformational Leaders](https://en.wikipedia.org/wiki/Transformational_leadership) that is responsible for software delivery performance and organizational culture based on experiments.
+This report is about why and how we are becoming a team of [Transformational Leaders](https://en.wikipedia.org/wiki/Transformational_leadership) that is responsible for `software delivery performance and organizational culture` (*) based on experiments.
 <br />
 <br />
 <br />
@@ -21,7 +21,7 @@ After the first release, LINE Corporation has been increasing users and messages
 
 For adapting to the rapid growth of LINE, we have been improving LINE's architectures and code base iteratively. We chose [Microservice Architecture](https://martinfowler.com/articles/microservices.html) to earn scaling out, independent development, and fast delivery capabilities.
 
-**However, outages of LINE have also been increasing.** Features, especially `fintech` ones like payments and banking, have been increasing dramatically. Troubles at `Integration Points` among each Microservices have also been increasing. They mean increases of negative monetary impacts to LINE users.
+**However, outages of LINE have also been increasing.** Features, especially `fintech` ones like payments and banking, have been increasing dramatically. Troubles at `Integration Points` (*) among each Microservices have also been increasing. They mean increases of negative monetary impacts to LINE users.
 
 For reducing outages and improving product development processes,
 LINE Corporation decided to open new positions for a Scrum Master, a DevOps engineer, and an SET.
@@ -41,35 +41,28 @@ The biggest challenge was the confusions and disagreements about SET among stake
 
 Other big challenge was that I was a newbie of LINE Corporation and I didn't have enough knowledge of our services, architectures, technologies used, and so on.
 
+⭐️この文章はここで良いのか？次に移す？
 Moreover, there were few leaders to solve problems which affect more than one team and/or service. In other words, few leaders could act beyond silos. We have been widely adopting to Microservice Architecture. It was critical to overcome this problem for solving outages quickly and properly with less impacts to users.
 <br />
 <br />
 
 
 ### ACTIONS
+For the smooth start of SET activities, I did the following actions.
+
+#### 1. GATHER INFORMATION WITH PRODUCT DISCOVERY
+To clarify objective, missions, and responsibilities of SET, I utilized the idea of `Product Discovery` (*) taught by David Hussman for gathering information.
+
+At first, I analyzed target products to test. I applied static code analysis tool named [SonarQube](https://www.sonarqube.org/) for target products to know the current code coverage and the amount of technical debts. I also added simple unit and integration test scripts to know current behavior of the products. Test scripts are good for understanding software under test. (*)
+
 ⭐️TODO
-⭐️認知を高め、やることを明確化したことまでに話を絞る
-
-#### 1. Gather information based on Product Discovery (+ beyond silos)
-`Product Discovery` (by David Hussman)
-
-- Analyze target products to test
-    - With Continuous Integration and Static Code Analysis
-        - Code coverage
-        - The amount of technical debts
-        - Priorities to improve
-    - Used examples of test scripts
-        - Quick returns
-        - Run them in front of members (= demo)
-
-- Analyze Outage Reports
+Next, I focused on analyzing `outage reports`.
     Reports == Treasure-trove
     We can know
     - problematic products
     - causes of outages
     - impact on sales and profit
     - how to reduce outage and MTTR
-
     ⭐️特にpublic APIでのトラブルが多いことを突き止める
     ⭐️LINE Shopもなりに改善が必要
 
@@ -78,24 +71,16 @@ Moreover, there were few leaders to solve problems which affect more than one te
     - They may have non-verbalized troubles
     - Verbalizing their troubles will be the start of collaboration
     - Direct and honest conversation is good to know troubles deeply
-
-1) Clarify objective, missions, and responsibilities of SET
 - Share understanding by discovering and verbalizing needs
 - No verbalized needs/problems
-- Gather information
-
-2) Shortage of knowlege
-- Learning
-    - Utilize Test Scripts to understand products
-        - Including Static Code Analysis
-    - Focus on outage reports
-
-3) Beyond silos
-- Talked directly
+- Beyond silos
 - I already experienced working beyond silos at Rakuten, Inc.
 
 
 #### 2. Establish Solutions & Iterative Consensus
+To agree on SET activities with staleholders:
+- Priorities to improve
+
 - Solutions
     - Decide target products based on
     - frequency of outages
@@ -354,6 +339,7 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
     - ["ACCELERATE: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations"](https://itrevolution.com/book/accelerate/) by Nicole Forsgren, Jez Humble, and Gene Kim
 - `Integration Points`:
     - ["Release It!, 2nd Edition: Design and Deploy Production-Ready Software"](http://shop.oreilly.com/product/9781680502398.do%0A) by Michael Nygard
+- `Test scripts are good for understanding software under test`
 - `Give impacts constantly`:
     - ["How Google Tests Software"](https://www.amazon.com/dp/B007MQLMF2) by by James A. Whittaker, Jason Arbon, and Jeff Carollo
 - [Sutherland] Sutherland, Jeff, "Scrum@Scale: An Interview with Agile Manifesto Co-Author and Scrum Co-Founder Jeff Sutherland" InfoQ
