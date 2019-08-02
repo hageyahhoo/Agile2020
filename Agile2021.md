@@ -29,9 +29,19 @@ Using [Design Sprint](https://www.thesprintbook.com/)
 - First Round : 2019/07/24
     - Demonstrated test scripts for API with Karate
     - Karateを利用している人はいるが一人だけ。メンバーへの事前共有もなく、納得感がないことがわかった
-    - 次の1週間で、Pure JUnit・Rest Assured・Kotlin Testの3つのテストサンプルを作って比較することに
+    - 次の1週間で、JUnit, Kotlin Test, REST Assured, Karateのテストサンプルを作って比較することに
         - 2-3日のアクションですぐにフィードバックを得られるため、作り過ぎてからのやり直しで心が折れる自体は回避
 
+- Second Round : 2019/07/31
+    - Compared JUnit, REST Assured, Kotlin Test, and Karate.
+        - Decided to use
+            - REST Assured for testing RESTful APIs
+            - JUnit for testing Thrift APIs
+
+- Third Round : 2019/08/08
+    - Implement UT/IT/E2E for interacting database
+        - Use them as rules/guidelines for implementing tests
+        - Trying to evaluate `Testcontainers` for later `Testable Infrastructure`
 <br />
 <br />
 <br />
