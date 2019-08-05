@@ -53,28 +53,16 @@ For the smooth start of SET activities, I did the following actions.
 #### 1. GATHER INFORMATION WITH PRODUCT DISCOVERY
 To clarify objective, missions, and responsibilities of SET, I utilized the idea of `Product Discovery` (*) taught by David Hussman for gathering information.
 
-At first, I analyzed target products to test. I applied static code analysis tool named [SonarQube](https://www.sonarqube.org/) for target products to know the current code coverage and the amount of technical debts. I also added simple unit and integration test scripts to know current behavior of the products. Test scripts are good for understanding software under test. (*)
+At first, I analyzed target products to test. I applied static code analysis tool named [SonarQube](https://www.sonarqube.org/) for target products to know the latest status of code coverage and the amount of technical debts. I also added simple unit and integration test scripts to know latest behaviors of the products. Test scripts are good for understanding software under test. (*)
+
+Next, I focused on analyzing `outage reports`. We hold postmortem meetings and publish postmortem reports. They are just a `treasure-trove` to know problematic products, causes of outages, impact on sales and profit, and how to reduce outages and MTTR (Mean Time to Repair). Through these reports, I understood that public APIs we provide for external users was the most troublesome product.
 
 ⭐️TODO
-Next, I focused on analyzing `outage reports`.
-    Reports == Treasure-trove
-    We can know
-    - problematic products
-    - causes of outages
-    - impact on sales and profit
-    - how to reduce outage and MTTR
-    ⭐️特にpublic APIでのトラブルが多いことを突き止める
-    ⭐️LINE Shopもなりに改善が必要
+Additionally, I talked to stakeholders directly to hear their concerns and troubles. Stakeholders' concerns and troubles are good sources of ideas to improve. Through conversation with them, I understood that they had lots of non-verbalized concerns and troubles. Moreover, I learned that verbalizing issues through direct and honest conversations will be the start of collaborations among them.
 
-- Talk to stakeholders directly
-    Troubles == Src of Ideas
-    - They may have non-verbalized troubles
-    - Verbalizing their troubles will be the start of collaboration
-    - Direct and honest conversation is good to know troubles deeply
 - Share understanding by discovering and verbalizing needs
 - No verbalized needs/problems
 - Beyond silos
-- I already experienced working beyond silos at Rakuten, Inc.
 
 
 #### 2. Establish Solutions & Iterative Consensus
