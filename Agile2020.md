@@ -17,14 +17,13 @@ This report is about why and how we are becoming a team of [Transformational Lea
 ## 1. INTRODUCTION
 `LINE` is a free chatting and telecommunication service for smartphones that has released since 2011. Our company name is derived from this service.
 
-After the first release, LINE Corporation has been increasing users and messages transferred rapidly and globally. Especially, high sound quality with free, and the `sticker` feature that we can send a variety of rich emoticons as a message attracted a lot of users.
+After the first release, LINE Corporation has been increasing users and messages transferred rapidly and globally. Especially, high sound quality with free, and the "sticker" feature that we can send a variety of rich emoticons as a message attracted a lot of users.
 
 For adapting to the rapid growth of LINE, we have been improving LINE's architectures and code base iteratively. We chose [Microservice Architecture](https://martinfowler.com/articles/microservices.html) to earn scaling out, independent development, and fast delivery capabilities.
 
-**However, outages of LINE have also been increasing.** Features, especially `fintech` ones like payments and banking, have been increasing dramatically. Troubles at `Integration Points` (*) among each Microservices have also been increasing. They mean increases of negative monetary impacts to LINE users.
+**However, outages of LINE have also been increasing.** Features, especially fintech ones like payments and banking, have been increasing dramatically. Troubles at `Integration Points` (*) among each Microservices have also been increasing. They mean increases of negative monetary impacts to LINE users.
 
-For reducing outages and improving product development processes,
-LINE Corporation decided to open new positions for a Scrum Master, a DevOps engineer, and an SET.
+For reducing outages and improving product development processes, LINE Corporation decided to open new positions for a Scrum Master, a DevOps engineer, and an SET.
 I joined LINE Corporation as the first member of SET in 2017.
 <br />
 <br />
@@ -60,7 +59,10 @@ Moreover, I talked stakeholders like developers, QA persons, product managers, s
 is critical for discovering real needs, shared understanding, and collaborations beyond silos.
 <br />
 
-#### 2. Establish Solutions & Iterative Consensus
+⭐️TODO
+#### 2. ESTABLISH SOLUTIONS WITH ITERATIVE CONSENSUS
+After gathering necessary information to move.
+
 To agree on SET activities with staleholders:
 - Priorities to improve
 
@@ -88,7 +90,7 @@ To agree on SET activities with staleholders:
     - within 45 days
 
 
-#### 3. Providing results every week
+#### 3. PROVIDE RESULTS EVERY WEEK FOR GIVING IMPACTS
 - `Give impacts constantly`
     - Achieve something every week and share them with coworkers and decision makers
     - Show results quantitatively
