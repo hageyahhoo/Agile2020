@@ -41,7 +41,6 @@ The biggest challenge was the confusions and disagreements about SET among stake
 
 Other big challenge was that I was a newbie of LINE Corporation and I didn't have enough knowledge of our services, architectures, technologies used, and so on.
 
-⭐️この文章はここで良いのか？次に移す？
 Moreover, there were few leaders to solve problems which affect more than one team and/or service. In other words, few leaders could act beyond silos. We have been widely adopting to Microservice Architecture. It was critical to overcome this problem for solving outages quickly and properly with less impacts to users.
 <br />
 <br />
@@ -51,19 +50,15 @@ Moreover, there were few leaders to solve problems which affect more than one te
 For the smooth start of SET activities, I did the following actions.
 
 #### 1. GATHER INFORMATION WITH PRODUCT DISCOVERY
-To clarify objective, missions, and responsibilities of SET, I utilized the idea of `Product Discovery` (*) taught by David Hussman for gathering information.
+To clarify objective, missions, and responsibilities of SET, I utilized the idea of [Product Discovery](http://productdiscoverycanvas.com/tag/david-hussman/) taught by [David Hussman](https://twitter.com/davidhussman) for gathering necessary information.
 
-At first, I analyzed target products to test. I applied static code analysis tool named [SonarQube](https://www.sonarqube.org/) for target products to know the latest status of code coverage and the amount of technical debts. I also added simple unit and integration test scripts to know latest behaviors of the products. Test scripts are good for understanding software under test. (*)
+At first, I analyzed our services and products. I utilized static code analysis tool named [SonarQube](https://www.sonarqube.org/) to know the code coverage and technical debts for each service. I also added simple unit and integration test scripts to know behaviors of the products. Test scripts are good for understanding software under test (*).
 
-Next, I focused on analyzing `outage reports`. We hold postmortem meetings and publish postmortem reports. They are just a `treasure-trove` to know problematic products, causes of outages, impact on sales and profit, and how to reduce outages and MTTR (Mean Time to Repair). Through these reports, I understood that public APIs we provide for external users was the most troublesome product.
+Next, I focused on analyzing "outage reports". "Outage reports" mean both postmortem meetings and published reports. They are a treasure-trove of information we need to solve. I was able to know causes of outages, impact on sales and profits, and problematic products through those reports. I understood that public APIs provided for external users was the most problematic product. Additionally, I found that reducing MTTR (Mean Time to Repair) would be an impactful solution as the first step.
 
-⭐️TODO
-Additionally, I talked to stakeholders directly to hear their concerns and troubles. Stakeholders' concerns and troubles are good sources of ideas to improve. Through conversation with them, I understood that they had lots of non-verbalized concerns and troubles. Moreover, I learned that verbalizing issues through direct and honest conversations will be the start of collaborations among them.
-
-- Share understanding by discovering and verbalizing needs
-- No verbalized needs/problems
-- Beyond silos
-
+Moreover, I talked stakeholders like developers, QA persons, product managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through those conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations
+is critical for discovering real needs, shared understanding, and collaborations beyond silos.
+<br />
 
 #### 2. Establish Solutions & Iterative Consensus
 To agree on SET activities with staleholders:
