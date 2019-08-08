@@ -42,6 +42,13 @@ Using [Design Sprint](https://www.thesprintbook.com/)
     - Implement UT/IT/E2E for interacting database
         - Use them as rules/guidelines for implementing tests
         - Trying to evaluate `Testcontainers` for later `Testable Infrastructure`
+    -> Found that they're struggling with `slow test problem` (via working example)
+        - Our ideas were accepted!
+
+- 4th Round : 2019/08/15
+    - Increase test scripts and solve slow test problem
+    - Use Parameterized Test with JUnit5
+    - ⭐️Switch (1) Proposal with working example (2) Implement with developers weekly
 <br />
 <br />
 <br />
