@@ -61,18 +61,21 @@ is critical for discovering real needs, shared understanding, and collaborations
 
 ⭐️TODO
 #### 2. ESTABLISH SOLUTIONS WITH ITERATIVE CONSENSUS
-After gathering necessary information to move.
+After the first information gathering, I built the first version of rough solutions and proposed them to decision makers like senior managers and executives.
 
-To agree on SET activities with staleholders:
-- Priorities to improve
+I didn't think that I can build the perfect solutions and agree with decision makers.
+I decided to iterate build, propose, learn cycle quickly
+to clarify objective, missions, and responsibilities of SET and agree on them with decision makers. I utilized `Iterative and Incremental consensus` approach at that time.
 
 - Solutions
-    - Decide target products based on
-    - frequency of outages
-    - impact on sales and profit
-    - Aim to make failure detection faster and reduce MTTR
-    - Utilize Test Automation
-    - Validate ideas by working with developers and QAs
+I decided target products based on frequency of outages and impact on users, sales and profit.
+Prioritized
+- public APIs provided for external users
+- Sticker Shop
+- Core Microservices
+
+Aim to make failure detection faster and reduce MTTR by utilizing Test Automation
+
 
 - Establish proposals and solutions to solve above needs
     - Iterative consensus on above ones with managers/executive
@@ -84,11 +87,12 @@ To agree on SET activities with staleholders:
     - Achieve a consensus on solutions step by step
     - Re-examine solutions constantly
 
-    - Lead decision making by proposing rough milestones
-    - All decision makers have agile mindsets
-        - Didn't require fixed schedules
-    - within 45 days
+- Lead decision making by proposing rough milestones
+- All decision makers have agile mindsets
+    - Didn't require fixed schedules
 
+Finally, we agreed on the first solution and milestone within 45 days I joined LINE Corporation.
+<br />
 
 #### 3. PROVIDE RESULTS EVERY WEEK FOR GIVING IMPACTS
 - `Give impacts constantly`
