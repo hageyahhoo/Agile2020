@@ -11,6 +11,7 @@ This report is about why and how we are becoming a team of [Transformational Lea
 <br />
 <br />
 <br />
+⭐️Service/Productの表記揺れをチェック
 
 
 
@@ -59,13 +60,17 @@ Moreover, I talked stakeholders like developers, QA persons, product managers, s
 is critical for discovering real needs, shared understanding, and collaborations beyond silos.
 <br />
 
+#### 2. ESTABLISH SOLUTIONS WITH ITERATIVE AND INCREMENTAL CONSENSUS
+At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned earlier. Additionally, I proposed them to "decision makers" like senior managers and executives.
 ⭐️TODO
-#### 2. ESTABLISH SOLUTIONS WITH ITERATIVE CONSENSUS
-After the first information gathering, I built the first version of rough solutions and proposed them to decision makers like senior managers and executives.
+
+⭐️考える人がいないのであれば、先に考えて見せれば議論をリードできる
+️️️Impact
 
 I didn't think that I can build the perfect solutions and agree with decision makers.
 I decided to iterate build, propose, learn cycle quickly
 to clarify objective, missions, and responsibilities of SET and agree on them with decision makers. I utilized `Iterative and Incremental consensus` approach at that time.
+
 
 - Solutions
 I decided target products based on frequency of outages and impact on users, sales and profit.
