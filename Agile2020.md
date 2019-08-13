@@ -55,6 +55,7 @@ To clarify objective, missions, and responsibilities of SET, I utilized the idea
 
 At first, I analyzed our services and products. I utilized static code analysis tool named [SonarQube](https://www.sonarqube.org/) to know the code coverage and technical debts for each service. I also added simple unit and integration test scripts to know behaviors of the products. Test scripts are good for understanding software under test (*).
 
+⭐️APIだけではなく、Sticker Shopも修正が必要そうだと分かったと明記
 Next, I focused on analyzing "outage reports". "Outage reports" mean both postmortem meetings and published reports. They are a treasure-trove of information we need to solve. I was able to know causes of outages, impact on sales and profits, and problematic products through those reports. I understood that public APIs provided for external users was the most problematic product. Additionally, I found that reducing MTTR (Mean Time to Repair) would be an impactful solution as the first step.
 
 Moreover, I talked stakeholders like developers, QA persons, product managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through those conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations
@@ -64,13 +65,13 @@ is critical for discovering real needs, shared understanding, and collaborations
 #### 2. ESTABLISH SOLUTIONS WITH ITERATIVE AND INCREMENTAL CONSENSUS
 At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned earlier. Additionally, I proposed them to "decision makers" like senior managers and executives.
 
-I didn't think that I can build the perfect solutions and agree on them with decision makers at once. I supposed that it would be preferable not only me but decision makers to continue proposing ideas, getting feedbacks, and improving proposals. Additionally, there were few persons who could lead `strategy formulation` in LINE Corporation at that time. Leading decision making gave impacts to decision makers and it was good for attracting their interests in SET. Therefore, I chose to iterate build-propose-learn cycle weekly as `Iterative and Incremental Consensus` approach.
+I didn't think that I can build the perfect solutions and agree on them with decision makers at once. I supposed that it would be preferable not only me but decision makers to continue proposing ideas, getting feedbacks, and improving proposal. Additionally, there were few persons who could lead `strategy formulation` in LINE Corporation at that time. Leading decision making gave impacts to decision makers and it was good for attracting their interests in SET. Therefore, I chose to iterate build-propose-learn cycle weekly as `Iterative and Incremental Consensus` approach.
 
 ⭐️TODO
-I could improved my proposals through this approach step by step. My first proposals were focusing on improving Sticker Shop due to frequency of outages, however I didn't decide milestones.
+I could improved my proposal through this approach step by step. My first proposal was focusing on improving `Sticker Shop` due to frequency of outages, however I didn't decide milestones.
 
 ⭐️具体的なフィードバック
-Through discussions with decision makers, I clarified rough milestones.
+Through discussions with decision makers, I defined rough milestones and 
 Didn't require fixed schedules.
 All decision makers have agile mindsets.
 Additionally, public APIs were the most dangerous product and this was the top priority.
