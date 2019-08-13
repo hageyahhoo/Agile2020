@@ -12,6 +12,7 @@ This report is about why and how we are becoming a team of [Transformational Lea
 <br />
 <br />
 ⭐️Service/Productの表記揺れをチェック
+⭐️なぜ・どうやって・どういう成果が出たかを意識して書き続ける
 
 
 
@@ -62,39 +63,24 @@ is critical for discovering real needs, shared understanding, and collaborations
 
 #### 2. ESTABLISH SOLUTIONS WITH ITERATIVE AND INCREMENTAL CONSENSUS
 At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned earlier. Additionally, I proposed them to "decision makers" like senior managers and executives.
+
+I didn't think that I can build the perfect solutions and agree on them with decision makers at once. I supposed that it would be preferable not only me but decision makers to continue proposing ideas, getting feedbacks, and improving proposals. Additionally, there were few persons who could lead `strategy formulation` in LINE Corporation at that time. Leading decision making gave impacts to decision makers and it was good for attracting their interests in SET. Therefore, I chose to iterate build-propose-learn cycle weekly as `Iterative and Incremental Consensus` approach.
+
 ⭐️TODO
+I could improved my proposals through this approach step by step. My first proposals were focusing on improving Sticker Shop due to frequency of outages, however I didn't decide milestones.
 
-⭐️考える人がいないのであれば、先に考えて見せれば議論をリードできる
-️️️Impact
+⭐️具体的なフィードバック
+Through discussions with decision makers, I clarified rough milestones.
+Didn't require fixed schedules.
+All decision makers have agile mindsets.
+Additionally, public APIs were the most dangerous product and this was the top priority.
 
-I didn't think that I can build the perfect solutions and agree with decision makers.
-I decided to iterate build, propose, learn cycle quickly
-to clarify objective, missions, and responsibilities of SET and agree on them with decision makers. I utilized `Iterative and Incremental consensus` approach at that time.
+On the other hand, it worked
+- Target products should be selected based on frequency of outages and impact on users, sales and profit.
+- SET's mission is to make failure detection faster and reduce MTTR by utilizing Test Automation
 
-
-- Solutions
-I decided target products based on frequency of outages and impact on users, sales and profit.
-Prioritized
-- public APIs provided for external users
-- Sticker Shop
-- Core Microservices
-
-Aim to make failure detection faster and reduce MTTR by utilizing Test Automation
-
-
-- Establish proposals and solutions to solve above needs
-    - Iterative consensus on above ones with managers/executive
-    - Re-examine solutions constantly and iteratively
-
-- Iterative and Incremental consensus
-    - Propose ideas and get feedback weekly
-    - Discover proper solutions gradually
-    - Achieve a consensus on solutions step by step
-    - Re-examine solutions constantly
-
-- Lead decision making by proposing rough milestones
-- All decision makers have agile mindsets
-    - Didn't require fixed schedules
+⭐️合意案
+Final proposal was to improve public APIs at first (within 3 months).
 
 Finally, we agreed on the first solution and milestone within 45 days I joined LINE Corporation.
 <br />
@@ -112,6 +98,7 @@ Finally, we agreed on the first solution and milestone within 45 days I joined L
 
 
 ### RETROSPECTIVE
+- `Product Discovery` with `Iterative and Incremental Consensus` worked (and works now).
 - Show results from business perspective, not only from technical one
 - `3 KPIs`: Sales, Profit, and Employee Satisfaction
     - Developer/Manager が目的・メリットを理解し共感できる程度の詳細さでレポートしよう。
