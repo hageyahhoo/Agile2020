@@ -223,6 +223,8 @@ SETへの関心は持ってもらえた、施策も少しずつ始めたが、�
 
 
 ### RETROSPECTIVE
+- マネージャーは、プロダクションコードを変更するとチームの邪魔になりかねないが、テストコードならば邪魔せずにすむ
+    - It's good to learn behavior of current products and teach members how to clarify requirements.
 - Show results iteratively
     Especially to stakeholders
 - Experience success with new ways
