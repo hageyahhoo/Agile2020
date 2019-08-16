@@ -62,15 +62,11 @@ is critical for discovering real needs, shared understanding, and collaborations
 <br />
 
 #### 2. ESTABLISH SOLUTIONS WITH ITERATIVE AND INCREMENTAL CONSENSUS
-At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned earlier. Additionally, I proposed them to "decision makers" like senior managers and executives.
+At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned above. Additionally, I proposed them to "decision makers" like senior managers and executives.
 
 I didn't think that I can build the perfect solutions and agree on them with decision makers at once. I supposed that it would be preferable not only me but decision makers to continue proposing ideas, getting feedbacks, and improving proposal. Additionally, there were few persons who could lead `strategy formulation` in LINE Corporation at that time. Leading decision making gave impacts to decision makers and it was good for attracting their interests in SET. Therefore, I chose to iterate build-propose-learn cycle weekly as `Iterative and Incremental Consensus` approach.
 
-⭐️TODO
-I could improved my proposal through this approach step by step. My first proposal was focusing on improving `Sticker Shop` due to frequency of outages, however I didn't define milestones. Through discussions with decision makers, rough milestones were useful for them to understand tasks, plan, and due date easily and quickly. They also said that it is impossible to define the perfect schedule at first and we should adopt to the real step by step. Luckily, all decision makers had agile mindsets. Additionally, public APIs were the most dangerous product and this was the top priority.
-Moreover, making failure detection faster and reduce MTTR by utilizing Test Automation is good as the first step of SET.
-
-Finally, we agreed on the first solution and milestone within 45 days I joined LINE Corporation.
+My first proposal was focusing on improving `Sticker Shop` due to frequency of outages, however I didn't define milestones. Through this approach, rough milestones were enough useful for decision makers to understand tasks, plan, and due date easily and quickly. Additionally, they also said that it was OK to update milestones if we knew additional information. Moreover, they taught me that `public APIs` were more important than `Sticker Shop` at that time from business perspective. On the other hand, they agreed on my idea that utilizing Test Automation for making failure detection faster and reducing MTTR was valuable as SET's responsibility. Through this approach, I could improve my proposal step by step. Finally, we agreed on the first solution and milestone within 45 days since I joined LINE Corporation.
 <br />
 
 #### 3. PROVIDE RESULTS EVERY WEEK FOR GIVING IMPACTS
