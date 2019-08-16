@@ -69,29 +69,50 @@ I didn't think that I can build the perfect solutions and agree on them with dec
 My first proposal was focusing on improving `Sticker Shop` due to frequency of outages, however I didn't define milestones. Through this approach, rough milestones were enough useful for decision makers to understand tasks, plan, and due date easily and quickly. Additionally, they also said that it was OK to update milestones if we knew additional information. Moreover, they taught me that `public APIs` were more important than `Sticker Shop` at that time from business perspective. On the other hand, they agreed on my idea that utilizing Test Automation for making failure detection faster and reducing MTTR was valuable as SET's responsibility. Through this approach, I could improve my proposal step by step. Finally, we agreed on the first solution and milestone within 45 days since I joined LINE Corporation.
 <br />
 
-#### 3. PROVIDE RESULTS EVERY WEEK FOR GIVING IMPACTS
-- `Give impacts constantly`
-    - Achieve something every week and share them with coworkers and decision makers
-    - Show results quantitatively
-    - Beyond silos
+#### 3. MANAGING IMPACTS BY PROVIDING RESULTS EVERY WEEK
+In parallel with `Iterative and Incremental Consensus`, I tried to `manage impacts` (*) constantly to coworkers and decision makers for attracting their interests in SET.
 
-- `3 KPIs`: Sales, Profit, and Employee Satisfaction
-    - Developer/Manager が目的・メリットを理解し共感できる程度の詳細さでレポートしよう。
+From the first week I joined LINE Corporation, I achieved something every week and shared them with coworkers and decision makers. Especially, I shared working software or executable one. Additionally, I showed results quantitatively beyond silos.
+
+Here is a list of achievements for my first 10 weeks.
+
+| Week    | Achievements                                                     |
+| ------- | ---------------------------------------------------------------- |
+| Week 1  | Started writing test scripts to understand services/products     |
+| Week 2  | Proposed first idea of SET activities to decision makers         |
+| Week 3  | Built mechanism to run and report static code analysis regularly |
+| Week 4  | Shared to developers how to build static code analysis           |
+| Week 5  | Proposed milestones of activities to decision makers             |
+| Week 6  | Agreed with proposals/milestones with decision makers            |
+| Week 7  | Collected information and tools of QA/Tests in one place         |
+| Week 8  | Implemented failure detection for public APIs                    |
+| Week 9  | Guided to start regular meetings with developers and QAs         |
+| Week 10 | Started solving problems by developers step by step              |
+
+When I had been managing impacts, I utilized `3 KPIs`; Sales, Profit, and Employee Satisfaction. When I had worked at Rakuten, one of senior executives and my supervisor had taught me that every business can measure with this 3 KPIs. After that, I have been utilizing it for all activities.
+
+Here are examples. I chose all activities as SET for improving Sales and Profit. I implemented test scripts for reducing MTTR, not only for expanding test automation. Additionally, I picked up actions that could affect Employee Satisfaction. For decision makers, I focused on discovering and verbalizing their anxieties, and providing quantitative information. For Developers and QAs, I tried to stimulate appetites for learning.
+
+As a result, many colleagues started talking about SET. Their interests in SET led collaboration with product development teams, QAs/Test Automators, and Product Managers. It meant I could lead problem-solving beyond silos. Additionally, decision makers started supporting SET activities positively. Quick agreement on the first solution and milestones of SET was a good sign.
 <br />
 <br />
 
 
 ### RETROSPECTIVE
-- `Product Discovery` with `Iterative and Incremental Consensus` worked (and works now).
-- Show results from business perspective, not only from technical one
-- `3 KPIs`: Sales, Profit, and Employee Satisfaction
-    - Developer/Manager が目的・メリットを理解し共感できる程度の詳細さでレポートしよう。
-- Troubles in Testing
-    - Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
-    - Hard to identify the points to collaborate with developers.
-- 一方で、人が足りないと、やりたいこともできないと痛感。
+Worked:
+- `Product Discovery` with `Iterative and Incremental Consensus`
+- manage impacts with 3 KPIs
+    - Show results from business perspective, not only from technical one
+
+Found:
+- 改善しなければならないことが多すぎる
+    - Improve Testing
+        - Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
+        - Hard to identify the points to collaborate with developers.
+    - Improve development processes
+    - Managing impacts more and company-wide with executives
+- 一方で、一人だけではやりたいこともできないと痛感
     - そこで採用を増やし、一緒に働ける人を見つけた
-    - ⭐️ここを書きすぎると、本筋から逸れそう
 <br />
 <br />
 <br />
