@@ -224,6 +224,7 @@ SETへの関心は持ってもらえた、施策も少しずつ始めたが、�
     - Experiments
         - Utilize failures as a source of learning
     - [組織論と評価制度](https://hageyahhoo.hatenablog.com/entry/2019/05/27/215334)
+    - [Diffusion of Innovation](https://www.infoq.com/presentations/process-evolution-flat-structure/)
 
 - 判断基準としてのFour Key Metrics
     - Sales/Profit/Employee Satisfaction
