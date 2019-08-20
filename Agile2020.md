@@ -99,20 +99,13 @@ As a result, many colleagues started talking about SET. Their interests in SET l
 
 
 ### RETROSPECTIVE
-Worked:
-- `Product Discovery` with `Iterative and Incremental Consensus`
-- manage impacts with 3 KPIs
-    - Show results from business perspective, not only from technical one
+⭐️TODO
+`Product Discovery` worked to clarify activities of SET.
+Additionally, `Iterative and Incremental Consensus` was useful to collaborate with decision makers and agree with them quickly. Moreover, managing impacts with 3 KPIs attracted lots of colleagues from business perspective, not only from technical one.
 
-Found:
-- 改善しなければならないことが多すぎる
-    - Improve Testing
-        - Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
-        - Hard to identify the points to collaborate with developers.
-    - Improve development processes
-    - Managing impacts more and company-wide with executives
-- 一方で、一人だけではやりたいこともできないと痛感
-    - そこで採用を増やし、一緒に働ける人を見つけた
+On the other hand, I found that doing all of activities was totally impossible. Hiring members became next important issue for SET. Additionally, the idea of `Quality Assurance` narrowed our activities to improve services and products.
+- Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
+- Improve development processes
 <br />
 <br />
 <br />
