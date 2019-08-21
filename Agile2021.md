@@ -45,11 +45,13 @@ Using [Design Sprint](https://www.thesprintbook.com/)
     -> Found that they're struggling with `slow test problem` (via working example)
         - Our ideas were accepted!
 
-- 4th Round : 2019/08/15
+- 2019/08/15
     - Increase test scripts and solve slow test problem
     - Use Parameterized Test with JUnit5
     - ⭐️Switch (1) Proposal with working example (2) Implement with developers weekly
-    -> Improved slow test problem dramatically by utilizing Testcontainers and running tests parallel.
+
+- 2019/08/22
+    - Improved slow test problem dramatically by utilizing Testcontainers and running tests parallel.
 <br />
 <br />
 <br />
