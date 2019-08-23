@@ -52,6 +52,9 @@ Using [Design Sprint](https://www.thesprintbook.com/)
 
 - 2019/08/22
     - Improved slow test problem dramatically by utilizing Testcontainers and running tests parallel.
+
+- 2019/08/29
+    - Applied Testcontainers about 50% only one day!
 <br />
 <br />
 <br />
