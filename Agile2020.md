@@ -99,13 +99,7 @@ As a result, many colleagues started talking about SET. Their interests in SET l
 
 
 ### RETROSPECTIVE
-⭐️TODO
-`Product Discovery` worked to clarify activities of SET.
-Additionally, `Iterative and Incremental Consensus` was useful to collaborate with decision makers and agree with them quickly. Moreover, managing impacts with 3 KPIs attracted lots of colleagues from business perspective, not only from technical one.
-
-On the other hand, I found that doing all of activities was totally impossible. Hiring members became next important issue for SET. Additionally, the idea of `Quality Assurance` narrowed our activities to improve services and products.
-- Testers/QAs do only UI testing. -> 協力しあっても役に立たなくね？
-- Improve development processes
+The idea of `Product Discovery` worked for clarifying responsibilities and activities of SET. Additionally, `Iterative and Incremental Consensus` was useful for collaborating with decision makers and agreeing with them quickly. Moreover, `managing impacts with 3 KPIs` attracted lots of colleagues from business perspectives, not only from technical ones.
 <br />
 <br />
 <br />
@@ -124,6 +118,12 @@ SETへの関心は持ってもらえた、施策も少しずつ始めたが、�
     - There are little knowledge/patterns for testing Microservices.
 - 資料などは提示していたが、いまいち実践にたどり着かない
 - 仮にテストを実装できても、自力でプロセス改善できるようにしなければダメ
+
+
+On the other hand, I found that doing all of tasks was totally impossible. I and we needed more persons as SET. Additionally, I also found that the idea of `Quality Assurance` narrowed our activities to improve services and products. The word `Test` was just a burden or a constraint for SET at that time.
+
+Moreover, SET needed to focus more on
+SET needs to work with product development team deeply to improve their processes.
 <br />
 <br />
 
