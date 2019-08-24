@@ -15,6 +15,15 @@ LINE株式会社では、テスト自動化に関するアイデアが錯綜し�
 
 
 ## 1. INTRODUCTION
+
+Challenges:
+- Increasing outages at/between Microservices
+- Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
+    - Build quality inが出来ていない
+    - Hard to test Microservices!
+    - There are little knowledge/patterns for testing Microservices.
+- 資料などは提示していたが、いまいち実践にたどり着かない
+- 仮にテストを実装できても、自力でプロセス改善できるようにしなければダメ
 <br />
 <br />
 <br />
