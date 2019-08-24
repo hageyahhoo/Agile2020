@@ -107,28 +107,30 @@ The idea of `Product Discovery` worked for clarifying responsibilities and activ
 
 
 ## 3. SHIFT VERTICALLY
-⭐️現場から学ぶことで、深い課題解決にたどり着いたという気づきを説明する
 
 ### CHALLENGES
-SETへの関心は持ってもらえた、施策も少しずつ始めたが、施策の幅と深さが足りない
-- Increasing outages at/between Microservices
-- Struggling with testing [Microservices](https://martinfowler.com/articles/microservices.html)
+After clarifying responsibilities and activities of SET, getting decision makers' supports and colleagues' interests, I started actions as SET. Additionally, LINE hired new employees and formed a team of SET. I thought we could proceed our activities more quickly and widely. However, we faced with new obstacles.
+
+⭐️
+At first, we implemented a failure detection system for `public APIs`, however, it was not accepted by the product development team.
+⭐️具体的にやったことを詳しく書こう
     - Build quality inが出来ていない
     - Hard to test Microservices!
     - There are little knowledge/patterns for testing Microservices.
 - 資料などは提示していたが、いまいち実践にたどり着かない
 - 仮にテストを実装できても、自力でプロセス改善できるようにしなければダメ
 
+Other obstacle was that performance problems at `Sticker Shop` emerged. There was a tool for performance testing but it was insufficient for this emerges issues.
 
-On the other hand, I found that doing all of tasks was totally impossible. I and we needed more persons as SET. Additionally, I also found that the idea of `Quality Assurance` narrowed our activities to improve services and products. The word `Test` was just a burden or a constraint for SET at that time.
-
-Moreover, SET needed to focus more on
-SET needs to work with product development team deeply to improve their processes.
+Another challenge was that consulting style didn't work.
+- 資料などは提示していたが、いまいち実践にたどり着かない
 <br />
 <br />
 
 
 ### ACTIONS
+SET needs to work with product development team deeply to improve their processes.
+
 - Work with `Product Development Team`/Frontline/現場に立つ
     - Guide Developer Testing for `Build Quality In`
     - 実際にメンバーと一緒に痛い目に合わないと、本当の意味での協力関係は築けない
@@ -136,7 +138,7 @@ SET needs to work with product development team deeply to improve their processe
         - 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
         - 横：具体的施策まで踏み込めない恐れはあるが、全体的視点では動きやすい
 
-- Implement Test Automation and related techniques based on product development teams' (unclear) needs
+- Implemented Test Automation and related techniques based on product development teams' (unclear) needs
     - Failure Detection
         - Spring Boot -> [Karate](https://github.com/intuit/karate)
     - Performance Testing
@@ -150,9 +152,14 @@ SET needs to work with product development team deeply to improve their processe
 
 
 ### RETROSPECTIVE
+⭐️現場から学ぶことで、深い課題解決にたどり着いたという気づき
 - 一緒に痛い目に合うことから、本当のソリューションは見つけられる。
 - コンサル型ではなく、実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
     - Scrum@Scale
+
+- マネージャーは、プロダクションコードを変更するとチームの邪魔になりかねないが、テストコードならば邪魔せずにすむ
+    - It's good to learn behavior of current products and teach members how to clarify requirements.
+
 - 発信不足で、価値があることが広く伝わっていかなったが、これを徐々に改善中。
 <br />
 <br />
@@ -171,6 +178,8 @@ SET needs to work with product development team deeply to improve their processe
             - Microservice自体の技術的難易度の増大
                 - テクハラの増加
             - 全体像の把握・全体最適の発想の欠如
+
+Additionally, I also found that the idea of `Quality Assurance` narrowed our activities to improve services and products. The word `Test` was just a burden or a constraint for SET at that time.
 
 - 各チームが目標・戦略・計画を提示できない
     - 各チームが何をやっていて、どこを目指すのかの情報が不足して、シニアマネージャー・役員が困るという状況が発生
@@ -234,8 +243,6 @@ SET needs to work with product development team deeply to improve their processe
 
 
 ### RETROSPECTIVE
-- マネージャーは、プロダクションコードを変更するとチームの邪魔になりかねないが、テストコードならば邪魔せずにすむ
-    - It's good to learn behavior of current products and teach members how to clarify requirements.
 - Show results iteratively
     Especially to stakeholders
 - Experience success with new ways
@@ -255,7 +262,6 @@ SET needs to work with product development team deeply to improve their processe
 - Changing the difinition & responsibility of "SET"
     - Google由来のロールだが、「SET」という単語にはローカル性がある。
     - テスト自動化だけではなく、プロセス改善、全社のプラスになることの実施へと、やっていることを広げていっている。
-
 - Beyond Quality Assurance
     - Software Delivery (Performance)
     - Organizational Performance/Culture
