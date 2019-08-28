@@ -64,6 +64,8 @@ Using [Design Sprint](https://www.thesprintbook.com/)
 
 - 2019/08/29
     - Applied Testcontainers about 50% only one day!
+    - CI Server is facing with performance problem.
+        -> Started modifying codes as Mob-Programming style.
 <br />
 <br />
 <br />
