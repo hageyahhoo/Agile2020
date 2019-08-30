@@ -111,13 +111,9 @@ The idea of `Product Discovery` worked for clarifying responsibilities and activ
 ### CHALLENGES
 After clarifying responsibilities and activities of SET, getting decision makers' supports and colleagues' interests, I started actions as SET. Additionally, LINE hired new employees and formed a team of SET. I thought we could proceed our activities more quickly and widely. However, we faced with new obstacles.
 
-At first, we implemented a failure detection system for `public APIs`, however, it was not accepted by the product development team. We implemented test scripts for APIs, called them via CI servers periodically, and notified errors and failures to the product development team quickly. We utilized Test Automation and CI as a failure detection system. We used the common technologies like JUnit, Spring Boot, Jenkins, and so on for the product development team. Although, test scripts written in JUnit were hard to read, implement, and maintain for the product development team members.
+At first, we implemented a failure detection system for `public APIs`, however, it didn't become established in the product development team. We implemented test scripts for these APIs, called them via CI servers periodically, and notified errors and failures to the product development team quickly. We utilized Test Automation and CI as a failure detection system. We also used the common technologies like JUnit, Spring Boot, Jenkins, and so on for the product development team. Failure detection worked partially and some developers started implementing them. Although, test scripts written in JUnit were hard to read, implement, and maintain for the Product Manager and most of developers. Additionally, SET team and the product development team have been working at different offices. Our communications weren't sufficient to proceed improvements.
 
 ⭐️
-Additionally, we couldn't make this system as a habit for the product development team. We often shew how to find and solve problems to the product development team. However, they thought us SETs as the 
-
-
-
 Other obstacle was that performance problems at `Sticker Shop` emerged. There was a tool for performance testing but it was insufficient for this emerges issues.
 
 Another challenge was that consulting style didn't work.
