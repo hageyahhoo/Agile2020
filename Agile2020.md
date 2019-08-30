@@ -11,8 +11,9 @@ This report is about why and how we are becoming a team of [Transformational Lea
 <br />
 <br />
 <br />
-⭐️Service/Productの表記揺れをチェック
-⭐️なぜ・どうやって・どういう成果が出たかを意識して書き続ける
+⭐️Service/Productの表記揺れをチェック<br />
+⭐️なぜ・どうやって・どういう成果が出たかを意識して書き続ける<br />
+<br />
 
 
 
@@ -25,8 +26,7 @@ For adapting to the rapid growth of LINE, we have been improving LINE's architec
 
 **However, outages of LINE have also been increasing.** Features, especially fintech ones like payments and banking, have been increasing dramatically. Troubles at `Integration Points` (*) among each Microservices have also been increasing. They mean increases of negative monetary impacts to LINE users.
 
-For reducing outages and improving product development processes, LINE Corporation decided to open new positions for a Scrum Master, a DevOps engineer, and an SET.
-I joined LINE Corporation as the first member of SET in 2017.
+For reducing outages and improving product development processes, LINE Corporation decided to open new positions for a Scrum Master, a DevOps engineer, and an SET. I joined LINE Corporation as the first member of SET in 2017.
 <br />
 <br />
 <br />
@@ -57,8 +57,7 @@ At first, I analyzed our services and products. I utilized static code analysis 
 
 Next, I focused on analyzing "outage reports". "Outage reports" mean both postmortem meetings and published reports. They are a treasure-trove of information we need to solve. I was able to know causes of outages, impact on sales and profits, and problematic products through those reports. I understood that public APIs provided for external users, and `Sticker Shop` were the most problematic products. Additionally, I found that reducing MTTR (Mean Time to Repair) would be an impactful solution as the first step.
 
-Moreover, I talked stakeholders like developers, QA persons, product managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through those conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations
-is critical for discovering real needs, shared understanding, and collaborations beyond silos.
+Moreover, I talked stakeholders like developers, QA persons, product managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through those conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations is critical for discovering real needs, shared understanding, and collaborations beyond silos.
 <br />
 
 #### 2. ESTABLISH SOLUTIONS WITH ITERATIVE AND INCREMENTAL CONSENSUS
