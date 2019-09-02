@@ -114,13 +114,18 @@ At first, we implemented a failure detection system for `public APIs`, however, 
 
 Other obstacle was that performance problems at `Sticker Shop` had emerged. They had been using one in-house performance testing tool. However, it couldn't provide enough capabilities to detect emerging issues. Moreover, they need to write test scripts with groovy, an unaccustomed programming language for them. Therefore, writing test scripts was not fast and effective.
 
-Another challenge was that consulting-style approach didn't work. We often provided guidelines, ideas how to design good test scenarios, and test script examples widely. However, most of colleagues didn't utilize them to improve their testing problems. We needed to find ways to expand ideas to improve their work.
+Another challenge was that consulting-style approach didn't work. We often provided guidelines, ideas how to design good test scenarios, and test script examples widely. However, most of colleagues didn't utilize them to improve their testing problems. We needed to find ways to expand ideas and to improve their work more effectively.
 <br />
 <br />
 
 
 ### ACTIONS
-SET needs to work with product development team deeply to improve their processes.
+For achieving our mission, we started working with product development teams deeply to improve their processes. In other words, we started to work, learn, and solve essential problems with them.
+<br />
+
+#### 1. REFINE FAILURE DETECTION SYSTEM WITH KARATE
+⭐️
+For `public APIs`, we changed JUnit and Spring Boot to [Karate](https://github.com/intuit/karate) for implementing test scripts.
 
 - Work with `Product Development Team`/Frontline/現場に立つ
     - Guide Developer Testing for `Build Quality In`
@@ -129,22 +134,24 @@ SET needs to work with product development team deeply to improve their processe
         - 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
         - 横：具体的施策まで踏み込めない恐れはあるが、全体的視点では動きやすい
 - Implemented Test Automation and related techniques based on product development teams' (unclear) needs
+<br />
 
-- Failure detection system for `public APIs`
-    - Spring Boot -> [Karate](https://github.com/intuit/karate)
+#### 2. IMPLEMENT NEW PERFORMANCE TESTING TOOLS WITH KOTLIN
+⭐️Kotlin推しが妥当か？
+For `Sticker Shop`, we implemented new in-house performance testing tools named `Ayaperf`.
+- Gatling -> Locust + Kubernetes + Kotlin
+<br />
 
-- Performance Testing at `Sticker Shop`
-    - Gatling -> `Ayaperf` (in-house framework/tool)
-
-- Improve product development process
-    - Clarify milestones/plans
-    - Implement self-running style
+#### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES
+- Clarify milestones/plans
+- Implement self-running style
 <br />
 <br />
 
 
 ### RETROSPECTIVE
 ⭐️現場から学ぶことで、深い課題解決にたどり着いたという気づき
+`we worked with them, learned from them, solved essential problems with them`
 - 一緒に痛い目に合うことから、本当のソリューションは見つけられる。
 - コンサル型ではなく、実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
     - Scrum@Scale
@@ -152,9 +159,9 @@ SET needs to work with product development team deeply to improve their processe
 - マネージャーは、プロダクションコードを変更するとチームの邪魔になりかねないが、テストコードならば邪魔せずにすむ
     - It's good to learn behavior of current products and teach members how to clarify requirements.
 
+
+⭐️次の章へ移動する方向で
 - 発信不足で、価値があることが広く伝わっていかなったが、これを徐々に改善中。
-
-
 - Build quality inが出来ていない
 - Hard to test Microservices!
 - There are little knowledge/patterns for testing Microservices.
