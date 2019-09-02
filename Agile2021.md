@@ -66,6 +66,12 @@ Using [Design Sprint](https://www.thesprintbook.com/)
     - Applied Testcontainers about 50% only one day!
     - CI Server is facing with performance problem.
         -> Started modifying codes as Mob-Programming style.
+        - 66 min -> 41 min
+
+- 2019/09/04
+    - Complicated
+        - We need to divide 2 CI jobs -> Testcontainers and not -> Huge overhead
+        -> Recommend to change all tests and merge CI jobs
 <br />
 <br />
 <br />
