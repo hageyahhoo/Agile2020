@@ -112,11 +112,9 @@ After clarifying responsibilities and activities of SET, getting decision makers
 
 At first, we implemented a failure detection system for `public APIs`, however, it didn't become established in the product development team. We implemented test scripts for these APIs, called them via CI servers periodically, and notified errors and failures to the product development team quickly. We utilized Test Automation and CI as a failure detection system. We also used the common technologies like JUnit, Spring Boot, Jenkins, and so on for the product development team. Failure detection worked partially and some developers started implementing them. Although, test scripts written in JUnit were hard to read, implement, and maintain for the Product Manager and most of developers. Additionally, SET team and the product development team have been working at different offices. Our communications weren't sufficient to proceed improvements.
 
-⭐️
-Other obstacle was that performance problems at `Sticker Shop` emerged. There was a tool for performance testing but it was insufficient for this emerges issues.
+Other obstacle was that performance problems at `Sticker Shop` had emerged. They had been using one in-house performance testing tool. However, it couldn't provide enough capabilities to detect emerging issues. Moreover, they need to write test scripts with groovy, an unaccustomed programming language for them. Therefore, writing test scripts was not fast and effective.
 
-Another challenge was that consulting style didn't work.
-- 資料などは提示していたが、いまいち実践にたどり着かない
+Another challenge was that consulting-style approach didn't work. We often provided guidelines, ideas how to design good test scenarios, and test script examples widely. However, most of colleagues didn't utilize them to improve their testing problems. We needed to find ways to expand ideas to improve their work.
 <br />
 <br />
 
@@ -130,12 +128,13 @@ SET needs to work with product development team deeply to improve their processe
     - 比率：縦80%、横20%
         - 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
         - 横：具体的施策まで踏み込めない恐れはあるが、全体的視点では動きやすい
-
 - Implemented Test Automation and related techniques based on product development teams' (unclear) needs
-    - Failure Detection
-        - Spring Boot -> [Karate](https://github.com/intuit/karate)
-    - Performance Testing
-        - Gatling -> `Ayaperf` (in-house framework/tool)
+
+- Failure detection system for `public APIs`
+    - Spring Boot -> [Karate](https://github.com/intuit/karate)
+
+- Performance Testing at `Sticker Shop`
+    - Gatling -> `Ayaperf` (in-house framework/tool)
 
 - Improve product development process
     - Clarify milestones/plans
