@@ -162,6 +162,7 @@ For `Sticker Shop`, we implemented new in-house performance testing tools named 
 ### RETROSPECTIVE
 ⭐️現場から学ぶことで、深い課題解決にたどり着いたという気づき
 `we worked with them, learned from them, solved essential problems with them`
+**compassion**（ラテン語で「共に苦しむ」→共感）
 - 一緒に痛い目に合うことから、本当のソリューションは見つけられる。
 - コンサル型ではなく、実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
     - Scrum@Scale
