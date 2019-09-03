@@ -72,6 +72,10 @@ Using [Design Sprint](https://www.thesprintbook.com/)
     - Complicated
         - We need to divide 2 CI jobs -> Testcontainers and not -> Huge overhead
         -> Recommend to change all tests and merge CI jobs
+    - 説明が下手
+        - 文章・説明が長すぎて、何が言いたいこと・問題なのかが不明確
+            - Engineers tend to explain details and avoid telling simply
+            - ⭐️短い説明の仕方を繰り返す必要あり
 <br />
 <br />
 <br />
