@@ -125,7 +125,17 @@ For achieving our mission, we started working with product development teams dee
 
 #### 1. REFINE FAILURE DETECTION SYSTEM WITH KARATE
 ⭐️
-For `public APIs`, we changed JUnit and Spring Boot to [Karate](https://github.com/intuit/karate) for implementing test scripts.
+For `public APIs`, we started direct conversation with the product development team at first. We talked daily via video conference system. We discussed with the Product Manager if she came to our office.
+
+We also started to discover their real needs and concerns.
+
+Through these discussions, we found that
+- test scripts written in JUnit were hard to read, implement, and maintain for the Product Manager and most of developers
+- BDD style is easy to understand (!)
+
+Therefore, we started to change JUnit and Spring Boot to [Karate](https://github.com/intuit/karate) framework for implementing test scripts.
+
+Finally it became established in the product development team.
 
 - Work with `Product Development Team`/Frontline/現場に立つ
     - Guide Developer Testing for `Build Quality In`
