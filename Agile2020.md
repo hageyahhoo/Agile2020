@@ -124,35 +124,37 @@ For achieving our mission, we started working with product development teams dee
 <br />
 
 #### 1. REFINE FAILURE DETECTION SYSTEM WITH KARATE
+For `public APIs`, we started direct conversations with the product development team members to discover their real needs and concerns at first. In other words, we did `Product Discovery` approach again. We talked daily via video conference system. We discussed with the Product Manager if he came to our office.
+
+Through these discussions, we found that test scripts written in JUnit were hard for them. Therefore, we investigated and proposed lots of testing tools to them and we agreed that BDD (Behavior-Driven Development) style with Gherkin format was preferable. Especially, [Karate](https://github.com/intuit/karate) framework looked easy to use and covering all of our requirements.
+
 ⭐️
-For `public APIs`, we started direct conversation with the product development team at first. We talked daily via video conference system. We discussed with the Product Manager if she came to our office.
+After decision to use Karate framework,
+we started to rewrite test scripts from JUnit to Karate.
+We worked together to rewrite them and guide `Developer Testing` to achieve and expand `Build Quality In` idea.
 
-We also started to discover their real needs and concerns.
+We support solving architectural problems of Karate.
+We also provided examples for good design with test scripts (= working software)
 
-Through these discussions, we found that
-- test scripts written in JUnit were hard to read, implement, and maintain for the Product Manager and most of developers
-- BDD style is easy to understand (!)
-
-Therefore, we started to change JUnit and Spring Boot to [Karate](https://github.com/intuit/karate) framework for implementing test scripts.
-
-Finally it became established in the product development team.
-
-- Work with `Product Development Team`/Frontline/現場に立つ
-    - Guide Developer Testing for `Build Quality In`
-    - 実際にメンバーと一緒に痛い目に合わないと、本当の意味での協力関係は築けない
-    - 比率：縦80%、横20%
-        - 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
-        - 横：具体的施策まで踏み込めない恐れはあるが、全体的視点では動きやすい
-- Implemented Test Automation and related techniques based on product development teams' (unclear) needs
+After 3 months' cowork, finally it became established in the product development team.
 <br />
 
 #### 2. IMPLEMENT NEW PERFORMANCE TESTING TOOLS WITH KOTLIN
-⭐️Kotlin推しが妥当か？
-For `Sticker Shop`, we implemented new in-house performance testing tools named `Ayaperf`.
-- Gatling -> Locust + Kubernetes + Kotlin
+For `Sticker Shop`, we did the same approach as `public APIs` to discover their real needs and concerns at first.
+
+We found that improving to use the current in-house performance testing tool was impractical. Additionally, most of developers were familiar with Kotlin language.
+Moreover, usage of Docker and Kubernetes were expanding at that time in our company. We thought it was a good timing to utilize those new tools and approaches.
+
+Therefore, we decided to implement new in-house performance testing tools named `Ayaperf` (Locust + Kubernetes + Kotlin).
+
+We did iterative and incremental style to build Ayaperf with developers.
+We also provided examples for good design with test scripts (= working software)
+
+After 3 months' cowork, finally developers use it, detect performance issues before release, and correct issues by themselves without hurting production code.
 <br />
 
 #### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES
+We did not only providing tools, but also improving product development processes for ach team.
 - Clarify milestones/plans
 - Implement self-running style
 <br />
@@ -162,13 +164,22 @@ For `Sticker Shop`, we implemented new in-house performance testing tools named 
 ### RETROSPECTIVE
 ⭐️現場から学ぶことで、深い課題解決にたどり着いたという気づき
 `we worked with them, learned from them, solved essential problems with them`
-**compassion**（ラテン語で「共に苦しむ」→共感）
-- 一緒に痛い目に合うことから、本当のソリューションは見つけられる。
-- コンサル型ではなく、実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
-    - Scrum@Scale
+
+- **compassion**（ラテン語で「共に苦しむ」→共感）
+    - 実際にメンバーと一緒に痛い目に合わないと、本当の意味での協力関係は築けない
+    - 一緒に痛い目に合うことから、本当のソリューションは見つけられる。
+    - コンサル型ではなく、実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
+
+- Implemented Test Automation and related techniques based on product development teams' (unclear) needs
 
 - マネージャーは、プロダクションコードを変更するとチームの邪魔になりかねないが、テストコードならば邪魔せずにすむ
     - It's good to learn behavior of current products and teach members how to clarify requirements.
+
+- Work with `Product Development Team`/Frontline/現場に立つ
+    - Guide Developer Testing for `Build Quality In`
+    - 比率：縦80%、横20%
+        - 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
+        - 横：具体的施策まで踏み込めない恐れはあるが、全体的視点では動きやすい
 
 
 ⭐️次の章へ移動する方向で
