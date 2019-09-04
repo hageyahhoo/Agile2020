@@ -69,13 +69,13 @@ Using [Design Sprint](https://www.thesprintbook.com/)
         - 66 min -> 41 min
 
 - 2019/09/04
-    - Complicated
-        - We need to divide 2 CI jobs -> Testcontainers and not -> Huge overhead
-        -> Recommend to change all tests and merge CI jobs
-    - 説明が下手
-        - 文章・説明が長すぎて、何が言いたいこと・問題なのかが不明確
-            - Engineers tend to explain details and avoid telling simply
-            - ⭐️短い説明の仕方を繰り返す必要あり
+    - Agreed with all members to expand Testcontainers
+    - Some members started to improve Jenkins jobs and fell into confusion
+        - Try to solve all found problems at once and failed
+        - Unclear explanations
+        -> We started to help them to divide tasks into smaller ones + report quickly
+
+- 2019/09/11
 <br />
 <br />
 <br />
