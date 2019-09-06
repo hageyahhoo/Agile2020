@@ -126,17 +126,11 @@ For achieving our mission, we started working with product development teams dee
 #### 1. REFINE FAILURE DETECTION SYSTEM WITH KARATE
 For `public APIs`, we started direct conversations with the product development team members to discover their real needs and concerns at first. In other words, we did `Product Discovery` approach again. We talked daily via video conference system. We discussed with the Product Manager if he came to our office.
 
-Through these discussions, we found that test scripts written in JUnit were hard for them. Therefore, we investigated and proposed lots of testing tools to them and we agreed that BDD (Behavior-Driven Development) style with Gherkin format was preferable. Especially, [Karate](https://github.com/intuit/karate) framework looked easy to use and covering all of our requirements.
+Through these discussions, we found that test scripts written in JUnit were hard for them. Therefore, we investigated and proposed lots of testing tools to them.
 
-⭐️
-After decision to use Karate framework,
-we started to rewrite test scripts from JUnit to Karate.
-We worked together to rewrite them and guide `Developer Testing` to achieve and expand `Build Quality In` idea.
+Finally, we chose [Karate](https://github.com/intuit/karate) framework. It provides features specific to API Testing with BDD (Behavior-Driven Development) style and Gherkin format. It was easy to read, implement, and maintain for both developers and the Product Manager. Especially, defining the preferable state was easy to understand for them.
 
-We support solving architectural problems of Karate.
-We also provided examples for good design with test scripts (= working software)
-
-After 3 months' cowork, finally it became established in the product development team.
+After decision to use Karate framework, we SETs and the product development team members started to rewrite test scripts from JUnit to Karate collaboratively. SETs wrote examples at first. SETs guided `Developer Testing` to achieve and expand `Build Quality In` idea by working with developers. SETs supported solving architectural problems of Karate. After 3 months' collaborative work, finally failure detection system with Karate became established in this product development team.
 <br />
 
 #### 2. IMPLEMENT NEW PERFORMANCE TESTING TOOLS WITH KOTLIN
