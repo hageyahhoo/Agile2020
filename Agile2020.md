@@ -136,9 +136,9 @@ After decision to use Karate framework, we SETs and the product development team
 #### 2. IMPLEMENT NEW PERFORMANCE TESTING TOOLS WITH KOTLIN
 For `Sticker Shop`, we did the same approach as `public APIs` to discover their real needs and concerns at first.
 
-We found that improving to use the current in-house performance testing tool was impractical. Additionally, most of developers were familiar with Kotlin language.
-Moreover, usage of Docker and Kubernetes were expanding at that time in our company. We thought it was a good timing to utilize those new tools and approaches.
+We found that improving to use the existing in-house performance testing tool was impractical. It could produce only 10% of loads what we wanted to test. It was not easy to expand and/or modify features. Additionally, most of the product development team's members were familiar with Kotlin language. Implementing test scripts with Groovy was hard for them. Moreover, usage of Docker and Kubernetes were expanding at that time in our company. We thought it was a good chance to utilize those new tools and approaches to improve our performance testing.
 
+⭐️
 Therefore, we decided to implement new in-house performance testing tools named `Ayaperf` (Locust + Kubernetes + Kotlin).
 
 We did iterative and incremental style to build Ayaperf with developers.
