@@ -74,8 +74,13 @@ Using [Design Sprint](https://www.thesprintbook.com/)
         - Try to solve all found problems at once and failed
         - Unclear explanations
         -> We started to help them to divide tasks into smaller ones + report quickly
+    - Zarubin-san became a good facilitator & leader
+    - Started becoming a self-organized team
+        - It means our tasks are decreasing dramatically -> More ScrumMaster-like approach
 
 - 2019/09/11
+    - Solved compilation overheads
+    - Changed all embed mongo to Testcontainers!
 <br />
 <br />
 <br />
