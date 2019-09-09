@@ -142,39 +142,42 @@ Therefore, we decided to create a new in-house performance testing tool named `A
 <br />
 
 #### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES
+⭐️
+We can improve the process temporarily. But it tends to be a volatile?
+If improvements don't continue, it means failure.
+
 We did not only providing tools, but also improving product development processes for ach team.
-- Clarify milestones/plans
-- Implement self-running style
+
+```
+Another challenge was that consulting-style approach didn't work. We often provided guidelines, ideas how to design good test scenarios, and test script examples widely. However, most of colleagues didn't utilize them to improve their testing problems. We needed to find ways to expand ideas and to improve their work more effectively.
+```
+
+After that, CGW clarified plans, milestones, and priorities by their own. Additionally, they could proceed improvements continuously without our help. They really becase the self-organized team.
 <br />
 <br />
 
 
 ### RETROSPECTIVE
-⭐️現場から学ぶことで、深い課題解決にたどり着いたという気づき
-`we worked with them, learned from them, solved essential problems with them`
+We could solve essential problems and improve product development processes of each team by working with them deeply and collaboratively. Additionally, we learned a lot with them to improve our approaches.
+- Implemented Test Automation and related techniques based on product development teams' (unclear) needs
 
+
+The origin of the word "compassion" is "***"
 - **compassion**（ラテン語で「共に苦しむ」→共感）
     - 実際にメンバーと一緒に痛い目に合わないと、本当の意味での協力関係は築けない
     - 一緒に痛い目に合うことから、本当のソリューションは見つけられる。
     - コンサル型ではなく、実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
 
-- Implemented Test Automation and related techniques based on product development teams' (unclear) needs
 
 - マネージャーは、プロダクションコードを変更するとチームの邪魔になりかねないが、テストコードならば邪魔せずにすむ
     - It's good to learn behavior of current products and teach members how to clarify requirements.
-
-- Work with `Product Development Team`/Frontline/現場に立つ
     - Guide Developer Testing for `Build Quality In`
-    - 比率：縦80%、横20%
+
+
+On the other hand, we should keep the ratio
+    - 縦80%、横20%
         - 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
         - 横：具体的施策まで踏み込めない恐れはあるが、全体的視点では動きやすい
-
-
-⭐️次の章へ移動する方向で
-- 発信不足で、価値があることが広く伝わっていかなったが、これを徐々に改善中。
-- Build quality inが出来ていない
-- Hard to test Microservices!
-- There are little knowledge/patterns for testing Microservices.
 <br />
 <br />
 <br />
@@ -200,6 +203,11 @@ Additionally, I also found that the idea of `Quality Assurance` narrowed our act
     - タイムリーな報告ができない
 
 - 新メンバーの増加＋役割の増加（プロセス改善）
+
+- 発信不足で、価値があることが広く伝わっていかなったが、これを徐々に改善中。
+- Build quality inが出来ていない
+- Hard to test Microservices!
+- There are little knowledge/patterns for testing Microservices.
 <br />
 <br />
 
