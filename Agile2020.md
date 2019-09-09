@@ -136,15 +136,9 @@ After decision to use Karate framework, we SETs and the product development team
 #### 2. IMPLEMENT NEW PERFORMANCE TESTING TOOLS WITH KOTLIN
 For `Sticker Shop`, we did the same approach as `public APIs` to discover their real needs and concerns at first.
 
-We found that improving to use the existing in-house performance testing tool was impractical. It could produce only 10% of loads what we wanted to test. It was not easy to expand and/or modify features. Additionally, most of the product development team's members were familiar with Kotlin language. Implementing test scripts with Groovy was hard for them. Moreover, usage of Docker and Kubernetes were expanding at that time in our company. We thought it was a good chance to utilize those new tools and approaches to improve our performance testing.
+We found that improving to use the existing in-house performance testing tool was impractical. It could produce only 10% of loads what we wanted to test. It was not easy to expand and/or modify features. Additionally, most of the product development team's members were familiar with Kotlin language. Implementing test scripts with Groovy was hard for them. Moreover, usage of [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/) were expanding at that time in our company. We thought it was a good chance to utilize those new tools and approaches to improve our performance testing.
 
-⭐️
-Therefore, we decided to implement new in-house performance testing tools named `Ayaperf` (Locust + Kubernetes + Kotlin).
-
-We did iterative and incremental style to build Ayaperf with developers.
-We also provided examples for good design with test scripts (= working software)
-
-After 3 months' cowork, finally developers use it, detect performance issues before release, and correct issues by themselves without hurting production code.
+Therefore, we decided to create a new in-house performance testing tool named `Ayaperf`. Ayaperf is a Java wrapper of [Locust](https://locust.io/) that can use Kubernetes to increase loads easily with enough volume. Developers can write test scripts of performance testing with Java and Kotlin. We did iterative and incremental style to implement and improve Ayaperf with `Sticker Shop` developers. After 3 months' cowork, finally Ayaperf became stable. Developers started to detect performance issues with it before release. Additionally, they could correct issues by themselves without hurting production code. They found and solved 3 hidden performance issues by utilizing Ayaperf.
 <br />
 
 #### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES
@@ -239,6 +233,9 @@ Additionally, I also found that the idea of `Quality Assurance` narrowed our act
         - ベンチャーであれば、Technical Excellence のみで乗り切れる部分もあるが、expansion/ongoing では無理がある。
             - 仕組みを作り、それを広める。
             - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
+    - **Resilience with Test Automation**
+        - Detect and solve all bugs beforehand is impractical
+        - Utilize Obervability with Test Automation
 
 - Learning Session
     - 新メンバーの増加＋役割の増加（プロセス改善）
