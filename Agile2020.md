@@ -138,21 +138,20 @@ For `Sticker Shop`, we did the same approach as `public APIs` to discover their 
 
 We found that improving to use the existing in-house performance testing tool was impractical. It could produce only 10% of loads what we wanted to test. It was not easy to expand and/or modify features. Additionally, most of the product development team's members were familiar with Kotlin language. Implementing test scripts with Groovy was hard for them. Moreover, usage of [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/) were expanding at that time in our company. We thought it was a good chance to utilize those new tools and approaches to improve our performance testing.
 
-Therefore, we decided to create a new in-house performance testing tool named `Ayaperf`. Ayaperf is a Java wrapper of [Locust](https://locust.io/) that can use Kubernetes to increase loads easily with enough volume. Developers can write test scripts of performance testing with Java and Kotlin. We did iterative and incremental style to implement and improve Ayaperf with `Sticker Shop` developers. After 3 months' cowork, finally Ayaperf became stable. Developers started to detect performance issues with it before release. Additionally, they could correct issues by themselves without hurting production code. They found and solved 3 hidden performance issues by utilizing Ayaperf.
+Therefore, we decided to create a new in-house performance testing tool named `Ayaperf`. Ayaperf is a Java wrapper of [Locust](https://locust.io/) that can use Kubernetes to increase loads easily with enough volume. Developers can write test scripts of performance testing with Java and Kotlin. We did iterative and incremental style to implement and improve Ayaperf with `Sticker Shop` developers. After 3 months' collaborative work, finally Ayaperf became stable. Developers started to detect performance issues with it before release. Additionally, they could correct issues by themselves without hurting production code. They found and solved 3 hidden performance issues by utilizing Ayaperf.
 <br />
 
-#### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES
-⭐️
-We can improve the process temporarily. But it tends to be a volatile?
-If improvements don't continue, it means failure.
+#### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES AS A HABIT
+At `public APIs` and `Sticker Shop`, we found the effectiveness of working with product development teams to find their real needs and solve them. This approach worked well. However, I thought it was not enough and sufficient. I saw that lots of teams stopped solving problems by themselves after coaches left teams. If improvements don't continue after coaches' left, it means failure. Therefore, I expanded our activities to making product development process improvement as a habit.
 
-We did not only providing tools, but also improving product development processes for ach team.
-
-```
-Another challenge was that consulting-style approach didn't work. We often provided guidelines, ideas how to design good test scenarios, and test script examples widely. However, most of colleagues didn't utilize them to improve their testing problems. We needed to find ways to expand ideas and to improve their work more effectively.
-```
+⭐
+We did the following approaches at `public APIs`.
+- We provided homeworks at weekly meetings
+- Additionally we asked next actions
+- Moreover we asked points to evaluate their achievements to focus on business value as a habit.
 
 After that, CGW clarified plans, milestones, and priorities by their own. Additionally, they could proceed improvements continuously without our help. They really becase the self-organized team.
+Finally, we stopped supporting this team. This team decreases outages dramatically and senior executives praised this team recently.
 <br />
 <br />
 
