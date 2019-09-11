@@ -142,21 +142,17 @@ Therefore, we decided to create a new in-house performance testing tool named `A
 <br />
 
 #### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES AS A HABIT
-At `public APIs` and `Sticker Shop`, we found the effectiveness of working with product development teams to find their real needs and solve them. This approach worked well. However, I thought it was not enough and sufficient. I saw that lots of teams stopped solving problems by themselves after coaches left teams. If improvements don't continue after coaches' left, it means failure. Therefore, I expanded our activities to making product development process improvement as a habit.
+At `public APIs` and `Sticker Shop`, we found the effectiveness of working with product development teams to find their real needs and solve them. This approach worked well. However, I thought it was not enough and sufficient. I saw that lots of teams stopped solving problems by themselves after coaches left teams. It is a failure if improvements don't continue after coaches' left. Therefore, I expanded our activities to making product development process improvement as a habit especially at `public APIs`.
 
-⭐
-We did the following approaches at `public APIs`.
-- We provided homeworks at weekly meetings
-- Additionally we asked next actions
-- Moreover we asked points to evaluate their achievements to focus on business value as a habit.
+We had found and solved issues as homeworks every week. We had continued applying new Karate features and refactoring test scripts. Additionally, we had implemented a notification mechanism via slack to reduce MTTR. Moreover, we had asked product development team members for clarifying objectives, quantitative values they will provide to users, and rough milestones of each task every week. We utilized the idea of Scrum framework to make continuous improvement as a habit of the team. We had continued those activities for about 3 months.
 
-After that, CGW clarified plans, milestones, and priorities by their own. Additionally, they could proceed improvements continuously without our help. They really becase the self-organized team.
-Finally, we stopped supporting this team. This team decreases outages dramatically and senior executives praised this team recently.
+After that, the product development team became able to clarify quarterly milestones, prioritize tasks based on business values, and improve test scripts and the failure detection system by their own. They started decreasing outages dramatically (⭐️定量情報が欲しい). They really became the self-organized team. Finally, we stopped supporting the team.
 <br />
 <br />
 
 
 ### RETROSPECTIVE
+⭐️
 We could solve essential problems and improve product development processes of each team by working with them deeply and collaboratively. Additionally, we learned a lot with them to improve our approaches.
 - Implemented Test Automation and related techniques based on product development teams' (unclear) needs
 
