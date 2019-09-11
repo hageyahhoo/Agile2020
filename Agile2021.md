@@ -80,7 +80,8 @@ Using [Design Sprint](https://www.thesprintbook.com/)
 
 - 2019/09/11
     - Solved compilation overheads
-    - Changed all embed mongo to Testcontainers!
+    - Changed all embed mongo to Testcontainers
+    - Next: Apply Testcontainers to Redis and MySQL
 <br />
 <br />
 <br />
