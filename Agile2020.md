@@ -164,9 +164,16 @@ The English word "compassion" derives from Latin's "compati", which means "suffe
 
 
 ## 4. BECOME TRANSFORMATIONAL LEADERS
-⭐️純技術以外のあらゆるソリューションを適用する話＋組織改善へのシフト
 
 ### CHALLENGES
+⭐️技術の面でもマネジメントの面でも、あらゆるソリューションを適用し、組織改善をリードするという話
+We achieved a lot and it attracts other problems?
+
+```
+After clarifying responsibilities and activities of SET, getting decision makers' supports and colleagues' interests, I started actions as SET. Additionally, LINE hired new employees and formed a team of SET. I thought we could proceed our activities more quickly and widely. However, we faced with new obstacles.
+```
+
+1) Company-wide management problems
 - 組織をまたぐ課題の解決がまだまだ不足
     - "Feature Team” だけで十分か？（特に組織論）
         - MSAの適用範囲拡大と、そこへの課題認識
@@ -174,16 +181,19 @@ The English word "compassion" derives from Latin's "compati", which means "suffe
             - Microservice自体の技術的難易度の増大
                 - テクハラの増加
             - 全体像の把握・全体最適の発想の欠如
-
-Additionally, I also found that the idea of `Quality Assurance` narrowed our activities to improve services and products. The word `Test` was just a burden or a constraint for SET at that time.
-
+    - 発信不足で、価値があることが広く伝わっていかなったが、これを徐々に改善中。
 - 各チームが目標・戦略・計画を提示できない
     - 各チームが何をやっていて、どこを目指すのかの情報が不足して、シニアマネージャー・役員が困るという状況が発生
     - タイムリーな報告ができない
 
+
+2) Onboarding
+Moreover, onboarding became top priority.
 - 新メンバーの増加＋役割の増加（プロセス改善）
 
-- 発信不足で、価値があることが広く伝わっていかなったが、これを徐々に改善中。
+
+3) Quality Assurance may not contribute to the latest business?
+Additionally, I also found that the idea of `Quality Assurance` narrowed our activities to improve services and products. The word `Test` was just a burden or a constraint for SET at that time.
 - Build quality inが出来ていない
 - Hard to test Microservices!
 - There are little knowledge/patterns for testing Microservices.
@@ -192,52 +202,60 @@ Additionally, I also found that the idea of `Quality Assurance` narrowed our act
 
 
 ### ACTIONS
-- テスト自動化に限らない課題解決に、SETチームとして乗り出した
-    - Clarify and share Mission and Milestone
-        - Used them as the pointer of conversation (the same as User Story)
+テスト自動化に限らない課題解決に、SETチームとして乗り出した
+<br />
+
+#### 1. LEAD ENGINEERING MANAGEMENT IMPROVEMENT
+- Solve management issues
     - Improve meeting (Make Product Development Lean)
         - stop meeting that cannot provide any value
             - Mission & milestone worked for it
         - Eliminate meetings by reducing adjustment & non-productive communication
-    - Increase presence of SET Team
-        - Make presentations about our activities toward organizations (found opportunities)
-        - Impact Meeting
-            - [Four Questions to Fix Low Attendance at Your Sprint Reviews](https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews)
 
-- テスト自動化を、コミュニケーションツールとして拡大利用する
-    - Used examples of test scripts
-        - Quick returns
-        - Run them in front of members (= demo)
-        - Run means repeatable & 安心感
-            - Stateless or Immutable
-    - Zipkin & Karate Reportの統合によるMTTR短縮（によって、マネジメントやビジネスに価値を提供する）
-    - 技術的側面から切り込む必要があるので、技術力も必須。しかし技術によりすぎてもダメ。
-        - Necessary to implement product & test properly (to make awesome)
-        - Only technology does not solve all issues
-        - Use technology as a communication driver is good.
-        - 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
-            - SET/Agile は、その点で価値がある/価値を示す必要がある。
-        - ベンチャーであれば、Technical Excellence のみで乗り切れる部分もあるが、expansion/ongoing では無理がある。
-            - 仕組みを作り、それを広める。
-            - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
-    - **Resilience with Test Automation**
-        - Detect and solve all bugs beforehand is impractical
-        - Utilize Obervability with Test Automation
+- Clarify and share Mission and Milestone
+    - Used them as the pointer of conversation (the same as User Story)
 
+- Product Discovery (PMCでやったもの)
+⭐️要確認
+
+- Increase presence of SET Team
+    - Make presentations about our activities toward organizations (found opportunities)
+    - Impact Meeting
+        - [Four Questions to Fix Low Attendance at Your Sprint Reviews](https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews)
+<br />
+
+#### 2. LEARNING SESSION
+- 新メンバーの増加＋役割の増加（プロセス改善）
+- Shortage of knowledge for problem-solving
 - Learning Session
-    - 新メンバーの増加＋役割の増加（プロセス改善）
-    - Shortage of knowledge for problem-solving
-    - Learning Session
-        - 引き継ぎの前倒し
-        - Tech/Process/Practiceをお互いに共有し合う
-        - onboarding++
-    - Sharing works among SET Team’s members
-        - チームとしての課題解決力を増やす
-        - ランチや雑談などでの常時状況共有・改善 -> Retrospective
-    - Experiments
-        - Utilize failures as a source of learning
-    - [組織論と評価制度](https://hageyahhoo.hatenablog.com/entry/2019/05/27/215334)
-    - [Diffusion of Innovation](https://www.infoq.com/presentations/process-evolution-flat-structure/)
+    - 引き継ぎの前倒し
+    - Tech/Process/Practiceをお互いに共有し合う
+    - onboarding++
+- Sharing works among SET Team’s members
+    - チームとしての課題解決力を増やす
+    - ランチや雑談などでの常時状況共有・改善 -> Retrospective
+- Experiments
+    - Utilize failures as a source of learning
+- [組織論と評価制度](https://hageyahhoo.hatenablog.com/entry/2019/05/27/215334)
+- [Diffusion of Innovation](https://www.infoq.com/presentations/process-evolution-flat-structure/)
+<br />
+
+#### 3. TEST AUTOMATION FOR RESILIENCE
+Expand Karate by integrating with Zipkin for reducing MTTR
+- Zipkin & Karate Reportの統合によるMTTR短縮（によって、マネジメントやビジネスに価値を提供する）
+- テスト自動化を、コミュニケーションツール＆MTTR削減手段として活用する
+    - Detect and solve all bugs beforehand is impractical
+    - Utilize Obervability with Test Automation
+
+- 技術的側面から切り込む必要があるので、技術力も必須。しかし技術によりすぎてもダメ。
+    - Necessary to implement product & test properly (to make awesome)
+    - Only technology does not solve all issues
+    - Use technology as a communication driver is good.
+    - 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
+        - SET/Agile は、その点で価値がある/価値を示す必要がある。
+    - ベンチャーであれば、Technical Excellence のみで乗り切れる部分もあるが、expansion/ongoing では無理がある。
+        - 仕組みを作り、それを広める。
+        - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
 
 - 判断基準としてのFour Key Metrics
     - Sales/Profit/Employee Satisfaction
@@ -256,6 +274,7 @@ Additionally, I also found that the idea of `Quality Assurance` narrowed our act
     - 個々の技術を追う人間と、全体から「次のアクション」を考えリードする人間とに二分化される
     - 全体を追うという意味でのpracticeを確立していく必要性
     - 「技術で他者を責める」から、「他者を繋いでいく」方向へシフトさせていく
+- Productivity Engineering?
 <br />
 <br />
 <br />
@@ -281,12 +300,6 @@ Additionally, I also found that the idea of `Quality Assurance` narrowed our act
         - persuing "WOW DX" (= Great Developer eXperience for LINERS).
     - Need to learn a lot
     - Expansion
-
-### CHALLENGES（仮）
-On the other hand, we should keep the ratio
-    - 縦80%、横20%
-        - 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
-        - 横：具体的施策まで踏み込めない恐れはあるが、全体的視点では動きやすい
 <br />
 <br />
 <br />
