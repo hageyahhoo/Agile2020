@@ -57,7 +57,7 @@ At first, I analyzed our services and products. I utilized static code analysis 
 
 Next, I focused on analyzing "outage reports". "Outage reports" mean both postmortem meetings and published reports. They are a treasure-trove of information we need to solve. I was able to know causes of outages, impact on sales and profits, and problematic products through those reports. I understood that public APIs provided for external users, and `Sticker Shop` were the most problematic products. Additionally, I found that reducing MTTR (Mean Time to Repair) would be an impactful solution as the first step.
 
-Moreover, I talked stakeholders like developers, QA persons, product managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through those conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations is critical for discovering real needs, shared understanding, and collaborations beyond silos.
+Moreover, I talked stakeholders like developers, QA persons, Product Managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through those conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations is critical for discovering real needs, shared understanding, and collaborations beyond silos.
 <br />
 
 #### 2. ESTABLISH SOLUTIONS WITH ITERATIVE AND INCREMENTAL CONSENSUS
@@ -144,7 +144,7 @@ Therefore, we decided to create a new in-house performance testing tool named `A
 #### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES AS A HABIT
 At `public APIs` and `Sticker Shop`, we found the effectiveness of working with product development teams to find their real needs and solve them. This approach worked well. However, I thought it was not enough and sufficient. I saw that lots of teams stopped solving problems by themselves after coaches left teams. It is a failure if improvements don't continue after coaches' left. Therefore, I expanded our activities to making product development process improvement as a habit especially at `public APIs`.
 
-We had found and solved issues as homeworks every week. We had continued applying new Karate features and refactoring test scripts. Additionally, we had implemented a notification mechanism via slack to reduce MTTR. Moreover, we had asked product development team members for clarifying objectives, quantitative values they will provide to users, and rough milestones of each task every week. We utilized the idea of Scrum framework to make continuous improvement as a habit of the team. We had continued those activities for about 3 months.
+We had found and solved issues as homework every week. We had continued applying new Karate features and refactoring test scripts. Additionally, we had implemented a notification mechanism via slack to reduce MTTR. Moreover, we had asked product development team members for clarifying objectives, quantitative values they will provide to users, and rough milestones of each task every week. We utilized the idea of Scrum framework to make continuous improvement as a habit of the team. We had continued those activities for about 3 months.
 
 After that, the product development team became able to clarify quarterly milestones, prioritize tasks based on business values, and improve test scripts and the failure detection system by their own. They started decreasing outages dramatically (⭐️定量情報が欲しい). They really became the self-organized team. Finally, we stopped supporting the team.
 <br />
@@ -152,27 +152,11 @@ After that, the product development team became able to clarify quarterly milest
 
 
 ### RETROSPECTIVE
-⭐️
-We could solve essential problems and improve product development processes of each team by working with them deeply and collaboratively. Additionally, we learned a lot with them to improve our approaches.
-- Implemented Test Automation and related techniques based on product development teams' (unclear) needs
+We could solve essential problems and improve processes of each product development team by working collaboratively and deeply with them. We SET and product development teams implemented Test Automation and related techniques based on the idea of `Product Discovery`. Additionally, each team becomes sophisticated. For example, the Product Manager of `public APIs` writes test scripts with Karate routinely. He often says that the Product Manager may disturb the team by writing production codes, but can contribute to the team by writing test scripts! He is utilizing test scripts to understand behaviors of the product deeply, to clarify next actions and goals of the product and the team, and to guide team members doing `Developer Testing` for `Build Quality In`.
 
+Additionally, we learned a lot of things to improve our approaches through working with them. The consulting-style approach is useful to keep the whole image of activities, however, we cannot approach essential problems. On the other hand, the working-together approach is effective to discover and solve essential problems quickly, but we may loose the whole image of activities because of too focusing on one product development team. Therefore, we should utilize both style based on the phase of activities.
 
-The origin of the word "compassion" is "***"
-- **compassion**（ラテン語で「共に苦しむ」→共感）
-    - 実際にメンバーと一緒に痛い目に合わないと、本当の意味での協力関係は築けない
-    - 一緒に痛い目に合うことから、本当のソリューションは見つけられる。
-    - コンサル型ではなく、実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
-
-
-- マネージャーは、プロダクションコードを変更するとチームの邪魔になりかねないが、テストコードならば邪魔せずにすむ
-    - It's good to learn behavior of current products and teach members how to clarify requirements.
-    - Guide Developer Testing for `Build Quality In`
-
-
-On the other hand, we should keep the ratio
-    - 縦80%、横20%
-        - 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
-        - 横：具体的施策まで踏み込めない恐れはあるが、全体的視点では動きやすい
+The English word "compassion" derives from Latin's "compati", which means "suffer with". We think this is the point of leading and guiding new things like Agile. We SETs and product development teams had been suffering from the same problems by working together. We had considered solutions and solved problems one by one together. Those series of activities had constructed real collaborative relationships. Moreover, those relationships had become boosters for adapting to new Test Automation tools and process improvements.
 <br />
 <br />
 <br />
@@ -297,6 +281,12 @@ Additionally, I also found that the idea of `Quality Assurance` narrowed our act
         - persuing "WOW DX" (= Great Developer eXperience for LINERS).
     - Need to learn a lot
     - Expansion
+
+### CHALLENGES（仮）
+On the other hand, we should keep the ratio
+    - 縦80%、横20%
+        - 縦：施策の効果は早いが、そのサービスに取り込まれて全体的視点を失う恐れもあり
+        - 横：具体的施策まで踏み込めない恐れはあるが、全体的視点では動きやすい
 <br />
 <br />
 <br />
