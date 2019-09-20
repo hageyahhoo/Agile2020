@@ -82,6 +82,9 @@ Using [Design Sprint](https://www.thesprintbook.com/)
     - Solved compilation overheads
     - Changed all embed mongo to Testcontainers
     - Next: Apply Testcontainers to Redis and MySQL
+
+- 2019/09/19
+    - Members requested to know current status & differences of UT/IT/E2E to improve
 <br />
 <br />
 <br />
