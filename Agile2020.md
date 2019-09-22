@@ -166,14 +166,10 @@ The English word "compassion" derives from Latin's "compati", which means "suffe
 ## 4. BECOME TRANSFORMATIONAL LEADERS
 
 ### CHALLENGES
-⭐️技術の面でもマネジメントの面でも、あらゆるソリューションを適用し、組織改善をリードするという話
-We achieved a lot and it attracts other problems?
+We had been solving a lot of technical and process issues of each product by working together with each product development team's members. Those activities and achievements have been recognized as huge successes by executives. However, those successes had led us SET team to the next level of challenges.
 
-```
-After clarifying responsibilities and activities of SET, getting decision makers' supports and colleagues' interests, I started actions as SET. Additionally, LINE hired new employees and formed a team of SET. I thought we could proceed our activities more quickly and widely. However, we faced with new obstacles.
-```
-
-1) Company-wide management problems
+⭐
+1) At first, company-wide management problems
 - 組織をまたぐ課題の解決がまだまだ不足
     - "Feature Team” だけで十分か？（特に組織論）
         - MSAの適用範囲拡大と、そこへの課題認識
@@ -186,15 +182,14 @@ After clarifying responsibilities and activities of SET, getting decision makers
     - 各チームが何をやっていて、どこを目指すのかの情報が不足して、シニアマネージャー・役員が困るという状況が発生
     - タイムリーな報告ができない
 
-
-2) Onboarding
+2) Next, we hired more SETs and we needed to consider onboarding.
 Moreover, onboarding became top priority.
 - 新メンバーの増加＋役割の増加（プロセス改善）
 
+3) Moreover, we started to think that the notion `Quality Assurance` may not contribute to the latest business.
 
-3) Quality Assurance may not contribute to the latest business?
-Additionally, I also found that the idea of `Quality Assurance` narrowed our activities to improve services and products. The word `Test` was just a burden or a constraint for SET at that time.
-- Build quality inが出来ていない
+I also found that the idea of `Quality Assurance` narrowed our activities to improve services and products. The word `Test` was just a burden or a constraint for SET at that time.
+- Build quality in is not common for all services/products
 - Hard to test Microservices!
 - There are little knowledge/patterns for testing Microservices.
 <br />
@@ -202,6 +197,7 @@ Additionally, I also found that the idea of `Quality Assurance` narrowed our act
 
 
 ### ACTIONS
+⭐️技術の面でもマネジメントの面でも、あらゆるソリューションを適用し、組織改善をリードするという話
 テスト自動化に限らない課題解決に、SETチームとして乗り出した
 <br />
 
