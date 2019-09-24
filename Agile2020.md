@@ -11,7 +11,10 @@ This report is about why and how we are becoming a team of [Transformational Lea
 <br />
 <br />
 <br />
-⭐️Service/Productの表記揺れをチェック<br />
+- ⭐️表記揺れチェック<br />
+    - Service/Product<br />
+    - Decision makers<br />
+    - SET team (not SET Team)<br />
 ⭐️なぜ・どうやって・どういう成果が出たかを意識して書き続ける<br />
 <br />
 
@@ -168,23 +171,13 @@ The English word "compassion" derives from Latin's "compati", which means "suffe
 ### CHALLENGES
 We had been solving a lot of technical and process issues of each product by working together with each product development team's members. Those activities and achievements have been recognized as huge successes by executives. However, those successes had led us SET team to the next level of challenges.
 
-⭐
-1) At first, company-wide management problems
-- 組織をまたぐ課題の解決がまだまだ不足
-    - "Feature Team” だけで十分か？（特に組織論）
-        - MSAの適用範囲拡大と、そこへの課題認識
-            - お互いへの無関心の拡大
-            - Microservice自体の技術的難易度の増大
-                - テクハラの増加
-            - 全体像の把握・全体最適の発想の欠如
-    - 発信不足で、価値があることが広く伝わっていかなったが、これを徐々に改善中。
-- 各チームが目標・戦略・計画を提示できない
-    - 各チームが何をやっていて、どこを目指すのかの情報が不足して、シニアマネージャー・役員が困るという状況が発生
-    - タイムリーな報告ができない
+The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to `decision makers` like senior managers and executives beforehand. Additionally, those teams couldn't share their current status and problems in a timely manner. `Decision makers` had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing those information timely from the beginning of all activities. Therefore, `decision makers` requested us SET team to teach product development teams to express those information properly.
 
-2) Next, we hired more SETs and we needed to consider onboarding.
-Moreover, onboarding became top priority.
-- 新メンバーの増加＋役割の増加（プロセス改善）
+⭐
+The second challenge was that we hired more SETs and we needed to consider onboarding.
+- Moreover, onboarding became top priority.
+    - 新メンバーの増加＋役割の増加（プロセス改善）
+
 
 3) Moreover, we started to think that the notion `Quality Assurance` may not contribute to the latest business.
 
@@ -192,6 +185,14 @@ I also found that the idea of `Quality Assurance` narrowed our activities to imp
 - Build quality in is not common for all services/products
 - Hard to test Microservices!
 - There are little knowledge/patterns for testing Microservices.
+
+- 組織をまたぐ課題の解決がまだまだ不足
+    - "Feature Team” だけで十分か？（特に組織論）
+        - MSAの適用範囲拡大と、そこへの課題認識
+            - お互いへの無関心の拡大
+            - Microservice自体の技術的難易度の増大
+                - テクハラの増加
+            - 全体像の把握・全体最適の発想の欠如
 <br />
 <br />
 
@@ -213,6 +214,8 @@ I also found that the idea of `Quality Assurance` narrowed our activities to imp
 
 - Product Discovery (PMCでやったもの)
 ⭐️要確認
+    - [The Drucker Exercise](https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/)
+    - User Story Mapping
 
 - Increase presence of SET Team
     - Make presentations about our activities toward organizations (found opportunities)
