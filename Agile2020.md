@@ -173,26 +173,9 @@ We had been solving a lot of technical and process issues of each product by wor
 
 The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to `decision makers` like senior managers and executives beforehand. Additionally, those teams couldn't share their current status and problems in a timely manner. `Decision makers` had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing those information timely from the beginning of all activities. Therefore, `decision makers` requested us SET team to teach product development teams to express those information properly.
 
-⭐
-The second challenge was that we hired more SETs and we needed to consider onboarding.
-- Moreover, onboarding became top priority.
-    - 新メンバーの増加＋役割の増加（プロセス改善）
+The second challenge was about onboarding. In July 2019, our team had 4 members and we hired one recent graduate and one mid-career employee simultaneously as new SETs. To proceed our activities smoothly, we needed to make onboarding as the top priority task.
 
-
-3) Moreover, we started to think that the notion `Quality Assurance` may not contribute to the latest business.
-
-I also found that the idea of `Quality Assurance` narrowed our activities to improve services and products. The word `Test` was just a burden or a constraint for SET at that time.
-- Build quality in is not common for all services/products
-- Hard to test Microservices!
-- There are little knowledge/patterns for testing Microservices.
-
-- 組織をまたぐ課題の解決がまだまだ不足
-    - "Feature Team” だけで十分か？（特に組織論）
-        - MSAの適用範囲拡大と、そこへの課題認識
-            - お互いへの無関心の拡大
-            - Microservice自体の技術的難易度の増大
-                - テクハラの増加
-            - 全体像の把握・全体最適の発想の欠如
+The third one was a doubt about testing and quality assurance. LINE Corporation hires Test Engineers and Quality Assurance Engineers. However, most of them had only been doing End-to-end testing manually via client applications. At the era of Microservices, I thought it is not practical to detect bugs and solve them beforehand with those activities. Additionally, most of them didn't care about deployment, release, and contribution of our business. They were just interested in doing their own tasks by developer's requests. Those behaviors were not what we SET aimed to do. On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers. The notion of testing and quality assurance were just a burden and a constraint that narrowed our activities to improve services and products. Therefore, I thought we needed different approaches to change those assumptions drastically.
 <br />
 <br />
 
@@ -203,6 +186,7 @@ I also found that the idea of `Quality Assurance` narrowed our activities to imp
 <br />
 
 #### 1. LEAD ENGINEERING MANAGEMENT IMPROVEMENT
+`The company-wide strategic and management problems`
 - Solve management issues
     - Improve meeting (Make Product Development Lean)
         - stop meeting that cannot provide any value
@@ -224,7 +208,7 @@ I also found that the idea of `Quality Assurance` narrowed our activities to imp
 <br />
 
 #### 2. LEARNING SESSION
-- 新メンバーの増加＋役割の増加（プロセス改善）
+`onboarding`
 - Shortage of knowledge for problem-solving
 - Learning Session
     - 引き継ぎの前倒し
@@ -240,6 +224,15 @@ I also found that the idea of `Quality Assurance` narrowed our activities to imp
 <br />
 
 #### 3. TEST AUTOMATION FOR RESILIENCE
+`a doubt about testing and quality assurance`
+- 組織をまたぐ課題の解決がまだまだ不足
+    - "Feature Team” だけで十分か？（特に組織論）
+        - MSAの適用範囲拡大と、そこへの課題認識
+            - お互いへの無関心の拡大
+            - Microservice自体の技術的難易度の増大
+                - テクハラの増加
+            - 全体像の把握・全体最適の発想の欠如
+
 Expand Karate by integrating with Zipkin for reducing MTTR
 - Zipkin & Karate Reportの統合によるMTTR短縮（によって、マネジメントやビジネスに価値を提供する）
 - テスト自動化を、コミュニケーションツール＆MTTR削減手段として活用する
@@ -274,6 +267,10 @@ Expand Karate by integrating with Zipkin for reducing MTTR
     - 全体を追うという意味でのpracticeを確立していく必要性
     - 「技術で他者を責める」から、「他者を繋いでいく」方向へシフトさせていく
 - Productivity Engineering?
+
+- Build quality in is not common for all services/products
+- Hard to test Microservices!
+- There are little knowledge/patterns for testing Microservices.
 <br />
 <br />
 <br />
