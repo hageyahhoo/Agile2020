@@ -181,7 +181,9 @@ The third one was a doubt about testing and quality assurance. LINE Corporation 
 
 
 ### ACTIONS
-⭐️技術の面でもマネジメントの面でも、あらゆるソリューションを適用し、組織改善をリードするという話
+⭐
+For solving those different challenges, we started lots of actions that didn't limit only Test Automation.
+️技術の面でもマネジメントの面でも、あらゆるソリューションを適用し、組織改善をリードするという話
 テスト自動化に限らない課題解決に、SETチームとして乗り出した
 <br />
 
@@ -196,8 +198,7 @@ The third one was a doubt about testing and quality assurance. LINE Corporation 
 - Clarify and share Mission and Milestone
     - Used them as the pointer of conversation (the same as User Story)
 
-- Product Discovery (PMCでやったもの)
-⭐️要確認
+- Product Ownership at PMC
     - [The Drucker Exercise](https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/)
     - User Story Mapping
 
