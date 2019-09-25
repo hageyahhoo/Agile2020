@@ -85,6 +85,11 @@ Using [Design Sprint](https://www.thesprintbook.com/)
 
 - 2019/09/19
     - Members requested to know current status & differences of UT/IT/E2E to improve
+
+- 2019/09/25
+    - Members summed up actions as a presentation document.
+    - POC for MySQL Testcontainers
+        - Performance issue + configuration problems -> Let's solve by all!
 <br />
 <br />
 <br />
