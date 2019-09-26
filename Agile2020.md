@@ -181,31 +181,31 @@ The third one was a doubt about testing and quality assurance. LINE Corporation 
 
 
 ### ACTIONS
-⭐
-For solving those different challenges, we started lots of actions that didn't limit only Test Automation.
-️技術の面でもマネジメントの面でも、あらゆるソリューションを適用し、組織改善をリードするという話
-テスト自動化に限らない課題解決に、SETチームとして乗り出した
+For solving those totally different challenges, we started lots of actions
+including not only Test Automation and technical ones, but also engineering management, education, innovation, and so forth.
 <br />
 
 #### 1. LEAD ENGINEERING MANAGEMENT IMPROVEMENT
-`The company-wide strategic and management problems`
-- Solve management issues
-    - Improve meeting (Make Product Development Lean)
-        - stop meeting that cannot provide any value
-            - Mission & milestone worked for it
-        - Eliminate meetings by reducing adjustment & non-productive communication
+⭐
+For solving the company-wide strategic and management problems,
 
-- Clarify and share Mission and Milestone
-    - Used them as the pointer of conversation (the same as User Story)
+we started to show and install our activities into other teams.
 
-- Product Ownership at PMC
-    - [The Drucker Exercise](https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/)
-    - User Story Mapping
 
-- Increase presence of SET Team
-    - Make presentations about our activities toward organizations (found opportunities)
-    - Impact Meeting
-        - [Four Questions to Fix Low Attendance at Your Sprint Reviews](https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews)
+At first, we shared our mission and milestones often with other teams.
+- Used them as the pointer of conversation (the same as User Story)
+
+
+Additionally, we hold workshops to other team to help improvement. For example, one team was suffering from defining mission and sharing common understanding. Therefore, I held [the Drucker Exercise](https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/) and [User Story Mapping](⭐️) workshops to teach product ownership.
+
+
+Moreover, we attended other teams' meetings to improve.
+- Improve meeting (Make Product Development Lean)
+    - stop meeting that cannot provide any value
+        - Mission & milestone worked for it
+    - Eliminate meetings by reducing adjustment & non-productive communication
+I utilized the idea of `Impact Meeting` by Mike Cohn
+[Four Questions to Fix Low Attendance at Your Sprint Reviews](https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews)
 <br />
 
 #### 2. LEARNING SESSION
@@ -258,6 +258,7 @@ Expand Karate by integrating with Zipkin for reducing MTTR
 
 
 ### RETROSPECTIVE
+`Redefined our goals and responsibilities as a team of Transformational Leaders`
 - Show results iteratively
     Especially to stakeholders
 - Experience success with new ways
