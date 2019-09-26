@@ -15,7 +15,8 @@ This report is about why and how we are becoming a team of [Transformational Lea
     - Service/Product<br />
     - Decision makers<br />
     - SET team (not SET Team)<br />
-⭐️なぜ・どうやって・どういう成果が出たかを意識して書き続ける<br />
+- ⭐️なぜ・どうやって・どういう成果が出たかを意識して書き続ける<br />
+- ⭐️時制を念の為確認<br />
 <br />
 
 
@@ -123,7 +124,7 @@ Another challenge was that consulting-style approach didn't work. We often provi
 
 
 ### ACTIONS
-For achieving our mission, we started working with product development teams deeply to improve their processes. In other words, we started to work, learn, and solve essential problems with them.
+For achieving our mission, we started working with product development teams deeply to improve their processes. In other words, we started working, learning, and solving essential problems with them.
 <br />
 
 #### 1. REFINE FAILURE DETECTION SYSTEM WITH KARATE
@@ -133,7 +134,7 @@ Through these discussions, we found that test scripts written in JUnit were hard
 
 Finally, we chose [Karate](https://github.com/intuit/karate) framework. It provides features specific to API Testing with BDD (Behavior-Driven Development) style and Gherkin format. It was easy to read, implement, and maintain for both developers and the Product Manager. Especially, defining the preferable state was easy to understand for them.
 
-After decision to use Karate framework, we SETs and the product development team members started to rewrite test scripts from JUnit to Karate collaboratively. SETs wrote examples at first. SETs guided `Developer Testing` to achieve and expand `Build Quality In` idea by working with developers. SETs supported solving architectural problems of Karate. After 3 months' collaborative work, finally failure detection system with Karate became established in this product development team.
+After decision to use Karate framework, we SETs and the product development team members started rewriting test scripts from JUnit to Karate collaboratively. SETs wrote examples at first. SETs guided `Developer Testing` to achieve and expand `Build Quality In` idea by working with developers. SETs supported solving architectural problems of Karate. After 3 months' collaborative work, finally failure detection system with Karate became established in this product development team.
 <br />
 
 #### 2. IMPLEMENT NEW PERFORMANCE TESTING TOOLS WITH KOTLIN
@@ -141,7 +142,7 @@ For `Sticker Shop`, we did the same approach as `public APIs` to discover their 
 
 We found that improving to use the existing in-house performance testing tool was impractical. It could produce only 10% of loads what we wanted to test. It was not easy to expand and/or modify features. Additionally, most of the product development team's members were familiar with Kotlin language. Implementing test scripts with Groovy was hard for them. Moreover, usage of [Docker](https://www.docker.com/) and [Kubernetes](https://kubernetes.io/) were expanding at that time in our company. We thought it was a good chance to utilize those new tools and approaches to improve our performance testing.
 
-Therefore, we decided to create a new in-house performance testing tool named `Ayaperf`. Ayaperf is a Java wrapper of [Locust](https://locust.io/) that can use Kubernetes to increase loads easily with enough volume. Developers can write test scripts of performance testing with Java and Kotlin. We did iterative and incremental style to implement and improve Ayaperf with `Sticker Shop` developers. After 3 months' collaborative work, finally Ayaperf became stable. Developers started to detect performance issues with it before release. Additionally, they could correct issues by themselves without hurting production code. They found and solved 3 hidden performance issues by utilizing Ayaperf.
+Therefore, we decided to create a new in-house performance testing tool named `Ayaperf`. Ayaperf is a Java wrapper of [Locust](https://locust.io/) that can use Kubernetes to increase loads easily with enough volume. Developers can write test scripts of performance testing with Java and Kotlin. We did iterative and incremental style to implement and improve Ayaperf with `Sticker Shop` developers. After 3 months' collaborative work, finally Ayaperf became stable. Developers started detecting performance issues with it before release. Additionally, they could correct issues by themselves without hurting production code. They found and solved 3 hidden performance issues by utilizing Ayaperf.
 <br />
 
 #### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES AS A HABIT
@@ -171,7 +172,8 @@ The English word "compassion" derives from Latin's "compati", which means "suffe
 ### CHALLENGES
 We had been solving a lot of technical and process issues of each product by working together with each product development team's members. Those activities and achievements have been recognized as huge successes by executives. However, those successes had led us SET team to the next level of challenges.
 
-The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to `decision makers` like senior managers and executives beforehand. Additionally, those teams couldn't share their current status and problems in a timely manner. `Decision makers` had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing those information timely from the beginning of all activities. Therefore, `decision makers` requested us SET team to teach product development teams to express those information properly.
+The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to `decision makers` like senior managers and executives beforehand. Additionally, those teams couldn't share their current status and problems in a timely manner. `Decision makers` had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing that
+ information timely from the beginning of all activities. Therefore, `decision makers` requested us SET team to teach product development teams to express that information properly.
 
 The second challenge was about onboarding. In July 2019, our team had 4 members and we hired one recent graduate and one mid-career employee simultaneously as new SETs. To proceed our activities smoothly, we needed to make onboarding as the top priority task.
 
@@ -186,29 +188,15 @@ including not only Test Automation and technical ones, but also engineering mana
 <br />
 
 #### 1. LEAD ENGINEERING MANAGEMENT IMPROVEMENT
-⭐
-For solving the company-wide strategic and management problems,
+For solving the company-wide strategic and management problems, we had started showing our activities and installing our ways into other teams. In other words, we had started leading engineering management improvement based on decision makers' demands.
 
-we started to show and install our activities into other teams.
+At first, we shared our milestones with other teams over and over again as an example of engineering management strategy and planning. Additionally, we held workshops for those teams to support their planning, defining mission, reporting, and so forth. For example, I held [the Drucker Exercise](https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/) and [the User Story Mapping](⭐️) workshops to one team for teaching the idea of product ownership. After those activities, some teams started defining their own milestones and sharing them to decision makers in a timely manner.
 
-
-At first, we shared our mission and milestones often with other teams.
-- Used them as the pointer of conversation (the same as User Story)
-
-
-Additionally, we hold workshops to other team to help improvement. For example, one team was suffering from defining mission and sharing common understanding. Therefore, I held [the Drucker Exercise](https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/) and [User Story Mapping](⭐️) workshops to teach product ownership.
-
-
-Moreover, we attended other teams' meetings to improve.
-- Improve meeting (Make Product Development Lean)
-    - stop meeting that cannot provide any value
-        - Mission & milestone worked for it
-    - Eliminate meetings by reducing adjustment & non-productive communication
-I utilized the idea of `Impact Meeting` by Mike Cohn
-[Four Questions to Fix Low Attendance at Your Sprint Reviews](https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews)
+On the other hand, we attended other teams' meetings to improve. If the meeting was full of verbose and meaningless reporting without any decision making and productive communication, we proposed rules like reporting only necessary for decision making and applying timeboxing. We often utilized the idea of [Impact Meeting](https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews) by Mike Cohn. Moreover, we stopped some meetings that couldn't provide any value. Clarified mission and milestones were useful to distinguish whether the meeting was valuable or not. We could use clear mission and milestones as the pointer of conversation as the same as the User Story.
 <br />
 
 #### 2. LEARNING SESSION
+⭐️
 `onboarding`
 - Shortage of knowledge for problem-solving
 - Learning Session
