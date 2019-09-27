@@ -197,7 +197,7 @@ On the other hand, we attended other teams' meetings to improve. If the meeting 
 
 #### 2. LEARNING SESSION
 ⭐️
-`onboarding`
+We started Learning Session taught by Chris Lucian for onboarding.
 - Shortage of knowledge for problem-solving
 - Learning Session
     - 引き継ぎの前倒し
