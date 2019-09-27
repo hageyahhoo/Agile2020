@@ -197,7 +197,8 @@ On the other hand, we attended other teams' meetings to improve. If the meeting 
 
 #### 2. LEARNING SESSION
 ⭐️
-We started Learning Session taught by Chris Lucian for onboarding.
+For onboarding smoothly, I decided to utilize the idea of `Learning Session`. `Learning Session` is the way of studying as a team taught by Chris Lucian.
+
 - Shortage of knowledge for problem-solving
 - Learning Session
     - 引き継ぎの前倒し
