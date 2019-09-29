@@ -196,24 +196,69 @@ On the other hand, we attended other teams' meetings to improve. If the meeting 
 <br />
 
 #### 2. LEARNING SESSION
-⭐️
-For onboarding smoothly, I decided to utilize the idea of `Learning Session`. `Learning Session` is the way of studying as a team taught by Chris Lucian.
+For proceeding our onboarding smoothly, I decided to utilize the idea of "Learning Session". Learning Session is a way of study sessions during business hours taught by Chris Lucian at [Agile2017](https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf).
 
-- Shortage of knowledge for problem-solving
-- Learning Session
-    - 引き継ぎの前倒し
-    - Tech/Process/Practiceをお互いに共有し合う
-    - onboarding++
+⭐️概要
+We have been doing Learning Session basically every day for 30 to 60 minutes to learn what we need to use during business hours.
+
+⭐️やったこと
+- Learn tools, programmings
+Karate (set up, write, run)
+Demonstrate the implementing tools to get feedbacks quickly
+How to set up Ayaperf
+
+How to review programs in our team (Pull Request)
+Shortcut keys for IntelliJ IDEA, JIRA, Confluence, and so on
+How to refactor test scripts based on design techniques
+Process experiments: Drucker Exercise & Kanban
+
+Points
+    メイン発表者は誰でもOK
+    極力lightweightに行う
+        説明資料は、必要ならば作るという程度
+    極力「実物」（実業務・ツール）に触れるようにする
+    無理はせず、できる範囲で試す
+        忙しい時期に、無理して時間を割くようなことはしない
+        テーマが見つからない日はスキップする
+        実施することを目的とするのではなく、あくまで仕事に役立つ知識・スキルを無理なく得ることを目的とする
+    批判は避け、良い点を褒めることを心がける（続けるモチベーションにつながる）
+    楽しむ！
+
+⭐️Results
+- 引き継ぎの前倒し
+- チームとしての課題解決力を増やす
 - Sharing works among SET Team’s members
-    - チームとしての課題解決力を増やす
-    - ランチや雑談などでの常時状況共有・改善 -> Retrospective
-- Experiments
-    - Utilize failures as a source of learning
-- [組織論と評価制度](https://hageyahhoo.hatenablog.com/entry/2019/05/27/215334)
-- [Diffusion of Innovation](https://www.infoq.com/presentations/process-evolution-flat-structure/)
+- Start work after 1-2 months
+
+当初の課題認識
+
+    引き継ぎの前倒し
+        これまで特定メンバーしかできなかった業務を、他のメンバーが代行・実施できるようになってきた
+        結果、特定メンバーが病気などで一時不在になっても、他メンバーがすぐにカバーできるようにもなった
+    ツールやソリューションの利用を、他チームにも広げやすくなった／広げられた
+    Onboardingのスムーズ化
+        チームに合流して2-3日以内には、Pull Requestの作成・マージ・リリースまでは出来るルーティンを構築できた
+        作ったものは利用者にデモする・リリースして初めてタスクを終了とみなすなどの、チームの文化への順応が迅速になった
+    新しいこと（プロセス・ツール）を試すことが、チームとして「当たり前」になってきた
+
+心理的側面
+
+    作業に詰まっても、気軽に質問・相談し合えるようになった
+    お互いのプログラムや資料を気軽に見られる／見せ合えるため、フィードバックや新規のアイデアの取り込み・反映が容易になった
+    ミスとリカバリの練習を、チーム内で気軽にできるようになった
+        結果、「本番」へのプレッシャーを、事前かつ「安全に」軽減できるようになった
+
+評価の側面
+
+人事評価にまつわる庶務（情報整理・面談・フィードバックなど）を、マネージャー・メンバーともに大幅に簡略化・軽減できました。
+
+    マネージャー（評価者）として、毎日メンバーの具体的な活動・成果に触れられるため、メンバーの評価が容易かつ的確になった
+    メンバー（被評価者）として、毎日活動・成果を見せられるため、マネージャーへのアピールが容易になった
+    日々の業務でお互いにフィードバックを与え合っているため、1 on 1などを別途設定しなくても、チームの目的・ゴールへのアジャストを迅速に行えるようになった
 <br />
 
 #### 3. TEST AUTOMATION FOR RESILIENCE
+⭐️
 `a doubt about testing and quality assurance`
 - 組織をまたぐ課題の解決がまだまだ不足
     - "Feature Team” だけで十分か？（特に組織論）
@@ -346,6 +391,7 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
     - https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf
 - [Luci] Lucian, Chris, "Learning to Experiment" Agile 2018 Conference, San Diego, California
     - https://www.agilealliance.org/wp-content/uploads/2018/02/C.Lucian.-Learning-to-Experiment.pdf
+- [Diffusion of Innovation](https://www.infoq.com/presentations/process-evolution-flat-structure/)
 - [Ito] Ito, Hiroyuki, "Technology-Driven Development: Using Automation and Development Techniques to Grow an Agile Culture" Agile 2014 Conference, Orlando, Florida
     - https://www.agilealliance.org/wp-content/uploads/2015/12/ExperienceReport.2014.Ito_.pdf
 <br />
