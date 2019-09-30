@@ -199,9 +199,27 @@ On the other hand, we attended other teams' meetings to improve. If the meeting 
 For proceeding our onboarding smoothly, I decided to utilize the idea of "Learning Session". Learning Session is a way of study sessions during business hours taught by Chris Lucian at [Agile2017](https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf).
 
 ⭐️概要
-We have been doing Learning Session basically every day for 30 to 60 minutes to learn what we need to use during business hours.
+We have been holding Learning Session basically for 30 to 60 minutes everyday during business hours as a work.
+
+We can choose anything we need to learn for our daily work.
+Anyone can speak, make presentations
+with lightweight manner (説明資料は、必要ならば作るという程度)
+Use practical ones
+Never do muri!
+Have a fun!/with fun
+
+メイン発表者は誰でもOK
+極力lightweightに行う
+    説明資料は、必要ならば作るという程度
+極力「実物」（実業務・ツール）に触れるようにする
+無理はせず、できる範囲で試す
+    忙しい時期に、無理して時間を割くようなことはしない
+    テーマが見つからない日はスキップする
+    実施することを目的とするのではなく、あくまで仕事に役立つ知識・スキルを無理なく得ることを目的とする
+批判は避け、良い点を褒めることを心がける（続けるモチベーションにつながる）
 
 ⭐️やったこと
+Throught a series of Learning Sessions, we learned tools, programming techniques, and so on.
 - Learn tools, programmings
 Karate (set up, write, run)
 Demonstrate the implementing tools to get feedbacks quickly
@@ -212,26 +230,11 @@ Shortcut keys for IntelliJ IDEA, JIRA, Confluence, and so on
 How to refactor test scripts based on design techniques
 Process experiments: Drucker Exercise & Kanban
 
-Points
-    メイン発表者は誰でもOK
-    極力lightweightに行う
-        説明資料は、必要ならば作るという程度
-    極力「実物」（実業務・ツール）に触れるようにする
-    無理はせず、できる範囲で試す
-        忙しい時期に、無理して時間を割くようなことはしない
-        テーマが見つからない日はスキップする
-        実施することを目的とするのではなく、あくまで仕事に役立つ知識・スキルを無理なく得ることを目的とする
-    批判は避け、良い点を褒めることを心がける（続けるモチベーションにつながる）
-    楽しむ！
 
 ⭐️Results
-- 引き継ぎの前倒し
-- チームとしての課題解決力を増やす
-- Sharing works among SET Team’s members
-- Start work after 1-2 months
-
+As a result, we improved three parts of our tasks.
+1. Our challenges
 当初の課題認識
-
     引き継ぎの前倒し
         これまで特定メンバーしかできなかった業務を、他のメンバーが代行・実施できるようになってきた
         結果、特定メンバーが病気などで一時不在になっても、他メンバーがすぐにカバーできるようにもなった
@@ -241,20 +244,23 @@ Points
         作ったものは利用者にデモする・リリースして初めてタスクを終了とみなすなどの、チームの文化への順応が迅速になった
     新しいこと（プロセス・ツール）を試すことが、チームとして「当たり前」になってきた
 
+2. Psychological part
 心理的側面
-
     作業に詰まっても、気軽に質問・相談し合えるようになった
     お互いのプログラムや資料を気軽に見られる／見せ合えるため、フィードバックや新規のアイデアの取り込み・反映が容易になった
     ミスとリカバリの練習を、チーム内で気軽にできるようになった
         結果、「本番」へのプレッシャーを、事前かつ「安全に」軽減できるようになった
 
+3. Evaluation part
 評価の側面
-
 人事評価にまつわる庶務（情報整理・面談・フィードバックなど）を、マネージャー・メンバーともに大幅に簡略化・軽減できました。
-
     マネージャー（評価者）として、毎日メンバーの具体的な活動・成果に触れられるため、メンバーの評価が容易かつ的確になった
     メンバー（被評価者）として、毎日活動・成果を見せられるため、マネージャーへのアピールが容易になった
     日々の業務でお互いにフィードバックを与え合っているため、1 on 1などを別途設定しなくても、チームの目的・ゴールへのアジャストを迅速に行えるようになった
+
+- チームとしての課題解決力を増やす
+- Sharing works among SET Team’s members
+- Start work after 1-2 months
 <br />
 
 #### 3. TEST AUTOMATION FOR RESILIENCE
