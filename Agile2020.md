@@ -198,29 +198,10 @@ On the other hand, we attended other teams' meetings to improve. If the meeting 
 #### 2. LEARNING SESSION
 For proceeding our onboarding smoothly, I decided to utilize the idea of "Learning Session". Learning Session is a way of study sessions during business hours taught by Chris Lucian at [Agile2017](https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf).
 
-⭐️概要
-We have been holding Learning Session basically for 30 to 60 minutes everyday during business hours as a work.
-
-We can choose anything we need to learn for our daily work.
-Anyone can speak, make presentations
-with lightweight manner (説明資料は、必要ならば作るという程度)
-Use practical ones
-Never do muri!
-Have a fun!/with fun
-
-メイン発表者は誰でもOK
-極力lightweightに行う
-    説明資料は、必要ならば作るという程度
-極力「実物」（実業務・ツール）に触れるようにする
-無理はせず、できる範囲で試す
-    忙しい時期に、無理して時間を割くようなことはしない
-    テーマが見つからない日はスキップする
-    実施することを目的とするのではなく、あくまで仕事に役立つ知識・スキルを無理なく得ることを目的とする
-批判は避け、良い点を褒めることを心がける（続けるモチベーションにつながる）
+Here are basic rules. We have been holding Learning Session basically for 30 to 60 minutes everyday during business hours as a work. We can choose any topics we assume it's necessary for our daily work. Anyone can speak and facilitate it with Mob Programming way. With a fun, without criticism.
 
 ⭐️やったこと
 Throught a series of Learning Sessions, we learned tools, programming techniques, and so on.
-- Learn tools, programmings
 Karate (set up, write, run)
 Demonstrate the implementing tools to get feedbacks quickly
 How to set up Ayaperf
