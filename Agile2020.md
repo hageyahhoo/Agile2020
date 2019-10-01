@@ -172,8 +172,7 @@ The English word "compassion" derives from Latin's "compati", which means "suffe
 ### CHALLENGES
 We had been solving a lot of technical and process issues of each product by working together with each product development team's members. Those activities and achievements have been recognized as huge successes by executives. However, those successes had led us SET team to the next level of challenges.
 
-The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to `decision makers` like senior managers and executives beforehand. Additionally, those teams couldn't share their current status and problems in a timely manner. `Decision makers` had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing that
- information timely from the beginning of all activities. Therefore, `decision makers` requested us SET team to teach product development teams to express that information properly.
+The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to `decision makers` like senior managers and executives beforehand. Additionally, those teams couldn't share their current status and problems in a timely manner. `Decision makers` had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing that information timely from the beginning of all activities. Therefore, `decision makers` requested us SET team to teach product development teams to express that information properly.
 
 The second challenge was about onboarding. In July 2019, our team had 4 members and we hired one recent graduate and one mid-career employee simultaneously as new SETs. To proceed our activities smoothly, we needed to make onboarding as the top priority task.
 
@@ -200,29 +199,20 @@ For proceeding our onboarding smoothly, I decided to utilize the idea of "Learni
 
 Here are basic rules. We have been holding Learning Session basically for 30 to 60 minutes everyday during business hours as a work. We can choose any topics we assume it's necessary for our daily work. Anyone can speak and facilitate it with Mob Programming way. With a fun, without criticism.
 
-⭐️やったこと
-Throught a series of Learning Sessions, we learned tools, programming techniques, and so on.
-Karate (set up, write, run)
-Demonstrate the implementing tools to get feedbacks quickly
-How to set up Ayaperf
+Throught a series of Learning Sessions, we have been learning a wide variety of tools, techniques, process improvements, and so forth. We learned Karate framework. All team members can set up it, write test scripts, run tests, and teach them to other persons. We became accustomed to shortcut keys of IntelliJ IDEA, JIRA, and Confluence. We often review programs via GitHub's Pull Requests together. We refactor test scripts with learning test and architectural design techniques. We frequently demonstrate our work-in-progress tasks to get feedbacks quickly. Moreover, we experiment process improvements like Scrum, Kanban, the Drucker Exercise, and so on.
 
-How to review programs in our team (Pull Request)
-Shortcut keys for IntelliJ IDEA, JIRA, Confluence, and so on
-How to refactor test scripts based on design techniques
-Process experiments: Drucker Exercise & Kanban
+As a result, we smoothly finished onboarding for two newcomers. They could write programs, pass reviews, and deploy their programs within 3 days. They could adapt to our team's rules and culture, like demonstrating their results to users very frequently for getting fast feedbacks, focusing on release, and experimental work style, very quickly. They became contributing to our products and services within 1 or 2 months.
 
-
-⭐️Results
-As a result, we improved three parts of our tasks.
+⭐️
+Additionally: we improved three parts of our tasks.
 1. Our challenges
+- チームとしての課題解決力を増やす
+- Sharing works among SET Team’s members
 当初の課題認識
     引き継ぎの前倒し
         これまで特定メンバーしかできなかった業務を、他のメンバーが代行・実施できるようになってきた
         結果、特定メンバーが病気などで一時不在になっても、他メンバーがすぐにカバーできるようにもなった
     ツールやソリューションの利用を、他チームにも広げやすくなった／広げられた
-    Onboardingのスムーズ化
-        チームに合流して2-3日以内には、Pull Requestの作成・マージ・リリースまでは出来るルーティンを構築できた
-        作ったものは利用者にデモする・リリースして初めてタスクを終了とみなすなどの、チームの文化への順応が迅速になった
     新しいこと（プロセス・ツール）を試すことが、チームとして「当たり前」になってきた
 
 2. Psychological part
@@ -239,9 +229,6 @@ As a result, we improved three parts of our tasks.
     メンバー（被評価者）として、毎日活動・成果を見せられるため、マネージャーへのアピールが容易になった
     日々の業務でお互いにフィードバックを与え合っているため、1 on 1などを別途設定しなくても、チームの目的・ゴールへのアジャストを迅速に行えるようになった
 
-- チームとしての課題解決力を増やす
-- Sharing works among SET Team’s members
-- Start work after 1-2 months
 <br />
 
 #### 3. TEST AUTOMATION FOR RESILIENCE
