@@ -176,7 +176,7 @@ The first challenge was the company-wide strategic and management problems. A lo
 
 The second challenge was about onboarding. In July 2019, our team had 4 members and we hired one recent graduate and one mid-career employee simultaneously as new SETs. To proceed our activities smoothly, we needed to make onboarding as the top priority task.
 
-The third one was a doubt about testing and quality assurance. LINE Corporation hires Test Engineers and Quality Assurance Engineers. However, most of them had only been doing End-to-end testing manually via client applications. At the era of Microservices, I thought it is not practical to detect bugs and solve them beforehand with those activities. Additionally, most of them didn't care about deployment, release, and contribution of our business. They were just interested in doing their own tasks by developer's requests. Those behaviors were not what we SET aimed to do. On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers. The notion of testing and quality assurance were just a burden and a constraint that narrowed our activities to improve services and products. Therefore, I thought we needed different approaches to change those assumptions drastically.
+The third one was a doubt about testing and quality assurance. LINE Corporation hires Test Engineers and Quality Assurance Engineers. However, most of them had only been doing End-to-end testing manually via client applications. In the era of Microservices, I thought it is not practical to detect bugs and solve them beforehand with those activities. Additionally, most of them didn't care about deployment, release, and contribution of our business. They were just interested in doing their own tasks by developer's requests. Those behaviors were not what we SET aimed to do. On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers. The notion of testing and quality assurance were just a burden and a constraint that narrowed our activities to improve services and products. Therefore, I thought we needed different approaches to change those assumptions drastically.
 <br />
 <br />
 
@@ -213,8 +213,18 @@ The third and last impact was for evaluation. We could reduce the burden of pers
 <br />
 
 #### 3. TEST AUTOMATION FOR RESILIENCE
-⭐️
-`a doubt about testing and quality assurance`
+For overcoming the limitation of testing and quality assurance in the era of Microservices, we decided to shift our focus to resilience, deployment, and release rather than detecting bugs and solve them beforehand.
+
+At first, we started combining Karate framework with [Zipkin](https://zipkin.io/), a distributed tracing system. Our failure detection system with Karate was good at fast detection of failures and outages. However, it could not pinpoint a root cause in a fleet of Microservices. This was an emerging problem for Product Managers at that time. Therefore, we aimed to make our failure detection system more intelligent.
+
+Our approach was to show tracing information of each Microservice on our test report by adding Zipkin's trace ids to call APIs to test. This test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids. It means that we can pinpoint a Product Manager who is responsible for failed Microservice. Additionally, it can reduce MTTR more and save other Product Managers' time. Our approach was utilizing the idea of obervability and monitoring via Test Automation. We named this report as `Sebas Report`. (The name "Sebas" is derived from a famous butler like Jenkins.)
+
+⭐️The second one was
+Focus more on deployment, release, and contribution of our business.
+
+
+
+⭐️以下は、全体の結論へ移動では？
 - 組織をまたぐ課題の解決がまだまだ不足
     - "Feature Team” だけで十分か？（特に組織論）
         - MSAの適用範囲拡大と、そこへの課題認識
@@ -222,12 +232,6 @@ The third and last impact was for evaluation. We could reduce the burden of pers
             - Microservice自体の技術的難易度の増大
                 - テクハラの増加
             - 全体像の把握・全体最適の発想の欠如
-
-Expand Karate by integrating with Zipkin for reducing MTTR
-- Zipkin & Karate Reportの統合によるMTTR短縮（によって、マネジメントやビジネスに価値を提供する）
-- テスト自動化を、コミュニケーションツール＆MTTR削減手段として活用する
-    - Detect and solve all bugs beforehand is impractical
-    - Utilize Obervability with Test Automation
 
 - 技術的側面から切り込む必要があるので、技術力も必須。しかし技術によりすぎてもダメ。
     - Necessary to implement product & test properly (to make awesome)
@@ -239,7 +243,8 @@ Expand Karate by integrating with Zipkin for reducing MTTR
         - 仕組みを作り、それを広める。
         - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
 
-- 判断基準としてのFour Key Metrics
+
+- 判断基準としての[Four Key Metrics](https://www.thoughtworks.com/radar/techniques/four-key-metrics)
     - Sales/Profit/Employee Satisfaction
     - Profit/Productivity/Market Share
 <br />
@@ -257,7 +262,9 @@ Expand Karate by integrating with Zipkin for reducing MTTR
     - 個々の技術を追う人間と、全体から「次のアクション」を考えリードする人間とに二分化される
     - 全体を追うという意味でのpracticeを確立していく必要性
     - 「技術で他者を責める」から、「他者を繋いでいく」方向へシフトさせていく
-- Productivity Engineering?
+
+On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers.
+-> `Productivity Engineering`
 
 - Build quality in is not common for all services/products
 - Hard to test Microservices!
