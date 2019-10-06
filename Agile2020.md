@@ -219,39 +219,26 @@ At first, we started combining Karate framework with [Zipkin](https://zipkin.io/
 
 Our approach was to show tracing information of each Microservice on our test report by adding Zipkin's trace ids to call APIs to test. This test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids. It means that we can pinpoint a Product Manager who is responsible for failed Microservice. Additionally, it can reduce MTTR more and save other Product Managers' time. Our approach was utilizing the idea of obervability and monitoring via Test Automation. We named this report as `Sebas Report`. (The name "Sebas" is derived from a famous butler like Jenkins.)
 
-⭐️The second one was
-Focus more on deployment, release, and contribution of our business.
 
+⭐️The second one was guiding fast release and reducing MTTR rather than testing a lot before release.
+As a way of contribution of our business.
 
+- Utilizing Karate and Sebas Report
+- Coaching product development team focusing more on release.
 
-⭐️以下は、全体の結論へ移動では？
-- 組織をまたぐ課題の解決がまだまだ不足
-    - "Feature Team” だけで十分か？（特に組織論）
-        - MSAの適用範囲拡大と、そこへの課題認識
-            - お互いへの無関心の拡大
-            - Microservice自体の技術的難易度の増大
-                - テクハラの増加
-            - 全体像の把握・全体最適の発想の欠如
+Recommended to utilize reducing lead time & reducing MTTR as KPI to measure improvement and productivity.
 
-- 技術的側面から切り込む必要があるので、技術力も必須。しかし技術によりすぎてもダメ。
-    - Necessary to implement product & test properly (to make awesome)
-    - Only technology does not solve all issues
-    - Use technology as a communication driver is good.
-    - 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
-        - SET/Agile は、その点で価値がある/価値を示す必要がある。
-    - ベンチャーであれば、Technical Excellence のみで乗り切れる部分もあるが、expansion/ongoing では無理がある。
-        - 仕組みを作り、それを広める。
-        - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
+I followed the idea of [Four Key Metrics](https://www.thoughtworks.com/radar/techniques/four-key-metrics)
+- Sales/Profit/Employee Satisfaction
+- Profit/Productivity/Market Share
 
-
-- 判断基準としての[Four Key Metrics](https://www.thoughtworks.com/radar/techniques/four-key-metrics)
-    - Sales/Profit/Employee Satisfaction
-    - Profit/Productivity/Market Share
+The result is not yet approved. However, clear behavior not focusing on QA before release was an impact to other teams.
 <br />
 <br />
 
 
 ### RETROSPECTIVE
+We can say we overcome? the role from Testing to Transformational Leaders.
 `Redefined our goals and responsibilities as a team of Transformational Leaders`
 - Show results iteratively
     Especially to stakeholders
@@ -263,12 +250,10 @@ Focus more on deployment, release, and contribution of our business.
     - 全体を追うという意味でのpracticeを確立していく必要性
     - 「技術で他者を責める」から、「他者を繋いでいく」方向へシフトさせていく
 
+
 On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers.
 -> `Productivity Engineering`
 
-- Build quality in is not common for all services/products
-- Hard to test Microservices!
-- There are little knowledge/patterns for testing Microservices.
 <br />
 <br />
 <br />
@@ -294,6 +279,28 @@ On the other hand, we named our role as "Software Engineer in Test". The word "T
         - persuing "WOW DX" (= Great Developer eXperience for LINERS).
     - Need to learn a lot
     - Expansion
+
+⭐️
+Build quality in is becoming common for some services/products.
+Make testing Microservices easier by tools (Karate), process improvements, new KPIs, and so on.
+
+
+⭐️どう料理するか？
+- "Feature Team” だけで十分か？（特に組織論）
+    - MSAの適用範囲拡大と、そこへの課題認識
+        - お互いへの無関心の拡大
+        - Microservice自体の技術的難易度の増大
+        - 全体像の把握・全体最適の発想の欠如
+
+- 技術的側面から切り込む必要があるので、技術力も必須。しかし技術によりすぎてもダメ。
+    - Necessary to implement product & test properly (to make awesome)
+    - Only technology does not solve all issues
+    - Use technology as a communication driver is good.
+    - 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
+        - SET/Agile は、その点で価値がある/価値を示す必要がある。
+    - ベンチャーであれば、Technical Excellence のみで乗り切れる部分もあるが、expansion/ongoing では無理がある。
+        - 仕組みを作り、それを広める。
+        - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
 <br />
 <br />
 <br />
@@ -312,11 +319,10 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
 - [Immutable and disposable RDBMS for testing](https://www.testcontainers.org/modules/databases/)
 - [E2E Testing with WebDriver](https://www.testcontainers.org/modules/webdriver_containers/)
 
+- There are confusion among test automation not only for Microservices.
+
 - Design Sprint for Technical Problems
     - Agile2021で話す予定なので軽めに
-
-- テクハラ
-    - 「TDDに反するから意味がない」という人がいれば、他者を理解する意欲・スキルのない人と判断できる
 <br />
 <br />
 <br />
