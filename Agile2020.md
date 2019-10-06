@@ -197,38 +197,19 @@ On the other hand, we attended other teams' meetings to improve. If the meeting 
 #### 2. LEARNING SESSION
 For proceeding our onboarding smoothly, I decided to utilize the idea of "Learning Session". Learning Session is a way of study sessions during business hours taught by Chris Lucian at [Agile2017](https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf).
 
-Here are basic rules. We have been holding Learning Session basically for 30 to 60 minutes everyday during business hours as a work. We can choose any topics we assume it's necessary for our daily work. Anyone can speak and facilitate it with Mob Programming way. With a fun, without criticism.
+Here are basic rules. We have been holding Learning Session basically for 30 to 60 minutes everyday during business hours as a work. We can choose any topics we assume it's necessary for our daily work. Anyone can speak and facilitate it with Mob Programming way with a fun and without criticism.
 
-Throught a series of Learning Sessions, we have been learning a wide variety of tools, techniques, process improvements, and so forth. We learned Karate framework. All team members can set up it, write test scripts, run tests, and teach them to other persons. We became accustomed to shortcut keys of IntelliJ IDEA, JIRA, and Confluence. We often review programs via GitHub's Pull Requests together. We refactor test scripts with learning test and architectural design techniques. We frequently demonstrate our work-in-progress tasks to get feedbacks quickly. Moreover, we experiment process improvements like Scrum, Kanban, the Drucker Exercise, and so on.
+Through a series of Learning Sessions, we have been learning a wide variety of tools, techniques, process improvements, and so forth. We learned Karate framework. All team members can set up it, write test scripts, run tests, and teach them to other persons. We became accustomed to shortcut keys of IntelliJ IDEA, JIRA, and Confluence. We often review programs via GitHub's Pull Requests together. We refactor test scripts with learning test and architectural design techniques. We frequently demonstrate our work-in-progress tasks to get feedbacks quickly. Moreover, we experiment process improvements like Scrum, Kanban, the Drucker Exercise, and so on.
 
 As a result, we smoothly finished onboarding for two newcomers. They could write programs, pass reviews, and deploy their programs within 3 days. They could adapt to our team's rules and culture, like demonstrating their results to users very frequently for getting fast feedbacks, focusing on release, and experimental work style, very quickly. They became contributing to our products and services within 1 or 2 months.
 
-⭐️
-Additionally: we improved three parts of our tasks.
-1. Our challenges
-- チームとしての課題解決力を増やす
-- Sharing works among SET Team’s members
-当初の課題認識
-    引き継ぎの前倒し
-        これまで特定メンバーしかできなかった業務を、他のメンバーが代行・実施できるようになってきた
-        結果、特定メンバーが病気などで一時不在になっても、他メンバーがすぐにカバーできるようにもなった
-    ツールやソリューションの利用を、他チームにも広げやすくなった／広げられた
-    新しいこと（プロセス・ツール）を試すことが、チームとして「当たり前」になってきた
+Moreover, we found that Learning Session gave 3 additional impacts to our team.
 
-2. Psychological part
-心理的側面
-    作業に詰まっても、気軽に質問・相談し合えるようになった
-    お互いのプログラムや資料を気軽に見られる／見せ合えるため、フィードバックや新規のアイデアの取り込み・反映が容易になった
-    ミスとリカバリの練習を、チーム内で気軽にできるようになった
-        結果、「本番」へのプレッシャーを、事前かつ「安全に」軽減できるようになった
+The first impact was the growth of our team, not only of newcomers. We often shared each work among team members. We frequently solved each member's problem together. As a result, all team members could substitute other's works. We can say we have been doing "handover" everyday. We could increase the "truck number" coined by Jim Coplien and enhance our team's capabilities to solve problems.
 
-3. Evaluation part
-評価の側面
-人事評価にまつわる庶務（情報整理・面談・フィードバックなど）を、マネージャー・メンバーともに大幅に簡略化・軽減できました。
-    マネージャー（評価者）として、毎日メンバーの具体的な活動・成果に触れられるため、メンバーの評価が容易かつ的確になった
-    メンバー（被評価者）として、毎日活動・成果を見せられるため、マネージャーへのアピールが容易になった
-    日々の業務でお互いにフィードバックを与え合っているため、1 on 1などを別途設定しなくても、チームの目的・ゴールへのアジャストを迅速に行えるようになった
+The second impact was the psychological one. We were accustomed to show work-in-progress tasks and get feedbacks. It made us easier to ask questions and discuss solutions. We could propose, accept, and try new ideas without fear. Additionally, we often drilled trouble shootings and recovering services as Learning Session to acquire skills of "psychological safety". We have been reducing psychological pressures by atmosphere, mechanisms, and skills.
 
+The third and last impact was for evaluation. We could reduce the burden of personnel evaluation dramatically for both an evaluator and a member to be evaluated. On one hand, I, an evaluator, can touch members' activities, achievements, and impediments directly everyday through Learning Sessions. Therefore, I can evaluate each member quickly, easily, and properly everyday. On the other hand, members can appeal their achievements to me very easily. Additionally, we can adjust behaviors each other through daily observations and feedbacks to meet the team's objective. We didn't need to set evaluation meetings at once around the evaluation period and it saved our time and resources. We can say it as an Agile way of evaluation and human resource management.
 <br />
 
 #### 3. TEST AUTOMATION FOR RESILIENCE
@@ -366,6 +347,7 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
 - [Luci] Lucian, Chris, "Learning to Experiment" Agile 2018 Conference, San Diego, California
     - https://www.agilealliance.org/wp-content/uploads/2018/02/C.Lucian.-Learning-to-Experiment.pdf
 - [Diffusion of Innovation](https://www.infoq.com/presentations/process-evolution-flat-structure/)
+- Honeymoon number: [AntiPractices: AntiPatterns for XP Practices](https://www.ime.usp.br/~ale/xpAntipatterns.pdf)
 - [Ito] Ito, Hiroyuki, "Technology-Driven Development: Using Automation and Development Techniques to Grow an Agile Culture" Agile 2014 Conference, Orlando, Florida
     - https://www.agilealliance.org/wp-content/uploads/2015/12/ExperienceReport.2014.Ito_.pdf
 <br />
