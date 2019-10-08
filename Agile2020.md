@@ -233,58 +233,57 @@ We expanded our activities toward engineering management improvement based on de
 
 
 ## 5. LESSONS LEARNED
-We can say we overcome? the role from Testing to Transformational Leaders.
-`Redefined our goals and responsibilities as a team of Transformational Leaders`
+⭐️
+At first, Agile methodologies worked for starting up new roles and teams.
+- Product Discovery
+- Iterative and incremental consensus
 - Show results iteratively
-    Especially to stakeholders
+    - Especially to stakeholders
 - Experience success with new ways
-- Just guidelines and references didn't work
-    - Need to work with members
-- 人材・文化の変更
-    - 個々の技術を追う人間と、全体から「次のアクション」を考えリードする人間とに二分化される
-    - 全体を追うという意味でのpracticeを確立していく必要性
-    - 「技術で他者を責める」から、「他者を繋いでいく」方向へシフトさせていく
-
-- Changing the difinition & responsibility of "SET"
-    - Google由来のロールだが、「SET」という単語にはローカル性がある。
-    - テスト自動化だけではなく、プロセス改善、全社のプラスになることの実施へと、やっていることを広げていっている。
-- Beyond Quality Assurance
-    - Software Delivery (Performance)
-    - Organizational Performance/Culture
-- Quality Assuranceからの脱却
-    - 「品質」→ビジネス価値の向上・ビジネス損失の削減・DXの向上
-    - Next Engineering Management
-        - 簡潔な説明：エレベーターピッチ・User Story
-        - 継続的なインパクト：DX強化？
-
-- Team of Transformational Leaders
-    - 究極は、CTOチームとして、DXの改善＆ビジネス価値の提供を実現する
-    - "WOW DX”!
-        - persuing "WOW DX" (= Great Developer eXperience for LINERS).
-    - Need to learn a lot
-    - Expansion
 
 ⭐️
-Build quality in is becoming common for some services/products.
-Make testing Microservices easier by tools (Karate), process improvements, new KPIs, and so on.
-`Productivity Engineers`.
+Second, working closely with product development teams is very effective for `achieving mission?` and improving processes.
+- Just guidelines and references didn't work
+    - Need to work with members
 
-⭐️どう料理するか？
-- "Feature Team” だけで十分か？（特に組織論）
-    - MSAの適用範囲拡大と、そこへの課題認識
-        - お互いへの無関心の拡大
-        - Microservice自体の技術的難易度の増大
-        - 全体像の把握・全体最適の発想の欠如
-
-- 技術的側面から切り込む必要があるので、技術力も必須。しかし技術によりすぎてもダメ。
-    - Necessary to implement product & test properly (to make awesome)
-    - Only technology does not solve all issues
+- Need technical excellence. But only technology is not enough.
+- Only technology does not solve all issues
+    - 技術的側面から切り込む必要があるので、技術力も必須。しかし技術によりすぎてもダメ。
+    - Necessary to implement product & test properly (to make awesome)    
     - Use technology as a communication driver is good.
     - 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
         - SET/Agile は、その点で価値がある/価値を示す必要がある。
     - ベンチャーであれば、Technical Excellence のみで乗り切れる部分もあるが、expansion/ongoing では無理がある。
         - 仕組みを作り、それを広める。
         - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
+
+- Contribute to our business with continuous experiments
+
+⭐️
+Third, we need to change ourselves continuously.
+
+- Beyond Quality Assurance
+    - Software Delivery (Performance)
+    - Organizational Performance/Culture
+    - 「品質」→ビジネス価値の向上・ビジネス損失の削減・DXの向上
+    - Next Engineering Management
+        - 簡潔な説明：エレベーターピッチ・User Story
+        - 継続的なインパクト：DX強化？
+
+Build quality in is becoming common for some services/products.
+Make testing Microservices easier by tools (Karate), process improvements, new KPIs, and so on.
+`Productivity Engineers`.
+
+- 人材・文化の変更
+    - 個々の技術を追う人間と、全体から「次のアクション」を考えリードする人間とに二分化される
+    - 全体を追うという意味でのpracticeを確立していく必要性
+    - 「技術で他者を責める」から、「他者を繋いでいく」方向へシフトさせていく
+
+- "Feature Team” だけで十分か？（特に組織論）
+    - MSAの適用範囲拡大と、そこへの課題認識
+        - お互いへの無関心の拡大
+        - Microservice自体の技術的難易度の増大
+        - 全体像の把握・全体最適の発想の欠如
 <br />
 <br />
 <br />
@@ -292,7 +291,8 @@ Make testing Microservices easier by tools (Karate), process improvements, new K
 
 
 ## 6. WHAT'S NEXT?
-`Testable Infrastructure`
+⭐️
+The first one is building `Testable Infrastructure`!
 - Production-like test environment (with k8s and Containers)
 - Immutable Test Infrastructure (with k8s and Containers)
     - Reduce barriers of testing
@@ -303,10 +303,13 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
 - [Immutable and disposable RDBMS for testing](https://www.testcontainers.org/modules/databases/)
 - [E2E Testing with WebDriver](https://www.testcontainers.org/modules/webdriver_containers/)
 
+⭐️
+The second is to organize testing ideas, terminologies, and techniques.
 - There are confusion among test automation not only for Microservices.
 
-- Design Sprint for Technical Problems
-    - Agile2021で話す予定なので軽めに
+⭐️
+The last one is to adopt to` Design Sprint` for Technical Problems
+- Agile2021で話す予定なので軽めに
 <br />
 <br />
 <br />
@@ -317,12 +320,15 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
 - Changing the difinition & responsibility of "SET"
     - Google由来のロールだが、「SET」という単語にはローカル性がある。
     - テスト自動化だけではなく、プロセス改善、全社のプラスになることの実施へと、やっていることを広げていっている。
+
 - Team of Transformational Leaders
     - 究極は、CTOチームとして、DXの改善＆ビジネス価値の提供を実現する
     - "WOW DX”!
         - persuing "WOW DX" (= Great Developer eXperience for LINERS).
     - コンサル型では機能しなかった。実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
     - Quality Assuranceからの脱却
+
+Business Agility in practice.
 <br />
 <br />
 <br />
