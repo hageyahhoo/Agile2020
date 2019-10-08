@@ -217,7 +217,7 @@ For overcoming the limitation of testing and quality assurance in the era of Mic
 
 At first, we started combining Karate framework with [Zipkin](https://zipkin.io/), a distributed tracing system. Our failure detection system with Karate was good at fast detection of failures and outages. However, it could not pinpoint a root cause in a fleet of Microservices. This was an emerging problem for Product Managers at that time. Therefore, we aimed to make our failure detection system more intelligent.
 
-Our approach was to show tracing information of each Microservice on our test report by adding Zipkin's trace ids to call APIs to test. This test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids. It means that we can pinpoint a Product Manager who is responsible for failed Microservice. Additionally, it can reduce MTTR more and save other Product Managers' time. Our approach was utilizing the idea of obervability and monitoring via Test Automation. We named this report as `Sebas Report`. (The name "Sebas" is derived from a famous butler like Jenkins.)
+Our approach was to show tracing information of each Microservice on our test report by adding Zipkin's trace ids to call APIs to test. This test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids. It means that we can pinpoint a Product Manager who is responsible for failed Microservice. Additionally, it can reduce MTTR more and save other Product Managers' time. Our approach was utilizing the idea of observability and monitoring via Test Automation. We named this report as `Sebas Report`. (The name "Sebas" is derived from a famous butler like Jenkins.)
 
 After the release of Sebas Report, we started promoting Karate and Sebas Report company-wide. Additionally, we started recommending to each product development team to utilize not only reducing MTTR, but reducing lead time for changes, and increasing deployment frequency as KPIs to measure improvement and productivity. I utilized the idea of [Four Key Metrics](https://www.thoughtworks.com/radar/techniques/four-key-metrics) as a way of contribution of our business. After those activities, some teams stopped blindly relying on Quality Assurance Engineers and enhanced the ratio of Developer Testing.
 <br />
@@ -225,6 +225,14 @@ After the release of Sebas Report, we started promoting Karate and Sebas Report 
 
 
 ### RETROSPECTIVE
+We expanded our activities toward engineering management improvement based on decision makers' demands. Additionally, we experimented new ideas like Learning Session and utilizing Test Automation for resiliency. Through those activities, we have been redefining our goals and responsibilities based on continuous experiments to contribute to our business. We can say we transformed us as a team of `Transformational Leaders`.
+<br />
+<br />
+<br />
+
+
+
+## 5. LESSONS LEARNED
 We can say we overcome? the role from Testing to Transformational Leaders.
 `Redefined our goals and responsibilities as a team of Transformational Leaders`
 - Show results iteratively
@@ -237,17 +245,6 @@ We can say we overcome? the role from Testing to Transformational Leaders.
     - 全体を追うという意味でのpracticeを確立していく必要性
     - 「技術で他者を責める」から、「他者を繋いでいく」方向へシフトさせていく
 
-
-On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers.
--> `Productivity Engineering`
-
-<br />
-<br />
-<br />
-
-
-
-## 5. LESSONS LEARNED
 - Changing the difinition & responsibility of "SET"
     - Google由来のロールだが、「SET」という単語にはローカル性がある。
     - テスト自動化だけではなく、プロセス改善、全社のプラスになることの実施へと、やっていることを広げていっている。
@@ -270,7 +267,7 @@ On the other hand, we named our role as "Software Engineer in Test". The word "T
 ⭐️
 Build quality in is becoming common for some services/products.
 Make testing Microservices easier by tools (Karate), process improvements, new KPIs, and so on.
-
+`Productivity Engineers`.
 
 ⭐️どう料理するか？
 - "Feature Team” だけで十分か？（特に組織論）
