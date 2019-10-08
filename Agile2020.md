@@ -219,20 +219,7 @@ At first, we started combining Karate framework with [Zipkin](https://zipkin.io/
 
 Our approach was to show tracing information of each Microservice on our test report by adding Zipkin's trace ids to call APIs to test. This test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids. It means that we can pinpoint a Product Manager who is responsible for failed Microservice. Additionally, it can reduce MTTR more and save other Product Managers' time. Our approach was utilizing the idea of obervability and monitoring via Test Automation. We named this report as `Sebas Report`. (The name "Sebas" is derived from a famous butler like Jenkins.)
 
-
-⭐️The second one was guiding fast release and reducing MTTR rather than testing a lot before release.
-As a way of contribution of our business.
-
-- Utilizing Karate and Sebas Report
-- Coaching product development team focusing more on release.
-
-Recommended to utilize reducing lead time & reducing MTTR as KPI to measure improvement and productivity.
-
-I followed the idea of [Four Key Metrics](https://www.thoughtworks.com/radar/techniques/four-key-metrics)
-- Sales/Profit/Employee Satisfaction
-- Profit/Productivity/Market Share
-
-The result is not yet approved. However, clear behavior not focusing on QA before release was an impact to other teams.
+After the release of Sebas Report, we started promoting Karate and Sebas Report company-wide. Additionally, we started recommending to each product development team to utilize not only reducing MTTR, but reducing lead time for changes, and increasing deployment frequency as KPIs to measure improvement and productivity. I utilized the idea of [Four Key Metrics](https://www.thoughtworks.com/radar/techniques/four-key-metrics) as a way of contribution of our business. After those activities, some teams stopped blindly relying on Quality Assurance Engineers and enhanced the ratio of Developer Testing.
 <br />
 <br />
 
