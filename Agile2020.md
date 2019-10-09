@@ -239,45 +239,44 @@ At first, Agile methodologies worked for starting up new roles and teams. Produc
 
 Second, working closely with product development teams was very effective for improving processes and achieving missions. Just providing guidelines and references to product development teams didn't work. Showing working examples enriched communication. Technical excellence was a necessary piece to provide examples and solutions properly. We utilized technology as a communication driver, however, only technology was not enough. We should leverage communication with both technical excellence and Agile methodologies.
 
-⭐️
-Third, we need to change ourselves continuously.
+Third, it was necessary to change our responsibilities continuously. We have been changing and expanding our responsibilities from Test Automation, engineering management improvement, innovations, to Transformational Leaders. Those actions are for contributing to our business based on continuous experiments.
 
-```
-We expanded our activities toward engineering management improvement based on decision makers' demands.
-Additionally, we experimented new ideas like Learning Session and utilizing Test Automation for resiliency.
-Through those activities, we have been redefining our goals and responsibilities based on continuous experiments to contribute to our business. We can say we transformed us as a team of `Transformational Leaders`.
-```
+⭐️Summary
+Tons of problems have been there.
+
+There are a lot of persons who has technical skills but not enough problem solving skills
+- 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
+
+Microservices is useful for independent developability and deployability
+but expansion of Microservices strengthen apathy each other
+only feature team didn't work
+Hard to test, recover, and so on.
+So Need whole image
+
 
 - Beyond Quality Assurance
-    - Software Delivery (Performance)
-    - Organizational Performance/Culture
-    - 「品質」→ビジネス価値の向上・ビジネス損失の削減・DXの向上
-    - Next Engineering Management
-        - 簡潔な説明：エレベーターピッチ・User Story
-        - 継続的なインパクト：DX強化？
-
 Build quality in is becoming common for some services/products.
 Make testing Microservices easier by tools (Karate), process improvements, new KPIs, and so on.
 `Productivity Engineers`.
+    - Organizational Performance/Culture
+    - 「品質」→ビジネス価値の向上・ビジネス損失の削減・DXの向上
+- 継続的なインパクト：DX強化？
+- Team of Transformational Leaders
+    - 究極は、CTOチームとして、DXの改善＆ビジネス価値の提供を実現する
+    - "WOW DX”!
+        - persuing "WOW DX" (= Great Developer eXperience for LINERS).
+    - コンサル型では機能しなかった。実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
+    - Quality Assuranceからの脱却
 
+
+- SET/Agile は、その点で価値がある/価値を示す必要がある。
+    - 仕組みを作り、それを広める。
+    - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
 - 人材・文化の変更
     - 個々の技術を追う人間と、全体から「次のアクション」を考えリードする人間とに二分化される
     - 全体を追うという意味でのpracticeを確立していく必要性
     - 「技術で他者を責める」から、「他者を繋いでいく」方向へシフトさせていく
-
-- "Feature Team” だけで十分か？（特に組織論）
-    - MSAの適用範囲拡大と、そこへの課題認識
-        - お互いへの無関心の拡大
-        - Microservice自体の技術的難易度の増大
-        - 全体像の把握・全体最適の発想の欠如
-
-⭐️Summary
-- 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
-    - SET/Agile は、その点で価値がある/価値を示す必要がある。
-    - 仕組みを作り、それを広める。
-    - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
-- Contribute to our business with continuous experiments
-    - Experience success with new ways
+- We can say we transformed us as a team of `Transformational Leaders`.
 <br />
 <br />
 <br />
