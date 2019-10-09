@@ -15,8 +15,8 @@ This report is about why and how we are becoming a team of [Transformational Lea
     - Service/Product<br />
     - Decision makers<br />
     - SET team (not SET Team)<br />
-- ⭐️なぜ・どうやって・どういう成果が出たかを意識して書き続ける<br />
 - ⭐️時制を念の為確認<br />
+- ⭐️Iとweとを使い分けているがどうなんだべ？<br />
 <br />
 
 
@@ -233,34 +233,20 @@ We expanded our activities toward engineering management improvement based on de
 
 
 ## 5. LESSONS LEARNED
-⭐️
-At first, Agile methodologies worked for starting up new roles and teams.
-- Product Discovery
-- Iterative and incremental consensus
-- Show results iteratively
-    - Especially to stakeholders
-- Experience success with new ways
+Throught those series of activities, we learned three new ideas.
 
-⭐️
-Second, working closely with product development teams is very effective for `achieving mission?` and improving processes.
-- Just guidelines and references didn't work
-    - Need to work with members
+At first, Agile methodologies worked for starting up new roles and teams. Product Discovery, Iterative and Incremental Consensus, and showing results iteratively attracted colleagues and decision makers. It helped SET team's starting up a lot.
 
-- Need technical excellence. But only technology is not enough.
-- Only technology does not solve all issues
-    - 技術的側面から切り込む必要があるので、技術力も必須。しかし技術によりすぎてもダメ。
-    - Necessary to implement product & test properly (to make awesome)    
-    - Use technology as a communication driver is good.
-    - 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
-        - SET/Agile は、その点で価値がある/価値を示す必要がある。
-    - ベンチャーであれば、Technical Excellence のみで乗り切れる部分もあるが、expansion/ongoing では無理がある。
-        - 仕組みを作り、それを広める。
-        - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
-
-- Contribute to our business with continuous experiments
+Second, working closely with product development teams was very effective for improving processes and achieving missions. Just providing guidelines and references to product development teams didn't work. Showing working examples enriched communication. Technical excellence was a necessary piece to provide examples and solutions properly. We utilized technology as a communication driver, however, only technology was not enough. We should leverage communication with both technical excellence and Agile methodologies.
 
 ⭐️
 Third, we need to change ourselves continuously.
+
+```
+We expanded our activities toward engineering management improvement based on decision makers' demands.
+Additionally, we experimented new ideas like Learning Session and utilizing Test Automation for resiliency.
+Through those activities, we have been redefining our goals and responsibilities based on continuous experiments to contribute to our business. We can say we transformed us as a team of `Transformational Leaders`.
+```
 
 - Beyond Quality Assurance
     - Software Delivery (Performance)
@@ -284,6 +270,14 @@ Make testing Microservices easier by tools (Karate), process improvements, new K
         - お互いへの無関心の拡大
         - Microservice自体の技術的難易度の増大
         - 全体像の把握・全体最適の発想の欠如
+
+⭐️Summary
+- 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
+    - SET/Agile は、その点で価値がある/価値を示す必要がある。
+    - 仕組みを作り、それを広める。
+    - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
+- Contribute to our business with continuous experiments
+    - Experience success with new ways
 <br />
 <br />
 <br />
