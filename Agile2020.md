@@ -241,42 +241,7 @@ Second, working closely with product development teams was very effective for im
 
 Third, it was necessary to change our responsibilities continuously. We have been changing and expanding our responsibilities from Test Automation, engineering management improvement, innovations, to Transformational Leaders. Those actions are for contributing to our business based on continuous experiments.
 
-⭐️Summary
-Tons of problems have been there.
-
-There are a lot of persons who has technical skills but not enough problem solving skills
-- 技術力はあっても、課題の言語化とその解決方法に目が行かない人ばかり。
-
-Microservices is useful for independent developability and deployability
-but expansion of Microservices strengthen apathy each other
-only feature team didn't work
-Hard to test, recover, and so on.
-So Need whole image
-
-
-- Beyond Quality Assurance
-Build quality in is becoming common for some services/products.
-Make testing Microservices easier by tools (Karate), process improvements, new KPIs, and so on.
-`Productivity Engineers`.
-    - Organizational Performance/Culture
-    - 「品質」→ビジネス価値の向上・ビジネス損失の削減・DXの向上
-- 継続的なインパクト：DX強化？
-- Team of Transformational Leaders
-    - 究極は、CTOチームとして、DXの改善＆ビジネス価値の提供を実現する
-    - "WOW DX”!
-        - persuing "WOW DX" (= Great Developer eXperience for LINERS).
-    - コンサル型では機能しなかった。実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
-    - Quality Assuranceからの脱却
-
-
-- SET/Agile は、その点で価値がある/価値を示す必要がある。
-    - 仕組みを作り、それを広める。
-    - 課題発見・解決能力を持ち、施策をチームの隔てなくリードする人間が必須。
-- 人材・文化の変更
-    - 個々の技術を追う人間と、全体から「次のアクション」を考えリードする人間とに二分化される
-    - 全体を追うという意味でのpracticeを確立していく必要性
-    - 「技術で他者を責める」から、「他者を繋いでいく」方向へシフトさせていく
-- We can say we transformed us as a team of `Transformational Leaders`.
+We SET team have been finding and solving problems gradually and extensively by combining technical excellence and Agile methodologies, and adjusting our responsibilities for our business.
 <br />
 <br />
 <br />
@@ -285,6 +250,9 @@ Make testing Microservices easier by tools (Karate), process improvements, new K
 
 ## 6. WHAT'S NEXT?
 ⭐️
+Currently, we are trying to do the following things to expand our activities.
+
+
 The first one is building `Testable Infrastructure`!
 - Production-like test environment (with k8s and Containers)
 - Immutable Test Infrastructure (with k8s and Containers)
@@ -299,6 +267,7 @@ We are investigating [Testcontainers](https://www.testcontainers.org/):
 ⭐️
 The second is to organize testing ideas, terminologies, and techniques.
 - There are confusion among test automation not only for Microservices.
+- Hackathon events
 
 ⭐️
 The last one is to adopt to` Design Sprint` for Technical Problems
@@ -310,18 +279,48 @@ The last one is to adopt to` Design Sprint` for Technical Problems
 
 
 ## 7. CONCLUSIONS
+There have been lots of problems. Microservice Architecture is useful for independent develop-ability and deployability, however, it tends to strengthen apathy toward other teams and Microservices. Additionally, there are short of leaders who can find and solve problems beyond silos and teams. Moreover, quality assurance approach is not proper for solving outages of Microservices.
+
+️️⭐️
+We SET team have been solving those problems as follows.
+
+⭐At first, we aimed to overcome limitations of feature teams.
+only feature team didn't work
+Hard to test, recover, and so on.
+So Need whole image
+
+
+⭐️Second, we trained and nurtured leaders who can find problems and solve them beyond teams/silos.
+- 人材・文化の変更
+    - 個々の技術を追う人間と、全体から「次のアクション」を考えリードする人間とに二分化される
+    - 全体を追うという意味でのpracticeを確立していく必要性
+    - 「技術で他者を責める」から、「他者を繋いでいく」方向へシフトさせていく
+- SET/Agile は、その点で価値がある/価値を示す必要がある。
+SET is valuable to solve those problems by utilizing Agile, building and expanding mechanisms company-wide.
+
+⭐️Third, we built and expanded tools to overcome limitations of quality assurance.
+- Hard to test, recover, and so on.
+- Build quality in is becoming common for some services/products.
+- Make testing Microservices easier by tools (Karate), process improvements, new KPIs, and so on.
+`Productivity Engineers`.
+    - Organizational Performance/Culture -> profitability
+    - 「品質」→ビジネス価値の向上・ビジネス損失の削減・DXの向上
+- コンサル型では機能しなかった。実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
+    - working with product development teams is very important
+
+
+⭐️まとめ
 - Changing the difinition & responsibility of "SET"
-    - Google由来のロールだが、「SET」という単語にはローカル性がある。
+The word and role "SET" derived from Google. But there is a possibility to tailor.
     - テスト自動化だけではなく、プロセス改善、全社のプラスになることの実施へと、やっていることを広げていっている。
+- with continuous impacts to stakeholders
 
+SET as Leaders to strengthen Developer Experience
+- We can say we transformed us as a team of `Transformational Leaders`.
+
+- persuing "WOW DX" (= Great Developer eXperience for LINERS).
 - Team of Transformational Leaders
-    - 究極は、CTOチームとして、DXの改善＆ビジネス価値の提供を実現する
-    - "WOW DX”!
-        - persuing "WOW DX" (= Great Developer eXperience for LINERS).
-    - コンサル型では機能しなかった。実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
-    - Quality Assuranceからの脱却
-
-Business Agility in practice.
+- 究極は、CTOチームとして、DXの改善＆ビジネス価値の提供を実現する
 <br />
 <br />
 <br />
