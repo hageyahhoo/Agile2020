@@ -182,8 +182,7 @@ The third one was a doubt about testing and quality assurance. LINE Corporation 
 
 
 ### ACTIONS
-For solving those totally different challenges, we started lots of actions
-including not only Test Automation and technical ones, but also engineering management, education, innovation, and so forth.
+For solving those totally different challenges, we started lots of actions including not only Test Automation and technical ones, but also engineering management, education, innovation, and so forth.
 <br />
 
 #### 1. LEAD ENGINEERING MANAGEMENT IMPROVEMENT
@@ -233,7 +232,7 @@ We expanded our activities toward engineering management improvement based on de
 
 
 ## 5. LESSONS LEARNED
-Throught those series of activities, we learned three new ideas.
+Through those series of activities, we learned three new ideas.
 
 At first, Agile methodologies worked for starting up new roles and teams. Product Discovery, Iterative and Incremental Consensus, and showing results iteratively attracted colleagues and decision makers. It helped SET team's starting up a lot.
 
@@ -249,29 +248,20 @@ We SET team have been finding and solving problems gradually and extensively by 
 
 
 ## 6. WHAT'S NEXT?
-⭐️
-Currently, we are trying to do the following things to expand our activities.
+Currently, we have been trying and investigating the following ideas for further improvements.
 
-
-The first one is building `Testable Infrastructure`!
-- Production-like test environment (with k8s and Containers)
-- Immutable Test Infrastructure (with k8s and Containers)
-    - Reduce barriers of testing
-- Container as Mock/Test Harnesses
-    - Make testing easier
-
-We are investigating [Testcontainers](https://www.testcontainers.org/):
-- [Immutable and disposable RDBMS for testing](https://www.testcontainers.org/modules/databases/)
-- [E2E Testing with WebDriver](https://www.testcontainers.org/modules/webdriver_containers/)
+The first one is building `Testable and Disposable Infrastructure`. Currently, we don't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for misoperating and misconfiguring. It becomes a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and it's orchestration mechanism with Docker and Kubernetes for making testing easier without fear. We are aiming to provide immutable and disposable containers, and a way of building their relationships easily. We named this idea and mechanism as Testable and Disposable Infrastructure. As a preparation, we are adapting to [Testcontainers](https://www.testcontainers.org/) for testing persistence layer like RDBMS and NoSQL.
 
 ⭐️
 The second is to organize testing ideas, terminologies, and techniques.
 - There are confusion among test automation not only for Microservices.
 - Hackathon events
+    Held hackathon events for Karate and some teams could implement tests for their APIs within 2 hours.
 
 ⭐️
-The last one is to adopt to` Design Sprint` for Technical Problems
-- Agile2021で話す予定なので軽めに
+The last one is to adopt to `Design Sprint` for Technical Problems.
+lots of problems and solutions. But it depends on each product and team's culture.
+Therefore, we continue inspect and adapt approach to test and find proper ways by utilizing the idea `Design Sprint`.
 <br />
 <br />
 <br />
