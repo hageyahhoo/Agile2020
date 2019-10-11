@@ -94,7 +94,7 @@ Here is a list of achievements for my first 10 weeks.
 
 When I had been managing impacts, I utilized `3 KPIs`; Sales, Profit, and Employee Satisfaction. When I had worked at Rakuten, one of senior executives and my supervisor had taught me that every business can measure with this 3 KPIs. After that, I have been utilizing it for all activities.
 
-Here are examples. I chose all activities as SET for improving Sales and Profit. I implemented test scripts for reducing MTTR, not only for expanding test automation. Additionally, I picked up actions that could affect Employee Satisfaction. For decision makers, I focused on discovering and verbalizing their anxieties, and providing quantitative information. For Developers and QAs, I tried to stimulate appetites for learning.
+Here are examples. I chose all activities as SET for improving Sales and Profit. I implemented test scripts for reducing MTTR, not only for expanding Test Automation. Additionally, I picked up actions that could affect Employee Satisfaction. For decision makers, I focused on discovering and verbalizing their anxieties, and providing quantitative information. For Developers and QAs, I tried to stimulate appetites for learning.
 
 As a result, many colleagues started talking about SET. Their interests in SET led collaboration with product development teams, QAs/Test Automators, and Product Managers. It meant I could lead problem-solving beyond silos. Additionally, decision makers started supporting SET activities positively. Quick agreement on the first solution and milestones of SET was a good sign.
 <br />
@@ -250,18 +250,11 @@ We SET team have been finding and solving problems gradually and extensively by 
 ## 6. WHAT'S NEXT?
 Currently, we have been trying and investigating the following ideas for further improvements.
 
-The first one is building `Testable and Disposable Infrastructure`. Currently, we don't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for misoperating and misconfiguring. It becomes a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and it's orchestration mechanism with Docker and Kubernetes for making testing easier without fear. We are aiming to provide immutable and disposable containers, and a way of building their relationships easily. We named this idea and mechanism as Testable and Disposable Infrastructure. As a preparation, we are adapting to [Testcontainers](https://www.testcontainers.org/) for testing persistence layer like RDBMS and NoSQL.
+The first one is building `Testable and Disposable Infrastructure`. Currently, we don't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It becomes a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism with Docker and Kubernetes for making testing easier without fear. We are aiming to provide immutable and disposable containers, and a way of building their relationships easily. We named this idea and mechanism as "Testable and Disposable Infrastructure". As a preparation, we are adapting to [Testcontainers](https://www.testcontainers.org/) for testing persistence layer like RDBMS and NoSQL.
 
-⭐️
-The second is to organize testing ideas, terminologies, and techniques.
-- There are confusion among test automation not only for Microservices.
-- Hackathon events
-    Held hackathon events for Karate and some teams could implement tests for their APIs within 2 hours.
+The second one is to organize ideas, terminology, and techniques of Test Automation. There are lots of confusion about the difference among Unit Testing, Integration Testing, API Testing, End-to-end Testing, and so on. It is more than Microservices. Therefore, we started summing up those points as a guideline and reference implementations. We clarified how to distinguish Test Levels and design each test as a guideline. Additionally, we implemented and shared reference implementations of them company-wide. Moreover, we held Hackathon events for teaching Karate. At the first event, attendees could implement tests for their product's APIs within 2 hours.
 
-⭐️
-The last one is to adopt to `Design Sprint` for Technical Problems.
-lots of problems and solutions. But it depends on each product and team's culture.
-Therefore, we continue inspect and adapt approach to test and find proper ways by utilizing the idea `Design Sprint`.
+The last one is experimenting `Design Sprint` for solving complex technical problems at a brownfield product. We have been working with one product development team which develops and operates mature product. There are lots of problems, ideas to solve them, and huge confusion. To clarify each problem, prioritize each idea, and experiment whether the idea is valuable or not, we started utilizing an idea named Design Sprint. We try new ideas within 1-week cycle. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation approach until solving problems. Currently, this team is adapting to Testcontainers and "Testable and Disposable Infrastructure" with this approach.
 <br />
 <br />
 <br />
