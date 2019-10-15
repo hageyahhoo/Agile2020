@@ -270,29 +270,13 @@ At first, we aim to overcome limitations of feature teams for Microservice Archi
 
 Second, we train and nurture leaders who can find problems and solve them beyond teams and silos. LINE Corporation has lots of excellent software engineers. However, there are few leaders. Only technical excellence cannot tame complexity of Microservice Architecture and our business. SET team is effective for nurturing these leaders by utilizing both technical skills and Agile methodologies.
 
-⭐️Third, we built and expanded tools to overcome limitations of quality assurance.
-- Hard to test, recover, and so on.
-- Build quality in is becoming common for some services/products.
-- Make testing Microservices easier by tools (Karate), process improvements, new KPIs, and so on.
-`Productivity Engineers`.
-    - Organizational Performance/Culture -> profitability
-    - 「品質」→ビジネス価値の向上・ビジネス損失の削減・DXの向上
-- コンサル型では機能しなかった。実際のツール・開発で実践して価値を出し続ける事が肝要ではないか？
-    - working with product development teams is very important
+Third, we have been building and expanding tools, process improvements, and new KPIs to get over limitations of quality assurance. The combination of Karate framework and Sebas Report makes testing and recovering Microservices easier. Additionally, the idea of "build quality in" is becoming common for some services/products. Focusing on profitability and MTTR rather than the number of bug detection before releases works now in organizational performance and culture perspective.
 
+SET is derived from Google. This role is responsible for enhancing productivity of engineers by utilizing test automation, automation infrastructure, and process improvements in Google. SET in LINE Corporation tried to start from this definition. However, we have been changing responsibilities continuously for pursuing contribution to our company's business performance. We have been expanding our responsibility from Test Automation to company-wide process improvements with continuous impacts to stakeholders.
 
-⭐️まとめ
-- Changing the difinition & responsibility of "SET"
-The word and role "SET" derived from Google. But there is a possibility to tailor.
-    - テスト自動化だけではなく、プロセス改善、全社のプラスになることの実施へと、やっていることを広げていっている。
-- with continuous impacts to stakeholders
-
-SET as Leaders to strengthen Developer Experience
-- We can say we transformed us as a team of `Transformational Leaders`.
-
-- persuing "WOW DX" (= Great Developer eXperience for LINERS).
-- Team of Transformational Leaders
-- 究極は、CTOチームとして、DXの改善＆ビジネス価値の提供を実現する
+Currently, we are transforming ourselves as a team of Transformational Leaders.
+Our latest mission is "WOW DX" (⭐️), achieving a great Developer eXperience
+for all of product development team members and stakeholders in LINE Corporation with automation techniques and Agile methodologies. We continue to pursue improving all of our business relentlessly.
 <br />
 <br />
 <br />
