@@ -1,0 +1,74 @@
+
+Proposal
+https://submissions.agilealliance.org/agile2020/sessions/11481
+
+
+Rule
+https://www.agilealliance.org/agile2020/submission-process/#great-submissions
+
+
+# Title
+Growing and Expanding Transformational Leaders Team with Experiments
+
+# Presenter
+Hiroyuki Ito
+
+# Co-Presenter
+-
+
+
+# Featured Participants
+⭐️
+
+
+# Track
+Experience Report
+
+# Session Type
+Talk
+
+# Audience Level
+Practicing
+
+# Room Setup
+No Preference
+
+# Maximum Desired Attendees
+30
+
+# Duration
+30 minutes
+
+
+# Keywords
+⭐️
+
+
+# Abstract
+⭐️
+Since I joined LINE Corporation as the first member of “SET” (Software Engineer in Test) in 2017, we have been solving a variety of software and organizational problems.
+Through these achievements, we have been adjusting our responsibilities from software quality to software delivery, profitability, and organizational processes.
+This report is about why and how we are becoming a team of Transformational Leaders that is responsible for software delivery performance and organizational culture based on experiments.
+
+
+# Lessons Learned from Your Experience
+⭐️
+
+
+# Information about the Experience
+⭐️
+
+
+# Presentation History
+⭐️
+- Regional Scrum Gathering Tokyo 2020
+- DevOps Days Taipei 2019
+- DevOps Days Tokyo 2018
+- Regional Scrum Gathering Tokyo 2017
+- Regional Scrum Gathering Tokyo 2016
+- DevOps Summit 2016 (Chinese Taipei, Keynote Speaker)
+- Agile2014 (Experience Report)
+
+
+# Presentation Sample
+⭐️
