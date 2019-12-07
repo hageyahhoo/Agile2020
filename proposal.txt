@@ -2,13 +2,16 @@
 Proposal
 https://submissions.agilealliance.org/agile2020/sessions/11481
 
-
 Rule
 https://www.agilealliance.org/agile2020/submission-process/#great-submissions
 
 
+
 # Title
 Growing and Expanding Transformational Leaders Team with Experiments
+⭐️Team of Transformational Leaders: Growing and Expanding with Experiments
+
+
 
 # Presenter
 Hiroyuki Ito
@@ -16,10 +19,8 @@ Hiroyuki Ito
 # Co-Presenter
 -
 
-
 # Featured Participants
-⭐️
-
+-
 
 # Track
 Experience Report
@@ -40,8 +41,18 @@ No Preference
 30 minutes
 
 
+
 # Keywords
 ⭐️
+SET
+Developer Testing
+Test Automation
+DevOps
+Product Discovery
+Iterative and Incremental Consensus
+Developer Experience
+Learning Session
+
 
 
 # Abstract
@@ -51,12 +62,61 @@ Through these achievements, we have been adjusting our responsibilities from sof
 This report is about why and how we are becoming a team of Transformational Leaders that is responsible for software delivery performance and organizational culture based on experiments.
 
 
+🔵
+The abstract is the marketing content for your session.
+Design it to persuade people to attend.
+Many good abstracts begin with a startling statement or compelling question.
+Defining a problem statement and making a call to action can be an effective technique.
+Great abstracts draw on readers’ emotions,
+such as appealing to a pain they are feeling or an idea about which they are excited.
+
+To do this, you need to understand your primary audience.
+Communicating directly to them is key to a good submission.
+Although there is a dropdown list to select audience level,
+include details here such as,
+“This session is targeted at senior managers inside the company
+who want to introduce XP and Scrum but are not sure how to get started.”
+
+Consider providing a description of your presentation format, exercises, or activities you intend to include.
+This helps attendees understand what to expect at your session and decide
+whether it will be valuable to them.
+
+Above all, ensure your abstract is well-written and your ideas are clearly articulated.
+It should be free of grammatical and spelling mistakes.
+
+
+
 # Lessons Learned from Your Experience
 ⭐️
+Agile methodology with Technical Excellence is very important + contribution to business
+
+🔵
+Learning outcomes is simply a brief list of 3-5 clear takeaways
+that attendees will be able to do as a result of attending your session.
+They should not suggest what attendees will take back to work,
+but what they learned or practiced within the session.
+
+To construct them well, ask yourself the specific topics you are addressing. For example:
+
+Lots of WIP sources
+What happens with excess WIP
+There are tools to increase focus
+
+Now you want to assign a level of action you think they could achieve as a result of attending your session:
+- IDENTIFY various sources of WIP
+- ARTICULATE the impact of excess WIP
+- APPLY simple tools to create focus
+
+This clarity will allow your potential attendees have a very clear understanding of
+what they will get from the session so that they can better prioritize the sessions
+they attend based on their needs.
+
 
 
 # Information about the Experience
 ⭐️
+Changing ourselves with experiments
+
 
 
 # Presentation History
@@ -70,5 +130,37 @@ This report is about why and how we are becoming a team of Transformational Lead
 - Agile2014 (Experience Report)
 
 
+🔵
+Tell your story with specifics.
+Help reviewers get a sense of your speaking style.
+Are you a seasoned speaker or are you new to presenting?
+Providing a link to a video clip of you presenting,
+even on another topic – this could be very helpful to the reviewers.
+
+
+
 # Presentation Sample
+⭐️Videoのリンクらしい
+
+
+
+# Information for the Program Team
 ⭐️
+
+🔵
+This part of the submission form is used to provide details
+that will help the reviewers and program team better understand your session.
+The details included in this area will not be published to the online schedule
+so you don’t need to be formal in your language or writing style.
+
+This section should describe the mechanics of what you want to do in the session.
+It should include timings, outlines, exercises, etc.
+– anything that helps the review team understand your thinking behind the session
+and how you will manage it.
+
+Additionally, if you have given this presentation before, please provide a link to the video,
+slide deck, handouts or anything else that would help the review team better understand
+the context of what you would be presenting.
+
+Please note if this is a new presentation and explain what it is that is inspiring you
+to submit it for this conference.
