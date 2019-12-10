@@ -2,7 +2,7 @@
 Proposal
 https://submissions.agilealliance.org/agile2020/sessions/11481
 
-Rule
+Example
 https://www.agilealliance.org/agile2020/submission-process/#great-submissions
 
 
@@ -62,38 +62,31 @@ Additionally, I will tell you the importance of updating ourselves continuously 
 After this talk, you will understand a value, strength, and possibility of becoming a team of Transformational Leaders!
 
 
-
 # Lessons Learned from Your Experience
-⭐️
-Agile methodology with Technical Excellence is very important + contribution to business
-For overcoming these situations, you need to update yourselves continuously to meet your moving goals.
+- Agile methodologies and techniques work for starting up new roles and teams. Especially, Product Discovery, Iterative and Incremental Consensus, and showing results iteratively are very powerful techniques for attracting colleagues and decision makers.
+- Working closely with product development teams is very effective for improving processes and achieving missions as an SET and/or an Agile Coach. Showing working examples enriched communication rather than just providing guidelines and references. Moreover, struggling with the same problems, considering solutions, and solving them by working together constructs real collaborative relationships with product development teams.
+- It is necessary to adjust my/our responsibilities continuously to meet my/our moving goals based on continuous experiments. Finding and solving problems gradually and extensively by combining technical excellence and Agile methodologies for contributing to our business is a key to success.
 
-🔵
-Learning outcomes is simply a brief list of 3-5 clear takeaways
-that attendees will be able to do as a result of attending your session.
-They should not suggest what attendees will take back to work,
-but what they learned or practiced within the session.
-
-To construct them well, ask yourself the specific topics you are addressing. For example:
-
-Lots of WIP sources
-What happens with excess WIP
-There are tools to increase focus
-
-Now you want to assign a level of action you think they could achieve as a result of attending your session:
-- IDENTIFY various sources of WIP
-- ARTICULATE the impact of excess WIP
-- APPLY simple tools to create focus
-
-This clarity will allow your potential attendees have a very clear understanding of
-what they will get from the session so that they can better prioritize the sessions
-they attend based on their needs.
 
 
 
 # Information about the Experience
+Details about you and your role and some key highlights of your experience
+that you want to write about.
+
 ⭐️
-For overcoming these situations, you need to update yourselves continuously to meet your moving goals.
+First SET in LINE Corporation.
+1) Define responsibility
+2) Expand actions by working with product development Team
+3) Expand activities out of SET's responsibilities
+
+For overcoming these situations,
+you need to update yourselves continuously to meet your moving goals.
+iterative experiments
+
+
+Additionally, I will tell you the importance of updating ourselves continuously with our concrete experiences and examples: from software quality to software delivery, profitability, and organizational processes.
+After this talk, you will understand a value, strength, and possibility of becoming a team of Transformational Leaders!
 
 
 
@@ -129,6 +122,49 @@ Help reviewers get a sense of your speaking style.
 Are you a seasoned speaker or are you new to presenting?
 Providing a link to a video clip of you presenting,
 even on another topic – this could be very helpful to the reviewers.
+
+
+🔵
+I presented this workshop at SDEC 2013 (InfoQ recorded it - see the link below), Agile Tour
+Montreal 2013 and Gatineau Ottawa Agile Tour 2013, and offered a subset of the games from it
+at a session at Agile Coach Camp US 2014.
+I have offered workshops in using playful techniques to do serious work at Agile Tour Montreal
+2014, Gatineau Ottawa Agile Tour 2014, Agile Coach Camp US 2014, Agile Coach Camp Spain
+2014, Agile Coach Camp Canada 2014, Agile India 2014, Agile Games 2014 (Cambridge MA),
+Play4Agile 2014 (Frankfurt), SDEC 2013 (Winnipeg MB), Agile Day NYC 2012
+http://www.infoq.com/author/Ellen-Grove
+
+
+🔵
+This workshop history:
+• Agile Game Night (a local meetup in KC) - 2/21/2019
+• Lean Agile US - scheduled 2/26/2019
+• Agile Games New England - scheduled 4/2019
+I have presented several sessions at conferences about experiential learning prior to this.
+Highlights include:
+• "Good Games Gone Bad" - in which the section about debriefing was called out as
+very meaningful by several attendees - at Agile Midwest, Scrum Gathering Dublin
+and Agile Games New England
+• "Brain Based Science" deep dive at Agile Games New England 2018.
+• "Never Would I Ever" at Agile 2018, Path to Agility, Kansas City Developer
+Conference
+I spend A LOT of times thinking about and playing games (experiential learning!)
+• I host Agile Games Night (Games for Agility, Learning and Engagement) in Kansas
+City. I get to practice games (and debriefing!) frequently! That being said, I am very
+cognizant of when/where/why to promote game play for learning and will include
+that insight in the presentation.
+• I am certified to teach a Master Game Design through Innovation Games/Conteneo.
+• I am a licensed Agile Fluency Game facilitator
+I was a first time presenter at Agile2018 conference last year! In addition, I am a frequent
+speaker at many conferences including Path to Agility, AgileGames, Lean Agile US, Big Apple
+Scrum Day and Scrum Gathering Dublin. You can see a full list of sessions at
+http://www.blueshiftinnovation.com/jenny-tarwater/.
+Presentation Sample (the very first slides of this workshop are attached in the Presentation
+Sample.)
+• I don't have a video of my previous speaking, but I do talk about games in this
+podcast: (I'd skip ahead to 1:55) http://bit.ly/2SwCI9e
+
+
 
 
 
