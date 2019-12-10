@@ -80,82 +80,25 @@ From the start of my career in LINE Corporation, I have been solving a variety o
 
 
 
-
 # Presentation History
-⭐️
-- Regional Scrum Gathering Tokyo 2020
-  https://confengine.com/regional-scrum-gathering-tokyo-2020/proposal/11774/set-
-- DevOps Days Taipei 2019
-  https://devopsdays.tw/index.html
-  https://speakerdeck.com/line_developers/build-self-organized-team-through-test-automation-with-karate
-  https://speakerdeck.com/line_developers/learning-session-in-practice
-  https://engineering.linecorp.com/ja/blog/devops-days-taipei-2019-report/
-- DevOps Days Tokyo 2018
-  https://confengine.com/devopsdays-tokyo-2018/proposal/6270/-line-
-  https://www.slideshare.net/linecorp/line-94842564
-- Regional Scrum Gathering Tokyo 2017
-  https://www.slideshare.net/ssuser968fab/ss-70489058
-  http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2017/03/Hiroyuki-Ito.pdf
-- Regional Scrum Gathering Tokyo 2016
-  Same as Agile2014
-- DevOps Summit 2016 (Chinese Taipei, Keynote Speaker)
-  http://devopssummit.ithome.com.tw/
-  https://www.slideshare.net/ssuser968fab/shake-up-the-culture-with-automation
-- Agile2014 (Experience Report)
-  https://agile2014.sched.com/event/356d50c44035cafe4c27c33da03c2b80?iframe=no&w=100&sidebar=yes&bg=no#.U1nOGPl_tqV
-  https://www.agilealliance.org/wp-content/uploads/2015/12/ExperienceReport.2014.Ito_.pdf
-  https://www.slideshare.net/ssuser968fab/technology-drivendevelopment-forslideshare-38323907
+I presented at Agile 2014 titled "Technology-Driven/Development" in Experience Report track.
 
+Since Agile 2014, I have presented several sessions at conferences about Agile Metrics and utilizing technical excellence for "successful" Agile adoption.
+Additionally, I have held several workshops about Agile Metrics and Learning Session.
 
-🔵
-Tell your story with specifics.
-Help reviewers get a sense of your speaking style.
-Are you a seasoned speaker or are you new to presenting?
-Providing a link to a video clip of you presenting,
-even on another topic – this could be very helpful to the reviewers.
-
-
-🔵
-I presented this workshop at SDEC 2013 (InfoQ recorded it - see the link below), Agile Tour
-Montreal 2013 and Gatineau Ottawa Agile Tour 2013, and offered a subset of the games from it
-at a session at Agile Coach Camp US 2014.
-I have offered workshops in using playful techniques to do serious work at Agile Tour Montreal
-2014, Gatineau Ottawa Agile Tour 2014, Agile Coach Camp US 2014, Agile Coach Camp Spain
-2014, Agile Coach Camp Canada 2014, Agile India 2014, Agile Games 2014 (Cambridge MA),
-Play4Agile 2014 (Frankfurt), SDEC 2013 (Winnipeg MB), Agile Day NYC 2012
-http://www.infoq.com/author/Ellen-Grove
-
-
-🔵
-This workshop history:
-• Agile Game Night (a local meetup in KC) - 2/21/2019
-• Lean Agile US - scheduled 2/26/2019
-• Agile Games New England - scheduled 4/2019
-I have presented several sessions at conferences about experiential learning prior to this.
 Highlights include:
-• "Good Games Gone Bad" - in which the section about debriefing was called out as
-very meaningful by several attendees - at Agile Midwest, Scrum Gathering Dublin
-and Agile Games New England
-• "Brain Based Science" deep dive at Agile Games New England 2018.
-• "Never Would I Ever" at Agile 2018, Path to Agility, Kansas City Developer
-Conference
-I spend A LOT of times thinking about and playing games (experiential learning!)
-• I host Agile Games Night (Games for Agility, Learning and Engagement) in Kansas
-City. I get to practice games (and debriefing!) frequently! That being said, I am very
-cognizant of when/where/why to promote game play for learning and will include
-that insight in the presentation.
-• I am certified to teach a Master Game Design through Innovation Games/Conteneo.
-• I am a licensed Agile Fluency Game facilitator
-I was a first time presenter at Agile2018 conference last year! In addition, I am a frequent
-speaker at many conferences including Path to Agility, AgileGames, Lean Agile US, Big Apple
-Scrum Day and Scrum Gathering Dublin. You can see a full list of sessions at
-http://www.blueshiftinnovation.com/jenny-tarwater/.
-Presentation Sample (the very first slides of this workshop are attached in the Presentation
-Sample.)
-• I don't have a video of my previous speaking, but I do talk about games in this
-podcast: (I'd skip ahead to 1:55) http://bit.ly/2SwCI9e
 
+# Presentations
+- "Conquer CI Server!" at Agile Japan 2015
+- "Shake up the Culture with Automation!" at DevOps Summit 2016 in Chinese Taipei as a keynote speaker
+- "A Practical Guide for Agile Metrics" at Regional Scrum Gathering Tokyo 2017
+- "The Truth of Improvements in LINE Corporation" at DevOps Days Tokyo 2018
+- "Build Self-Organized Team through Test Automation with Karate" at DevOps Days Taipei 2019
+- "SET Team as A Special Task Force: A Practical Guide for Agile Adoption by Combining Technical Excellence and Experiments" at Regional Scrum Gathering Tokyo 2020
 
+# Workshops
+- "Visualize It! with Agile Metrics" at Agile Japan 2017
+- "Learning Session in Practice" at DevOps Days Taipei 2019
 
 
 
