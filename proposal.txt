@@ -8,10 +8,7 @@ https://www.agilealliance.org/agile2020/submission-process/#great-submissions
 
 
 # Title
-Growing and Expanding Transformational Leaders Team with Experiments
-⭐️Team of Transformational Leaders: Growing and Expanding with Experiments
-
-
+Team of Transformational Leaders: Growing and Expanding with Experiments
 
 # Presenter
 Hiroyuki Ito
@@ -41,54 +38,35 @@ No Preference
 30 minutes
 
 
-
 # Keywords
-⭐️
 SET
+Software Engineer in Test
+Product Discovery
+Iterative and Incremental Consensus
 Developer Testing
 Test Automation
 DevOps
-Product Discovery
-Iterative and Incremental Consensus
-Developer Experience
+XP
 Learning Session
-
+Developer Experience
 
 
 # Abstract
-⭐️
-Since I joined LINE Corporation as the first member of “SET” (Software Engineer in Test) in 2017, we have been solving a variety of software and organizational problems.
-Through these achievements, we have been adjusting our responsibilities from software quality to software delivery, profitability, and organizational processes.
-This report is about why and how we are becoming a team of Transformational Leaders that is responsible for software delivery performance and organizational culture based on experiments.
+If you need to start totally new activities (like Agile Adoption) in your organization, what should you do at first? You may face with discrepancies of objectives and responsibilities for your activities among stakeholders. Moreover, you may discover hidden needs that stakeholders haven't distinguished yet. When you are proceeding entirely new approaches and actions, it is inevitable to face a wide variety of challenges continuously. For instance, your activities may not work as you expected. Your supervisor may request you to expand your activities beyond your responsibilities.
 
+For overcoming these situations, you need to update yourselves continuously to meet your moving goals.
 
-🔵
-The abstract is the marketing content for your session.
-Design it to persuade people to attend.
-Many good abstracts begin with a startling statement or compelling question.
-Defining a problem statement and making a call to action can be an effective technique.
-Great abstracts draw on readers’ emotions,
-such as appealing to a pain they are feeling or an idea about which they are excited.
+In this talk, I will provide you clear experiences and patterns for solving problems by combining Technical excellence, Agile methodologies, and iterative experiments as SET in LINE Corporation.
+Additionally, I will tell you the importance of updating ourselves continuously with our concrete experiences and examples: from software quality to software delivery, profitability, and organizational processes.
 
-To do this, you need to understand your primary audience.
-Communicating directly to them is key to a good submission.
-Although there is a dropdown list to select audience level,
-include details here such as,
-“This session is targeted at senior managers inside the company
-who want to introduce XP and Scrum but are not sure how to get started.”
-
-Consider providing a description of your presentation format, exercises, or activities you intend to include.
-This helps attendees understand what to expect at your session and decide
-whether it will be valuable to them.
-
-Above all, ensure your abstract is well-written and your ideas are clearly articulated.
-It should be free of grammatical and spelling mistakes.
+After this talk, you will understand a value, strength, and possibility of becoming a team of Transformational Leaders!
 
 
 
 # Lessons Learned from Your Experience
 ⭐️
 Agile methodology with Technical Excellence is very important + contribution to business
+For overcoming these situations, you need to update yourselves continuously to meet your moving goals.
 
 🔵
 Learning outcomes is simply a brief list of 3-5 clear takeaways
@@ -115,19 +93,34 @@ they attend based on their needs.
 
 # Information about the Experience
 ⭐️
-Changing ourselves with experiments
+For overcoming these situations, you need to update yourselves continuously to meet your moving goals.
 
 
 
 # Presentation History
 ⭐️
 - Regional Scrum Gathering Tokyo 2020
+  https://confengine.com/regional-scrum-gathering-tokyo-2020/proposal/11774/set-
 - DevOps Days Taipei 2019
+  https://devopsdays.tw/index.html
+  https://speakerdeck.com/line_developers/build-self-organized-team-through-test-automation-with-karate
+  https://speakerdeck.com/line_developers/learning-session-in-practice
+  https://engineering.linecorp.com/ja/blog/devops-days-taipei-2019-report/
 - DevOps Days Tokyo 2018
+  https://confengine.com/devopsdays-tokyo-2018/proposal/6270/-line-
+  https://www.slideshare.net/linecorp/line-94842564
 - Regional Scrum Gathering Tokyo 2017
+  https://www.slideshare.net/ssuser968fab/ss-70489058
+  http://www.washi.cs.waseda.ac.jp/wp-content/uploads/2017/03/Hiroyuki-Ito.pdf
 - Regional Scrum Gathering Tokyo 2016
+  Same as Agile2014
 - DevOps Summit 2016 (Chinese Taipei, Keynote Speaker)
+  http://devopssummit.ithome.com.tw/
+  https://www.slideshare.net/ssuser968fab/shake-up-the-culture-with-automation
 - Agile2014 (Experience Report)
+  https://agile2014.sched.com/event/356d50c44035cafe4c27c33da03c2b80?iframe=no&w=100&sidebar=yes&bg=no#.U1nOGPl_tqV
+  https://www.agilealliance.org/wp-content/uploads/2015/12/ExperienceReport.2014.Ito_.pdf
+  https://www.slideshare.net/ssuser968fab/technology-drivendevelopment-forslideshare-38323907
 
 
 🔵
@@ -140,27 +133,4 @@ even on another topic – this could be very helpful to the reviewers.
 
 
 # Presentation Sample
-⭐️Videoのリンクらしい
-
-
-
-# Information for the Program Team
-⭐️
-
-🔵
-This part of the submission form is used to provide details
-that will help the reviewers and program team better understand your session.
-The details included in this area will not be published to the online schedule
-so you don’t need to be formal in your language or writing style.
-
-This section should describe the mechanics of what you want to do in the session.
-It should include timings, outlines, exercises, etc.
-– anything that helps the review team understand your thinking behind the session
-and how you will manage it.
-
-Additionally, if you have given this presentation before, please provide a link to the video,
-slide deck, handouts or anything else that would help the review team better understand
-the context of what you would be presenting.
-
-Please note if this is a new presentation and explain what it is that is inspiring you
-to submit it for this conference.
+-
