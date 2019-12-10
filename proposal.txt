@@ -49,6 +49,7 @@ DevOps
 XP
 Learning Session
 Developer Experience
+Karate
 
 
 # Abstract
