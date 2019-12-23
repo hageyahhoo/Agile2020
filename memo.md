@@ -74,3 +74,59 @@ After this talk, you will understand a value, strength, and possibility of becom
         - Business Agility...
     - プロダクトとチームの2つを成果物とする
         - "Scrum has two products: the deliverable and the team." (A Scrum Book)
+
+
+
+
+# [TODO] 論文のAbstract
+Since I joined LINE Corporation as the first member of “SET” (Software Engineer in Test) in 2017, team members and I have been solving a variety of software and organizational problems.
+Through these achievements, we have been adjusting our responsibilities from software quality to software delivery, profitability, and organizational processes.
+This report is about why and how we have been becoming a team of Transformational Leaders [1] that is responsible for software delivery performance and organizational culture [2] based on experiments.
+
+
+# New
+In this experience report,
+I explain ideas to
+
+- ゼロから組織を作って改善を行った経験・事例・方法論
+    - Solved critical issues by combining Agile and Tech in LINE
+    - solve problems widely
+- in a chaotic situation
+- at strongly technology-oriented company
+- without Agile and leaders who can improve process beyond teams.
+- apathy among each other
+
+- Ways
+    - Create a workspace?
+    - work with teams
+    - contribute to the company/organization/business widely
+
+
+
+Since I joined LINE Corporation as the first member of “SET” (Software Engineer in Test) in 2017, team members and I have been solving a variety of software and organizational problems.
+
+
+
+Since 2017, LINE Corporation had been struggling with increasing outages
+gave negative impacts to users and company's profit.
+
+
+However, there were few persons who took initiatives to improve those problems beyond teams and products.
+
+On the other hand, LINE Corporation has strong tech enthusiasm without process improvements.
+
+Therefore, I joined LINE Corporation as the first SET based on my Agile experience.
+
+
+
+## 2014
+In this experience report, I present a new practice called “Technology-Driven Development”. “Technology-Driven Development” stands for three purposes: The first one is to make the work efficient. The second one is to develop cooperative relationships between the team members and the stakeholders. The third one is to drive learning of the team members by technical practices and methods such as Continuous Integration [5] / Continuous Delivery [8] (hereinafter called the “CI/CD”), TDD (Test-Driven Development) and BDD (Behavior-Driven Development).
+The “Technology-Driven Development” practice has been chosen not only as a technical foundation for developing new smartphone application, but also as a driver for the team that consisted of young and immature members to learn new skills. This way the team members learned the skill for developing software and solving problems comparably or even better than the senior members. Moreover, this practice grew the voluntary and supportive culture in our team.
+
+
+## Memo
+・特に2017年頃から、LINEの主要サービスで本番障害が多発し始め、ユーザー・売上へのマイナスの影響が大きくなり始めてきた。
+・一方で、この課題を自分ごととして認識し、イニシアチブをとって改善しようとする人がほぼ皆無で、改善の兆しも見えなかった。
+・LINEの企業文化的にも技術偏重で、プロセス改善のアイデアを持つ人がほとんどいなかった。
+・LINE自体、アジャイルは普及していなかった。
+・シニアマネージャーの提案で、ScrumMaster・DevOpsエンジニア・SETの3職を新たに追加したが…
