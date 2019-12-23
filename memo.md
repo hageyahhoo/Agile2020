@@ -6,6 +6,12 @@ https://submissions.agilealliance.org/agile2020/sessions/11481
 # TODO
 - Specificな記述に改める
 
+## あとで整理
+- Establish a new role: Scratch from role definition
+- Improve development processes: Scratch from improvement experience and skills
+- Proceed company-wide problem-solving: Scratch from company-wide problem-solving
+
+
 
 # 工事中
 ・主要サービスで本番障害が多発し始め、影響範囲（ユーザー・金額）が大きくなり始めてきた
@@ -50,7 +56,20 @@ I think there are opportunities for improvement.
 
 
 
+
+
+
+
+
 # Abstract
+
+## Sample
+In this experience report, I present practical ideas to establish a new role, to improve development processes, and to proceed company-wide problem-solving from scratch in the very strongly technology-oriented company without a concept of process improvement.
+In 2017, LINE Corporation has been growing very rapidly and globally. However, the company had been struggling with increase of outages and they had given negative impacts to users and company's profits. Since I joined LINE Corporation as the first member of “SET” (Software Engineer in Test), I and our team have been solving a wide variety of problems and outages by utilizing technical solutions and Agile methodologies based on my experiences as an Agile Coach. We have been pursuing "best for our users and business" fiercely with a series of experiments. Currently, teams that start utilizing our ideas are increasing in our company.
+
+
+
+
 
 ## オリジナル
 If you need to start totally new activities (like Agile Adoption) in your organization, what should you do at first? You may face with discrepancies of objectives and responsibilities for your activities among stakeholders. Moreover, you may discover hidden needs that stakeholders haven't distinguished yet. When you are proceeding entirely new approaches and actions, it is inevitable to face a wide variety of challenges continuously. For instance, your activities may not work as you expected. Your supervisor may request you to expand your activities beyond your responsibilities.
