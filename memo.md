@@ -3,13 +3,18 @@
 https://submissions.agilealliance.org/agile2020/sessions/11481
 
 
-# TODO
-- Specificな記述に改める
 
-## あとで整理
-- Establish a new role: Scratch from role definition
-- Improve development processes: Scratch from improvement experience and skills
-- Proceed company-wide problem-solving: Scratch from company-wide problem-solving
+# Scratchの定義
+1. Establish a new role
+    - role definition
+2. Improve development processes
+    - improvement experience and skills
+        - 信頼関係ないところから
+        - ツール開発（Ayaperf/Sebas）
+3. Proceed company-wide problem-solving
+    - company-wide problem-solving
+        - 各チームでのまとまりのなさ
+        - Onboarding
 
 
 
