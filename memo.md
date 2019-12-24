@@ -7,7 +7,7 @@ https://submissions.agilealliance.org/agile2020/sessions/11481
 # Scratchの定義
 1. Establish a new role
     - role definition
-2. Improve development processes
+2. Improve product development teams
     - improvement experience and skills
         - 信頼関係ないところから
         - ツール開発（Ayaperf/Sebas）
@@ -67,21 +67,39 @@ I think there are opportunities for improvement.
 
 
 # Abstract
+Everything from Scratch:
+Practical Ideas in an Organization without a Concept of Process Improvement
+
 
 ## Sample
-In this experience report, I present practical ideas to establish a new role, to improve development processes, and to proceed company-wide problem-solving from scratch in the very strongly technology-oriented company without a concept of process improvement.
-In 2017, LINE Corporation has been growing very rapidly and globally. However, the company had been struggling with increase of outages and they had given negative impacts to users and company's profits. Since I joined LINE Corporation as the first member of “SET” (Software Engineer in Test), I and our team have been solving a wide variety of problems and outages by utilizing technical solutions and Agile methodologies based on my experiences as an Agile Coach. We have been pursuing "best for our users and business" fiercely with a series of experiments. Currently, teams that start utilizing our ideas are increasing in our company.
+In this experience report, I present practical ideas to establish a new role, to improve product development teams, and to proceed company-wide problem-solving from scratch in the very strongly technology-oriented company without a concept of process improvement.
+LINE Corporation has been growing very rapidly and globally. However, the company had been struggling with increase of outages and they had given negative impacts to users and company's profits. Since I joined LINE Corporation as the first member of “SET” (Software Engineer in Test) in 2017, I and our team have been solving a wide variety of problems including reduction of outages by combining technical solutions and Agile methodologies based on my experiences as an Agile Coach. We have been pursuing "best for our users and business" fiercely and relentlessly with a series of experiments. Now, some teams in our company utilize our ideas that we created from scratch.
+
+
+
+## ⭐️⭐️⭐️Revised
+If you need to start totally new activities in an organization which doesn't know a concept of process improvement, what should you do at first? Especially in the very strongly technology-oriented one with urgent critical issues?
+
+It is very hard to get support and understanding from decision makers and colleagues in such an environment. However, it is more difficult to proceed radically new actions alone. Therefore, we need to obtain consent from them to go ahead.
+
+⭐️
+For overcoming these challenges, creating solutions "from scratch" by combining technical solutions and Agile methodologies is ⭐️
+
+
+In this talk, I will provide you practical ideas we created as SET in LINE Corporation.
+
+For example,
+- establishing a new role from no shared understanding,
+- improving product development teams without relationship of trust, proper tools and techniques,
+- proceeding company-wide problem-solving without any history of process improvements and proper leaders
+
+
 
 
 
 
 
 ## オリジナル
-If you need to start totally new activities (like Agile Adoption) in your organization, what should you do at first? You may face with discrepancies of objectives and responsibilities for your activities among stakeholders. Moreover, you may discover hidden needs that stakeholders haven't distinguished yet. When you are proceeding entirely new approaches and actions, it is inevitable to face a wide variety of challenges continuously. For instance, your activities may not work as you expected. Your supervisor may request you to expand your activities beyond your responsibilities.
-
-For overcoming these situations, you need to update yourselves continuously to meet your moving goals.
-
-In this talk, I will provide you clear experiences and patterns for solving problems by combining Technical excellence, Agile methodologies, and iterative experiments as SET in LINE Corporation.
 Additionally, I will tell you the importance of updating ourselves continuously with our concrete experiences and examples: from software quality to software delivery, profitability, and organizational processes.
 
 After this talk, you will understand a value, strength, and possibility of becoming a team of Transformational Leaders!
@@ -89,8 +107,6 @@ After this talk, you will understand a value, strength, and possibility of becom
 
 ## 更新版
 - What is interesting about this context?
-    - 技術軽視は、特に主張に値しない
-    - 
 - What properties about your situation might be applicable in other organizations?
     - 実験を続けて成長し続けること
     - 自分たち自身も変化し続けること
