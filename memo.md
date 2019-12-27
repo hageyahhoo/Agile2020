@@ -55,19 +55,25 @@ I think there are opportunities for improvement.
 # Abstract
 
 ## Paper
-In this experience report, I present practical ideas to establish a new role, to improve product development teams, and to proceed company-wide problem-solving from scratch in the very strongly technology-oriented company without a concept of process improvement and clear supporters.
-**もっと具体的かつspecificに書けないか？**
+In this experience report, I present practical ideas to establish a new role, to improve product development teams, and to proceed company-wide problem-solving from scratch in the very strongly technology-oriented fast-growing company without a concept of process improvement and clear supporters.
 
 LINE Corporation has been growing very rapidly and globally. However, the company had been struggling with increase of outages and they had given negative impacts to users and company's profits simultaneously. Since I joined LINE Corporation as the first member of “SET” (Software Engineer in Test) in 2017,
 
 **ここから下をもっと具体的にしたい**
-I and our team have been solving a wide variety of problems including reduction of outages by combining technical solutions and Agile methodologies based on my experiences as an Agile Coach. We have been pursuing "best for our users and business" fiercely and relentlessly with a series of experiments. Now, some teams in our company utilize our ideas that we reflected, experimented, and succeeded from scratch.
+I and our team have been solving a wide variety of problems
+
+including reduction of outages, innovation in testing tools,
+and xxx
+
+by combining technical solutions and Agile methodologies based on my experiences as an Agile Coach.
+
+We have been pursuing "best for our users and business" fiercely and relentlessly with a series of experiments. Now, some teams in our company utilize our ideas that we reflected, experimented, and succeeded from scratch.
 
 
 ## Submission system
 If you need to start totally new activities in an organization which doesn't know a concept of process improvement, what should you do at first? Especially in the very strongly technology-oriented one with urgent critical business issues?
 
-It is very hard to get support and understanding from decision makers and colleagues in such an environment and situation. However, it is more difficult to proceed radically new actions alone. Therefore, we need to obtain consent from them to go ahead.
+It is very hard to get support and understanding from decision makers and colleagues in such an environment and a situation. However, it is more difficult to proceed radically new actions alone. Therefore, we need to obtain consent from them to go ahead.
 
 I experienced that creating solutions "from scratch" by combining technical solutions and Agile methodologies worked well in these challenging conditions.
 
