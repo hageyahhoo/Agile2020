@@ -45,11 +45,10 @@ Moreover, there were no shared understanding and consensus about SET role among 
 
 
 ### ACTIONS
-For the smooth start of SET activities, I did the following actions.
-⭐️-> 課題発見と解決方法を見つけ、味方を作る
-My points were discovering real concerns, solutions, and supporters.
+My focus was to obtain consent from decision-makers and colleagues by discovering their real concerns and providing solutions iteratively and incrementally.
 
-#### 1. GATHER INFORMATION WITH PRODUCT DISCOVERY
+#### 1. DISCOVER AND VERBALIZE REAL CONCERNS AND NEEDS
+⭐️
 To clarify objective, missions, and responsibilities of SET, I utilized the idea of "Product Discovery" [5] taught by David Hussman for gathering necessary information.
 
 At first, I analyzed our services and products. I utilized static code analysis tool named "SonarQube" [6] to know the code coverage and technical debts for each service. I also added simple unit and integration test scripts to know behavior of the products. Test scripts are good for understanding software under test [7].
@@ -61,20 +60,9 @@ Moreover, I talked stakeholders like developers, QA persons, Product Managers, s
 
 ⭐️自分の課題
 Other big challenge was that I was a newbie of LINE Corporation and I didn't have enough knowledge of our services, architectures, technologies used, and so on.
-
-⭐️MSAの課題
-there were few leaders to solve problems, which affect more than one team and/or service. In other words, few leaders could act beyond silos. We have been widely adopting to Microservice Architecture. It was critical to overcome this problem for solving outages quickly and properly with fewer impacts to users.
 <br />
 
-#### 2. ESTABLISH SOLUTIONS WITH ITERATIVE AND INCREMENTAL CONSENSUS
-At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned above. Additionally, I proposed them to "decision makers" like senior managers and executives.
-
-I don't think that I can build the perfect solutions and agree on them with decision makers at once. I supposed that it would be preferable not only me but decision makers to continue proposing ideas, getting feedbacks, and improving proposal. Additionally, there were few persons who could lead "strategy formulation" in LINE Corporation at that time. Leading decision-making gave impacts to decision makers and it was good for attracting their interests in SET. Therefore, I chose to iterate build-propose-learn cycle weekly as "Iterative and Incremental Consensus" approach.
-
-My first proposal was focusing on improving Sticker Shop due to frequency of outages, however I didn't define milestones. Through this approach, rough milestones were enough useful for decision makers to understand tasks, plan, and due date easily and quickly. Additionally, they also said that it was OK to update milestones if we knew additional information. Moreover, they taught me that public APIs were more important than Sticker Shop at that time from business perspective. On the other hand, they agreed on my idea that utilizing Test Automation for making failure detection faster and reducing MTTR was valuable as SET's responsibility. Through this approach, I could improve my proposal step by step. Finally, we agreed on the first solution and milestone within 45 days since I joined LINE Corporation.
-<br />
-
-#### 3. MANAGING IMPACTS BY PROVIDING RESULTS EVERY WEEK
+#### 2. GIVING IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
 In parallel with "Iterative and Incremental Consensus", I tried to "manage impacts" [8] constantly to coworkers and decision makers for attracting their interests in SET.
 
 From the first week I joined LINE Corporation, I achieved something every week and shared them with coworkers and decision makers. Especially, I shared working software or executable one. Additionally, I showed results quantitatively beyond silos.
@@ -100,6 +88,14 @@ Here are examples. I chose all activities as SET for improving Sales and Profit.
 
 As a result, many colleagues started talking about SET. Their interests in SET led collaboration with product development teams, QAs/Test Automators, and Product Managers. It meant I could lead problem-solving beyond silos. Additionally, decision makers started supporting SET activities positively. Quick agreement on the first solution and milestones of SET was a good sign.
 <br />
+
+#### 3. ITERATIVE AND INCREMENTAL CONSENSUS
+At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned above. Additionally, I proposed them to "decision makers" like senior managers and executives.
+
+I don't think that I can build the perfect solutions and agree on them with decision makers at once. I supposed that it would be preferable not only me but decision makers to continue proposing ideas, getting feedbacks, and improving proposal. Additionally, there were few persons who could lead "strategy formulation" in LINE Corporation at that time. Leading decision-making gave impacts to decision makers and it was good for attracting their interests in SET. Therefore, I chose to iterate build-propose-learn cycle weekly as "Iterative and Incremental Consensus" approach.
+
+My first proposal was focusing on improving Sticker Shop due to frequency of outages, however I didn't define milestones. Through this approach, rough milestones were enough useful for decision makers to understand tasks, plan, and due date easily and quickly. Additionally, they also said that it was OK to update milestones if we knew additional information. Moreover, they taught me that public APIs were more important than Sticker Shop at that time from business perspective. On the other hand, they agreed on my idea that utilizing Test Automation for making failure detection faster and reducing MTTR was valuable as SET's responsibility. Through this approach, I could improve my proposal step by step. Finally, we agreed on the first solution and milestone within 45 days since I joined LINE Corporation.
+<br />
 <br />
 
 
@@ -111,7 +107,7 @@ The idea of "Product Discovery" worked for clarifying responsibilities and activ
 
 
 
-## 3. SHIFT VERTICALLY
+## 3. INNOVATE SOLUTIONS BY EXPERIENCING HARDSHIPS TOGETHER
 
 ### CHALLENGES
 After clarifying responsibilities and activities of SET, getting decision makers' supports and colleagues' interests, I started actions as SET. Additionally, LINE hired new employees and formed a team of SET. I thought we could proceed our activities more quickly and widely. However, we faced with new obstacles.
@@ -169,7 +165,7 @@ The English word "compassion" derives from Latin's "compati", which means "suffe
 
 
 
-## 4. BECOME TRANSFORMATIONAL LEADERS
+## 4. PROCEED COMPANY-WIDE PROBLEM-SOLVING AS TRANSFORMATIONAL LEADERS
 
 ### CHALLENGES
 We had been solving a lot of technical and process issues of each product by working together with each product development team's members. These activities and achievements have been recognized as huge successes by executives. However, these successes had led us SET team to the next level of challenges.
