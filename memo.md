@@ -1,7 +1,6 @@
 
 # Proposal
 https://submissions.agilealliance.org/agile2020/sessions/11481
-**Everything from Scratch: Practical Ideas in an Organization without a Concept of Process Improvement**
 
 
 # Scratchの定義

@@ -30,22 +30,24 @@ Therefore, LINE Corporation had started looking for proper leaders externally. E
 
 
 
-## 2. CLARIFY DEMANDS AND RESPONSIBILITIES TO START
+## 2. ESTABLISH SET ROLE BY ATTRACTING DECISION-MAKERS AND COLLEAGUES
 
 ### CHALLENGES
-When I joined LINE Corporation, there were lots of problems, which relate to not only software quality but a variety of software and organizational problems.
+After joining LINE Corporation, I faced with tons of challenges to start my work as SET.
 
-The biggest challenge was the confusions and disagreements about SET among stakeholders. There were no clear objective, missions, and responsibilities of SET. Additionally, there were no shared understandings about SET. Therefore, I needed to clarify them at first.
+The biggest challenge was that a sense of crisis about increase of outages was not shared among employees. Only a few decision-makers were acknowledged and concerned about emergencies to solve negative impacts of outages to LINE users and company's profits as rapidly as possible.
 
-Other big challenge was that I was a newbie of LINE Corporation and I didn't have enough knowledge of our services, architectures, technologies used, and so on.
+Additionally, there were no clear ideas and solutions for increase of outages in the company. LINE Corporation had not experienced process improvements until then because of its very strongly technology-oriented fashion. Wide adoption to Microservice Architecture became a barrier to consider solutions beyond each service or technical silos.
 
-Moreover, there were few leaders to solve problems, which affect more than one team and/or service. In other words, few leaders could act beyond silos. We have been widely adopting to Microservice Architecture. It was critical to overcome this problem for solving outages quickly and properly with fewer impacts to users.
+Moreover, there were no shared understanding and consensus about SET role among decision-makers. LINE Corporation established SET job without clear objective, missions, and responsibilities. The company's intention at that time was very naive that just introducing Test Automation to the company might solve something.
 <br />
 <br />
 
 
 ### ACTIONS
 For the smooth start of SET activities, I did the following actions.
+⭐️-> 課題発見と解決方法を見つけ、味方を作る
+My points were discovering real concerns, solutions, and supporters.
 
 #### 1. GATHER INFORMATION WITH PRODUCT DISCOVERY
 To clarify objective, missions, and responsibilities of SET, I utilized the idea of "Product Discovery" [5] taught by David Hussman for gathering necessary information.
@@ -55,6 +57,13 @@ At first, I analyzed our services and products. I utilized static code analysis 
 Next, I focused on analyzing "outage reports". "Outage reports" mean both postmortem meetings and published reports. They are a treasure-trove of information we need to solve. I was able to know causes of outages, impact on sales and profits, and problematic products through these reports. I understood that public APIs provided for external users, and Sticker Shop, were the most problematic products. Additionally, I found that reducing "MTTR" (Mean Time to Repair) would be an impactful solution as the first step.
 
 Moreover, I talked stakeholders like developers, QA persons, Product Managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through these conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations is critical for discovering real needs, shared understanding, and collaborations beyond silos.
+
+
+⭐️自分の課題
+Other big challenge was that I was a newbie of LINE Corporation and I didn't have enough knowledge of our services, architectures, technologies used, and so on.
+
+⭐️MSAの課題
+there were few leaders to solve problems, which affect more than one team and/or service. In other words, few leaders could act beyond silos. We have been widely adopting to Microservice Architecture. It was critical to overcome this problem for solving outages quickly and properly with fewer impacts to users.
 <br />
 
 #### 2. ESTABLISH SOLUTIONS WITH ITERATIVE AND INCREMENTAL CONSENSUS
