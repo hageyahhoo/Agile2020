@@ -1,13 +1,11 @@
-# Growing and Expanding Transformational Leaders Team with Experiments
+# Everything from Scratch: Practical Ideas in an Organization without a Concept of Process Improvement
 
 
 
 ## Abstract
-Since I joined LINE Corporation as the first member of "SET" (Software Engineer in Test) in 2017, we have been solving a variety of software and organizational problems.
+In this experience report, I present practical ideas to establish a new role, to improve product development teams, and to proceed company-wide problem-solving from scratch in the very strongly technology-oriented and fast-growing company without a concept of process improvement and clear supporters.
 
-Through these achievements, we have been adjusting our responsibilities from software quality to software delivery, profitability, and organizational processes.
-
-This report is about why and how we are becoming a team of "Transformational Leaders" [1] that is responsible for software delivery performance and organizational culture [2] based on experiments.
+LINE Corporation [1] has been growing very rapidly and globally. However, the company had been struggling with increase of outages and they had given negative impacts to users and company's profits simultaneously. Since I joined LINE Corporation as the first member of “SET” (Software Engineer in Test) [2] in 2017, I and our team have been solving a wide variety of problems including reduction of outages, innovation in testing tools, onboarding, and so on by combining technical solutions and Agile methodologies based on my experiences as an Agile Coach. We have been pursuing "best for our users and business" fiercely and relentlessly with a series of experiments. Now, some teams in our company utilize our ideas that we reflected, experimented, and succeeded from scratch.
 <br />
 <br />
 <br />
@@ -275,8 +273,12 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 
 
 ## REFERENCES
+[1] LINE. https://linecorp.com/en/.
+[2] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
+
 [1] Transformational leadership. https://en.wikipedia.org/wiki/Transformational_leadership.
 [2] Forsgren, N. Humble, J., & Kim, G. 2018. Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. IT Revolution Press.
+
 [3] Fowler, M. 2014. Microservices. https://martinfowler.com/articles/microservices.html.
 [4] Nygard, M. 2018. Release It!: Design and Deploy Production-Ready Software 2nd Edition. Pragmatic Bookshelf.
 [5] Hussman, D. 2015. Product Discovery On A Single Page. http://productdiscoverycanvas.com/tag/david-hussman/.
