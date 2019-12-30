@@ -47,19 +47,21 @@ Moreover, there were no shared understanding and consensus about SET role among 
 ### ACTIONS
 My focus was to obtain consent from decision-makers and colleagues by discovering their real concerns and providing solutions iteratively and incrementally.
 
-#### 1. DISCOVER AND VERBALIZE REAL CONCERNS AND NEEDS
+#### 1. SHARE A SENSE OF CRISIS BY VERBALIZING REAL CONCERNS
 ⭐️
-To clarify objective, missions, and responsibilities of SET, I utilized the idea of "Product Discovery" [5] taught by David Hussman for gathering necessary information.
+"If you know the enemy and you know yourself, you will have almost 100 battles". [⭐️] My first action was to know more about problems LINE Corporation was facing with.
 
+⭐️サービス
 At first, I analyzed our services and products. I utilized static code analysis tool named "SonarQube" [6] to know the code coverage and technical debts for each service. I also added simple unit and integration test scripts to know behavior of the products. Test scripts are good for understanding software under test [7].
 
+⭐️障害の傾向
 Next, I focused on analyzing "outage reports". "Outage reports" mean both postmortem meetings and published reports. They are a treasure-trove of information we need to solve. I was able to know causes of outages, impact on sales and profits, and problematic products through these reports. I understood that public APIs provided for external users, and Sticker Shop, were the most problematic products. Additionally, I found that reducing "MTTR" (Mean Time to Repair) would be an impactful solution as the first step.
 
+⭐️Verbalize concerns and problems from colleagues
 Moreover, I talked stakeholders like developers, QA persons, Product Managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through these conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations is critical for discovering real needs, shared understanding, and collaborations beyond silos.
 
-
-⭐️自分の課題
-Other big challenge was that I was a newbie of LINE Corporation and I didn't have enough knowledge of our services, architectures, technologies used, and so on.
+⭐️ポイント
+I utilized the idea of "Product Discovery" [5] for gathering necessary information.
 <br />
 
 #### 2. GIVING IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
