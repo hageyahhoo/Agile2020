@@ -48,20 +48,18 @@ Moreover, there were no shared understanding and consensus about SET role among 
 My focus was to obtain consent from decision-makers and colleagues by discovering their real concerns and providing solutions iteratively and incrementally.
 
 #### 1. SHARE A SENSE OF CRISIS BY VERBALIZING REAL CONCERNS
-⭐️
-"If you know the enemy and you know yourself, you will have almost 100 battles". [⭐️] My first action was to know more about problems LINE Corporation was facing with.
+I had thought not only decision-makers and colleagues but also I should know real problems LINE Corporation was facing with. Therefore, I followed an ancient saying by Sun Tzu: "If you know the enemy and you know yourself, you will have almost 100 battles" by utilizing the idea of "Product Discovery" [5].
 
-⭐️サービス
-At first, I analyzed our services and products. I utilized static code analysis tool named "SonarQube" [6] to know the code coverage and technical debts for each service. I also added simple unit and integration test scripts to know behavior of the products. Test scripts are good for understanding software under test [7].
+At first, I investigated our services and products. I utilized "SonarQube" [6], a static code analysis tool, to know the code coverage and technical debts for each service. I also implemented and run some of unit and integration test scripts to know real behaviors of the products. Test scripts are good for understanding software under test [7].
 
 ⭐️障害の傾向
-Next, I focused on analyzing "outage reports". "Outage reports" mean both postmortem meetings and published reports. They are a treasure-trove of information we need to solve. I was able to know causes of outages, impact on sales and profits, and problematic products through these reports. I understood that public APIs provided for external users, and Sticker Shop, were the most problematic products. Additionally, I found that reducing "MTTR" (Mean Time to Repair) would be an impactful solution as the first step.
+Additionally, I focused on "outage reports". "Outage report" is a term which means both a published report and a postmortem meeting in our company.
+
+They are a treasure-trove of information we need to solve. I was able to know causes of outages, impact on sales and profits, and problematic products through these reports. I understood that public APIs provided for external users, and Sticker Shop, were the most problematic products. Additionally, I found that reducing "MTTR" (Mean Time to Repair) would be an impactful solution as the first step.
+
 
 ⭐️Verbalize concerns and problems from colleagues
 Moreover, I talked stakeholders like developers, QA persons, Product Managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through these conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations is critical for discovering real needs, shared understanding, and collaborations beyond silos.
-
-⭐️ポイント
-I utilized the idea of "Product Discovery" [5] for gathering necessary information.
 <br />
 
 #### 2. GIVING IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
