@@ -48,30 +48,21 @@ Moreover, there were no shared understanding and consensus about SET role among 
 My focus was to obtain consent from decision-makers and colleagues by discovering their real concerns and providing solutions iteratively and incrementally.
 
 #### 1. SHARE A SENSE OF CRISIS BY VERBALIZING REAL CONCERNS
-I thought not only decision-makers and colleagues but also I should know real problems LINE Corporation was facing with in a knowledgeable way.
+I thought not only decision-makers and colleagues but also I should know real problems LINE Corporation was facing with in a knowledgeable way. It was time to follow an ancient saying by Sun Tzu: "If you know the enemy and you know yourself, you will have almost 100 battles". From my experiences of Agile, I thought "Product Discovery" [5] might fit well.
 
-⭐️
-by utilizing the idea of "Product Discovery" [5].
+Therefore, at first, I talked developers, QA persons, Product Managers, senior managers, and executives to hear their concerns and troubles directly. Through these conversations, I acknowledged that they had lots of non-verbalized problems. Additionally, I got that there were no persons who could verbalize these problems and share with other colleagues.
 
-I followed an ancient saying by Sun Tzu: "If you know the enemy and you know yourself, you will have almost 100 battles"
+Next, I focused on helping colleagues to verbalize their concerns and to share them with other colleagues.
 
-⭐️Verbalize concerns and problems from colleagues
-Moreover, I talked stakeholders like developers, QA persons, Product Managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through these conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations is critical for discovering real needs, shared understanding, and collaborations beyond silos.
+I investigated our services and products. I utilized "SonarQube" [6], a static code analysis tool, to know the code coverage and technical debts for each service. I also implemented and run some of unit and integration test scripts to know real behaviors of the products. Test scripts are good for understanding software under test [7] and finding problematic services.
 
-⭐️話すネタとしての、サービスの情報収集
-At first, I investigated our services and products. I utilized "SonarQube" [6], a static code analysis tool, to know the code coverage and technical debts for each service. I also implemented and run some of unit and integration test scripts to know real behaviors of the products. Test scripts are good for understanding software under test [7].
-⭐️そもそもテストコードを有効活用する文化がなかったことが判明
-⭐️SonarQubeは、サービスを立てているのに設定が不足していて、有効活用できていなかった。
+Additionally, I focused on "outage reports". "Outage report" is a term which means both a published report and a postmortem meeting in our company. From these reports, I acknowledged that 1) reports were too technical to know impact on sales and profits, 2) reports didn't consider clear goals and actions to prevent the outages, and 3) "Channel Gateway", an aggregation service of our APIs towards external users, was the most problematic products.
 
-⭐️話すネタとしての、障害の傾向分析
-Additionally, I focused on "outage reports". "Outage report" is a term which means both a published report and a postmortem meeting in our company.
-
-They are a treasure-trove of information we need to solve. I was able to know causes of outages, impact on sales and profits, and problematic products through these reports. I understood that public APIs provided for external users, and Sticker Shop, were the most problematic products. Additionally, I found that reducing "MTTR" (Mean Time to Repair) would be an impactful solution as the first step.
-
-
+After investigating services and outage reports, I could verbalize colleagues' concerns like increase of Channel Gateway's outages and "MTTR" (Mean Time to Repair) were critical to external users of our APIs.
 <br />
 
 #### 2. GIVING IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
+⭐️
 In parallel with "Iterative and Incremental Consensus", I tried to "manage impacts" [8] constantly to coworkers and decision makers for attracting their interests in SET.
 
 From the first week I joined LINE Corporation, I achieved something every week and shared them with coworkers and decision makers. Especially, I shared working software or executable one. Additionally, I showed results quantitatively beyond silos.
