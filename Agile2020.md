@@ -58,11 +58,12 @@ I investigated our services and products. I utilized "SonarQube" [6], a static c
 
 Additionally, I focused on "outage reports". "Outage report" is a term which means both a published report and a postmortem meeting in our company. From these reports, I acknowledged that 1) reports were too technical to know impact on sales and profits, 2) reports didn't consider clear goals and actions to prevent the outages, and 3) "Channel Gateway", an aggregation service of our APIs towards external users, was the most problematic products.
 
-After investigating services and outage reports, I could verbalize colleagues' concerns like increase of Channel Gateway's outages and "MTTR" (Mean Time to Repair) were critical to external users of our APIs.
+After investigating services and outage reports, I could verbalize colleagues' concerns like increase of Channel Gateway's outages and "MTTR" (Mean Time to Repair) were critical to external users of our APIs. Additionally, I shared these verbalized ones with managers and executives for evaluating the correctness of verbalization.
 <br />
 
 #### 2. GIVING IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
-⭐️
+⭐️get support from colleagues -> Giving impacts
+
 In parallel with "Iterative and Incremental Consensus", I tried to "manage impacts" [8] constantly to coworkers and decision makers for attracting their interests in SET.
 
 From the first week I joined LINE Corporation, I achieved something every week and shared them with coworkers and decision makers. Especially, I shared working software or executable one. Additionally, I showed results quantitatively beyond silos.
@@ -90,6 +91,11 @@ As a result, many colleagues started talking about SET. Their interests in SET l
 <br />
 
 #### 3. ITERATIVE AND INCREMENTAL CONSENSUS
+⭐️In parallel with "Giving impacts", for adjusting SET role -> 
+- establish SET role
+- attracting decision-makers and colleagues
+- 関心を持ってもらい、自分ごとにさせる
+
 At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned above. Additionally, I proposed them to "decision makers" like senior managers and executives.
 
 I don't think that I can build the perfect solutions and agree on them with decision makers at once. I supposed that it would be preferable not only me but decision makers to continue proposing ideas, getting feedbacks, and improving proposal. Additionally, there were few persons who could lead "strategy formulation" in LINE Corporation at that time. Leading decision-making gave impacts to decision makers and it was good for attracting their interests in SET. Therefore, I chose to iterate build-propose-learn cycle weekly as "Iterative and Incremental Consensus" approach.
