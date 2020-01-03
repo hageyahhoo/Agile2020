@@ -73,7 +73,7 @@ Here is a list of achievements for my first 10 weeks.
 | Week 1  | Started writing test scripts to understand services/products     |
 | Week 2  | Proposed first idea of SET activities to decision makers         |
 | Week 3  | Built mechanism to run and report static code analysis regularly |
-| Week 4  | Shared to developers how to build static code analysis           |
+| Week 4  | Shared with developers how to build static code analysis         |
 | Week 5  | Proposed milestones of activities to decision makers             |
 | Week 6  | Agreed with proposals/milestones with decision makers            |
 | Week 7  | Collected information and tools of QA/Tests in one place         |
@@ -81,12 +81,9 @@ Here is a list of achievements for my first 10 weeks.
 | Week 9  | Guided to start regular meetings with developers and QAs         |
 | Week 10 | Started solving problems by developers step by step              |
 
-⭐️
-When I had been managing impacts, I utilized "3 KPIs"; Sales, Profit, and Employee Satisfaction. When I had worked at Rakuten, one of senior executives and my supervisor had taught me that every business can measure with these 3 KPIs. After that, I have been utilizing it for all activities.
+When I gave impacts, I utilized "3 KPIs"; Sales, Profit, and Employee Satisfaction. It is that my former supervisor told me as a way to measure every business. For example, my first proposal of SET activities to decision makers included reducing MTTR (Mean Time To Repair) of Channel Gateway by implementing proper failure detection mechanism for reducing negative impacts to external users. Additionally, I not only reported results of static code analysis, but also shared with developers how to build static code analysis mechanism from Employee Satisfaction aspect.
 
-Here are examples. I chose all activities as SET for improving Sales and Profit. I implemented test scripts for reducing MTTR, not only for expanding Test Automation. Additionally, I picked up actions that could affect Employee Satisfaction. For decision makers, I focused on discovering and verbalizing their anxieties, and providing quantitative information. For Developers and QAs, I tried to stimulate appetites for learning.
-
-As a result, many colleagues started talking about SET. Their interests in SET led collaboration with product development teams, QAs/Test Automators, and Product Managers. It meant I could lead problem-solving beyond silos. Additionally, decision makers started supporting SET activities positively. Quick agreement on the first solution and milestones of SET was a good sign.
+As a result, many developers started using my "impacts" like static code analysis mechanism and giving me concrete advices about problematic points of architectural design, operational difficulties, and so on. Their advices became good information sources to communicate with decision makers. Additionally, decision makers started taking time to define SET role with me. They couldn't ignore my "impacts" and developers' supports to SET.
 <br />
 
 #### 3. ITERATIVE AND INCREMENTAL CONSENSUS
@@ -99,6 +96,12 @@ At the end of the first week I joined LINE Corporation, I built the first rough 
 I don't think that I can build the perfect solutions and agree on them with decision makers at once. I supposed that it would be preferable not only me but decision makers to continue proposing ideas, getting feedbacks, and improving proposal. Additionally, there were few persons who could lead "strategy formulation" in LINE Corporation at that time. Leading decision-making gave impacts to decision makers and it was good for attracting their interests in SET. Therefore, I chose to iterate build-propose-learn cycle weekly as "Iterative and Incremental Consensus" approach.
 
 My first proposal was focusing on improving Sticker Shop due to frequency of outages, however I didn't define milestones. Through this approach, rough milestones were enough useful for decision makers to understand tasks, plan, and due date easily and quickly. Additionally, they also said that it was OK to update milestones if we knew additional information. Moreover, they taught me that public APIs were more important than Sticker Shop at that time from business perspective. On the other hand, they agreed on my idea that utilizing Test Automation for making failure detection faster and reducing MTTR was valuable as SET's responsibility. Through this approach, I could improve my proposal step by step. Finally, we agreed on the first solution and milestone within 45 days since I joined LINE Corporation.
+
+⭐️
+requested me to propose goals and milestones. They were what decision makers wanted.
+
+As a result
+Quick agreement on the first solution and milestones of SET was a good sign.
 <br />
 <br />
 
