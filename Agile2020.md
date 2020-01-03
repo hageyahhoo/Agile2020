@@ -48,13 +48,13 @@ Moreover, there were no shared understanding and consensus about SET role among 
 My focus was to obtain consent from decision-makers and colleagues by discovering their real concerns and providing solutions iteratively and incrementally.
 
 #### 1. SHARE A SENSE OF CRISIS BY VERBALIZING REAL CONCERNS
-I thought not only decision-makers and colleagues but also I should know real problems LINE Corporation was facing with in a knowledgeable way. It was time to follow an ancient saying by Sun Tzu: "If you know the enemy and you know yourself, you will have almost 100 battles". From my experiences of Agile, I thought "Product Discovery" [5] might fit well.
+I thought not only decision-makers and colleagues but also I should know real problems LINE Corporation was facing with in a knowledgeable way. It was time to follow an ancient saying by Sun Tzu: "If you know the enemy and you know yourself, you will have almost 100 battles". From my experiences of Agile, I thought "Product Discovery" [6] might fit well.
 
 Therefore, at first, I talked developers, QA persons, Product Managers, senior managers, and executives to hear their concerns and troubles directly. Through these conversations, I acknowledged that they had lots of non-verbalized problems. Additionally, I got that there were no persons who could verbalize these problems and share with other colleagues.
 
 Next, I focused on helping colleagues to verbalize their concerns and to share them with other colleagues.
 
-I investigated our services and products. I utilized "SonarQube" [6], a static code analysis tool, to know the code coverage and technical debts for each service. I also implemented and run some of unit and integration test scripts to know real behaviors of the products. Test scripts are good for understanding software under test [7] and finding problematic services.
+I investigated our services and products. I utilized "SonarQube" [7], a static code analysis tool, to know the code coverage and technical debts for each service. I also implemented and run some of unit and integration test scripts to know real behaviors of the products. Test scripts are good for understanding software under test [8] and finding problematic services.
 
 Additionally, I focused on "outage reports". "Outage report" is a term which means both a published report and a postmortem meeting in our company. From these reports, I acknowledged that 1) reports were too technical to know impact on sales and profits, 2) reports didn't consider clear goals and actions to prevent the outages, and 3) "Channel Gateway", an aggregation service of our APIs towards external users, was the most problematic products.
 
@@ -62,11 +62,9 @@ After investigating services and outage reports, I could verbalize colleagues' c
 <br />
 
 #### 2. GIVING IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
-⭐️get support from colleagues -> Giving impacts
+For getting support from colleagues and decision makers to proceed with radically new actions, I tried to "give impacts" [9] constantly to them.
 
-In parallel with "Iterative and Incremental Consensus", I tried to "manage impacts" [8] constantly to coworkers and decision makers for attracting their interests in SET.
-
-From the first week I joined LINE Corporation, I achieved something every week and shared them with coworkers and decision makers. Especially, I shared working software or executable one. Additionally, I showed results quantitatively beyond silos.
+From the first week I joined LINE Corporation, I achieved something and shared them with coworkers and decision makers every week. Especially, I focused on providing working software, executable ones, and quantitative information.
 
 Here is a list of achievements for my first 10 weeks.
 
@@ -83,6 +81,7 @@ Here is a list of achievements for my first 10 weeks.
 | Week 9  | Guided to start regular meetings with developers and QAs         |
 | Week 10 | Started solving problems by developers step by step              |
 
+⭐️
 When I had been managing impacts, I utilized "3 KPIs"; Sales, Profit, and Employee Satisfaction. When I had worked at Rakuten, one of senior executives and my supervisor had taught me that every business can measure with these 3 KPIs. After that, I have been utilizing it for all activities.
 
 Here are examples. I chose all activities as SET for improving Sales and Profit. I implemented test scripts for reducing MTTR, not only for expanding Test Automation. Additionally, I picked up actions that could affect Employee Satisfaction. For decision makers, I focused on discovering and verbalizing their anxieties, and providing quantitative information. For Developers and QAs, I tried to stimulate appetites for learning.
@@ -91,10 +90,9 @@ As a result, many colleagues started talking about SET. Their interests in SET l
 <br />
 
 #### 3. ITERATIVE AND INCREMENTAL CONSENSUS
-⭐️In parallel with "Giving impacts", for adjusting SET role -> 
-- establish SET role
-- attracting decision-makers and colleagues
-- 関心を持ってもらい、自分ごとにさせる
+⭐️In parallel with "giving impacts", 
+- I tried to consensus with them constantly
+- for obtaining consent from from colleagues and decision makers to go ahead.
 
 At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned above. Additionally, I proposed them to "decision makers" like senior managers and executives.
 
