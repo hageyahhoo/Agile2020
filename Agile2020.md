@@ -35,7 +35,7 @@ Therefore, LINE Corporation had started looking for proper leaders externally. E
 ### CHALLENGES
 After joining LINE Corporation, I faced with tons of challenges to start my work as SET.
 
-The biggest challenge was that a sense of crisis about increase of outages was not shared among employees. Only a few decision-makers were acknowledged and concerned about emergencies to solve negative impacts of outages to LINE users and company's profits as rapidly as possible.
+The biggest challenge was that a sense of crisis about increase of outages was not shared among employees. Only a few decision-makers like senior managers and executives were acknowledged and concerned about emergencies to solve negative impacts of outages to LINE users and company's profits as rapidly as possible.
 
 Additionally, there were no clear ideas and solutions for increase of outages in the company. LINE Corporation had not experienced process improvements until then because of its very strongly technology-oriented fashion. Wide adoption to Microservice Architecture became a barrier to consider solutions beyond each service or technical silos.
 
@@ -62,52 +62,44 @@ After investigating services and outage reports, I could verbalize colleagues' c
 <br />
 
 #### 2. GIVING IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
-For getting support from colleagues and decision makers to proceed with radically new actions, I tried to "give impacts" [9] constantly to them.
+For getting support from colleagues and decision-makers to proceed with radically new actions, I tried to "give impacts" [9] constantly to them.
 
-From the first week I joined LINE Corporation, I achieved something and shared them with coworkers and decision makers every week. Especially, I focused on providing working software, executable ones, and quantitative information.
+From the first week I joined LINE Corporation, I achieved something and shared them with coworkers and decision-makers every week. Especially, I focused on providing working software, executable ones, and quantitative information.
 
 Here is a list of achievements for my first 10 weeks.
 
 | Week    | Achievements                                                     |
 | ------- | ---------------------------------------------------------------- |
 | Week 1  | Started writing test scripts to understand services/products     |
-| Week 2  | Proposed first idea of SET activities to decision makers         |
+| Week 2  | Proposed first idea of SET activities to decision-makers         |
 | Week 3  | Built mechanism to run and report static code analysis regularly |
 | Week 4  | Shared with developers how to build static code analysis         |
-| Week 5  | Proposed milestones of activities to decision makers             |
-| Week 6  | Agreed with proposals/milestones with decision makers            |
+| Week 5  | Proposed milestones of activities to decision-makers             |
+| Week 6  | Agreed with proposals/milestones with decision-makers            |
 | Week 7  | Collected information and tools of QA/Tests in one place         |
-| Week 8  | Implemented failure detection for public APIs                    |
+| Week 8  | Implemented failure detection for Channel Gateway                |
 | Week 9  | Guided to start regular meetings with developers and QAs         |
 | Week 10 | Started solving problems by developers step by step              |
 
-When I gave impacts, I utilized "3 KPIs"; Sales, Profit, and Employee Satisfaction. It is that my former supervisor told me as a way to measure every business. For example, my first proposal of SET activities to decision makers included reducing MTTR (Mean Time To Repair) of Channel Gateway by implementing proper failure detection mechanism for reducing negative impacts to external users. Additionally, I not only reported results of static code analysis, but also shared with developers how to build static code analysis mechanism from Employee Satisfaction aspect.
+When I gave impacts, I utilized "3 KPIs"; Sales, Profit, and Employee Satisfaction. It is that my former supervisor told me as a way to measure every business. For example, my first proposal of SET activities to decision-makers included reducing MTTR (Mean Time To Repair) of Channel Gateway by implementing proper failure detection mechanism for reducing negative impacts to external users. Additionally, I not only reported results of static code analysis, but also shared with developers how to build static code analysis mechanism from Employee Satisfaction aspect.
 
-As a result, many developers started using my "impacts" like static code analysis mechanism and giving me concrete advices about problematic points of architectural design, operational difficulties, and so on. Their advices became good information sources to communicate with decision makers. Additionally, decision makers started taking time to define SET role with me. They couldn't ignore my "impacts" and developers' supports to SET.
+As a result, many developers started using my "impacts" like static code analysis mechanism and giving me concrete advices about problematic points of architectural design, operational difficulties, and so on. Their advices became good information sources to communicate with decision-makers. Additionally, decision-makers started taking time to define SET role with me. They couldn't ignore my "impacts" and developers' supports to SET.
 <br />
 
 #### 3. ITERATIVE AND INCREMENTAL CONSENSUS
-⭐️In parallel with "giving impacts", 
-- I tried to consensus with them constantly
-- for obtaining consent from from colleagues and decision makers to go ahead.
+In parallel with "giving impacts", I built consensus on SET role with decision-makers gradually. From the first week I joined LINE Corporation, I started proposing ideas of SET; objective, missions, responsibilities, solutions, and milestones; iteratively based on gathered information I verbalized and got from colleagues.
 
-At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned above. Additionally, I proposed them to "decision makers" like senior managers and executives.
+This phase was analogous to start-up business or building new services. Through discussions, we corrected ideas of SET role, and built feeling of trust each other step by step. It was a weekly cycle of build-propose-learn. I named it as "Iterative and Incremental Consensus".
 
-I don't think that I can build the perfect solutions and agree on them with decision makers at once. I supposed that it would be preferable not only me but decision makers to continue proposing ideas, getting feedbacks, and improving proposal. Additionally, there were few persons who could lead "strategy formulation" in LINE Corporation at that time. Leading decision-making gave impacts to decision makers and it was good for attracting their interests in SET. Therefore, I chose to iterate build-propose-learn cycle weekly as "Iterative and Incremental Consensus" approach.
-
-My first proposal was focusing on improving Sticker Shop due to frequency of outages, however I didn't define milestones. Through this approach, rough milestones were enough useful for decision makers to understand tasks, plan, and due date easily and quickly. Additionally, they also said that it was OK to update milestones if we knew additional information. Moreover, they taught me that public APIs were more important than Sticker Shop at that time from business perspective. On the other hand, they agreed on my idea that utilizing Test Automation for making failure detection faster and reducing MTTR was valuable as SET's responsibility. Through this approach, I could improve my proposal step by step. Finally, we agreed on the first solution and milestone within 45 days since I joined LINE Corporation.
-
-⭐️
-requested me to propose goals and milestones. They were what decision makers wanted.
-
-As a result
-Quick agreement on the first solution and milestones of SET was a good sign.
+As a result, within 45 days since I joined LINE Corporation, we agreed on 1) making failure detection faster and reducing MTTR by utilizing Test Automation techniques, 2) increasing API test scripts, and 3) focusing on Channel Gateway at first as SET role, goals, and milestone. It was a result from scratch.
 <br />
 <br />
 
 
 ### RETROSPECTIVE
-The idea of "Product Discovery" worked for clarifying responsibilities and activities of SET. Additionally, "Iterative and Incremental Consensus" was useful for collaborating with decision makers and agreeing with them quickly. Moreover, "managing impacts with 3 KPIs" attracted lots of colleagues from business perspectives, not only from technical ones.
+Establishing SET role in LINE Corporation was analogous to start-up business or building new services to me.
+
+In an organization without a concept of process improvement, showing concrete examples to improve small things step by step could give impacts to the organization positively. Verbalizing colleagues' concerns as "Product Discovery" became good information sources. Additionally, providing achievements and building feeling of trust as impacts worked for getting support from colleagues and decision-makers. Moreover, "Iterative and Incremental Consensus" was effective for collaboration and quick agreement on totally new ideas with decision-makers. Through these activities, "3 KPIs" worked as common criteria for improvements among colleagues, decision-makers, and I.
 <br />
 <br />
 <br />
@@ -289,16 +281,15 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 ## REFERENCES
 [1] LINE. https://linecorp.com/en/.
 [2] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
-
-[1] Transformational leadership. https://en.wikipedia.org/wiki/Transformational_leadership.
-[2] Forsgren, N. Humble, J., & Kim, G. 2018. Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. IT Revolution Press.
-
-[3] Fowler, M. 2014. Microservices. https://martinfowler.com/articles/microservices.html.
-[4] Nygard, M. 2018. Release It!: Design and Deploy Production-Ready Software 2nd Edition. Pragmatic Bookshelf.
-[5] Hussman, D. 2015. Product Discovery On A Single Page. http://productdiscoverycanvas.com/tag/david-hussman/.
-[6] SonarQube. https://www.sonarqube.org/.
-[7] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
+[3] LINE. https://linecorp.com/press/2013/0401472.
+[4] Fowler, M. 2014. Microservices. https://martinfowler.com/articles/microservices.html.
+[5] Nygard, M. 2018. Release It!: Design and Deploy Production-Ready Software 2nd Edition. Pragmatic Bookshelf.
+[6] Hussman, D. 2015. Product Discovery On A Single Page. http://productdiscoverycanvas.com/tag/david-hussman/.
+[7] SonarQube. https://www.sonarqube.org/.
 [8] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
+[9] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
+
+
 [9] Karate. https://github.com/intuit/karate.
 [10] Docker. https://www.docker.com/.
 [11] Kubernetes. https://kubernetes.io/.
