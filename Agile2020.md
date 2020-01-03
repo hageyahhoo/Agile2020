@@ -77,7 +77,7 @@ Here is a list of achievements for my first 10 weeks.
 | Week 5  | Proposed milestones of activities to decision-makers             |
 | Week 6  | Agreed with proposals/milestones with decision-makers            |
 | Week 7  | Collected information and tools of QA/Tests in one place         |
-| Week 8  | Implemented failure detection for Channel Gateway                |
+| Week 8  | Implemented failure detection mechanism for Channel Gateway      |
 | Week 9  | Guided to start regular meetings with developers and QAs         |
 | Week 10 | Started solving problems by developers step by step              |
 
@@ -109,13 +109,19 @@ In an organization without a concept of process improvement, showing concrete ex
 ## 3. INNOVATE SOLUTIONS BY EXPERIENCING HARDSHIPS TOGETHER
 
 ### CHALLENGES
-After clarifying responsibilities and activities of SET, getting decision makers' supports and colleagues' interests, I started actions as SET. Additionally, LINE hired new employees and formed a team of SET. I thought we could proceed our activities more quickly and widely. However, we faced with new obstacles.
+After establishing SET role, I started actions as SET by obtaining consent from colleagues and decision-makers. After 6 months, we hired new SETs and formed a team of SET. I thought we could proceed our activities more quickly and widely, however, we faced with some new obstacles.
 
-At first, we implemented a failure detection system for public APIs, however, it didn't become established in the product development team. We implemented test scripts for these APIs, called them via CI servers periodically, and notified errors and failures to the product development team quickly. We utilized Test Automation and CI as a failure detection system. We also used the common technologies like JUnit, Spring Boot, Jenkins, and so on for the product development team. Failure detection worked partially and some developers started implementing them. Although, test scripts written in JUnit were hard to read, implement, and maintain for the Product Manager and most of developers. Additionally, SET team and the product development team have been working at different offices. Our communications weren't sufficient to proceed improvements.
+One obstacle was that the failure detection mechanism we implemented for Channel Gateway didn't become established in the team. At first, we built the failure detection system by combining API test scripts, running them via CI servers periodically, and notifying errors and failures to the team members quickly. We used JUnit, Spring Boot, Jenkins, and Slack to meet the team's skill sets. After providing the system including manuals to the team, it worked well for the first 2 months. The team could detect failures within 1 hour. Some developers started implementing test scripts. However, team members started ignoring notifications from the system soon without clear reasons.
 
-Other obstacle was that performance problems at Sticker Shop had emerged. They had been using one in-house performance testing tool. However, it couldn't provide enough capabilities to detect emerging issues. Moreover, they need to write test scripts with groovy, an unaccustomed programming language for them. Therefore, writing test scripts was not fast and effective.
+Another obstacle was that performance problems at Sticker Shop had emerged. They used one open-sourced performance testing tool. However, it couldn't provide enough capabilities to detect emerging issues. The team tried to improve the situation but failed. It became urgent issues in our company at that time.
 
-Another challenge was that consulting-style approach didn't work. We often provided guidelines, ideas how to design good test scenarios, and test script examples widely. However, most of colleagues didn't utilize them to improve their testing problems. We needed to find ways to expand ideas and to improve their work more effectively.
+⭐️本当にチームが困っていることに、適切にアプローチできていなかった
+・ガイドラインやツールの提供を要求されるが、いざやってみると全く改善が定着しない。
+Both challenges had common element that
+providing tools and guidelines as a consultant didn't work.
+- In sticker shop, they requested to provide hints but we rejected 多分機能しないから
+
+We often provided guidelines, ideas how to design good test scenarios, and test script examples widely. However, most of colleagues didn't utilize them to improve their testing problems. We needed to find ways to expand ideas and to improve their work more effectively.
 <br />
 <br />
 
@@ -124,8 +130,11 @@ Another challenge was that consulting-style approach didn't work. We often provi
 For achieving our mission, we started working with product development teams deeply to improve their processes. In other words, we started working, learning, and solving essential problems with them.
 <br />
 
-#### 1. REFINE FAILURE DETECTION SYSTEM WITH KARATE
-For public APIs, we started direct conversations with the product development team members to discover their real needs and concerns at first. In other words, we did "Product Discovery" approach again. We talked daily via video conference system. We discussed with the Product Manager if he came to our office.
+#### 1. REFINED THE FAILURE DETECTION SYSTEM WITH KARATE
+⭐️チームのコンテキストに合うものを選択
+For Channel Gateway, we started direct conversations with the product development team members to discover their real needs and concerns at first. In other words, we did "Product Discovery" approach again. We talked daily via video conference system. We discussed with the Product Manager if he came to our office.
+
+⭐️SET team and the product development team have been working at different offices. Our communications weren't sufficient to proceed improvements.
 
 Through these discussions, we found that test scripts written in JUnit were hard for them. Therefore, we investigated and proposed lots of testing tools to them.
 
@@ -134,16 +143,18 @@ Finally, we chose Karate [9] framework. It provides features specific to API Tes
 After decision to use Karate framework, we SETs and the product development team members started rewriting test scripts from JUnit to Karate collaboratively. SETs wrote examples at first. SETs guided "Developer Testing" to achieve and expand "Build Quality In" idea by working with developers. SETs supported solving architectural problems of Karate. After 3 months' collaborative work, finally failure detection system with Karate became established in this product development team.
 <br />
 
-#### 2. IMPLEMENT NEW PERFORMANCE TESTING TOOLS WITH KOTLIN
-For Sticker Shop, we did the same approach as public APIs to discover their real needs and concerns at first.
+#### 2. CREATED NEW TOOLS THAT FIT TEAM'S CONTEXT
+⭐️コンテキストにあったものをスクラッチで
+For Sticker Shop, we did the same approach as Channel Gateway to discover their real needs and concerns at first.
 
 We found that improving to use the existing in-house performance testing tool was impractical. It could produce only 10% of loads what we wanted to test. It was not easy to expand and/or modify features. Additionally, most of the product development team's members were familiar with Kotlin language. Implementing test scripts with Groovy was hard for them. Moreover, usage of Docker [10] and Kubernetes [11] were expanding at that time in our company. We thought it was a good chance to utilize these new tools and approaches to improve our performance testing.
 
 Therefore, we decided to create a new in-house performance testing tool named "Ayaperf". Ayaperf is a Java wrapper of Locust [12] that can use Kubernetes to increase loads easily with enough volume. Developers can write test scripts of performance testing with Java and Kotlin. We did iterative and incremental style to implement and improve Ayaperf with Sticker Shop developers. After 3 months' collaborative work, finally Ayaperf became stable. Developers started detecting performance issues with it before release. Additionally, they could correct issues by themselves without hurting production code. They found and solved 3 hidden performance issues by utilizing Ayaperf.
 <br />
 
-#### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES AS A HABIT
-At public APIs and Sticker Shop, we found the effectiveness of working with product development teams to find their real needs and solve them. This approach worked well. However, I thought it was not enough and sufficient. I saw that lots of teams stopped solving problems by themselves after coaches left teams. It is a failure if improvements don't continue after coaches' left. Therefore, I expanded our activities to making product development process improvement as a habit especially at public APIs.
+#### 3. PRACTICED PROCESS IMPROVEMENTS WITH TEAMS
+⭐️ツール提供だけではなく、プロセス改善を定着させる
+At Channel Gateway and Sticker Shop, we found the effectiveness of working with product development teams to find their real needs and solve them. This approach worked well. However, I thought it was not enough and sufficient. I saw that lots of teams stopped solving problems by themselves after coaches left teams. It is a failure if improvements don't continue after coaches' left. Therefore, I expanded our activities to making product development process improvement as a habit especially at Channel Gateway.
 
 We had found and solved issues as homework every week. We had continued applying new Karate features and refactoring test scripts. Additionally, we had implemented a notification mechanism via slack to reduce MTTR. Moreover, we had asked product development team members for clarifying objectives, quantitative values they will provide to users, and rough milestones of each task every week. We utilized the idea of Scrum framework to make continuous improvement as a habit of the team. We had continued these activities for about 3 months.
 
@@ -153,7 +164,8 @@ After that, the product development team became able to clarify quarterly milest
 
 
 ### RETROSPECTIVE
-We could solve essential problems and improve processes of each product development team by working collaboratively and deeply with them. We SET and product development teams implemented Test Automation and related techniques based on the idea of "Product Discovery". Additionally, each team becomes sophisticated. For example, the Product Manager of public APIs writes test scripts with Karate routinely. He often says that the Product Manager may disturb the team by writing production codes, but can contribute to the team by writing test scripts! He is utilizing test scripts to understand behavior of the product deeply, to clarify next actions and goals of the product and the team, and to guide team members doing "Developer Testing" for "Build Quality In".
+⭐️共に苦しむことがポイント
+We could solve essential problems and improve processes of each product development team by working collaboratively and deeply with them. We SET and product development teams implemented Test Automation and related techniques based on the idea of "Product Discovery". Additionally, each team becomes sophisticated. For example, the Product Manager of Channel Gateway writes test scripts with Karate routinely. He often says that the Product Manager may disturb the team by writing production codes, but can contribute to the team by writing test scripts! He is utilizing test scripts to understand behavior of the product deeply, to clarify next actions and goals of the product and the team, and to guide team members doing "Developer Testing" for "Build Quality In".
 
 Additionally, we learned a lot of things to improve our approaches through working with them. The consulting-style approach is useful to keep the whole image of activities, however, we cannot approach essential problems. On the other hand, the working-together approach is effective to discover and solve essential problems quickly, but we may lose the whole image of activities because of too focusing on one product development team. Therefore, we should utilize both styles based on the phase of activities.
 
@@ -169,7 +181,7 @@ The English word "compassion" derives from Latin's "compati", which means "suffe
 ### CHALLENGES
 We had been solving a lot of technical and process issues of each product by working together with each product development team's members. These activities and achievements have been recognized as huge successes by executives. However, these successes had led us SET team to the next level of challenges.
 
-The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to decision makers like senior managers and executives beforehand. Additionally, these teams couldn't share their current status and problems in a timely manner. Decision makers had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing that information timely from the beginning of all activities. Therefore, decision makers requested us SET team to teach product development teams to express that information properly.
+The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to decision-makers like senior managers and executives beforehand. Additionally, these teams couldn't share their current status and problems in a timely manner. Decision-makers had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing that information timely from the beginning of all activities. Therefore, decision-makers requested us SET team to teach product development teams to express that information properly.
 
 The second challenge was about onboarding. In July 2019, our team had 4 members and we hired one recent graduate and one mid-career employee simultaneously as new SETs. To proceed our activities smoothly, we needed to make onboarding as the top priority task.
 
@@ -183,9 +195,9 @@ For solving these totally different challenges, we started lots of actions inclu
 <br />
 
 #### 1. LEAD ENGINEERING MANAGEMENT IMPROVEMENT
-For solving the company-wide strategic and management problems, we had started showing our activities and installing our ways into other teams. In other words, we had started leading engineering management improvement based on decision makers' demands.
+For solving the company-wide strategic and management problems, we had started showing our activities and installing our ways into other teams. In other words, we had started leading engineering management improvement based on decision-makers' demands.
 
-At first, we shared our milestones with other teams over and over again as an example of engineering management strategy and planning. Additionally, we held workshops for these teams to support their planning, defining mission, reporting, and so forth. For example, I held the Drucker Exercise [13] and the User Story Mapping [14] workshops to one team for teaching the idea of product ownership. After these activities, some teams started defining their own milestones and sharing them to decision makers in a timely manner.
+At first, we shared our milestones with other teams over and over again as an example of engineering management strategy and planning. Additionally, we held workshops for these teams to support their planning, defining mission, reporting, and so forth. For example, I held the Drucker Exercise [13] and the User Story Mapping [14] workshops to one team for teaching the idea of product ownership. After these activities, some teams started defining their own milestones and sharing them to decision-makers in a timely manner.
 
 On the other hand, we attended other teams' meetings to improve. If the meeting was full of verbose and meaningless reporting without any decision making and productive communication, we proposed rules like reporting only necessary for decision making and applying timeboxing. We often utilized the idea of Impact Meeting [15] by Mike Cohn. Moreover, we stopped some meetings that couldn't provide any value. Clarified mission and milestones were useful to distinguish whether the meeting was valuable or not. We could use clear mission and milestones as the pointer of conversation as the same as the User Story.
 <br />
@@ -221,7 +233,7 @@ After the release of Sebas Report, we started promoting Karate and Sebas Report 
 
 
 ### RETROSPECTIVE
-We expanded our activities toward engineering management improvement based on decision makers' demands. Additionally, we experimented new ideas like Learning Session and utilizing Test Automation for resiliency. Through these activities, we have been redefining our goals and responsibilities based on continuous experiments to contribute to our business. We can say we transformed us as a team of "Transformational Leaders".
+We expanded our activities toward engineering management improvement based on decision-makers' demands. Additionally, we experimented new ideas like Learning Session and utilizing Test Automation for resiliency. Through these activities, we have been redefining our goals and responsibilities based on continuous experiments to contribute to our business. We can say we transformed us as a team of "Transformational Leaders".
 <br />
 <br />
 <br />
@@ -231,7 +243,7 @@ We expanded our activities toward engineering management improvement based on de
 ## 5. LESSONS LEARNED
 Through these series of activities, we learned three new ideas.
 
-At first, Agile methodologies worked for starting up new roles and teams. Product Discovery, Iterative and Incremental Consensus, and showing results iteratively attracted colleagues and decision makers. It helped SET team's starting up a lot.
+At first, Agile methodologies worked for starting up new roles and teams. Product Discovery, Iterative and Incremental Consensus, and showing results iteratively attracted colleagues and decision-makers. It helped SET team's starting up a lot.
 
 Second, working closely with product development teams was very effective for improving processes and achieving missions. Just providing guidelines and references to product development teams didn't work. Showing working examples enriched communication. Technical excellence was a necessary piece to provide examples and solutions properly. We utilized technology as a communication driver, however, only technology was not enough. We should leverage communication with both technical excellence and Agile methodologies.
 
