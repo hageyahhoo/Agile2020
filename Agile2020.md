@@ -116,7 +116,10 @@ One obstacle was that the failure detection mechanism we implemented for Channel
 Another obstacle was that performance problems at Sticker Shop had emerged. They used one open-sourced performance testing tool. However, it couldn't provide enough capabilities to detect emerging issues. The team tried to improve the situation but failed. It became urgent issues in our company at that time.
 
 ⭐️本当にチームが困っていることに、適切にアプローチできていなかった
-・ガイドラインやツールの提供を要求されるが、いざやってみると全く改善が定着しない。
+- ガイドラインやツールの提供を要求されるが、いざやってみると全く改善が定着しない。
+- コンサル的ではなく、チームに入らないと本当の問題が見えてこない
+- 解決にコミットする必要性
+
 Both challenges had common element that
 providing tools and guidelines as a consultant didn't work.
 - In sticker shop, they requested to provide hints but we rejected 多分機能しないから
