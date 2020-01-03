@@ -58,7 +58,7 @@ I investigated our services and products. I utilized "SonarQube" [6], a static c
 
 Additionally, I focused on "outage reports". "Outage report" is a term which means both a published report and a postmortem meeting in our company. From these reports, I acknowledged that 1) reports were too technical to know impact on sales and profits, 2) reports didn't consider clear goals and actions to prevent the outages, and 3) "Channel Gateway", an aggregation service of our APIs towards external users, was the most problematic products.
 
-After investigating services and outage reports, I could verbalize colleagues' concerns like increase of Channel Gateway's outages and "MTTR" (Mean Time to Repair) were critical to external users of our APIs. Additionally, I shared these verbalized ones with managers and executives for evaluating the correctness of verbalization.
+After investigating services and outage reports, I could verbalize colleagues' concerns as follows: 1) increase of Channel Gateway's outages was the most critical issue that was giving negative impacts to external users, 2) failure detection of Channel Gateway took an average of 1 week and it was not acceptable for a Product Manager, and 3) testing APIs was insufficient in almost all of services because few persons knew how to test APIs programmatically. I shared these verbalized ones and agreed them with colleagues, managers and executives.
 <br />
 
 #### 2. GIVING IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
