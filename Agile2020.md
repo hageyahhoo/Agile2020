@@ -115,21 +115,17 @@ One obstacle was that the failure detection mechanism we implemented for Channel
 
 Another obstacle was that performance problems at Sticker Shop had emerged. They used one open-sourced performance testing tool. However, it couldn't provide enough capabilities to detect emerging issues. The team tried to improve the situation but failed. It became urgent issues in our company at that time.
 
-⭐️本当にチームが困っていることに、適切にアプローチできていなかった
-- ガイドラインやツールの提供を要求されるが、いざやってみると全く改善が定着しない。
-- コンサル的ではなく、チームに入らないと本当の問題が見えてこない
-- 解決にコミットする必要性
-
-Both challenges had common element that
-providing tools and guidelines as a consultant didn't work.
-- In sticker shop, they requested to provide hints but we rejected 多分機能しないから
-
-We often provided guidelines, ideas how to design good test scenarios, and test script examples widely. However, most of colleagues didn't utilize them to improve their testing problems. We needed to find ways to expand ideas and to improve their work more effectively.
+Both obstacles had a commonality that we couldn't approach each team's real problems properly due to lack of knowledge of their contexts deeply. Just providing tools and guidelines as consultants won't work in both cases. We often got requests from lots of teams to provide standardized tools, guidelines, and reference implementations. However, we never saw that they worked fine and solved their core problems because they tend to be far from the team's real needs and contexts.
 <br />
 <br />
 
 
 ### ACTIONS
+⭐️チームに入るという選択をした
+- Therefore, we needed to understand each team's contexts to solve obstacles quickly.
+- we need to join teams
+- commit to the team & solutions more
+
 For achieving our mission, we started working with product development teams deeply to improve their processes. In other words, we started working, learning, and solving essential problems with them.
 <br />
 
