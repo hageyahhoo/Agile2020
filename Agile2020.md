@@ -125,26 +125,15 @@ Our choice was to join each team and work together for understanding each team's
 <br />
 
 #### 1. REFINED THE FAILURE DETECTION SYSTEM WITH KARATE
-⭐️チームのコンテキストに合うものを選択
-For Channel Gateway's failure detection system,
-we utilized Product Discovery again;
-we started direct conversations with team members
-to hear and verbalize their real concerns and needs at first
-"Product Discovery" approach again
+For the failure detection system of Channel Gateway's team (hereinafter called "the team"), we utilized Product Discovery again. We started direct conversations with the team members to hear and verbalize their real concerns and needs at first. The team and we SET team talked every day as deeply as possible by using video conference system because each team has been working at different offices. Additionally, we discussed with the team's Product Manager if he came to our office.
 
-⭐️SET team and the product development team have been working at different offices. Our communications weren't sufficient to proceed improvements.
-- We talked daily via video conference system.
-- We discussed with the Product Manager if he came to our office.
+Through these discussions, we understood that test scripts written in JUnit were hard to read, write, and maintain for the team members. Therefore, the team and we SET team looked for and evaluated proper tools which would meet our needs together.
 
+After a series of evaluations, we chose "Karate" [10], an open-sourced framework which focuses on API testing with BDD (Behavior-Driven Development) style and Gherkin format. The team members favored its readability, maintainability, and extensibility.
 
+After the decision to use Karate, the team and we SET team started rewriting all test scripts from JUnit to Karate collaboratively. At first, we wrote examples of test scripts with Karate for teaching the team members how to implement tests. Next, the team and we SET team had been tackling with wide variety of testing issues together; product's features that were hard to test, preparation of test data, prioritization of testing, extension of Karate features, and so on.
 
-
-
-Through these discussions, we found that test scripts written in JUnit were hard for them. Therefore, we investigated and proposed lots of testing tools to them.
-
-Finally, we chose Karate [9] framework. It provides features specific to API Testing with BDD (Behavior-Driven Development) style and Gherkin format. It was easy to read, implement, and maintain for both developers and the Product Manager. Especially, defining the preferable state was easy to understand for them.
-
-After decision to use Karate framework, we SETs and the product development team members started rewriting test scripts from JUnit to Karate collaboratively. SETs wrote examples at first. SETs guided "Developer Testing" to achieve and expand "Build Quality In" idea by working with developers. SETs supported solving architectural problems of Karate. After 3 months' collaborative work, finally failure detection system with Karate became established in this product development team.
+After 3 months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
 <br />
 
 #### 2. CREATED NEW TOOLS THAT FIT TEAM'S CONTEXT
@@ -158,6 +147,10 @@ Therefore, we decided to create a new in-house performance testing tool named "A
 
 #### 3. PRACTICED PROCESS IMPROVEMENTS WITH TEAMS
 ⭐️ツール提供だけではなく、プロセス改善を定着させる
+⭐️Channel Gatewayでの具体的アクション例
+the team and we SET team had been tackling with wide variety of testing issues together; product's features that were hard to test, preparation of test data, prioritization of testing, extension of Karate features, and so on.
+
+⭐️
 At Channel Gateway and Sticker Shop, we found the effectiveness of working with product development teams to find their real needs and solve them. This approach worked well. However, I thought it was not enough and sufficient. I saw that lots of teams stopped solving problems by themselves after coaches left teams. It is a failure if improvements don't continue after coaches' left. Therefore, I expanded our activities to making product development process improvement as a habit especially at Channel Gateway.
 
 We had found and solved issues as homework every week. We had continued applying new Karate features and refactoring test scripts. Additionally, we had implemented a notification mechanism via slack to reduce MTTR. Moreover, we had asked product development team members for clarifying objectives, quantitative values they will provide to users, and rough milestones of each task every week. We utilized the idea of Scrum framework to make continuous improvement as a habit of the team. We had continued these activities for about 3 months.
@@ -306,7 +299,9 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [9] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
 
 
-[9] Karate. https://github.com/intuit/karate.
+[10] Karate. https://github.com/intuit/karate.
+
+
 [10] Docker. https://www.docker.com/.
 [11] Kubernetes. https://kubernetes.io/.
 [12] Locust. https://locust.io/.
