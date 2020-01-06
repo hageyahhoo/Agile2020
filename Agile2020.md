@@ -78,16 +78,16 @@ Here is a list of achievements for my first 10 weeks.
 | Week 6  | Agreed with proposals/milestones with decision-makers            |
 | Week 7  | Collected information and tools of QA/Tests in one place         |
 | Week 8  | Implemented failure detection mechanism for Channel Gateway      |
-| Week 9  | Guided to start regular meetings with developers and QAs         |
+| Week 9  | Guided to start regular meetings with developers and QA persons  |
 | Week 10 | Started solving problems by developers step by step              |
 
-When I gave impacts, I utilized "3 KPIs"; Sales, Profit, and Employee Satisfaction. It is that my former supervisor told me as a way to measure every business. For example, my first proposal of SET activities to decision-makers included reducing MTTR (Mean Time To Repair) of Channel Gateway by implementing proper failure detection mechanism for reducing negative impacts to external users. Additionally, I not only reported results of static code analysis, but also shared with developers how to build static code analysis mechanism from Employee Satisfaction aspect.
+When I gave impacts, I utilized "3 KPIs": Sales, Profit, and Employee Satisfaction. It is that my former supervisor told me as a way to measure every business. For example, my first proposal of SET activities to decision-makers included reducing MTTR (Mean Time to Repair) of Channel Gateway by implementing proper failure detection mechanism for reducing negative impacts to external users. Additionally, I not only reported results of static code analysis, but also shared with developers how to build static code analysis mechanism from Employee Satisfaction aspect.
 
-As a result, many developers started using my "impacts" like static code analysis mechanism and giving me concrete advices about problematic points of architectural design, operational difficulties, and so on. Their advices became good information sources to communicate with decision-makers. Additionally, decision-makers started taking time to define SET role with me. They couldn't ignore my "impacts" and developers' supports to SET.
+As a result, many developers started using my impacts like static code analysis mechanism and giving me concrete advices about problematic points of architectural design, operational difficulties, and so on. Their advices became good information sources to communicate with decision-makers. Additionally, decision-makers started taking time to define SET role with me. They couldn't ignore my impacts and developers' supports to SET.
 <br />
 
 #### 3. ITERATIVE AND INCREMENTAL CONSENSUS
-In parallel with "giving impacts", I built consensus on SET role with decision-makers gradually. From the first week I joined LINE Corporation, I started proposing ideas of SET; objective, missions, responsibilities, solutions, and milestones; iteratively based on gathered information I verbalized and got from colleagues.
+In parallel with giving impacts, I built consensus on SET role with decision-makers gradually. From the first week I joined LINE Corporation, I started proposing ideas of SET; objective, missions, responsibilities, solutions, and milestones; iteratively based on gathered information I verbalized and got from colleagues.
 
 This phase was analogous to start-up business or building new services. Through discussions, we corrected ideas of SET role, and built feeling of trust each other step by step. It was a weekly cycle of build-propose-learn. I named it as "Iterative and Incremental Consensus".
 
@@ -99,7 +99,7 @@ As a result, within 45 days since I joined LINE Corporation, we agreed on 1) mak
 ### RETROSPECTIVE
 Establishing SET role in LINE Corporation was analogous to start-up business or building new services to me.
 
-In an organization without a concept of process improvement, showing concrete examples to improve small things step by step could give impacts to the organization positively. Verbalizing colleagues' concerns as "Product Discovery" became good information sources. Additionally, providing achievements and building feeling of trust as impacts worked for getting support from colleagues and decision-makers. Moreover, "Iterative and Incremental Consensus" was effective for collaboration and quick agreement on totally new ideas with decision-makers. Through these activities, "3 KPIs" worked as common criteria for improvements among colleagues, decision-makers, and I.
+In an organization without a concept of process improvement, showing concrete examples to improve small things step by step could give impacts to the organization positively. Verbalizing colleagues' concerns as Product Discovery became good information sources. Additionally, providing achievements and building feeling of trust as impacts worked for getting support from colleagues and decision-makers. Moreover, Iterative and Incremental Consensus was effective for collaboration and quick agreement on totally new ideas with decision-makers. Through these activities, 3 KPIs worked as common criteria for improvements among colleagues, decision-makers, and I.
 <br />
 <br />
 <br />
@@ -121,19 +121,24 @@ Both obstacles had a commonality that we couldn't approach each team's real prob
 
 
 ### ACTIONS
-⭐️チームに入るという選択をした
-- Therefore, we needed to understand each team's contexts to solve obstacles quickly.
-- we need to join teams
-- commit to the team & solutions more
-
-For achieving our mission, we started working with product development teams deeply to improve their processes. In other words, we started working, learning, and solving essential problems with them.
+Our choice was to join each team and work together for understanding each team's contexts, finding proper solutions, and committing the teams and solutions more.
 <br />
 
 #### 1. REFINED THE FAILURE DETECTION SYSTEM WITH KARATE
 ⭐️チームのコンテキストに合うものを選択
-For Channel Gateway, we started direct conversations with the product development team members to discover their real needs and concerns at first. In other words, we did "Product Discovery" approach again. We talked daily via video conference system. We discussed with the Product Manager if he came to our office.
+For Channel Gateway's failure detection system,
+we utilized Product Discovery again;
+we started direct conversations with team members
+to hear and verbalize their real concerns and needs at first
+"Product Discovery" approach again
 
 ⭐️SET team and the product development team have been working at different offices. Our communications weren't sufficient to proceed improvements.
+- We talked daily via video conference system.
+- We discussed with the Product Manager if he came to our office.
+
+
+
+
 
 Through these discussions, we found that test scripts written in JUnit were hard for them. Therefore, we investigated and proposed lots of testing tools to them.
 
