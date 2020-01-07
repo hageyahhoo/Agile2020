@@ -72,3 +72,21 @@ I experienced that creating solutions "from scratch" by combining technical solu
 In this talk, I will provide you practical ideas we reflected, experimented, and succeeded as SET in LINE Corporation. For example, 1) establishing a new role without shared understanding among stakeholders, 2) improving product development teams without the relationship of trust, proper tools, and techniques, and 3) proceeding company-wide problem-solving without any history of process improvements and proper leaders.
 
 After this talk, you will get concrete examples of techniques, tools, and solutions to nurture process improvement in this type of organization, to get support and understanding from strongly technology-oriented persons, and to find a point to start your action.
+
+
+
+#### 3.2.2. CREATED NEW TOOLS THAT FIT TEAM'S CONTEXT
+For Sticker Shop, we did the same approach as Channel Gateway to discover their real needs and concerns at first.
+
+We found that improving to use the existing in-house performance testing tool was impractical. It could produce only 10% of loads what we wanted to test. It was not easy to expand and/or modify features. Additionally, most of the product development team's members were familiar with Kotlin language. Implementing test scripts with Groovy was hard for them. Moreover, usage of Docker [10] and Kubernetes [11] were expanding at that time in our company. We thought it was a good chance to utilize these new tools and approaches to improve our performance testing.
+
+Therefore, we decided to create a new in-house performance testing tool named "Ayaperf". Ayaperf is a Java wrapper of Locust [12] that can use Kubernetes to increase loads easily with enough volume. Developers can write test scripts of performance testing with Java and Kotlin. We did iterative and incremental style to implement and improve Ayaperf with Sticker Shop developers. After 3 months' collaborative work, finally Ayaperf became stable. Developers started detecting performance issues with it before release. Additionally, they could correct issues by themselves without hurting production code. They found and solved 3 hidden performance issues by utilizing Ayaperf.
+
+
+
+#### 4.2.1. LEAD ENGINEERING MANAGEMENT IMPROVEMENT
+For solving the company-wide strategic and management problems, we had started showing our activities and installing our ways into other teams. In other words, we had started leading engineering management improvement based on decision-makers' demands.
+
+At first, we shared our milestones with other teams over and over again as an example of engineering management strategy and planning. Additionally, we held workshops for these teams to support their planning, defining mission, reporting, and so forth. For example, I held the Drucker Exercise [13] and the User Story Mapping [14] workshops to one team for teaching the idea of product ownership. After these activities, some teams started defining their own milestones and sharing them to decision-makers in a timely manner.
+
+On the other hand, we attended other teams' meetings to improve. If the meeting was full of verbose and meaningless reporting without any decision making and productive communication, we proposed rules like reporting only necessary for decision making and applying timeboxing. We often utilized the idea of Impact Meeting [15] by Mike Cohn. Moreover, we stopped some meetings that couldn't provide any value. Clarified mission and milestones were useful to distinguish whether the meeting was valuable or not. We could use clear mission and milestones as the pointer of conversation as the same as the User Story.

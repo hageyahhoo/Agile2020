@@ -125,6 +125,7 @@ Our choice was to join each team and work together for understanding each team's
 <br />
 
 #### 1. REFINED THE FAILURE DETECTION SYSTEM WITH KARATE
+⭐️コンテキストにあったものをスクラッチで
 For the failure detection system of Channel Gateway's team (hereinafter called "the team"), we utilized Product Discovery again. We started direct conversations with the team members to hear and verbalize their real concerns and needs at first. The team and we SET team talked every day as deeply as possible by using video conference system because each team has been working at different offices. Additionally, we discussed with the team's Product Manager if he came to our office.
 
 Through these discussions, we understood that test scripts written in JUnit were hard to read, write, and maintain for the team members. Therefore, the team and we SET team looked for and evaluated proper tools which would meet our needs together.
@@ -134,15 +135,6 @@ After a series of evaluations, we chose "Karate" [10], an open-sourced framework
 After the decision to use Karate, the team and we SET team started rewriting all test scripts from JUnit to Karate collaboratively. At first, we wrote examples of test scripts with Karate for teaching the team members how to implement tests. Next, the team and we SET team had been tackling with wide variety of testing issues together; product's features that were hard to test, preparation of test data, prioritization of testing, extension of Karate features, and so on.
 
 After 3 months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
-<br />
-
-#### 2. CREATED NEW TOOLS THAT FIT TEAM'S CONTEXT
-⭐️コンテキストにあったものをスクラッチで
-For Sticker Shop, we did the same approach as Channel Gateway to discover their real needs and concerns at first.
-
-We found that improving to use the existing in-house performance testing tool was impractical. It could produce only 10% of loads what we wanted to test. It was not easy to expand and/or modify features. Additionally, most of the product development team's members were familiar with Kotlin language. Implementing test scripts with Groovy was hard for them. Moreover, usage of Docker [10] and Kubernetes [11] were expanding at that time in our company. We thought it was a good chance to utilize these new tools and approaches to improve our performance testing.
-
-Therefore, we decided to create a new in-house performance testing tool named "Ayaperf". Ayaperf is a Java wrapper of Locust [12] that can use Kubernetes to increase loads easily with enough volume. Developers can write test scripts of performance testing with Java and Kotlin. We did iterative and incremental style to implement and improve Ayaperf with Sticker Shop developers. After 3 months' collaborative work, finally Ayaperf became stable. Developers started detecting performance issues with it before release. Additionally, they could correct issues by themselves without hurting production code. They found and solved 3 hidden performance issues by utilizing Ayaperf.
 <br />
 
 #### 3. PRACTICED PROCESS IMPROVEMENTS WITH TEAMS
@@ -189,14 +181,6 @@ The third one was a doubt about testing and quality assurance. LINE Corporation 
 
 ### ACTIONS
 For solving these totally different challenges, we started lots of actions including not only Test Automation and technical ones, but also engineering management, education, innovation, and so forth.
-<br />
-
-#### 1. LEAD ENGINEERING MANAGEMENT IMPROVEMENT
-For solving the company-wide strategic and management problems, we had started showing our activities and installing our ways into other teams. In other words, we had started leading engineering management improvement based on decision-makers' demands.
-
-At first, we shared our milestones with other teams over and over again as an example of engineering management strategy and planning. Additionally, we held workshops for these teams to support their planning, defining mission, reporting, and so forth. For example, I held the Drucker Exercise [13] and the User Story Mapping [14] workshops to one team for teaching the idea of product ownership. After these activities, some teams started defining their own milestones and sharing them to decision-makers in a timely manner.
-
-On the other hand, we attended other teams' meetings to improve. If the meeting was full of verbose and meaningless reporting without any decision making and productive communication, we proposed rules like reporting only necessary for decision making and applying timeboxing. We often utilized the idea of Impact Meeting [15] by Mike Cohn. Moreover, we stopped some meetings that couldn't provide any value. Clarified mission and milestones were useful to distinguish whether the meeting was valuable or not. We could use clear mission and milestones as the pointer of conversation as the same as the User Story.
 <br />
 
 #### 2. LEARNING SESSION
