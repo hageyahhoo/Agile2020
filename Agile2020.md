@@ -115,17 +115,15 @@ The biggest challenge was that the failure detection mechanism we implemented fo
 
 Based on the first agreement with decision-makers, we built a failure detection system for Channel Gateway to reduce its MTTR. We implemented the system by combining Test Automation techniques and Continuous Integration (CI) servers. We implemented test scripts for its APIs. Additionally, we configured CI servers to run these test scripts periodically on both development and production environments. Moreover, we configured servers to notify errors and/or failures detected by running test scripts to members of Channel Gateway's team (hereinafter called "the team") in a minute or two via Slack [10]. We used JUnit and Spring Boot [11] to implement test scripts to meet the team's skill sets, and to make the team members implement test scripts by their own.
 
-⭐️failure detection of Channel Gateway took an average of 1 week
-After providing the system including manuals to the team, it worked well for the first 2 months. The team could detect failures within 1 hour. Some developers started implementing test scripts. However, team members started ignoring notifications from the system soon without clear reasons.
+After providing the system including manuals to the team, it worked well for the first 2 months. It made failure detection dramatically from 1 week to 1 hour. Additionally, some team members started implementing test scripts. However, they became ignoring notifications from the system soon without clear reasons.
 
-⭐️我々の課題（チームの本当の課題を知らない・ガイドラインだけではダメ・適したソリューションを提供）
-Both obstacles had a commonality that we couldn't approach each team's real problems properly due to lack of knowledge of their contexts deeply. Just providing tools and guidelines as consultants won't work in both cases. We often got requests from lots of teams to provide standardized tools, guidelines, and reference implementations. However, we never saw that they worked fine and solved their core problems because they tend to be far from the team's real needs and contexts.
+Soon we hypothesized that we couldn't approach the team's real problems properly due to lack of knowledge of their contexts deeply. Just providing tools and guidelines as consultants won't work in this case. We often got requests from lots of teams to provide standardized tools, guidelines, and reference implementations. However, we never saw that they worked fine and solved their core problems because they tend to be far from the team's real needs and contexts.
 <br />
 <br />
 
 
 ### ACTIONS
-Our choice was to join each team and work together for understanding each team's contexts, finding proper solutions, and committing the teams and solutions more.
+Our choice was to join the team and work together for understanding the team's contexts, finding proper solutions, and committing the team and solutions more.
 <br />
 
 ⭐️タイトルを決める
@@ -136,7 +134,7 @@ For the failure detection system of Channel Gateway's team (hereinafter called "
 
 Through these discussions, we understood that test scripts written in JUnit were hard to read, write, and maintain for the team members. Therefore, the team and we SET team looked for and evaluated proper tools which would meet our needs together.
 
-After a series of evaluations, we chose "Karate" [10], an open-sourced framework which focuses on API testing with BDD (Behavior-Driven Development) style and Gherkin format. The team members favored its readability, maintainability, and extensibility.
+After a series of evaluations, we chose "Karate" [12], an open-sourced framework which focuses on API testing with BDD (Behavior-Driven Development) style and Gherkin format. The team members favored its readability, maintainability, and extensibility.
 
 After the decision to use Karate, the team and we SET team started rewriting all test scripts from JUnit to Karate collaboratively. At first, we wrote examples of test scripts with Karate for teaching the team members how to implement tests. Next, the team and we SET team had been tackling with wide variety of testing issues together; product's features that were hard to test, preparation of test data, prioritization of testing, extension of Karate features, and so on.
 
