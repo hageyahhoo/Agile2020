@@ -106,15 +106,19 @@ In an organization without a concept of process improvement, showing concrete ex
 
 
 
-## 3. INNOVATE SOLUTIONS BY EXPERIENCING HARDSHIPS TOGETHER
+## 3. INNOVATE SOLUTIONS AND PROCESSES BY EXPERIENCING HARDSHIPS TOGETHER
 
 ### CHALLENGES
-After establishing SET role, I started actions as SET by obtaining consent from colleagues and decision-makers. After 6 months, we hired new SETs and formed a team of SET. I thought we could proceed our activities more quickly and widely, however, we faced with some new obstacles.
+After establishing SET role, I started actions as SET by obtaining consent from colleagues and decision-makers. After 6 months, we hired new SETs and formed a team of SET. I thought we could proceed our activities more quickly and widely, however, we faced with some new challenges.
 
-One obstacle was that the failure detection mechanism we implemented for Channel Gateway didn't become established in the team. At first, we built the failure detection system by combining API test scripts, running them via CI servers periodically, and notifying errors and failures to the team members quickly. We used JUnit, Spring Boot, Jenkins, and Slack to meet the team's skill sets. After providing the system including manuals to the team, it worked well for the first 2 months. The team could detect failures within 1 hour. Some developers started implementing test scripts. However, team members started ignoring notifications from the system soon without clear reasons.
+The biggest challenge was that the failure detection mechanism we implemented for Channel Gateway didn't become established in the team.
 
-Another obstacle was that performance problems at Sticker Shop had emerged. They used one open-sourced performance testing tool. However, it couldn't provide enough capabilities to detect emerging issues. The team tried to improve the situation but failed. It became urgent issues in our company at that time.
+Based on the first agreement with decision-makers, we built a failure detection system for Channel Gateway to reduce its MTTR. We implemented the system by combining Test Automation techniques and Continuous Integration (CI) servers. We implemented test scripts for its APIs. Additionally, we configured CI servers to run these test scripts periodically on both development and production environments. Moreover, we configured servers to notify errors and/or failures detected by running test scripts to members of Channel Gateway's team (hereinafter called "the team") in a minute or two via Slack [10]. We used JUnit and Spring Boot [11] to implement test scripts to meet the team's skill sets, and to make the team members implement test scripts by their own.
 
+⭐️failure detection of Channel Gateway took an average of 1 week
+After providing the system including manuals to the team, it worked well for the first 2 months. The team could detect failures within 1 hour. Some developers started implementing test scripts. However, team members started ignoring notifications from the system soon without clear reasons.
+
+⭐️我々の課題（チームの本当の課題を知らない・ガイドラインだけではダメ・適したソリューションを提供）
 Both obstacles had a commonality that we couldn't approach each team's real problems properly due to lack of knowledge of their contexts deeply. Just providing tools and guidelines as consultants won't work in both cases. We often got requests from lots of teams to provide standardized tools, guidelines, and reference implementations. However, we never saw that they worked fine and solved their core problems because they tend to be far from the team's real needs and contexts.
 <br />
 <br />
@@ -124,8 +128,10 @@ Both obstacles had a commonality that we couldn't approach each team's real prob
 Our choice was to join each team and work together for understanding each team's contexts, finding proper solutions, and committing the teams and solutions more.
 <br />
 
-#### 1. REFINED THE FAILURE DETECTION SYSTEM WITH KARATE
-⭐️コンテキストにあったものをスクラッチで
+⭐️タイトルを決める
+#### 1. SHARE A SENSE OF CRISIS BY VERBALIZING REAL CONCERNS
+#### 1. Find proper tools for the team
+⭐️チームの本当の課題を知る（リモート込み）
 For the failure detection system of Channel Gateway's team (hereinafter called "the team"), we utilized Product Discovery again. We started direct conversations with the team members to hear and verbalize their real concerns and needs at first. The team and we SET team talked every day as deeply as possible by using video conference system because each team has been working at different offices. Additionally, we discussed with the team's Product Manager if he came to our office.
 
 Through these discussions, we understood that test scripts written in JUnit were hard to read, write, and maintain for the team members. Therefore, the team and we SET team looked for and evaluated proper tools which would meet our needs together.
@@ -137,8 +143,17 @@ After the decision to use Karate, the team and we SET team started rewriting all
 After 3 months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
 <br />
 
+
+
+#### 2. REFINED THE FAILURE DETECTION SYSTEM WITH KARATE
+⭐️コンテキストに即したツールを導入し、一緒になじませる
+⭐️become established in the team
+
+
+
+
 #### 3. PRACTICED PROCESS IMPROVEMENTS WITH TEAMS
-⭐️ツール提供だけではなく、プロセス改善を定着させる
+⭐️ツール提供と合わせて、プロセス改善を定着させる
 ⭐️Channel Gatewayでの具体的アクション例
 the team and we SET team had been tackling with wide variety of testing issues together; product's features that were hard to test, preparation of test data, prioritization of testing, extension of Karate features, and so on.
 
@@ -154,6 +169,9 @@ After that, the product development team became able to clarify quarterly milest
 
 ### RETROSPECTIVE
 ⭐️共に苦しむことがポイント
+⭐️become established in the team
+⭐️innovate solutions and processes by experiencing hardships together
+
 We could solve essential problems and improve processes of each product development team by working collaboratively and deeply with them. We SET and product development teams implemented Test Automation and related techniques based on the idea of "Product Discovery". Additionally, each team becomes sophisticated. For example, the Product Manager of Channel Gateway writes test scripts with Karate routinely. He often says that the Product Manager may disturb the team by writing production codes, but can contribute to the team by writing test scripts! He is utilizing test scripts to understand behavior of the product deeply, to clarify next actions and goals of the product and the team, and to guide team members doing "Developer Testing" for "Build Quality In".
 
 Additionally, we learned a lot of things to improve our approaches through working with them. The consulting-style approach is useful to keep the whole image of activities, however, we cannot approach essential problems. On the other hand, the working-together approach is effective to discover and solve essential problems quickly, but we may lose the whole image of activities because of too focusing on one product development team. Therefore, we should utilize both styles based on the phase of activities.
@@ -281,14 +299,10 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [7] SonarQube. https://www.sonarqube.org/.
 [8] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
 [9] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
+[10] Slack. https://slack.com/.
+[11] Spring Boot. https://spring.io/projects/spring-boot.
+[12] Karate. https://github.com/intuit/karate.
 
-
-[10] Karate. https://github.com/intuit/karate.
-
-
-[10] Docker. https://www.docker.com/.
-[11] Kubernetes. https://kubernetes.io/.
-[12] Locust. https://locust.io/.
 [13] The Agile Warrior. https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/.
 [14] Jeff Patton & Associates. https://www.jpattonassociates.com/user-story-mapping/.
 [15] Mountain Goat Software. https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews.
