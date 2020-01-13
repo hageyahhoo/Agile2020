@@ -48,7 +48,7 @@ Moreover, there were no shared understanding and consensus about SET role among 
 My focus was to obtain consent from decision-makers and colleagues by discovering their real concerns and providing solutions iteratively and incrementally.
 
 #### 1. SHARE A SENSE OF CRISIS BY VERBALIZING REAL CONCERNS
-I thought not only decision-makers and colleagues but also I should know real problems LINE Corporation was facing with in a knowledgeable way. It was time to follow an ancient saying by Sun Tzu: "If you know the enemy and you know yourself, you will have almost 100 battles". From my experiences of Agile, I thought "Product Discovery" [6] might fit well.
+I thought not only decision-makers and colleagues but also, I should know real problems LINE Corporation was facing with in a knowledgeable way. It was time to follow an ancient saying by Sun Tzu: "If you know the enemy and you know yourself, you will have almost 100 battles". From my experiences of Agile, I thought "Product Discovery" [6] might fit well.
 
 Therefore, at first, I talked developers, QA persons, Product Managers, senior managers, and executives to hear their concerns and troubles directly. Through these conversations, I acknowledged that they had lots of non-verbalized problems. Additionally, I got that there were no persons who could verbalize these problems and share with other colleagues.
 
@@ -143,26 +143,13 @@ It took three months to rewrite all test scripts from JUnit to Karate. However, 
 <br />
 
 #### 3. EXERCISE PROCESS IMPROVEMENTS WITH THE TEAM
-⭐️to be accustomed to using the failure detection system
-    and become it established in the team
-⭐️Simultaneously to rewriting test scripts,
-    - Need to teach problem-solving by working together.
+Concurrently to rewriting test scripts, we aimed to teach the team members how to use the failure detection system without manuals and solve problems by working together. Therefore, the team and we SET team had been tackling with wide variety of testing issues together; the architecture and the product designs that were hard to test, preparation of test data, extension of Karate features, and so on. Additionally, we had taught the team members how to set goals and milestones, clarify objectives, prioritize APIs to test, provide quantitative information to users, and so forth.
 
-the team and we SET team had been tackling with wide variety of testing issues together; product's features that were hard to test, preparation of test data, prioritization of testing, extension of Karate features, and so on.
-
-⭐️
-We had found and solved issues as homework every week. We had continued applying new Karate features and refactoring test scripts. Additionally, we had implemented a notification mechanism via slack to reduce MTTR. Moreover, we had asked product development team members for clarifying objectives, quantitative values they will provide to users, and rough milestones of each task every week. We utilized the idea of Scrum framework to make continuous improvement as a habit of the team. We had continued these activities for about 3 months.
-
-⭐️
 After three months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
 
-⭐️
-After that, the team became able to
-- clarify quarterly milestones,
-- prioritize tasks based on business values,
-- and improve test scripts and the failure detection system by their own.
+Additionally, the team became self-organized one. They became able to define goals and milestones, prioritize their tasks based on business values, and collaborate with related teams by their own without our help.
 
-They started decreasing outages dramatically. They really became the self-organized team. Finally, we stopped supporting the team.
+Moreover, business impacts started to emerge. They reduced over thirty percent of outages after the above actions. Now many product development teams use the team as a reference of improvements.
 <br />
 <br />
 
