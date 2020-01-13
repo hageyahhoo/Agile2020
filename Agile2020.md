@@ -58,7 +58,7 @@ I investigated our services and products. I utilized "SonarQube" [7], a static c
 
 Additionally, I focused on "outage reports". "Outage report" is a term which means both a published report and a postmortem meeting in our company. From these reports, I acknowledged that 1) reports were too technical to know impact on sales and profits, 2) reports didn't consider clear goals and actions to prevent the outages, and 3) "Channel Gateway", an aggregation service of our APIs towards external users, was the most problematic products.
 
-After investigating services and outage reports, I could verbalize colleagues' concerns as follows: 1) increase of Channel Gateway's outages was the most critical issue that was giving negative impacts to external users, 2) failure detection of Channel Gateway took an average of 1 week and it was not acceptable for a Product Manager, and 3) testing APIs was insufficient in almost all of services because few persons knew how to test APIs programmatically. I shared these verbalized ones and agreed them with colleagues, managers and executives.
+After investigating services and outage reports, I could verbalize colleagues' concerns as follows: 1) increase of Channel Gateway's outages was the most critical issue that was giving negative impacts to external users, 2) failure detection of Channel Gateway took an average of one week and it was not acceptable for a Product Manager, and 3) testing APIs was insufficient in almost all of services because few persons knew how to test APIs programmatically. I shared these verbalized ones and agreed them with colleagues, managers and executives.
 <br />
 
 #### 2. GIVE IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
@@ -66,7 +66,7 @@ For getting support from colleagues and decision-makers to proceed with radicall
 
 From the first week I joined LINE Corporation, I achieved something and shared them with coworkers and decision-makers every week. Especially, I focused on providing working software, executable ones, and quantitative information.
 
-Here is a list of achievements for my first 10 weeks.
+Here is a list of achievements for my first ten weeks.
 
 | Week    | Achievements                                                     |
 | ------- | ---------------------------------------------------------------- |
@@ -81,7 +81,7 @@ Here is a list of achievements for my first 10 weeks.
 | Week 9  | Guided to start regular meetings with developers and QA persons  |
 | Week 10 | Started solving problems by developers step by step              |
 
-When I gave impacts, I utilized "3 KPIs": Sales, Profit, and Employee Satisfaction. It is that my former supervisor told me as a way to measure every business. For example, my first proposal of SET activities to decision-makers included reducing MTTR (Mean Time to Repair) of Channel Gateway by implementing proper failure detection mechanism for reducing negative impacts to external users. Additionally, I not only reported results of static code analysis, but also shared with developers how to build static code analysis mechanism from Employee Satisfaction aspect.
+When I gave impacts, I utilized "Three KPIs": Sales, Profit, and Employee Satisfaction. It is that my former supervisor told me as a way to measure every business. For example, my first proposal of SET activities to decision-makers included reducing MTTR (Mean Time to Repair) of Channel Gateway by implementing proper failure detection mechanism for reducing negative impacts to external users. Additionally, I not only reported results of static code analysis, but also shared with developers how to build static code analysis mechanism from Employee Satisfaction aspect.
 
 As a result, many developers started using my impacts like static code analysis mechanism and giving me concrete advices about problematic points of architectural design, operational difficulties, and so on. Their advices became good information sources to communicate with decision-makers. Additionally, decision-makers started taking time to define SET role with me. They couldn't ignore my impacts and developers' supports to SET.
 <br />
@@ -91,7 +91,7 @@ In parallel with giving impacts, I built consensus on SET role with decision-mak
 
 This phase was analogous to start-up business or building new services. Through discussions, we corrected ideas of SET role, and built feeling of trust each other step by step. It was a weekly cycle of build-propose-learn. I named it as "Iterative and Incremental Consensus".
 
-As a result, within 45 days since I joined LINE Corporation, we agreed on 1) making failure detection faster and reducing MTTR by utilizing Test Automation techniques, 2) increasing API test scripts, and 3) focusing on Channel Gateway at first as SET role, goals, and milestone. It was a result from scratch.
+As a result, within forty-five days since I joined LINE Corporation, we agreed on 1) making failure detection faster and reducing MTTR by utilizing Test Automation techniques, 2) increasing API test scripts, and 3) focusing on Channel Gateway at first as SET role, goals, and milestone. It was a result from scratch.
 <br />
 <br />
 
@@ -99,7 +99,7 @@ As a result, within 45 days since I joined LINE Corporation, we agreed on 1) mak
 ### RETROSPECTIVE
 Establishing SET role in LINE Corporation was analogous to start-up business or building new services to me.
 
-In an organization without a concept of process improvement, showing concrete examples to improve small things step by step could give impacts to the organization positively. Verbalizing colleagues' concerns as Product Discovery became good information sources. Additionally, providing achievements and building feeling of trust as impacts worked for getting support from colleagues and decision-makers. Moreover, Iterative and Incremental Consensus was effective for collaboration and quick agreement on totally new ideas with decision-makers. Through these activities, 3 KPIs worked as common criteria for improvements among colleagues, decision-makers, and I.
+In an organization without a concept of process improvement, showing concrete examples to improve small things step by step could give impacts to the organization positively. Verbalizing colleagues' concerns as Product Discovery became good information sources. Additionally, providing achievements and building feeling of trust as impacts worked for getting support from colleagues and decision-makers. Moreover, Iterative and Incremental Consensus was effective for collaboration and quick agreement on totally new ideas with decision-makers. Through these activities, Three KPIs worked as common criteria for improvements among colleagues, decision-makers, and I.
 <br />
 <br />
 <br />
@@ -109,13 +109,13 @@ In an organization without a concept of process improvement, showing concrete ex
 ## 3. INNOVATE SOLUTIONS AND PROCESSES BY EXPERIENCING HARDSHIPS TOGETHER
 
 ### CHALLENGES
-After establishing SET role, I started actions as SET by obtaining consent from colleagues and decision-makers. After 6 months, we hired new SETs and formed a team of SET. I thought we could proceed our activities more quickly and widely, however, we faced with some new challenges.
+After establishing SET role, I started actions as SET by obtaining consent from colleagues and decision-makers. After six months, we hired new SETs and formed a team of SET. I thought we could proceed our activities more quickly and widely, however, we faced with some new challenges.
 
 The biggest challenge was that the failure detection mechanism we implemented for Channel Gateway didn't become established in the team.
 
 Based on the first agreement with decision-makers, we built a failure detection system for Channel Gateway to reduce its MTTR. We implemented the system by combining Test Automation techniques and Continuous Integration (CI) servers. We implemented test scripts for its APIs. Additionally, we configured CI servers to run these test scripts periodically on both development and production environments. Moreover, we configured servers to notify errors and/or failures detected by running test scripts to members of Channel Gateway's team (hereinafter called "the team") in a minute or two via Slack [10]. We used JUnit and Spring Boot [11] to implement test scripts to meet the team's skill sets, and to make the team members implement test scripts by their own.
 
-After providing the system including manuals to the team, it worked well for the first 2 months. It made failure detection dramatically from 1 week to 1 hour. Additionally, some team members started implementing test scripts. However, they became ignoring notifications from the system soon without clear reasons.
+After providing the system including manuals to the team, it worked well for the first two months. It made failure detection dramatically from one week to one hour. Additionally, some team members started implementing test scripts. However, they became ignoring notifications from the system soon without clear reasons.
 
 Soon we hypothesized that we couldn't approach the team's real problems properly due to lack of knowledge of their contexts deeply. Just providing tools and guidelines as consultants won't work in this case. We often got requests from lots of teams to provide standardized tools, guidelines, and reference implementations. However, we never saw that they worked fine and solved their core problems because they tend to be far from the team's real needs and contexts.
 <br />
@@ -135,11 +135,11 @@ Through these discussions, we understood that test scripts written in JUnit were
 #### 2. REBUILD THE FAILURE DETECTION SYSTEM WITH KARATE
 Next, the team and we SET team started to look for and evaluate proper tools which would meet our needs and preferences together.
 
-After 1 month's research and evaluation, the team and we SET team agreed on using "Karate" [12]. Karate is an open-sourced framework which focuses on API testing. It provides features that make testing RESTful APIs, Thrift [13], and gRPC [14] easier. We can implement test scripts with Gherkin syntax [15] and BDD (Behavior-Driven Development) [16] style. The team members favored its readability, maintainability, and extensibility points.
+After one month's research and evaluation, the team and we SET team agreed on using "Karate" [12]. Karate is an open-sourced framework which focuses on API testing. It provides features that make testing RESTful APIs, Thrift [13], and gRPC [14] easier. We can implement test scripts with Gherkin syntax [15] and BDD (Behavior-Driven Development) [16] style. The team members favored its readability, maintainability, and extensibility points.
 
 After the decision to use Karate, the team and we SET team started rewriting all test scripts from JUnit to Karate collaboratively. At first, we SET team implemented examples, provided them to the team members, and taught the team members points to use Karate. Soon after these preparations, the team members became able to implement test scripts by their own.
 
-It took 3 months to rewrite all test scripts from JUnit to Karate. However, just rebuilding the failure detection system was not enough became it established in the team.
+It took three months to rewrite all test scripts from JUnit to Karate. However, just rebuilding the failure detection system was not enough became it established in the team.
 <br />
 
 #### 3. EXERCISE PROCESS IMPROVEMENTS WITH THE TEAM
@@ -150,14 +150,11 @@ It took 3 months to rewrite all test scripts from JUnit to Karate. However, just
 
 the team and we SET team had been tackling with wide variety of testing issues together; product's features that were hard to test, preparation of test data, prioritization of testing, extension of Karate features, and so on.
 
-
-
-
-
+⭐️
 We had found and solved issues as homework every week. We had continued applying new Karate features and refactoring test scripts. Additionally, we had implemented a notification mechanism via slack to reduce MTTR. Moreover, we had asked product development team members for clarifying objectives, quantitative values they will provide to users, and rough milestones of each task every week. We utilized the idea of Scrum framework to make continuous improvement as a habit of the team. We had continued these activities for about 3 months.
 
 ⭐️
-After 3 months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
+After three months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
 
 ⭐️
 After that, the team became able to
@@ -174,6 +171,7 @@ They started decreasing outages dramatically. They really became the self-organi
 ⭐️共に苦しむことがポイント
 ⭐️become established in the team
 ⭐️innovate solutions and processes by experiencing hardships together
+⭐️Temptation to generalize tools and processes (from engineers' side)
 
 We could solve essential problems and improve processes of each product development team by working collaboratively and deeply with them. We SET and product development teams implemented Test Automation and related techniques based on the idea of "Product Discovery". Additionally, each team becomes sophisticated. For example, the Product Manager of Channel Gateway writes test scripts with Karate routinely. He often says that the Product Manager may disturb the team by writing production codes, but can contribute to the team by writing test scripts! He is utilizing test scripts to understand behavior of the product deeply, to clarify next actions and goals of the product and the team, and to guide team members doing "Developer Testing" for "Build Quality In".
 
@@ -186,6 +184,7 @@ The English word "compassion" derives from Latin's "compati", which means "suffe
 
 
 
+⭐️タイトルを変更する！
 ## 4. PROCEED COMPANY-WIDE PROBLEM-SOLVING AS TRANSFORMATIONAL LEADERS
 
 ### CHALLENGES
