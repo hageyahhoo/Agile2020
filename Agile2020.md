@@ -133,26 +133,39 @@ Through these discussions, we understood that test scripts written in JUnit were
 <br />
 
 #### 2. REBUILD THE FAILURE DETECTION SYSTEM WITH KARATE
-⭐️
-Therefore, the team and we SET team looked for and evaluated proper tools which would meet our needs together.
+Next, the team and we SET team started to look for and evaluate proper tools which would meet our needs and preferences together.
 
-After a series of evaluations, we chose "Karate" [12], an open-sourced framework which focuses on API testing with BDD (Behavior-Driven Development) style and Gherkin format. The team members favored its readability, maintainability, and extensibility.
+After 1 month's research and evaluation, the team and we SET team agreed on using "Karate" [12]. Karate is an open-sourced framework which focuses on API testing. It provides features that make testing RESTful APIs, Thrift [13], and gRPC [14] easier. We can implement test scripts with Gherkin syntax [15] and BDD (Behavior-Driven Development) [16] style. The team members favored its readability, maintainability, and extensibility points.
 
-After the decision to use Karate, the team and we SET team started rewriting all test scripts from JUnit to Karate collaboratively. At first, we wrote examples of test scripts with Karate for teaching the team members how to implement tests. Next, the team and we SET team had been tackling with wide variety of testing issues together; product's features that were hard to test, preparation of test data, prioritization of testing, extension of Karate features, and so on.
+After the decision to use Karate, the team and we SET team started rewriting all test scripts from JUnit to Karate collaboratively. At first, we SET team implemented examples, provided them to the team members, and taught the team members points to use Karate. Soon after these preparations, the team members became able to implement test scripts by their own.
 
-After 3 months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
+It took 3 months to rewrite all test scripts from JUnit to Karate. However, just rebuilding the failure detection system was not enough became it established in the team.
 <br />
 
 #### 3. EXERCISE PROCESS IMPROVEMENTS WITH THE TEAM
-⭐️become established in the team
+⭐️to be accustomed to using the failure detection system
+    and become it established in the team
+⭐️Simultaneously to rewriting test scripts,
+    - Need to teach problem-solving by working together.
+
 the team and we SET team had been tackling with wide variety of testing issues together; product's features that were hard to test, preparation of test data, prioritization of testing, extension of Karate features, and so on.
 
-⭐️
-At Channel Gateway and Sticker Shop, we found the effectiveness of working with product development teams to find their real needs and solve them. This approach worked well. However, I thought it was not enough and sufficient. I saw that lots of teams stopped solving problems by themselves after coaches left teams. It is a failure if improvements don't continue after coaches' left. Therefore, I expanded our activities to making product development process improvement as a habit especially at Channel Gateway.
+
+
+
 
 We had found and solved issues as homework every week. We had continued applying new Karate features and refactoring test scripts. Additionally, we had implemented a notification mechanism via slack to reduce MTTR. Moreover, we had asked product development team members for clarifying objectives, quantitative values they will provide to users, and rough milestones of each task every week. We utilized the idea of Scrum framework to make continuous improvement as a habit of the team. We had continued these activities for about 3 months.
 
-After that, the product development team became able to clarify quarterly milestones, prioritize tasks based on business values, and improve test scripts and the failure detection system by their own. They started decreasing outages dramatically. They really became the self-organized team. Finally, we stopped supporting the team.
+⭐️
+After 3 months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
+
+⭐️
+After that, the team became able to
+- clarify quarterly milestones,
+- prioritize tasks based on business values,
+- and improve test scripts and the failure detection system by their own.
+
+They started decreasing outages dramatically. They really became the self-organized team. Finally, we stopped supporting the team.
 <br />
 <br />
 
@@ -292,13 +305,22 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [10] Slack. https://slack.com/.
 [11] Spring Boot. https://spring.io/projects/spring-boot.
 [12] Karate. https://github.com/intuit/karate.
+[13] Apache Thrift. https://thrift.apache.org/.
+[14] gRPC. https://grpc.io/.
+[15] Cucumber. https://cucumber.io/docs/gherkin/.
+[16] Agile Alliance. https://www.agilealliance.org/glossary/bdd/.
 
-[13] The Agile Warrior. https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/.
-[14] Jeff Patton & Associates. https://www.jpattonassociates.com/user-story-mapping/.
-[15] Mountain Goat Software. https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews.
+
+
 [16] Lucian, C. 2017. Growing the Mob. https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf.
 [17] Zipkin. https://zipkin.io/.
 [18] ThoughtWorks. https://www.thoughtworks.com/radar/techniques/four-key-metrics.
 [19] Testcontainers. https://www.testcontainers.org/.
 [20] GV. https://www.gv.com/sprint/.
 [21] LINE. https://linecorp.com/en/company/mission.
+
+
+
+[13] The Agile Warrior. https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/.
+[14] Jeff Patton & Associates. https://www.jpattonassociates.com/user-story-mapping/.
+[15] Mountain Goat Software. https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews.
