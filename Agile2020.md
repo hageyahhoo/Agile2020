@@ -159,26 +159,29 @@ Experiencing hardships with the product development team together is a key to an
 
 In Channel Gateway, we could understand the team's contexts deeply by working together. We made the failure detection mechanism become established in the team based on this information. However, I don't think of just working collaboratively with the team is enough to understand the team's context. The experience of struggling with the same problems and solving them together creates "compassion". I think "compassion" is a key driver for problem-solving over difference of contexts. Incidentally, the English word "compassion" derives from Latin's "compatio", which means "suffer with".
 
-After this experience, we SET team ruled to work with target product development teams together as the first step.
+After this experience, we SET team ruled to work with target product development teams together as the first step. This is our way of problem-solving from scratch.
 <br />
 <br />
 <br />
 
 
 
-⭐️タイトルを変更する！
-## 4. PROCEED COMPANY-WIDE PROBLEM-SOLVING AS TRANSFORMATIONAL LEADERS
+## 4. TRANSFORM THE ORGANIZATION WITH BUILT-IN EXPERIMENTS AND LEARNINGS
 
 ### CHALLENGES
-⭐️Urgent onboarding
-⭐️MTTR減らぬ
+⭐️
+After solving problems in Channel Gateway,
 
-We had been solving a lot of technical and process issues of each product by working together with each product development team's members. These activities and achievements have been recognized as huge successes by executives. However, these successes had led us SET team to the next level of challenges.
+I started actions as SET by obtaining consent from colleagues and decision-makers. After six months, we hired new SETs and formed a team of SET. I thought we could proceed our activities more quickly and widely, however, we faced with some new challenges.
 
-The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to decision-makers like senior managers and executives beforehand. Additionally, these teams couldn't share their current status and problems in a timely manner. Decision-makers had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing that information timely from the beginning of all activities. Therefore, decision-makers requested us SET team to teach product development teams to express that information properly.
 
-The second challenge was about onboarding. In July 2019, our team had 4 members and we hired one recent graduate and one mid-career employee simultaneously as new SETs. To proceed our activities smoothly, we needed to make onboarding as the top priority task.
+These activities and achievements have been recognized as huge successes by executives. However, these successes had led us SET team to the next level of challenges.
 
+⭐️Onboarding
+The first challenge was the urgent necessity of onboarding.
+In July 2019, our team had 4 members and we hired one recent graduate and one mid-career employee simultaneously as new SETs. To proceed our activities smoothly, we needed to make onboarding as the top priority task.
+
+⭐️Radical change of testing Microservices
 The third one was a doubt about testing and quality assurance. LINE Corporation hires Test Engineers and Quality Assurance Engineers. However, most of them had only been doing End-to-end testing manually via client applications. In the era of Microservices, I thought it is not practical to detect bugs and solve them beforehand with these activities. Additionally, most of them didn't care about deployment, release, and contribution of our business. They were just interested in doing their own tasks by developer's requests. Such behavior was not what we SET aimed to do. On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers. The notion of testing and quality assurance were just a burden and a constraint that narrowed our activities to improve services and products. Therefore, I thought we needed different approaches to change these assumptions drastically.
 <br />
 <br />
@@ -188,7 +191,7 @@ The third one was a doubt about testing and quality assurance. LINE Corporation 
 For solving these totally different challenges, we started lots of actions including not only Test Automation and technical ones, but also engineering management, education, innovation, and so forth.
 <br />
 
-#### 2. LEARNING SESSION
+#### 1. LEARNING SESSION FOR ONBOARDING
 For proceeding our onboarding smoothly, I decided to utilize the idea of "Learning Session". Learning Session is a way of study sessions during business hours taught by Chris Lucian at Agile2017 [16].
 
 Here are basic rules. We have been holding Learning Session basically for 30 to 60 minutes every day during business hours as a work. We can choose any topics we assume it's necessary for our daily work. Anyone can speak and facilitate it with Mob Programming way with a fun and without criticism.
@@ -196,7 +199,9 @@ Here are basic rules. We have been holding Learning Session basically for 30 to 
 Through a series of Learning Sessions, we have been learning a wide variety of tools, techniques, process improvements, and so forth. We learned Karate framework. All team members can set up it, write test scripts, run tests, and teach them to other persons. We became accustomed to shortcut keys of IntelliJ IDEA, JIRA, and Confluence. We often review programs via GitHub's Pull Requests together. We refactor test scripts with learning test and architectural design techniques. We frequently demonstrate our work-in-progress tasks to get feedbacks quickly. Moreover, we experiment process improvements like Scrum, Kanban, the Drucker Exercise, and so on.
 
 As a result, we smoothly finished onboarding for two newcomers. They could write programs, pass reviews, and deploy their programs within 3 days. They could adapt to our team's rules and culture, like demonstrating their results to users very frequently for getting fast feedbacks, focusing on release, and experimental work style, very quickly. They became contributing to our products and services within 1 or 2 months.
+<br />
 
+#### 2. LEARNING SESSION FOR ORGANIZATIONAL PROCESS IMPROVEMENTS
 Moreover, we found that Learning Session gave 3 additional impacts to our team.
 
 The first impact was the growth of our team, not only of newcomers. We often shared each work among team members. We frequently solved each member's problem together. As a result, all team members could substitute other's works. We can say we have been doing "handover" every day. We could increase the "truck number" coined by Jim Coplien and enhance our team's capabilities to solve problems.
@@ -206,7 +211,7 @@ The second impact was the psychological one. We were accustomed to show work-in-
 The third and last impact was for evaluation. We could reduce the burden of personnel evaluation dramatically for both an evaluator and a member to be evaluated. On one hand, I, an evaluator, can touch members' activities, achievements, and impediments directly everyday through Learning Sessions. Therefore, I can evaluate each member quickly, easily, and properly every day. On the other hand, members can appeal their achievements to me very easily. Additionally, we can adjust behavior each other through daily observations and feedbacks to meet the team's objective. We didn't need to set evaluation meetings at once around the evaluation period and it saved our time and resources. We can say it as an Agile way of evaluation and human resource management.
 <br />
 
-#### 3. TEST AUTOMATION FOR RESILIENCE
+#### 3. ACHIEVE RESILIENCE OF MICROSERVICES WITH TEST AUTOMATION
 For overcoming the limitation of testing and quality assurance in the era of Microservices, we decided to shift our focus to resilience, deployment, and release rather than detecting bugs and solve them beforehand.
 
 At first, we started combining Karate framework with Zipkin [17], a distributed tracing system. Our failure detection system with Karate was good at fast detection of failures and outages. However, it could not pinpoint a root cause in a fleet of Microservices. This was an emerging problem for Product Managers at that time. Therefore, we aimed to make our failure detection system more intelligent.
