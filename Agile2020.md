@@ -61,7 +61,7 @@ Additionally, I focused on "outage reports". "Outage report" is a term which mea
 After investigating services and outage reports, I could verbalize colleagues' concerns as follows: 1) increase of Channel Gateway's outages was the most critical issue that was giving negative impacts to external users, 2) failure detection of Channel Gateway took an average of 1 week and it was not acceptable for a Product Manager, and 3) testing APIs was insufficient in almost all of services because few persons knew how to test APIs programmatically. I shared these verbalized ones and agreed them with colleagues, managers and executives.
 <br />
 
-#### 2. GIVING IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
+#### 2. GIVE IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
 For getting support from colleagues and decision-makers to proceed with radically new actions, I tried to "give impacts" [9] constantly to them.
 
 From the first week I joined LINE Corporation, I achieved something and shared them with coworkers and decision-makers every week. Especially, I focused on providing working software, executable ones, and quantitative information.
@@ -126,13 +126,15 @@ Soon we hypothesized that we couldn't approach the team's real problems properly
 Our choice was to join the team and work together for understanding the team's contexts, finding proper solutions, and committing the team and solutions more.
 <br />
 
-⭐️タイトルを決める
-#### 1. SHARE A SENSE OF CRISIS BY VERBALIZING REAL CONCERNS
-#### 1. Find proper tools for the team
-⭐️チームの本当の課題を知る（リモート込み）
-For the failure detection system of Channel Gateway's team (hereinafter called "the team"), we utilized Product Discovery again. We started direct conversations with the team members to hear and verbalize their real concerns and needs at first. The team and we SET team talked every day as deeply as possible by using video conference system because each team has been working at different offices. Additionally, we discussed with the team's Product Manager if he came to our office.
+#### 1. DISCOVER THE TEAM'S REAL NEEDS AND CONTEXTS REMOTELY
+At first, we utilized Product Discovery again. We started direct conversations with the team members to hear and verbalize their real concerns, needs, and contexts. The team and we SET team talked every day as deeply as possible by using video conference system because each team has been working at different offices. Additionally, we used Slack to fill in gaps in oral communication. Moreover, we discussed with the team's Product Manager if he came to our office.
 
-Through these discussions, we understood that test scripts written in JUnit were hard to read, write, and maintain for the team members. Therefore, the team and we SET team looked for and evaluated proper tools which would meet our needs together.
+Through these discussions, we understood that test scripts written in JUnit were hard to read, write, and maintain for the team members. Additionally, we knew that the team members didn't read manuals we provided. Therefore, the team and we SET team needed to find proper ways to implement test scripts and to be accustomed to using the failure detection system.
+<br />
+
+#### 2. REBUILD THE FAILURE DETECTION SYSTEM WITH KARATE
+⭐️
+Therefore, the team and we SET team looked for and evaluated proper tools which would meet our needs together.
 
 After a series of evaluations, we chose "Karate" [12], an open-sourced framework which focuses on API testing with BDD (Behavior-Driven Development) style and Gherkin format. The team members favored its readability, maintainability, and extensibility.
 
@@ -141,18 +143,8 @@ After the decision to use Karate, the team and we SET team started rewriting all
 After 3 months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
 <br />
 
-
-
-#### 2. REFINED THE FAILURE DETECTION SYSTEM WITH KARATE
-⭐️コンテキストに即したツールを導入し、一緒になじませる
+#### 3. EXERCISE PROCESS IMPROVEMENTS WITH THE TEAM
 ⭐️become established in the team
-
-
-
-
-#### 3. PRACTICED PROCESS IMPROVEMENTS WITH TEAMS
-⭐️ツール提供と合わせて、プロセス改善を定着させる
-⭐️Channel Gatewayでの具体的アクション例
 the team and we SET team had been tackling with wide variety of testing issues together; product's features that were hard to test, preparation of test data, prioritization of testing, extension of Karate features, and so on.
 
 ⭐️
