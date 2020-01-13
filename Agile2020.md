@@ -155,16 +155,11 @@ Moreover, business impacts started to emerge. They reduced over thirty percent o
 
 
 ### RETROSPECTIVE
-⭐️共に苦しむことがポイント
-⭐️become established in the team
-⭐️innovate solutions and processes by experiencing hardships together
-⭐️Temptation to generalize tools and processes (from engineers' side)
+Experiencing hardships with the product development team together is a key to an innovative solutions and processes.
 
-We could solve essential problems and improve processes of each product development team by working collaboratively and deeply with them. We SET and product development teams implemented Test Automation and related techniques based on the idea of "Product Discovery". Additionally, each team becomes sophisticated. For example, the Product Manager of Channel Gateway writes test scripts with Karate routinely. He often says that the Product Manager may disturb the team by writing production codes, but can contribute to the team by writing test scripts! He is utilizing test scripts to understand behavior of the product deeply, to clarify next actions and goals of the product and the team, and to guide team members doing "Developer Testing" for "Build Quality In".
+In Channel Gateway, we could understand the team's contexts deeply by working together. We made the failure detection mechanism become established in the team based on this information. However, I don't think of just working collaboratively with the team is enough to understand the team's context. The experience of struggling with the same problems and solving them together creates "compassion". I think "compassion" is a key driver for problem-solving over difference of contexts. Incidentally, the English word "compassion" derives from Latin's "compatio", which means "suffer with".
 
-Additionally, we learned a lot of things to improve our approaches through working with them. The consulting-style approach is useful to keep the whole image of activities, however, we cannot approach essential problems. On the other hand, the working-together approach is effective to discover and solve essential problems quickly, but we may lose the whole image of activities because of too focusing on one product development team. Therefore, we should utilize both styles based on the phase of activities.
-
-The English word "compassion" derives from Latin's "compati", which means "suffer with". We think this is the point of leading and guiding new things like Agile. We SETs and product development teams had been suffering from the same problems by working together. We had considered solutions and solved problems one by one together. These series of activities had constructed real collaborative relationships. Moreover, these relationships had become boosters for adapting to new Test Automation tools and process improvements.
+After this experience, we SET team ruled to work with target product development teams together as the first step.
 <br />
 <br />
 <br />
@@ -175,6 +170,9 @@ The English word "compassion" derives from Latin's "compati", which means "suffe
 ## 4. PROCEED COMPANY-WIDE PROBLEM-SOLVING AS TRANSFORMATIONAL LEADERS
 
 ### CHALLENGES
+⭐️Urgent onboarding
+⭐️MTTR減らぬ
+
 We had been solving a lot of technical and process issues of each product by working together with each product development team's members. These activities and achievements have been recognized as huge successes by executives. However, these successes had led us SET team to the next level of challenges.
 
 The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to decision-makers like senior managers and executives beforehand. Additionally, these teams couldn't share their current status and problems in a timely manner. Decision-makers had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing that information timely from the beginning of all activities. Therefore, decision-makers requested us SET team to teach product development teams to express that information properly.
