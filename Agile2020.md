@@ -169,20 +169,21 @@ After this experience, we SET team ruled to work with target product development
 ## 4. TRANSFORM THE ORGANIZATION WITH BUILT-IN EXPERIMENTS AND LEARNINGS
 
 ### CHALLENGES
+We SET team have been working with three product development teams together like Channel Gateway. We have been finding and solving lots of technical and process issues step by step collaboratively. We believed we were doing well at that time. However, one day, bottlenecks moved and we faced with new urgent challenges.
+
 ⭐️
-After solving problems in Channel Gateway,
+The first challenge was an urgent necessity of onboarding. In July 2019, our team had only three members, and one recent graduate and one mid-career employee joined our team simultaneously.
 
-I started actions as SET by obtaining consent from colleagues and decision-makers. After six months, we hired new SETs and formed a team of SET. I thought we could proceed our activities more quickly and widely, however, we faced with some new challenges.
+It was very easy for us to predict that we would stop our current actions and prioritize onboarding for a while.
 
-
-These activities and achievements have been recognized as huge successes by executives. However, these successes had led us SET team to the next level of challenges.
-
-⭐️Onboarding
-The first challenge was the urgent necessity of onboarding.
-In July 2019, our team had 4 members and we hired one recent graduate and one mid-career employee simultaneously as new SETs. To proceed our activities smoothly, we needed to make onboarding as the top priority task.
 
 ⭐️Radical change of testing Microservices
-The third one was a doubt about testing and quality assurance. LINE Corporation hires Test Engineers and Quality Assurance Engineers. However, most of them had only been doing End-to-end testing manually via client applications. In the era of Microservices, I thought it is not practical to detect bugs and solve them beforehand with these activities. Additionally, most of them didn't care about deployment, release, and contribution of our business. They were just interested in doing their own tasks by developer's requests. Such behavior was not what we SET aimed to do. On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers. The notion of testing and quality assurance were just a burden and a constraint that narrowed our activities to improve services and products. Therefore, I thought we needed different approaches to change these assumptions drastically.
+The second one was an urgent requirement to reduce MTTR on each Microservice.
+We implemented the failure detection system with Karate, CI server, and Slack.
+- However, we couldn't know the root cause quickly.
+- QA processes didn't work.
+
+a doubt about testing and quality assurance. LINE Corporation hires Test Engineers and Quality Assurance Engineers. However, most of them had only been doing End-to-end testing manually via client applications. In the era of Microservices, I thought it is not practical to detect bugs and solve them beforehand with these activities. Additionally, most of them didn't care about deployment, release, and contribution of our business. They were just interested in doing their own tasks by developer's requests. Such behavior was not what we SET aimed to do. On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers. The notion of testing and quality assurance were just a burden and a constraint that narrowed our activities to improve services and products. Therefore, I thought we needed different approaches to change these assumptions drastically.
 <br />
 <br />
 
@@ -192,7 +193,7 @@ For solving these totally different challenges, we started lots of actions inclu
 <br />
 
 #### 1. LEARNING SESSION FOR ONBOARDING
-For proceeding our onboarding smoothly, I decided to utilize the idea of "Learning Session". Learning Session is a way of study sessions during business hours taught by Chris Lucian at Agile2017 [16].
+For proceeding our onboarding smoothly, I decided to utilize the idea of "Learning Session". Learning Session is a way of study sessions during business hours taught by Chris Lucian at Agile2017 [17].
 
 Here are basic rules. We have been holding Learning Session basically for 30 to 60 minutes every day during business hours as a work. We can choose any topics we assume it's necessary for our daily work. Anyone can speak and facilitate it with Mob Programming way with a fun and without criticism.
 
@@ -202,6 +203,7 @@ As a result, we smoothly finished onboarding for two newcomers. They could write
 <br />
 
 #### 2. LEARNING SESSION FOR ORGANIZATIONAL PROCESS IMPROVEMENTS
+⭐️Success at our team called other teams.
 Moreover, we found that Learning Session gave 3 additional impacts to our team.
 
 The first impact was the growth of our team, not only of newcomers. We often shared each work among team members. We frequently solved each member's problem together. As a result, all team members could substitute other's works. We can say we have been doing "handover" every day. We could increase the "truck number" coined by Jim Coplien and enhance our team's capabilities to solve problems.
@@ -298,10 +300,9 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [14] gRPC. https://grpc.io/.
 [15] Cucumber. https://cucumber.io/docs/gherkin/.
 [16] Agile Alliance. https://www.agilealliance.org/glossary/bdd/.
+[17] Lucian, C. 2017. Growing the Mob. https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf.
 
 
-
-[16] Lucian, C. 2017. Growing the Mob. https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf.
 [17] Zipkin. https://zipkin.io/.
 [18] ThoughtWorks. https://www.thoughtworks.com/radar/techniques/four-key-metrics.
 [19] Testcontainers. https://www.testcontainers.org/.
