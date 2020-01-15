@@ -143,7 +143,7 @@ It took three months to rewrite all test scripts from JUnit to Karate. However, 
 <br />
 
 #### 3. EXERCISE PROCESS IMPROVEMENTS WITH THE TEAM
-Concurrently to rewriting test scripts, we aimed to teach the team members how to use the failure detection system without manuals and solve problems by working together. Therefore, the team and we SET team had been tackling with wide variety of testing issues together; the architecture and the product designs that were hard to test, preparation of test data, extension of Karate features, and so on. Additionally, we had taught the team members how to set goals and milestones, clarify objectives, prioritize APIs to test, provide quantitative information to users, and so forth.
+Concurrently to rewriting test scripts, we aimed to teach the team members how to use the failure detection system without manuals and solve problems by working together. Therefore, the team and we SET team had been tackling with wide variety of testing issues together; the architecture and the product designs that were hard to test, preparation of test data, extension of Karate features, and so on. Additionally, we had taught the team members how to set goals and milestones, clarify objectives, prioritize APIs to test, provide quantitative information to users, and so forth. For example, we told the team members to order APIs by frequency of outages and monetary impacts to users as priorities to test. In other words, we showed how to apply Three KPIs concretely.
 
 After three months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
 
@@ -169,26 +169,17 @@ After this experience, we SET team ruled to work with target product development
 ## 4. TRANSFORM THE ORGANIZATION WITH BUILT-IN EXPERIMENTS AND LEARNINGS
 
 ### CHALLENGES
-We SET team have been working with three product development teams together like Channel Gateway. We have been finding and solving lots of technical and process issues step by step collaboratively. We believed we were doing well at that time. However, one day, bottlenecks moved and we faced with new urgent challenges.
+We SET team have been working with three product development teams together as the same as Channel Gateway. We have been finding and solving lots of technical and process issues step by step collaboratively. We believed we were doing well at that time. However, one day, bottlenecks moved and we faced with new urgent challenges.
 
-⭐️
-The first challenge was an urgent necessity of onboarding. In July 2019, our team had only three members, and one recent graduate and one mid-career employee joined our team simultaneously.
+The first challenge was an emergent necessity of onboarding. In July 2019, two new members joined our team. One member was a mid-career employee who had an experience of client-side Test Automation but less experience of Microservices. Another member was a recent graduate who didn't have any experience and knowledge of Agile and Test Automation. Our team had only three existing members at that time. It was obvious that we needed to stop our actions for a certain length of time until finishing onboarding.
 
-It was very easy for us to predict that we would stop our current actions and prioritize onboarding for a while.
-
-
-⭐️Radical change of testing Microservices
-The second one was an urgent requirement to reduce MTTR on each Microservice.
-We implemented the failure detection system with Karate, CI server, and Slack.
-- However, we couldn't know the root cause quickly.
-- QA processes didn't work.
-
-a doubt about testing and quality assurance. LINE Corporation hires Test Engineers and Quality Assurance Engineers. However, most of them had only been doing End-to-end testing manually via client applications. In the era of Microservices, I thought it is not practical to detect bugs and solve them beforehand with these activities. Additionally, most of them didn't care about deployment, release, and contribution of our business. They were just interested in doing their own tasks by developer's requests. Such behavior was not what we SET aimed to do. On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers. The notion of testing and quality assurance were just a burden and a constraint that narrowed our activities to improve services and products. Therefore, I thought we needed different approaches to change these assumptions drastically.
+The second one was an acute requirement to reduce MTTR on each Microservice. We had implemented the failure detection system with Karate, CI server, and Slack in Channel Gateway. It had reduced over thirty percent of outages. However, we couldn't have identified the root cause of each outage at that time. A chain of API calls among Microservices was too complicated to identify the root cause. Additionally, rapid growth of our business has been adding complexities continuously. Taking one month or more to identify the root cause had been becoming common.
 <br />
 <br />
 
 
 ### ACTIONS
+⭐️
 For solving these totally different challenges, we started lots of actions including not only Test Automation and technical ones, but also engineering management, education, innovation, and so forth.
 <br />
 
