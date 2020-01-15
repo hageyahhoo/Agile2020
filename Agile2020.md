@@ -109,7 +109,7 @@ In an organization without a concept of process improvement, showing concrete ex
 ## 3. INNOVATE SOLUTIONS AND PROCESSES BY EXPERIENCING HARDSHIPS TOGETHER
 
 ### CHALLENGES
-After establishing SET role, I started actions as SET by obtaining consent from colleagues and decision-makers. After six months, we hired new SETs and formed a team of SET. I thought we could proceed our activities more quickly and widely, however, we faced with some new challenges.
+After establishing SET role, I started actions as SET by obtaining consent from colleagues and decision-makers. After six months, we hired new SETs and formed a team of SET. I became the leader of the team. I thought we could proceed our activities more quickly and widely, however, we faced with some new challenges.
 
 The biggest challenge was that the failure detection mechanism we implemented for Channel Gateway didn't become established in the team.
 
@@ -179,15 +179,15 @@ The second one was an acute requirement to reduce MTTR on each Microservice. We 
 
 
 ### ACTIONS
-⭐️
-For solving these totally different challenges, we started lots of actions including not only Test Automation and technical ones, but also engineering management, education, innovation, and so forth.
+We established new solutions really from scratch by continuous experiments. An essential point to these series of experiments was a built-in learning mechanism in our team.
 <br />
 
 #### 1. LEARNING SESSION FOR ONBOARDING
-For proceeding our onboarding smoothly, I decided to utilize the idea of "Learning Session". Learning Session is a way of study sessions during business hours taught by Chris Lucian at Agile2017 [17].
+For proceeding the onboarding smoothly, I, as the leader of SET team, decided to try to train new members during business hours as effective as possible by imitating professional sports and military training. I chose the idea of "Learning Session", a way of study sessions during business hours taught by Chris Lucian at Agile2017 [17].
 
-Here are basic rules. We have been holding Learning Session basically for 30 to 60 minutes every day during business hours as a work. We can choose any topics we assume it's necessary for our daily work. Anyone can speak and facilitate it with Mob Programming way with a fun and without criticism.
+Here are basic rules in our team. We have been holding the Learning Session for thirty to sixty minutes every day during business hours as a work. We can choose any topics we assume it's effective for our daily activities. Anyone can speak and facilitate the session with Mob Programming way. The most important point is doing with a fun and without criticism.
 
+⭐️
 Through a series of Learning Sessions, we have been learning a wide variety of tools, techniques, process improvements, and so forth. We learned Karate framework. All team members can set up it, write test scripts, run tests, and teach them to other persons. We became accustomed to shortcut keys of IntelliJ IDEA, JIRA, and Confluence. We often review programs via GitHub's Pull Requests together. We refactor test scripts with learning test and architectural design techniques. We frequently demonstrate our work-in-progress tasks to get feedbacks quickly. Moreover, we experiment process improvements like Scrum, Kanban, the Drucker Exercise, and so on.
 
 As a result, we smoothly finished onboarding for two newcomers. They could write programs, pass reviews, and deploy their programs within 3 days. They could adapt to our team's rules and culture, like demonstrating their results to users very frequently for getting fast feedbacks, focusing on release, and experimental work style, very quickly. They became contributing to our products and services within 1 or 2 months.
@@ -207,7 +207,7 @@ The third and last impact was for evaluation. We could reduce the burden of pers
 #### 3. ACHIEVE RESILIENCE OF MICROSERVICES WITH TEST AUTOMATION
 For overcoming the limitation of testing and quality assurance in the era of Microservices, we decided to shift our focus to resilience, deployment, and release rather than detecting bugs and solve them beforehand.
 
-At first, we started combining Karate framework with Zipkin [17], a distributed tracing system. Our failure detection system with Karate was good at fast detection of failures and outages. However, it could not pinpoint a root cause in a fleet of Microservices. This was an emerging problem for Product Managers at that time. Therefore, we aimed to make our failure detection system more intelligent.
+At first, we started combining Karate framework with Zipkin [18], a distributed tracing system. Our failure detection system with Karate was good at fast detection of failures and outages. However, it could not pinpoint a root cause in a fleet of Microservices. This was an emerging problem for Product Managers at that time. Therefore, we aimed to make our failure detection system more intelligent.
 
 Our approach was to show tracing information of each Microservice on our test report by adding Zipkin's trace ids to call APIs to test. This test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids. It means that we can pinpoint a Product Manager who is responsible for failed Microservice. Additionally, it can reduce MTTR more and save other Product Managers' time. Our approach was utilizing the idea of observability and monitoring via Test Automation. We named this report as "Sebas Report". (The name "Sebas" is derived from a famous butler like Jenkins.)
 
@@ -294,11 +294,11 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [17] Lucian, C. 2017. Growing the Mob. https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf.
 
 
-[17] Zipkin. https://zipkin.io/.
-[18] ThoughtWorks. https://www.thoughtworks.com/radar/techniques/four-key-metrics.
-[19] Testcontainers. https://www.testcontainers.org/.
-[20] GV. https://www.gv.com/sprint/.
-[21] LINE. https://linecorp.com/en/company/mission.
+[18] Zipkin. https://zipkin.io/.
+[19] ThoughtWorks. https://www.thoughtworks.com/radar/techniques/four-key-metrics.
+[20] Testcontainers. https://www.testcontainers.org/.
+[21] GV. https://www.gv.com/sprint/.
+[22] LINE. https://linecorp.com/en/company/mission.
 
 
 
