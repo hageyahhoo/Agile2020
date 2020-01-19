@@ -202,19 +202,18 @@ The second impact was the psychological one. Through Learning Session, we learne
 The third and last impact was the expansion to other teams and our department. In our company, it was common for each team and organization to hide its activities and not to collaborate each other. However, after I published a blog about Learning Session [18], some teams and organizations started Learning Session. Soon we found that they just didn't know how to collaborate each other to solve their problems. After that, not only our department but also our team could know each other's objectives and solutions deeply. I will show one good achievement in 4.2.3.
 <br />
 
-#### 3. ACHIEVE RESILIENCE OF MICROSERVICES WITH TEST AUTOMATION
-⭐️⭐️⭐️Learning Sessionで習得した技術などが、Sebasとして開花した
-⭐️⭐️⭐️課題感
-The second one was an acute requirement to reduce MTTR on each Microservice. We had implemented the failure detection system with Karate, CI server, and Slack in Channel Gateway. It had reduced over thirty percent of outages. However, we couldn't have identified the root cause of each outage at that time. A chain of API calls among Microservices was too complicated to identify the root cause. Additionally, rapid growth of our business has been adding complexities continuously. Taking one month or more to identify the root cause had been becoming common.
+#### 3. ACHIEVE RESILIENCE OF MICROSERVICES FROM SCRATCH
+For making the root cause identification on each Microservice of each outage, we invented a totally new solution from scratch. For innovating this solution, we combined what we learned from a series of Learning Sessions.
 
-⭐️⭐️⭐️ここから
-For overcoming the limitation of testing and quality assurance in the era of Microservices, we decided to shift our focus to resilience, deployment, and release rather than detecting bugs and solve them beforehand.
+At first, we started combining Karate framework with Zipkin [19]. Zipkin is an open-sourced tool to visualize the dependencies of Microservices, orders of APIs called, and problems on each Microservices. We aimed at pinpointing the root cause of failures in a fleet of Microservices with Zipkin. We found that one team in our department was utilizing Zipkin through expanding Learning Session. Therefore, we collaborated combining Karate and Zipkin.
 
-At first, we started combining Karate framework with Zipkin [19], a distributed tracing system. Our failure detection system with Karate was good at fast detection of failures and outages. However, it could not pinpoint a root cause in a fleet of Microservices. This was an emerging problem for Product Managers at that time. Therefore, we aimed to make our failure detection system more intelligent.
+Next, we replaced existing reporting function of Karate from scratch. At first, we tried to add Zipkin's "trace id", that tracks APIs called, into Karate's test report. However, after quick investigation, we found it was very difficult from technical aspect. Therefore, we chose to reimplement reporting function with Vue.js [20] from scratch. In this phase, what we learned about Vue.js through Learning Session worked very well.
 
-Our approach was to show tracing information of each Microservice on our test report by adding Zipkin's trace ids to call APIs to test. This test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids. It means that we can pinpoint a Product Manager who is responsible for failed Microservice. Additionally, it can reduce MTTR more and save other Product Managers' time. Our approach was utilizing the idea of observability and monitoring via Test Automation. We named this report as "Sebas Report". (The name "Sebas" is derived from a famous butler like Jenkins.)
+Our approach was utilizing the idea of observability and monitoring via Test Automation. This new test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids on a screen we recreated from scratch with Vue.js. We named this report as "Sebas Report". The name "Sebas" is derived from a famous butler as the same as Jenkins.
 
-After the release of Sebas Report, we started promoting Karate and Sebas Report company-wide. Additionally, we started recommending to each product development team to utilize not only reducing MTTR, but reducing lead time for changes, and increasing deployment frequency as KPIs to measure improvement and productivity. I utilized the idea of "Four Key Metrics" [18] as a way of contribution of our business. After these activities, some teams stopped blindly relying on Quality Assurance Engineers and enhanced the ratio of Developer Testing.
+After the release of Sebas Report, we could reduce the root cause identification of Channel Gateway from one month to one hour. Additionally, Sebas Report could save each member and Product Managers' total investigation time drastically because we could pinpoint a team that was responsible for failed Microservice. Moreover, we started promoting Karate and Sebas Report company-wide and recommending focusing more on resilience of Microservices rather than detecting bugs and solve them beforehand from economic efficiency aspect. Now we assume Sebas Report as a way of achieving resilience of Microservices.
+
+By the way, for comparison, the newcomer of a recent graduate led over sixty percent of implementations of Sebas Report.
 <br />
 <br />
 
@@ -296,14 +295,13 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [16] Agile Alliance. https://www.agilealliance.org/glossary/bdd/.
 [17] Lucian, C. 2017. Growing the Mob. https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf.
 [18] LINE Engineering Blog. https://engineering.linecorp.com/ja/blog/recommend-learning-session/.
-
-
 [19] Zipkin. https://zipkin.io/.
-[19] ThoughtWorks. https://www.thoughtworks.com/radar/techniques/four-key-metrics.
-[20] Testcontainers. https://www.testcontainers.org/.
-[21] GV. https://www.gv.com/sprint/.
-[22] LINE. https://linecorp.com/en/company/mission.
+[20] Vue.js. https://vuejs.org/.
 
+
+[22] Testcontainers. https://www.testcontainers.org/.
+[23] GV. https://www.gv.com/sprint/.
+[24] LINE. https://linecorp.com/en/company/mission.
 
 
 [13] The Agile Warrior. https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/.
