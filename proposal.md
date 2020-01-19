@@ -72,9 +72,13 @@ I am the first member of "SET" (Software Engineer in Test) in LINE Corporation. 
 
 From the start of my career in LINE Corporation, I have been solving a variety of software and organizational problems.
 
+⭐️Establish set role by attracting decision-makers and colleagues
 1) Clarified responsibilities and activities of SET (team) by utilizing Agile methodologies and techniques
 
+⭐️Innovate solutions and processes by experiencing hardships together
 2) Solved problems and improved processes of each product development team by working collaboratively and deeply with them. We experimented a variety of tools and Agile methodologies through these activities.
+
+⭐️Transform the organization with built-in experiments and learnings
 3) Expanded our activities toward engineering management improvement. We experimented "Learning Session" and utilizing Test Automation for resiliency. Through these activities, we transformed us as a team of "Transformational Leaders".
 
 
