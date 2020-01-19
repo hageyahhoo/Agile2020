@@ -231,7 +231,11 @@ Finally, our company achieved a way how to tame the complexity of Microservices 
 
 
 ## 5. LESSONS LEARNED
-⭐️Submission Systemの入力にも活用可能
+⭐️⭐️⭐️Submission Systemの入力にも活用可能
+⭐️Connecting dots
+⭐️Product Discovery -> Verbalize and share concerns
+⭐️Experiment flexibly -> Learning Session, Agile20XX, Design Sprint to tech
+⭐️Innovate Sebasなど -> Focus on business
 Through these series of activities, we learned three new ideas.
 
 ⭐️Establish set role by attracting decision-makers and colleagues
@@ -267,6 +271,10 @@ The last one is experimenting "Design Sprint" [22] for solving complex technical
 
 
 ## 7. CONCLUSIONS
+⭐️Connecting dots
+⭐️Product Discovery -> Verbalize and share concerns
+⭐️Experiment flexibly -> Learning Session, Agile20XX, Design Sprint to tech
+⭐️Innovate Sebasなど -> Focus on business
 There have been lots of problems. Microservice Architecture is useful for independent develop-ability and deployability, however, it tends to strengthen apathy toward other teams and services/products. Additionally, there are short of leaders who can find and solve problems beyond silos and teams. Moreover, quality assurance approach is not proper for solving outages of Microservices.
 
 We SET team have been solving these problems as follows.
