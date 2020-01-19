@@ -193,17 +193,13 @@ As a result, we smoothly finished onboarding for two newcomers within one month.
 <br />
 
 #### 2. LEARNING SESSION FOR ORGANIZATIONAL PROCESS IMPROVEMENTS
-⭐️Success at our team called other teams.
-⭐️⭐️⭐️心理面・評価面・育成面、いずれも他チームにとって画期的＆有効な施策だった
-By Learning Session, we scaled out not only our team, but also our improvements to other teams.
+The outcome of Learning Session was not only for smooth onboarding. We found that Learning Session gave three additional impacts to our team and our department.
 
-Moreover, we found that Learning Session gave three additional impacts to our team.
+The first impact was for our evaluation process. Soon after we started Learning Session, we found that holding Learning Session every day is as the same as evaluating each other on a daily basis. On one hand, I, an evaluator, can touch members' activities, achievements, and impediments directly every day. On the other hand, members can show their achievements to me very easily and quickly. Therefore, we don't need to set evaluation meetings only at the evaluation period. We can adjust behavior each other through daily observations and feedbacks to meet the team's objectives. As a result, we could reduce the burden of personnel evaluation dramatically for both an evaluator and a member to be evaluated.
 
-The first impact was the growth of our team, not only of newcomers. We often shared each work among team members. We frequently solved each member's problem together. As a result, all team members could substitute other's works. We can say we have been doing "handover" every day. We could increase the "truck number" coined by Jim Coplien and enhance our team's capabilities to solve problems.
+The second impact was the psychological one. Through Learning Session, we learned that we don't need to be perfect because we utilized Learning Session as opportunities of experiments. Additionally, we often drilled trouble shootings and recovering services at Learning Session. We have been reducing psychological pressures as a mechanism. Therefore, our team members became accustomed to trying and proposing new ideas to other teams without fear. I will tell one example of a new idea in 4.2.3.
 
-The second impact was the psychological one. We were accustomed to show work-in-progress tasks and get feedbacks. It made us easier to ask questions and discuss solutions. We could propose, accept, and try new ideas without fear. Additionally, we often drilled trouble shootings and recovering services as Learning Session to acquire skills of "psychological safety". We have been reducing psychological pressures by atmosphere, mechanisms, and skills.
-
-The third and last impact was for evaluation. We could reduce the burden of personnel evaluation dramatically for both an evaluator and a member to be evaluated. On one hand, I, an evaluator, can touch members' activities, achievements, and impediments directly everyday through Learning Sessions. Therefore, I can evaluate each member quickly, easily, and properly every day. On the other hand, members can appeal their achievements to me very easily. Additionally, we can adjust behavior each other through daily observations and feedbacks to meet the team's objective. We didn't need to set evaluation meetings at once around the evaluation period and it saved our time and resources. We can say it as an Agile way of evaluation and human resource management.
+The third and last impact was the expansion to other teams and our department. In our company, it was common for each team and organization to hide its activities and not to collaborate each other. However, after I published a blog about Learning Session [18], some teams and organizations started Learning Session. Soon we found that they just didn't know how to collaborate each other to solve their problems. After that, not only our department but also our team could know each other's objectives and solutions deeply. I will show one good achievement in 4.2.3.
 <br />
 
 #### 3. ACHIEVE RESILIENCE OF MICROSERVICES WITH TEST AUTOMATION
@@ -214,7 +210,7 @@ The second one was an acute requirement to reduce MTTR on each Microservice. We 
 ⭐️⭐️⭐️ここから
 For overcoming the limitation of testing and quality assurance in the era of Microservices, we decided to shift our focus to resilience, deployment, and release rather than detecting bugs and solve them beforehand.
 
-At first, we started combining Karate framework with Zipkin [18], a distributed tracing system. Our failure detection system with Karate was good at fast detection of failures and outages. However, it could not pinpoint a root cause in a fleet of Microservices. This was an emerging problem for Product Managers at that time. Therefore, we aimed to make our failure detection system more intelligent.
+At first, we started combining Karate framework with Zipkin [19], a distributed tracing system. Our failure detection system with Karate was good at fast detection of failures and outages. However, it could not pinpoint a root cause in a fleet of Microservices. This was an emerging problem for Product Managers at that time. Therefore, we aimed to make our failure detection system more intelligent.
 
 Our approach was to show tracing information of each Microservice on our test report by adding Zipkin's trace ids to call APIs to test. This test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids. It means that we can pinpoint a Product Manager who is responsible for failed Microservice. Additionally, it can reduce MTTR more and save other Product Managers' time. Our approach was utilizing the idea of observability and monitoring via Test Automation. We named this report as "Sebas Report". (The name "Sebas" is derived from a famous butler like Jenkins.)
 
@@ -299,12 +295,10 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [15] Cucumber. https://cucumber.io/docs/gherkin/.
 [16] Agile Alliance. https://www.agilealliance.org/glossary/bdd/.
 [17] Lucian, C. 2017. Growing the Mob. https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf.
-
-⭐️
-https://engineering.linecorp.com/ja/blog/recommend-learning-session/
+[18] LINE Engineering Blog. https://engineering.linecorp.com/ja/blog/recommend-learning-session/.
 
 
-[18] Zipkin. https://zipkin.io/.
+[19] Zipkin. https://zipkin.io/.
 [19] ThoughtWorks. https://www.thoughtworks.com/radar/techniques/four-key-metrics.
 [20] Testcontainers. https://www.testcontainers.org/.
 [21] GV. https://www.gv.com/sprint/.
