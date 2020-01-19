@@ -219,7 +219,12 @@ By the way, for comparison, the newcomer of a recent graduate led over sixty per
 
 
 ### RETROSPECTIVE
-We expanded our activities toward engineering management improvement based on decision-makers' demands. Additionally, we experimented new ideas like Learning Session and utilizing Test Automation for resiliency. Through these activities, we have been redefining our goals and responsibilities based on continuous experiments to contribute to our business. We can say we transformed us as a team of "Transformational Leaders".
+⭐️
+Learning Session gave our team, other teams, and other organizations chances and hints to overcome lack of a concept and experience of process improvement in our company.
+
+At first, we utilized Learning Session as a way of smooth onboarding. However, the impact of Learning Session was not limited only in our team. It became an important key factor for collaborations from scratch in our company. Additionally, these new collaborations and what we learned through Learning Session led to an invention of "Sebas Report".
+
+Finally, our company achieved a way how to tame the complexity of Microservices and its outages with collaborations and process improvements from scratch. Our company earned the experiences of process improvements.
 <br />
 <br />
 <br />
@@ -227,6 +232,7 @@ We expanded our activities toward engineering management improvement based on de
 
 
 ## 5. LESSONS LEARNED
+⭐️Submission Systemの入力にも活用可能
 Through these series of activities, we learned three new ideas.
 
 At first, Agile methodologies worked for starting up new roles and teams. Product Discovery, Iterative and Incremental Consensus, and showing results iteratively attracted colleagues and decision-makers. It helped SET team's starting up a lot.
@@ -243,6 +249,7 @@ We SET team have been finding and solving problems gradually and extensively by 
 
 
 ## 6. WHAT'S NEXT?
+⭐️
 Currently, we have been trying and investigating the following ideas for further improvements.
 
 The first one is building "Testable and Disposable Infrastructure". Currently, we don't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It becomes a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism with Docker and Kubernetes for making testing easier without fear. We are aiming to provide immutable and disposable containers, and a way of building their relationships easily. We named this idea and mechanism as "Testable and Disposable Infrastructure". As a preparation, we are adapting to Testcontainers [19] for testing persistence layer like RDBMS and NoSQL.
