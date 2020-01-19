@@ -187,15 +187,17 @@ For proceeding the onboarding smoothly, I, as the leader of SET team, decided to
 
 Here are basic rules in our team. We have been holding the Learning Session for thirty to sixty minutes every day during business hours as a work. We can choose any topics we assume it's effective for our daily activities. Anyone can speak and facilitate the session with Mob Programming way. The most important point is doing with a fun and without criticism.
 
-⭐️
-Through a series of Learning Sessions, we have been learning a wide variety of tools, techniques, process improvements, and so forth. We learned Karate framework. All team members can set up it, write test scripts, run tests, and teach them to other persons. We became accustomed to shortcut keys of IntelliJ IDEA, JIRA, and Confluence. We often review programs via GitHub's Pull Requests together. We refactor test scripts with learning test and architectural design techniques. We frequently demonstrate our work-in-progress tasks to get feedbacks quickly. Moreover, we experiment process improvements like Scrum, Kanban, the Drucker Exercise, and so on.
+Through a series of Learning Sessions, we have been learning a wide variety of tools, techniques, Agile methodologies, and so forth that are effective for our daily activities. For example, all of our team members became accustomed to Karate framework. We became able to set up Karate with CI server, implement and refactor test scripts, and teach colleagues usefulness and how to improve API testing with Karate. Now Karate is one of our team's competitive characteristics. Additionally, we have been experimenting Scrum and Kanban to make our team's process improvements second nature. Currently, holding a retrospective meeting biweekly is our key to improving ourselves.
 
-As a result, we smoothly finished onboarding for two newcomers. They could write programs, pass reviews, and deploy their programs within 3 days. They could adapt to our team's rules and culture, like demonstrating their results to users very frequently for getting fast feedbacks, focusing on release, and experimental work style, very quickly. They became contributing to our products and services within 1 or 2 months.
+As a result, we smoothly finished onboarding for two newcomers within one month. They became able to release what they implemented to production environment within one week. In other words, they could contribute to our business within one week. Additionally, they became accustomed to getting fast feedbacks by demonstrating what they implemented to users very frequently. It's not too much to say that we scaled out our team by utilizing Learning Session.
 <br />
 
 #### 2. LEARNING SESSION FOR ORGANIZATIONAL PROCESS IMPROVEMENTS
 ⭐️Success at our team called other teams.
-Moreover, we found that Learning Session gave 3 additional impacts to our team.
+⭐️⭐️⭐️心理面・評価面・育成面、いずれも他チームにとって画期的＆有効な施策だった
+By Learning Session, we scaled out not only our team, but also our improvements to other teams.
+
+Moreover, we found that Learning Session gave three additional impacts to our team.
 
 The first impact was the growth of our team, not only of newcomers. We often shared each work among team members. We frequently solved each member's problem together. As a result, all team members could substitute other's works. We can say we have been doing "handover" every day. We could increase the "truck number" coined by Jim Coplien and enhance our team's capabilities to solve problems.
 
@@ -205,6 +207,11 @@ The third and last impact was for evaluation. We could reduce the burden of pers
 <br />
 
 #### 3. ACHIEVE RESILIENCE OF MICROSERVICES WITH TEST AUTOMATION
+⭐️⭐️⭐️Learning Sessionで習得した技術などが、Sebasとして開花した
+⭐️⭐️⭐️課題感
+The second one was an acute requirement to reduce MTTR on each Microservice. We had implemented the failure detection system with Karate, CI server, and Slack in Channel Gateway. It had reduced over thirty percent of outages. However, we couldn't have identified the root cause of each outage at that time. A chain of API calls among Microservices was too complicated to identify the root cause. Additionally, rapid growth of our business has been adding complexities continuously. Taking one month or more to identify the root cause had been becoming common.
+
+⭐️⭐️⭐️ここから
 For overcoming the limitation of testing and quality assurance in the era of Microservices, we decided to shift our focus to resilience, deployment, and release rather than detecting bugs and solve them beforehand.
 
 At first, we started combining Karate framework with Zipkin [18], a distributed tracing system. Our failure detection system with Karate was good at fast detection of failures and outages. However, it could not pinpoint a root cause in a fleet of Microservices. This was an emerging problem for Product Managers at that time. Therefore, we aimed to make our failure detection system more intelligent.
@@ -292,6 +299,9 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [15] Cucumber. https://cucumber.io/docs/gherkin/.
 [16] Agile Alliance. https://www.agilealliance.org/glossary/bdd/.
 [17] Lucian, C. 2017. Growing the Mob. https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf.
+
+⭐️
+https://engineering.linecorp.com/ja/blog/recommend-learning-session/
 
 
 [18] Zipkin. https://zipkin.io/.
