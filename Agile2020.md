@@ -231,7 +231,6 @@ Finally, our company achieved a way how to tame the complexity of Microservices 
 
 
 ## 5. LESSONS LEARNED
-⭐️Submission System
 Through a series of experiences I explained, we learned three key success factors.
 
 At first, Agile methodologies and experiences worked well for establishing SET role in LINE Corporation. Especially, verbalizing stakeholders' concerns and sharing them with decision-makers by Product Discovery was the most important key element in this success. Additionally, attracting decision-makers and colleagues by giving impacts continuously was very effective to start totally new actions.
@@ -252,13 +251,15 @@ The key characteristic of we SET team is experimenting frequently and flexibly b
 Currently, we have been trying and investigating the following ideas for further improvements.
 
 ⭐️
-The first one is building "Testable and Disposable Infrastructure". Currently, we don't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It becomes a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism with Docker and Kubernetes for making testing easier without fear. We are aiming to provide immutable and disposable containers, and a way of building their relationships easily. We named this idea and mechanism as "Testable and Disposable Infrastructure". As a preparation, we are adapting to Testcontainers [21] for testing persistence layer like RDBMS and NoSQL.
+The first one is experimenting "Design Sprint" [21] for solving complex technical problems at a brownfield product. We have been working with one product development team which develops and operates mature product. There are lots of problems, ideas to solve them, and huge confusion. To clarify each problem, prioritize each idea, and experiment whether the idea is valuable or not, we started utilizing an idea named Design Sprint. We try new ideas within 1-week cycle. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation approach until solving problems. Currently, this team is adapting to Testcontainers [22] and "Testable and Disposable Infrastructure" with this approach.
 
 ⭐️
-The second one is to organize ideas, terminology, and techniques of Test Automation. There are lots of confusion about the difference among Unit Testing, Integration Testing, API Testing, End-to-end Testing, and so on. It is more than Microservices. Therefore, we started summing up these points as a guideline and reference implementations. We clarified how to distinguish Test Levels and design each test as a guideline. Additionally, we implemented and shared reference implementations of them company-wide. Moreover, we held Hackathon events for teaching Karate. At the first event, attendees could implement tests for their product's APIs within 2 hours.
+The second one is building "Testable and Disposable Infrastructure". Currently, we don't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It becomes a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism with Docker and Kubernetes for making testing easier without fear. We are aiming to provide immutable and disposable containers, and a way of building their relationships easily. We named this idea and mechanism as "Testable and Disposable Infrastructure". As a preparation, we are adapting to Testcontainers for testing persistence layer like RDBMS and NoSQL.
 
-⭐️
-The last one is experimenting "Design Sprint" [22] for solving complex technical problems at a brownfield product. We have been working with one product development team which develops and operates mature product. There are lots of problems, ideas to solve them, and huge confusion. To clarify each problem, prioritize each idea, and experiment whether the idea is valuable or not, we started utilizing an idea named Design Sprint. We try new ideas within 1-week cycle. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation approach until solving problems. Currently, this team is adapting to Testcontainers and "Testable and Disposable Infrastructure" with this approach.
+⭐️"Guild" [23] to scale out our activities more
+The third one is to scale out our activities more.
+
+There are lots of confusion about the difference among Unit Testing, Integration Testing, API Testing, End-to-end Testing, and so on. It is more than Microservices. Therefore, we started summing up these points as a guideline and reference implementations. We clarified how to distinguish Test Levels and design each test as a guideline. Additionally, we implemented and shared reference implementations of them company-wide. Moreover, we held Hackathon events for teaching Karate. At the first event, attendees could implement tests for their product's APIs within 2 hours.
 <br />
 <br />
 <br />
@@ -283,7 +284,7 @@ Third, we have been building and expanding tools, process improvements, and new 
 
 SET is derived from Google. This role is responsible for enhancing productivity of engineers by utilizing test automation, automation infrastructure, and process improvements in Google. SET in LINE Corporation tried to start from this definition. However, we have been changing responsibilities continuously for pursuing contribution to our company's business performance. We have been expanding our responsibility from Test Automation to company-wide process improvements with continuous impacts to stakeholders.
 
-Currently, we are transforming ourselves as a team of Transformational Leaders. Our latest mission is "WOW DX" [23], achieving a great Developer eXperience for all of product development team members and stakeholders in LINE Corporation with automation techniques and Agile methodologies. We continue to pursue improving all of our business relentlessly.
+Currently, we are transforming ourselves as a team of Transformational Leaders. Our latest mission is "WOW DX" [24], achieving a great Developer eXperience for all of product development team members and stakeholders in LINE Corporation with automation techniques and Agile methodologies. We continue to pursue improving all of our business relentlessly.
 <br />
 <br />
 <br />
@@ -313,6 +314,7 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [20] Vue.js. https://vuejs.org/.
 
 ⭐️
-[21] Testcontainers. https://www.testcontainers.org/.
-[22] GV. https://www.gv.com/sprint/.
-[23] LINE. https://linecorp.com/en/company/mission.
+[21] GV. https://www.gv.com/sprint/.
+[22] Testcontainers. https://www.testcontainers.org/.
+[23] Kniberg, H., & Ivarsson, A. 2012. Scaling Agile @ Spotify with Tribes, Squads, Chapters & Guilds. https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf.
+[24] LINE. https://linecorp.com/en/company/mission.

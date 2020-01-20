@@ -61,10 +61,12 @@ In this talk, I will provide you practical ideas we reflected, experimented, and
 After this talk, you will get concrete examples of techniques, tools, and solutions to nurture process improvement in this type of organization, to get support and understanding from strongly technology-oriented persons, and to find a point to start your action.
 
 
-# ⭐️Lessons Learned from Your Experience
-- Agile methodologies and techniques work for starting up new roles and teams. Especially, Product Discovery, Iterative and Incremental Consensus, and showing results iteratively are very powerful techniques for attracting colleagues and decision-makers.
-- Working closely with product development teams is very effective for improving processes and achieving missions as an SET and/or an Agile Coach. Showing working examples enriched communication rather than just providing guidelines and references. Moreover, struggling with the same problems, considering solutions, and solving them by working together constructs real collaborative relationships with product development teams.
+# Lessons Learned from Your Experience
+- Agile methodologies and experiences work well for establishing totally new roles and activities. Especially, verbalizing stakeholders' concerns and sharing them with decision-makers by Product Discovery is very important. Additionally, attracting decision-makers and colleagues by giving impacts continuously is very effective. Establishing SET role in LINE Corporation was analogous to start-up business or building new services to us.
+- We could provide innovative ideas and solutions by working closely with product development teams. Especially, experiencing hardships together was an essential factor to find and solve real problems.
 - It is necessary to adjust my/our responsibilities continuously to meet my/our moving goals based on continuous experiments. Finding and solving problems gradually and extensively by combining technical excellence and Agile methodologies for contributing to our business is a key to success.
+- Incorporating experiments and learnings to the team leads to huge transformation beyond the team. It reaches to organizational level. In our experience, we utilized "Learning Session" as a key driver to improvements. Additionally, we invented a totally new tool named "Sebas Report" to tame complexity of Microservices by utilizing Learning Session and continuous experiments.
+
 
 
 # ⭐️Information about the Experience
@@ -80,6 +82,9 @@ From the start of my career in LINE Corporation, I have been solving a variety o
 
 ⭐️Transform the organization with built-in experiments and learnings
 3) Expanded our activities toward engineering management improvement. We experimented "Learning Session" and utilizing Test Automation for resiliency. Through these activities, we transformed us as a team of "Transformational Leaders".
+
+⭐️
+The key characteristic of we SET team is experimenting frequently and flexibly based on what we learned from global conferences like Agile20XX, articles, popular open-sourced tools, and so forth. Additionally, we are always aiming at contribution to our company and business. It's not too much to say that we are always pursuing "best for our users and business" fiercely and relentlessly with a series of experiments.
 
 
 
