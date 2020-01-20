@@ -231,23 +231,16 @@ Finally, our company achieved a way how to tame the complexity of Microservices 
 
 
 ## 5. LESSONS LEARNED
-⭐️⭐️⭐️Submission Systemの入力にも活用可能
-⭐️Connecting dots
-⭐️Product Discovery -> Verbalize and share concerns
-⭐️Experiment flexibly -> Learning Session, Agile20XX, Design Sprint to tech
-⭐️Innovate Sebasなど -> Focus on business
-Through these series of activities, we learned three new ideas.
+⭐️Submission System
+Through a series of experiences I explained, we learned three key success factors.
 
-⭐️Establish set role by attracting decision-makers and colleagues
-At first, Agile methodologies worked for starting up new roles and teams. Product Discovery, Iterative and Incremental Consensus, and showing results iteratively attracted colleagues and decision-makers. It helped SET team's starting up a lot.
+At first, Agile methodologies and experiences worked well for establishing SET role in LINE Corporation. Especially, verbalizing stakeholders' concerns and sharing them with decision-makers by Product Discovery was the most important key element in this success. Additionally, attracting decision-makers and colleagues by giving impacts continuously was very effective to start totally new actions.
 
-⭐️Innovate solutions and processes by experiencing hardships together
-Second, working closely with product development teams was very effective for improving processes and achieving missions. Just providing guidelines and references to product development teams didn't work. Showing working examples enriched communication. Technical excellence was a necessary piece to provide examples and solutions properly. We utilized technology as a communication driver, however, only technology was not enough. We should leverage communication with both technical excellence and Agile methodologies.
+Second, we could provide innovative ideas and solutions by working closely with product development teams. Especially, experiencing hardships together was an essential factor to find and solve real problems.
 
-⭐️Transform the organization with built-in experiments and learnings
-Third, it was necessary to change our responsibilities continuously. We have been changing and expanding our responsibilities from Test Automation, engineering management improvement, innovations, to Transformational Leaders. These actions are for contributing to our business based on continuous experiments.
+Third, incorporating experiments and learnings to the team led to huge transformation not only our team but also other teams and our organization. We changed our urgent onboarding as the start of inventing Sebas Report by utilizing Learning Session and continuous experiments. Additionally, the effectiveness of Learning Session has been expanding throughout our company.
 
-We SET team have been finding and solving problems gradually and extensively by combining technical excellence and Agile methodologies, and adjusting our responsibilities for our business.
+The key characteristic of we SET team is experimenting frequently and flexibly based on what we learned from global conferences like Agile20XX, articles, popular open-sourced tools, and so forth. Additionally, we are always aiming at contribution to our company and business. It's not too much to say that we are always pursuing "best for our users and business" fiercely and relentlessly with a series of experiments.
 <br />
 <br />
 <br />
@@ -261,8 +254,10 @@ Currently, we have been trying and investigating the following ideas for further
 ⭐️
 The first one is building "Testable and Disposable Infrastructure". Currently, we don't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It becomes a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism with Docker and Kubernetes for making testing easier without fear. We are aiming to provide immutable and disposable containers, and a way of building their relationships easily. We named this idea and mechanism as "Testable and Disposable Infrastructure". As a preparation, we are adapting to Testcontainers [21] for testing persistence layer like RDBMS and NoSQL.
 
+⭐️
 The second one is to organize ideas, terminology, and techniques of Test Automation. There are lots of confusion about the difference among Unit Testing, Integration Testing, API Testing, End-to-end Testing, and so on. It is more than Microservices. Therefore, we started summing up these points as a guideline and reference implementations. We clarified how to distinguish Test Levels and design each test as a guideline. Additionally, we implemented and shared reference implementations of them company-wide. Moreover, we held Hackathon events for teaching Karate. At the first event, attendees could implement tests for their product's APIs within 2 hours.
 
+⭐️
 The last one is experimenting "Design Sprint" [22] for solving complex technical problems at a brownfield product. We have been working with one product development team which develops and operates mature product. There are lots of problems, ideas to solve them, and huge confusion. To clarify each problem, prioritize each idea, and experiment whether the idea is valuable or not, we started utilizing an idea named Design Sprint. We try new ideas within 1-week cycle. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation approach until solving problems. Currently, this team is adapting to Testcontainers and "Testable and Disposable Infrastructure" with this approach.
 <br />
 <br />
@@ -271,6 +266,7 @@ The last one is experimenting "Design Sprint" [22] for solving complex technical
 
 
 ## 7. CONCLUSIONS
+⭐️without a concept of process improvement.
 ⭐️Connecting dots
 ⭐️Product Discovery -> Verbalize and share concerns
 ⭐️Experiment flexibly -> Learning Session, Agile20XX, Design Sprint to tech
