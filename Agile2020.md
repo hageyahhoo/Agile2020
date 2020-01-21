@@ -251,9 +251,9 @@ Currently, we have been experimenting the following ideas for further improvemen
 
 The first one is applying "Design Sprint" [21] for solving complicated technical problems at a brownfield product. In July 2019, one product development team which develops and operates one mature product contacted us to help improving their Test Automation activities. However, we soon found that they had been struggling with isolation of problems and disagreements on solutions among team members. To solve confusions and teach the team members how to overcome this situation, we started utilizing Design Sprint by working with the team. Design Sprint is basically for Product Management. However, we have been utilizing this idea for solving technical issues. We try new technical ideas and tools within 1-week. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation cycle until solving problems. After these series of investigation cycles, the team has been simplifying their integration tests by adapting to Testcontainers [22] and improving hidden Slow Tests problem [23] by their own.
 
-The second one is building and providing "Testable and Disposable Infrastructure" to product development teams to make testing easier without fear. Currently, our company doesn't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It is becoming a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism with Docker [24] and Kubernetes [25]. We are aiming to provide a test environment which is easy to copy, destroy, and restore. We are inspired by the idea of Immutable infrastructure [26].
+The second one is building and providing "Testable and Disposable Infrastructure" to product development teams to make testing easier without fear. Currently, our company doesn't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It is becoming a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism by Docker [24] and Kubernetes [25]. We are aiming to provide a test environment which is easy to copy, destroy, and restore. We are inspired by the idea of Immutable infrastructure [26].
 
-The third one is to scale out our activities. Now our team has only 4 members. As I explained earlier, we SET team ruled to work with target product development teams together as the first step. However, it is impractical to expand improvement company-wide with only 4 members. Therefore, we have been trying to find practitioners who are interested in Test Automation and Agile throughout the company, unite them by forming an informal team, and expand our activities with them together. We are considering to utilize the idea of "Guild" [27] at Spotify.
+The third one is to scale out our activities. Now our team has only 4 members. As I explained earlier, we SET team ruled to work with target product development teams together as the first step. However, it is impractical to expand improvements company-wide with only 4 members. Therefore, we have been trying to find practitioners who are interested in Test Automation and Agile throughout the company, unite them by forming an informal team, and expand our activities with them together. We are considering to utilize the idea of "Guild" [27] at Spotify.
 <br />
 <br />
 <br />
@@ -261,24 +261,11 @@ The third one is to scale out our activities. Now our team has only 4 members. A
 
 
 ## 7. CONCLUSIONS
-⭐️without a concept of process improvement.
-⭐️Connecting dots
-⭐️Product Discovery -> Verbalize and share concerns
-⭐️Experiment flexibly -> Learning Session, Agile20XX, Design Sprint to tech
-⭐️Innovate Sebasなど -> Focus on business
-There have been lots of problems. Microservice Architecture is useful for independent develop-ability and deployability, however, it tends to strengthen apathy toward other teams and services/products. Additionally, there are short of leaders who can find and solve problems beyond silos and teams. Moreover, quality assurance approach is not proper for solving outages of Microservices.
+The idea of "SET" is derived from Google. This role is responsible for enhancing productivity of engineers by utilizing test automation, automation infrastructure, and process improvements in Google.
 
-We SET team have been solving these problems as follows.
+SET in LINE Corporation tried to start from this definition at first. However, there were no fertile soil to start and grow SET at that time. I needed to establish SET role in LINE Corporation without a concept of process improvement and clear supporters. After forming SET team, we faced with lots of challenges and failed so many times. However, we learned from these series of failures, found solutions, and achieved lots of results. Now it is safe to say that we have been customizing original SET role in Google to fit our company's contexts and needs based on fierce and continuous experiments. In other words, we created "SET" ourselves from scratch.
 
-At first, we aim to overcome limitations of feature teams for Microservice Architecture. Many Agile enthusiasts and practitioners insist of the importance of a feature team rather than a component team. However, only applying for a feature team cannot tame Microservice Architecture. Therefore, SET team behaves to tie each product development team, service, and product with providing a whole image of business, and ways to test and recover each service.
-
-Second, we train and nurture leaders who can find problems and solve them beyond teams and silos. LINE Corporation has lots of excellent software engineers. However, there are few leaders. Only technical excellence cannot tame complexity of Microservice Architecture and our business. SET team is effective for nurturing these leaders by utilizing both technical skills and Agile methodologies.
-
-Third, we have been building and expanding tools, process improvements, and new KPIs to get over limitations of quality assurance. The combination of Karate framework and Sebas Report makes testing and recovering Microservices easier. Additionally, the idea of "build quality in" is becoming common for some services/products. Focusing on profitability and MTTR rather than the number of bug detection before releases works now in organizational performance and culture perspective.
-
-SET is derived from Google. This role is responsible for enhancing productivity of engineers by utilizing test automation, automation infrastructure, and process improvements in Google. SET in LINE Corporation tried to start from this definition. However, we have been changing responsibilities continuously for pursuing contribution to our company's business performance. We have been expanding our responsibility from Test Automation to company-wide process improvements with continuous impacts to stakeholders.
-
-Currently, we are transforming ourselves as a team of Transformational Leaders. Our latest mission is "WOW DX" [25], achieving a great Developer eXperience for all of product development team members and stakeholders in LINE Corporation with automation techniques and Agile methodologies. We continue to pursue improving all of our business relentlessly.
+Currently, we defined our mission as "WOW DX" [28] to achieve a great Developer eXperience for all of product development team members and stakeholders in LINE Corporation. We will continue experiments relentlessly to pursue "WOW DX", contribution to our company's business performance, and make all of our colleagues happy.
 <br />
 <br />
 <br />
@@ -313,6 +300,4 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [25] Kubernetes. https://kubernetes.io/.
 [26] The Digitalocean Community. https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure.
 [27] Kniberg, H., & Ivarsson, A. 2012. Scaling Agile @ Spotify with Tribes, Squads, Chapters & Guilds. https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf.
-
-
 [28] LINE. https://linecorp.com/en/company/mission.
