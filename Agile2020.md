@@ -247,16 +247,14 @@ The key characteristic of we SET team is experimenting frequently and flexibly b
 
 
 ## 6. WHAT'S NEXT?
-⭐️
-Currently, we have been trying and investigating the following ideas for further improvements.
+Currently, we have been experimenting the following ideas for further improvements.
 
-⭐️
-The first one is experimenting "Design Sprint" [21] for solving complex technical problems at a brownfield product. We have been working with one product development team which develops and operates mature product. There are lots of problems, ideas to solve them, and huge confusion. To clarify each problem, prioritize each idea, and experiment whether the idea is valuable or not, we started utilizing an idea named Design Sprint. We try new ideas within 1-week cycle. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation approach until solving problems. Currently, this team is adapting to Testcontainers [22] and "Testable and Disposable Infrastructure" with this approach.
+The first one is applying "Design Sprint" [21] for solving complicated technical problems at a brownfield product. In July 2019, one product development team which develops and operates one mature product contacted us to help improving their Test Automation. However, we soon found that they had been struggling with isolation of problems and disagreements on solutions among team members. To solve confusions and teach the team members how to overcome this situation, we started utilizing Design Sprint by working with the team. Design Sprint is basically for Product Management. However, we have been utilizing this idea for solving technical issues. We try new technical ideas and tools within 1-week. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation approach until solving problems. After series of investigation cycles, the team has been simplifying their integration tests by adapting to Testcontainers [22] and improving hidden Slow Tests problem [23] by their own.
 
 ⭐️
 The second one is building "Testable and Disposable Infrastructure". Currently, we don't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It becomes a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism with Docker and Kubernetes for making testing easier without fear. We are aiming to provide immutable and disposable containers, and a way of building their relationships easily. We named this idea and mechanism as "Testable and Disposable Infrastructure". As a preparation, we are adapting to Testcontainers for testing persistence layer like RDBMS and NoSQL.
 
-⭐️"Guild" [23] to scale out our activities more
+⭐️"Guild" [24] to scale out our activities more
 The third one is to scale out our activities more.
 
 There are lots of confusion about the difference among Unit Testing, Integration Testing, API Testing, End-to-end Testing, and so on. It is more than Microservices. Therefore, we started summing up these points as a guideline and reference implementations. We clarified how to distinguish Test Levels and design each test as a guideline. Additionally, we implemented and shared reference implementations of them company-wide. Moreover, we held Hackathon events for teaching Karate. At the first event, attendees could implement tests for their product's APIs within 2 hours.
@@ -284,7 +282,7 @@ Third, we have been building and expanding tools, process improvements, and new 
 
 SET is derived from Google. This role is responsible for enhancing productivity of engineers by utilizing test automation, automation infrastructure, and process improvements in Google. SET in LINE Corporation tried to start from this definition. However, we have been changing responsibilities continuously for pursuing contribution to our company's business performance. We have been expanding our responsibility from Test Automation to company-wide process improvements with continuous impacts to stakeholders.
 
-Currently, we are transforming ourselves as a team of Transformational Leaders. Our latest mission is "WOW DX" [24], achieving a great Developer eXperience for all of product development team members and stakeholders in LINE Corporation with automation techniques and Agile methodologies. We continue to pursue improving all of our business relentlessly.
+Currently, we are transforming ourselves as a team of Transformational Leaders. Our latest mission is "WOW DX" [25], achieving a great Developer eXperience for all of product development team members and stakeholders in LINE Corporation with automation techniques and Agile methodologies. We continue to pursue improving all of our business relentlessly.
 <br />
 <br />
 <br />
@@ -312,9 +310,10 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [18] LINE Engineering Blog. https://engineering.linecorp.com/ja/blog/recommend-learning-session/.
 [19] Zipkin. https://zipkin.io/.
 [20] Vue.js. https://vuejs.org/.
-
-⭐️
 [21] GV. https://www.gv.com/sprint/.
 [22] Testcontainers. https://www.testcontainers.org/.
-[23] Kniberg, H., & Ivarsson, A. 2012. Scaling Agile @ Spotify with Tribes, Squads, Chapters & Guilds. https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf.
-[24] LINE. https://linecorp.com/en/company/mission.
+[23] xUnit Patterns.com. http://xunitpatterns.com/Slow%20Tests.html.
+
+⭐️
+[24] Kniberg, H., & Ivarsson, A. 2012. Scaling Agile @ Spotify with Tribes, Squads, Chapters & Guilds. https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf.
+[25] LINE. https://linecorp.com/en/company/mission.
