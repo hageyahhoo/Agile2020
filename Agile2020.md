@@ -249,15 +249,11 @@ The key characteristic of we SET team is experimenting frequently and flexibly b
 ## 6. WHAT'S NEXT?
 Currently, we have been experimenting the following ideas for further improvements.
 
-The first one is applying "Design Sprint" [21] for solving complicated technical problems at a brownfield product. In July 2019, one product development team which develops and operates one mature product contacted us to help improving their Test Automation. However, we soon found that they had been struggling with isolation of problems and disagreements on solutions among team members. To solve confusions and teach the team members how to overcome this situation, we started utilizing Design Sprint by working with the team. Design Sprint is basically for Product Management. However, we have been utilizing this idea for solving technical issues. We try new technical ideas and tools within 1-week. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation approach until solving problems. After series of investigation cycles, the team has been simplifying their integration tests by adapting to Testcontainers [22] and improving hidden Slow Tests problem [23] by their own.
+The first one is applying "Design Sprint" [21] for solving complicated technical problems at a brownfield product. In July 2019, one product development team which develops and operates one mature product contacted us to help improving their Test Automation activities. However, we soon found that they had been struggling with isolation of problems and disagreements on solutions among team members. To solve confusions and teach the team members how to overcome this situation, we started utilizing Design Sprint by working with the team. Design Sprint is basically for Product Management. However, we have been utilizing this idea for solving technical issues. We try new technical ideas and tools within 1-week. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation cycle until solving problems. After these series of investigation cycles, the team has been simplifying their integration tests by adapting to Testcontainers [22] and improving hidden Slow Tests problem [23] by their own.
 
-⭐️
-The second one is building "Testable and Disposable Infrastructure". Currently, we don't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It becomes a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism with Docker and Kubernetes for making testing easier without fear. We are aiming to provide immutable and disposable containers, and a way of building their relationships easily. We named this idea and mechanism as "Testable and Disposable Infrastructure". As a preparation, we are adapting to Testcontainers for testing persistence layer like RDBMS and NoSQL.
+The second one is building and providing "Testable and Disposable Infrastructure" to product development teams to make testing easier without fear. Currently, our company doesn't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It is becoming a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism with Docker [24] and Kubernetes [25]. We are aiming to provide a test environment which is easy to copy, destroy, and restore. We are inspired by the idea of Immutable infrastructure [26].
 
-⭐️"Guild" [24] to scale out our activities more
-The third one is to scale out our activities more.
-
-There are lots of confusion about the difference among Unit Testing, Integration Testing, API Testing, End-to-end Testing, and so on. It is more than Microservices. Therefore, we started summing up these points as a guideline and reference implementations. We clarified how to distinguish Test Levels and design each test as a guideline. Additionally, we implemented and shared reference implementations of them company-wide. Moreover, we held Hackathon events for teaching Karate. At the first event, attendees could implement tests for their product's APIs within 2 hours.
+The third one is to scale out our activities. Now our team has only 4 members. As I explained earlier, we SET team ruled to work with target product development teams together as the first step. However, it is impractical to expand improvement company-wide with only 4 members. Therefore, we have been trying to find practitioners who are interested in Test Automation and Agile throughout the company, unite them by forming an informal team, and expand our activities with them together. We are considering to utilize the idea of "Guild" [27] at Spotify.
 <br />
 <br />
 <br />
@@ -313,7 +309,10 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 [21] GV. https://www.gv.com/sprint/.
 [22] Testcontainers. https://www.testcontainers.org/.
 [23] xUnit Patterns.com. http://xunitpatterns.com/Slow%20Tests.html.
+[24] Docker. https://www.docker.com/.
+[25] Kubernetes. https://kubernetes.io/.
+[26] The Digitalocean Community. https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure.
+[27] Kniberg, H., & Ivarsson, A. 2012. Scaling Agile @ Spotify with Tribes, Squads, Chapters & Guilds. https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf.
 
-⭐️
-[24] Kniberg, H., & Ivarsson, A. 2012. Scaling Agile @ Spotify with Tribes, Squads, Chapters & Guilds. https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf.
-[25] LINE. https://linecorp.com/en/company/mission.
+
+[28] LINE. https://linecorp.com/en/company/mission.
