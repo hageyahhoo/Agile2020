@@ -47,6 +47,8 @@ XP
 Learning Session
 Developer Experience
 Karate
+Zipkin
+Microservice Architecture
 
 
 # Abstract
@@ -63,24 +65,27 @@ After this talk, you will get concrete examples of techniques, tools, and soluti
 
 # Lessons Learned from Your Experience
 - Agile methodologies and experiences work well for establishing totally new roles and activities. Especially, verbalizing stakeholders' concerns and sharing them with decision-makers by Product Discovery is very important. Additionally, attracting decision-makers and colleagues by giving impacts continuously is very effective. Establishing SET role in LINE Corporation was analogous to start-up business or building new services to us.
+
 - We could provide innovative ideas and solutions by working closely with product development teams. Especially, experiencing hardships together was an essential factor to find and solve real problems.
+
 - It is necessary to adjust my/our responsibilities continuously to meet my/our moving goals based on continuous experiments. Finding and solving problems gradually and extensively by combining technical excellence and Agile methodologies for contributing to our business is a key to success.
-- Incorporating experiments and learnings to the team leads to huge transformation beyond the team. It reaches to organizational level. In our experience, we utilized "Learning Session" as a key driver to improvements. Additionally, we invented a totally new tool named "Sebas Report" to tame complexity of Microservices by utilizing Learning Session and continuous experiments.
+
+- Incorporating experiments and learnings to the team leads to huge transformation beyond the team. It reaches to the organizational level. In our experience, we utilized "Learning Session" as a key driver to improvements. Additionally, we invented a totally new tool named "Sebas Report" to tame the complexity of Microservices by utilizing Learning Session and continuous experiments.
 
 
 
 # Information about the Experience
-I am the first member of "SET" (Software Engineer in Test) in LINE Corporation. I joined LINE Corporation in 2017. After series of improvements, in 2019, we formed a team of SET and became the leader of the team.
+I am the first member of "SET" (Software Engineer in Test) in LINE Corporation. I joined LINE Corporation in 2017. After a series of improvements, in 2019, we formed a team of SET and became the leader of the team.
 
 From the start of my career as SET in LINE Corporation, our team members and I have been solving a variety of software and organizational problems.
 
-1) Established a role of "SET" by attracting decision-makers and colleagues with Product Discovery and giving impacts to them continuously.
+1) Established the role of "SET" by attracting decision-makers and colleagues with Product Discovery and giving impacts to them continuously.
 
 2) Innovated solutions and processes by experiencing hardships with each product development team together. For example, we rebuilt a failure detection system based on the team's needs and preferences.
 
-3) Transformed the organization with built-in experiments and learnings. For example, we proceeded onboarding of our team members smoothly with "Learning Session". Additionally, we invented a new tool named "Sebas Report", which can tame complexity of Microservices based on this onboarding and holding Learning Session continuously.
+3) Transformed the organization with built-in experiments and learnings. For example, we proceeded onboarding of our team members smoothly with "Learning Session". Additionally, we invented a new tool named "Sebas Report", which can tame the complexity of Microservices based on this onboarding and holding Learning Session continuously.
 
-The key characteristic of our experiments is achieving a lot of technical and process improvements and innovations from scratch by utilizing series of experiments frequently and flexibly for contribution to our company and business.
+The key characteristic of our experiments is achieving a lot of technical and process improvements and innovations from scratch by utilizing a series of experiments frequently and flexibly for contribution to our company and business.
 
 
 
