@@ -69,22 +69,18 @@ After this talk, you will get concrete examples of techniques, tools, and soluti
 
 
 
-# ⭐️Information about the Experience
-I am the first member of "SET" (Software Engineer in Test) in LINE Corporation. I joined LINE Corporation in 2017 and became the leader of SET team in 2019.
+# Information about the Experience
+I am the first member of "SET" (Software Engineer in Test) in LINE Corporation. I joined LINE Corporation in 2017. After series of improvements, in 2019, we formed a team of SET and became the leader of the team.
 
-From the start of my career in LINE Corporation, I have been solving a variety of software and organizational problems.
+From the start of my career as SET in LINE Corporation, our team members and I have been solving a variety of software and organizational problems.
 
-⭐️Establish set role by attracting decision-makers and colleagues
-1) Clarified responsibilities and activities of SET (team) by utilizing Agile methodologies and techniques
+1) Established a role of "SET" by attracting decision-makers and colleagues with Product Discovery and giving impacts to them continuously.
 
-⭐️Innovate solutions and processes by experiencing hardships together
-2) Solved problems and improved processes of each product development team by working collaboratively and deeply with them. We experimented a variety of tools and Agile methodologies through these activities.
+2) Innovated solutions and processes by experiencing hardships with each product development team together. For example, we rebuilt a failure detection system based on the team's needs and preferences.
 
-⭐️Transform the organization with built-in experiments and learnings
-3) Expanded our activities toward engineering management improvement. We experimented "Learning Session" and utilizing Test Automation for resiliency. Through these activities, we transformed us as a team of "Transformational Leaders".
+3) Transformed the organization with built-in experiments and learnings. For example, we proceeded onboarding of our team members smoothly with "Learning Session". Additionally, we invented a new tool named "Sebas Report", which can tame complexity of Microservices based on this onboarding and holding Learning Session continuously.
 
-⭐️
-The key characteristic of we SET team is experimenting frequently and flexibly based on what we learned from global conferences like Agile20XX, articles, popular open-sourced tools, and so forth. Additionally, we are always aiming at contribution to our company and business. It's not too much to say that we are always pursuing "best for our users and business" fiercely and relentlessly with a series of experiments.
+The key characteristic of our experiments is achieving a lot of technical and process improvements and innovations from scratch by utilizing series of experiments frequently and flexibly for contribution to our company and business.
 
 
 
