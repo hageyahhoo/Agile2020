@@ -1,13 +1,11 @@
-# Growing and Expanding Transformational Leaders Team with Experiments
+# Everything from Scratch: Practical Ideas in an Organization without a Concept of Process Improvement
 
 
 
 ## Abstract
-Since I joined LINE Corporation as the first member of "SET" (Software Engineer in Test) in 2017, we have been solving a variety of software and organizational problems.
+In this experience report, I present practical ideas to establish a new role, to improve product development teams, and to proceed company-wide problem-solving from scratch in the very strongly technology-oriented and fast-growing company without a concept of process improvement and clear supporters.
 
-Through these achievements, we have been adjusting our responsibilities from software quality to software delivery, profitability, and organizational processes.
-
-This report is about why and how we are becoming a team of "Transformational Leaders" [1] that is responsible for software delivery performance and organizational culture [2] based on experiments.
+LINE Corporation [1] has been growing very rapidly and globally. However, the company had been struggling with increase of outages and they had given negative impacts to users and company's profits simultaneously. Since I joined LINE Corporation as the first member of “SET” (Software Engineer in Test) [2] in 2017, I and our team have been solving a wide variety of problems including reduction of outages, innovation in testing tools, onboarding, and so on by combining technical solutions and Agile methodologies based on my experiences as an Agile Coach. We have been pursuing "best for our users and business" fiercely and relentlessly with a series of experiments. Now, some teams in our company utilize our ideas that we reflected, experimented, and succeeded from scratch.
 <br />
 <br />
 <br />
@@ -15,209 +13,217 @@ This report is about why and how we are becoming a team of "Transformational Lea
 
 
 ## 1. INTRODUCTION
-"LINE" is a free chatting and telecommunication service for smartphones that has released since 2011. Our company name is derived from this service.
+"LINE" is a free message, voice calls and video calls service for smartphones that has released since 2011. Our company name is derived from this service [3].
 
-After the first release, LINE Corporation has been increasing users and messages transferred rapidly and globally. Especially, high sound quality with free, and the "sticker" feature that we can send a variety of rich emoticons as a message attracted a lot of users.
+After the first release of “LINE”, LINE Corporation has increased its users and messages transferred rapidly and globally. Especially, its high-quality sound, and the "sticker" feature that we can send a variety of rich emoticons as a message attracted a lot of users.
 
-For adapting to the rapid growth of LINE, we have been improving LINE's architectures and code base iteratively. We chose "Microservice Architecture" [3] to earn scaling out, independent development, and fast delivery capabilities.
+For adapting to the rapid growth of LINE, we have been improving LINE's architectures and code base iteratively. We chose Microservice Architecture [4] to earn scaling out, independent development, and fast delivery capabilities.
 
-However, outages of LINE have also been increasing. Features, especially fintech ones like payments and banking, have been increasing dramatically. Troubles at "Integration Points" [4] among each Microservices have also been increasing. They mean increases of negative monetary impacts to LINE users.
+However, increase of Microservices has been causing increase of outages simultaneously. The more we expand business areas like fintech, the more troubles at Integration Points [5] among each Microservice increase. Negative impacts to LINE users and company's profits became measurable in 2017.
 
-For reducing outages and improving product development processes, LINE Corporation decided to open new positions for a Scrum Master, a DevOps engineer, and an SET. I joined LINE Corporation as the first member of SET in 2017.
+LINE Corporation had struggling with solving these critical problems for themselves but failed. Because LINE Corporation was a strongly technology-oriented company and it didn't have a concept and experience of process improvement at that time. There were very few leaders and supporters to improve this situation.
+
+Therefore, LINE Corporation had started looking for proper leaders externally. Evaluated over five years of my experiences and achievements as an Agile Coach and Test Automation engineer, I joined LINE Corporation as the first member of SET in September 2017.
 <br />
 <br />
 <br />
 
 
 
-## 2. CLARIFY DEMANDS AND RESPONSIBILITIES TO START
+## 2. ESTABLISH SET ROLE BY ATTRACTING DECISION-MAKERS AND COLLEAGUES
 
 ### CHALLENGES
-When I joined LINE Corporation, there were lots of problems, which relate to not only software quality but a variety of software and organizational problems.
+After joining LINE Corporation, I faced with tons of challenges to start my work as SET.
 
-The biggest challenge was the confusions and disagreements about SET among stakeholders. There were no clear objective, missions, and responsibilities of SET. Additionally, there were no shared understandings about SET. Therefore, I needed to clarify them at first.
+The biggest challenge was that a sense of crisis about increase of outages was not shared among employees. Only a few decision-makers like senior managers and executives were acknowledged and concerned about emergencies to solve negative impacts of outages to LINE users and company's profits as rapidly as possible.
 
-Other big challenge was that I was a newbie of LINE Corporation and I didn't have enough knowledge of our services, architectures, technologies used, and so on.
+Additionally, there were no clear ideas and solutions for increase of outages in the company. LINE Corporation had not experienced process improvements until then because of its very strongly technology-oriented fashion. Wide adoption to Microservice Architecture became a barrier to consider solutions beyond each service or technical silos.
 
-Moreover, there were few leaders to solve problems, which affect more than one team and/or service. In other words, few leaders could act beyond silos. We have been widely adopting to Microservice Architecture. It was critical to overcome this problem for solving outages quickly and properly with fewer impacts to users.
+Moreover, there were no shared understanding and consensus about SET role among decision-makers. LINE Corporation established SET job without clear objective, missions, and responsibilities. The company's intention at that time was very naive that just introducing Test Automation to the company might solve something.
 <br />
 <br />
 
 
 ### ACTIONS
-For the smooth start of SET activities, I did the following actions.
+My focus was to obtain consent from decision-makers and colleagues by discovering their real concerns and providing solutions iteratively and incrementally.
 
-#### 1. GATHER INFORMATION WITH PRODUCT DISCOVERY
-To clarify objective, missions, and responsibilities of SET, I utilized the idea of "Product Discovery" [5] taught by David Hussman for gathering necessary information.
+#### 1. SHARE A SENSE OF CRISIS BY VERBALIZING REAL CONCERNS
+I thought not only decision-makers and colleagues but also, I should know real problems LINE Corporation was facing with in a knowledgeable way. It was time to follow an ancient saying by Sun Tzu: "If you know the enemy and you know yourself, you will have almost 100 battles". From my experiences of Agile, I thought "Product Discovery" [6] might fit well.
 
-At first, I analyzed our services and products. I utilized static code analysis tool named "SonarQube" [6] to know the code coverage and technical debts for each service. I also added simple unit and integration test scripts to know behavior of the products. Test scripts are good for understanding software under test [7].
+Therefore, at first, I talked developers, QA persons, Product Managers, senior managers, and executives to hear their concerns and troubles directly. Through these conversations, I acknowledged that they had lots of non-verbalized problems. Additionally, I got that there were no persons who could verbalize these problems and share with other colleagues.
 
-Next, I focused on analyzing "outage reports". "Outage reports" mean both postmortem meetings and published reports. They are a treasure-trove of information we need to solve. I was able to know causes of outages, impact on sales and profits, and problematic products through these reports. I understood that public APIs provided for external users, and Sticker Shop, were the most problematic products. Additionally, I found that reducing "MTTR" (Mean Time to Repair) would be an impactful solution as the first step.
+Next, I focused on helping colleagues to verbalize their concerns and to share them with other colleagues.
 
-Moreover, I talked stakeholders like developers, QA persons, Product Managers, senior managers, and executives to hear their concerns and troubles directly and beyond silos. Stakeholders' worries are also a treasure-trove of information to improve. Through these conversations, I understood that they had lots of non-verbalized problems. I also learned that verbalizing problems through direct and honest conversations is critical for discovering real needs, shared understanding, and collaborations beyond silos.
+I investigated our services and products. I utilized "SonarQube" [7], a static code analysis tool, to know the code coverage and technical debts for each service. I also implemented and run some of unit and integration test scripts to know real behaviors of the products. Test scripts are good for understanding software under test [8] and finding problematic services.
+
+Additionally, I focused on "outage reports". "Outage report" is a term which means both a published report and a postmortem meeting in our company. From these reports, I acknowledged that 1) reports were too technical to know impact on sales and profits, 2) reports didn't consider clear goals and actions to prevent the outages, and 3) "Channel Gateway", an aggregation service of our APIs towards external users, was the most problematic products.
+
+After investigating services and outage reports, I could verbalize colleagues' concerns as follows: 1) increase of Channel Gateway's outages was the most critical issue that was giving negative impacts to external users, 2) failure detection of Channel Gateway took an average of one week and it was not acceptable for a Product Manager, and 3) testing APIs was insufficient in almost all of services because few persons knew how to test APIs programmatically. I shared these verbalized ones and agreed them with colleagues, managers and executives.
 <br />
 
-#### 2. ESTABLISH SOLUTIONS WITH ITERATIVE AND INCREMENTAL CONSENSUS
-At the end of the first week I joined LINE Corporation, I built the first rough ideas of SET including objective, missions, responsibilities, solutions, and milestones based on gathered information I mentioned above. Additionally, I proposed them to "decision makers" like senior managers and executives.
+#### 2. GIVE IMPACTS CONTINUOUSLY TO INCREASE SUPPORTERS
+For getting support from colleagues and decision-makers to proceed with radically new actions, I tried to "give impacts" [9] constantly to them.
 
-I don't think that I can build the perfect solutions and agree on them with decision makers at once. I supposed that it would be preferable not only me but decision makers to continue proposing ideas, getting feedbacks, and improving proposal. Additionally, there were few persons who could lead "strategy formulation" in LINE Corporation at that time. Leading decision-making gave impacts to decision makers and it was good for attracting their interests in SET. Therefore, I chose to iterate build-propose-learn cycle weekly as "Iterative and Incremental Consensus" approach.
+From the first week I joined LINE Corporation, I achieved something and shared them with coworkers and decision-makers every week. Especially, I focused on providing working software, executable ones, and quantitative information.
 
-My first proposal was focusing on improving Sticker Shop due to frequency of outages, however I didn't define milestones. Through this approach, rough milestones were enough useful for decision makers to understand tasks, plan, and due date easily and quickly. Additionally, they also said that it was OK to update milestones if we knew additional information. Moreover, they taught me that public APIs were more important than Sticker Shop at that time from business perspective. On the other hand, they agreed on my idea that utilizing Test Automation for making failure detection faster and reducing MTTR was valuable as SET's responsibility. Through this approach, I could improve my proposal step by step. Finally, we agreed on the first solution and milestone within 45 days since I joined LINE Corporation.
-<br />
-
-#### 3. MANAGING IMPACTS BY PROVIDING RESULTS EVERY WEEK
-In parallel with "Iterative and Incremental Consensus", I tried to "manage impacts" [8] constantly to coworkers and decision makers for attracting their interests in SET.
-
-From the first week I joined LINE Corporation, I achieved something every week and shared them with coworkers and decision makers. Especially, I shared working software or executable one. Additionally, I showed results quantitatively beyond silos.
-
-Here is a list of achievements for my first 10 weeks.
+Here is a list of achievements for my first ten weeks.
 
 | Week    | Achievements                                                     |
 | ------- | ---------------------------------------------------------------- |
 | Week 1  | Started writing test scripts to understand services/products     |
-| Week 2  | Proposed first idea of SET activities to decision makers         |
+| Week 2  | Proposed first idea of SET activities to decision-makers         |
 | Week 3  | Built mechanism to run and report static code analysis regularly |
-| Week 4  | Shared to developers how to build static code analysis           |
-| Week 5  | Proposed milestones of activities to decision makers             |
-| Week 6  | Agreed with proposals/milestones with decision makers            |
+| Week 4  | Shared with developers how to build static code analysis         |
+| Week 5  | Proposed milestones of activities to decision-makers             |
+| Week 6  | Agreed with proposals/milestones with decision-makers            |
 | Week 7  | Collected information and tools of QA/Tests in one place         |
-| Week 8  | Implemented failure detection for public APIs                    |
-| Week 9  | Guided to start regular meetings with developers and QAs         |
+| Week 8  | Implemented failure detection mechanism for Channel Gateway      |
+| Week 9  | Guided to start regular meetings with developers and QA persons  |
 | Week 10 | Started solving problems by developers step by step              |
 
-When I had been managing impacts, I utilized "3 KPIs"; Sales, Profit, and Employee Satisfaction. When I had worked at Rakuten, one of senior executives and my supervisor had taught me that every business can measure with these 3 KPIs. After that, I have been utilizing it for all activities.
+When I gave impacts, I utilized "Three KPIs": Sales, Profit, and Employee Satisfaction. It is that my former supervisor told me as a way to measure every business. For example, my first proposal of SET activities to decision-makers included reducing MTTR (Mean Time to Repair) of Channel Gateway by implementing proper failure detection mechanism for reducing negative impacts to external users. Additionally, I not only reported results of static code analysis, but also shared with developers how to build static code analysis mechanism from Employee Satisfaction aspect.
 
-Here are examples. I chose all activities as SET for improving Sales and Profit. I implemented test scripts for reducing MTTR, not only for expanding Test Automation. Additionally, I picked up actions that could affect Employee Satisfaction. For decision makers, I focused on discovering and verbalizing their anxieties, and providing quantitative information. For Developers and QAs, I tried to stimulate appetites for learning.
+As a result, many developers started using my impacts like static code analysis mechanism and giving me concrete advices about problematic points of architectural design, operational difficulties, and so on. Their advices became good information sources to communicate with decision-makers. Additionally, decision-makers started taking time to define SET role with me. They couldn't ignore my impacts and developers' supports to SET.
+<br />
 
-As a result, many colleagues started talking about SET. Their interests in SET led collaboration with product development teams, QAs/Test Automators, and Product Managers. It meant I could lead problem-solving beyond silos. Additionally, decision makers started supporting SET activities positively. Quick agreement on the first solution and milestones of SET was a good sign.
+#### 3. ITERATIVE AND INCREMENTAL CONSENSUS
+In parallel with giving impacts, I built consensus on SET role with decision-makers gradually. From the first week I joined LINE Corporation, I started proposing ideas of SET; objective, missions, responsibilities, solutions, and milestones; iteratively based on gathered information I verbalized and got from colleagues.
+
+This phase was analogous to start-up business or building new services. Through discussions, we corrected ideas of SET role, and built feeling of trust each other step by step. It was a weekly cycle of build-propose-learn. I named it as "Iterative and Incremental Consensus".
+
+As a result, within forty-five days since I joined LINE Corporation, we agreed on 1) making failure detection faster and reducing MTTR by utilizing Test Automation techniques, 2) increasing API test scripts, and 3) focusing on Channel Gateway at first as SET role, goals, and milestone. It was a result from scratch.
 <br />
 <br />
 
 
 ### RETROSPECTIVE
-The idea of "Product Discovery" worked for clarifying responsibilities and activities of SET. Additionally, "Iterative and Incremental Consensus" was useful for collaborating with decision makers and agreeing with them quickly. Moreover, "managing impacts with 3 KPIs" attracted lots of colleagues from business perspectives, not only from technical ones.
+Establishing SET role in LINE Corporation was analogous to start-up business or building new services to me.
+
+In an organization without a concept of process improvement, showing concrete examples to improve small things step by step could give impacts to the organization positively. Verbalizing colleagues' concerns as Product Discovery became good information sources. Additionally, providing achievements and building feeling of trust as impacts worked for getting support from colleagues and decision-makers. Moreover, Iterative and Incremental Consensus was effective for collaboration and quick agreement on totally new ideas with decision-makers. Through these activities, Three KPIs worked as common criteria for improvements among colleagues, decision-makers, and I.
 <br />
 <br />
 <br />
 
 
 
-## 3. SHIFT VERTICALLY
+## 3. INNOVATE SOLUTIONS AND PROCESSES BY EXPERIENCING HARDSHIPS TOGETHER
 
 ### CHALLENGES
-After clarifying responsibilities and activities of SET, getting decision makers' supports and colleagues' interests, I started actions as SET. Additionally, LINE hired new employees and formed a team of SET. I thought we could proceed our activities more quickly and widely. However, we faced with new obstacles.
+After establishing SET role, I started actions as SET by obtaining consent from colleagues and decision-makers. After six months, we hired new SETs and formed a team of SET. I became the leader of the team. I thought we could proceed our activities more quickly and widely, however, we faced with some new challenges.
 
-At first, we implemented a failure detection system for public APIs, however, it didn't become established in the product development team. We implemented test scripts for these APIs, called them via CI servers periodically, and notified errors and failures to the product development team quickly. We utilized Test Automation and CI as a failure detection system. We also used the common technologies like JUnit, Spring Boot, Jenkins, and so on for the product development team. Failure detection worked partially and some developers started implementing them. Although, test scripts written in JUnit were hard to read, implement, and maintain for the Product Manager and most of developers. Additionally, SET team and the product development team have been working at different offices. Our communications weren't sufficient to proceed improvements.
+The biggest challenge was that the failure detection mechanism we implemented for Channel Gateway didn't become established in the team.
 
-Other obstacle was that performance problems at Sticker Shop had emerged. They had been using one in-house performance testing tool. However, it couldn't provide enough capabilities to detect emerging issues. Moreover, they need to write test scripts with groovy, an unaccustomed programming language for them. Therefore, writing test scripts was not fast and effective.
+Based on the first agreement with decision-makers, we built a failure detection system for Channel Gateway to reduce its MTTR. We implemented the system by combining Test Automation techniques and Continuous Integration (CI) servers. We implemented test scripts for its APIs. Additionally, we configured CI servers to run these test scripts periodically on both development and production environments. Moreover, we configured servers to notify errors and/or failures detected by running test scripts to members of Channel Gateway's team (hereinafter called "the team") in a minute or two via Slack [10]. We used JUnit and Spring Boot [11] to implement test scripts to meet the team's skill sets, and to make the team members implement test scripts by their own.
 
-Another challenge was that consulting-style approach didn't work. We often provided guidelines, ideas how to design good test scenarios, and test script examples widely. However, most of colleagues didn't utilize them to improve their testing problems. We needed to find ways to expand ideas and to improve their work more effectively.
+After providing the system including manuals to the team, it worked well for the first two months. It made failure detection dramatically from one week to one hour. Additionally, some team members started implementing test scripts. However, they became ignoring notifications from the system soon without clear reasons.
+
+Soon we hypothesized that we couldn't approach the team's real problems properly due to lack of knowledge of their contexts deeply. Just providing tools and guidelines as consultants won't work in this case. We often got requests from lots of teams to provide standardized tools, guidelines, and reference implementations. However, we never saw that they worked fine and solved their core problems because they tend to be far from the team's real needs and contexts.
 <br />
 <br />
 
 
 ### ACTIONS
-For achieving our mission, we started working with product development teams deeply to improve their processes. In other words, we started working, learning, and solving essential problems with them.
+Our choice was to join the team and work together for understanding the team's contexts, finding proper solutions, and committing the team and solutions more.
 <br />
 
-#### 1. REFINE FAILURE DETECTION SYSTEM WITH KARATE
-For public APIs, we started direct conversations with the product development team members to discover their real needs and concerns at first. In other words, we did "Product Discovery" approach again. We talked daily via video conference system. We discussed with the Product Manager if he came to our office.
+#### 1. DISCOVER THE TEAM'S REAL NEEDS AND CONTEXTS REMOTELY
+At first, we utilized Product Discovery again. We started direct conversations with the team members to hear and verbalize their real concerns, needs, and contexts. The team and we SET team talked every day as deeply as possible by using video conference system because each team has been working at different offices. Additionally, we used Slack to fill in gaps in oral communication. Moreover, we discussed with the team's Product Manager if he came to our office.
 
-Through these discussions, we found that test scripts written in JUnit were hard for them. Therefore, we investigated and proposed lots of testing tools to them.
-
-Finally, we chose Karate [9] framework. It provides features specific to API Testing with BDD (Behavior-Driven Development) style and Gherkin format. It was easy to read, implement, and maintain for both developers and the Product Manager. Especially, defining the preferable state was easy to understand for them.
-
-After decision to use Karate framework, we SETs and the product development team members started rewriting test scripts from JUnit to Karate collaboratively. SETs wrote examples at first. SETs guided "Developer Testing" to achieve and expand "Build Quality In" idea by working with developers. SETs supported solving architectural problems of Karate. After 3 months' collaborative work, finally failure detection system with Karate became established in this product development team.
+Through these discussions, we understood that test scripts written in JUnit were hard to read, write, and maintain for the team members. Additionally, we knew that the team members didn't read manuals we provided. Therefore, the team and we SET team needed to find proper ways to implement test scripts and to be accustomed to using the failure detection system.
 <br />
 
-#### 2. IMPLEMENT NEW PERFORMANCE TESTING TOOLS WITH KOTLIN
-For Sticker Shop, we did the same approach as public APIs to discover their real needs and concerns at first.
+#### 2. REBUILD THE FAILURE DETECTION SYSTEM WITH KARATE
+Next, the team and we SET team started to look for and evaluate proper tools which would meet our needs and preferences together.
 
-We found that improving to use the existing in-house performance testing tool was impractical. It could produce only 10% of loads what we wanted to test. It was not easy to expand and/or modify features. Additionally, most of the product development team's members were familiar with Kotlin language. Implementing test scripts with Groovy was hard for them. Moreover, usage of Docker [10] and Kubernetes [11] were expanding at that time in our company. We thought it was a good chance to utilize these new tools and approaches to improve our performance testing.
+After one month's research and evaluation, the team and we SET team agreed on using "Karate" [12]. Karate is an open-sourced framework which focuses on API testing. It provides features that make testing RESTful APIs, Thrift [13], and gRPC [14] easier. We can implement test scripts with Gherkin syntax [15] and BDD (Behavior-Driven Development) [16] style. The team members favored its readability, maintainability, and extensibility points.
 
-Therefore, we decided to create a new in-house performance testing tool named "Ayaperf". Ayaperf is a Java wrapper of Locust [12] that can use Kubernetes to increase loads easily with enough volume. Developers can write test scripts of performance testing with Java and Kotlin. We did iterative and incremental style to implement and improve Ayaperf with Sticker Shop developers. After 3 months' collaborative work, finally Ayaperf became stable. Developers started detecting performance issues with it before release. Additionally, they could correct issues by themselves without hurting production code. They found and solved 3 hidden performance issues by utilizing Ayaperf.
+After the decision to use Karate, the team and we SET team started rewriting all test scripts from JUnit to Karate collaboratively. At first, we SET team implemented examples, provided them to the team members, and taught the team members points to use Karate. Soon after these preparations, the team members became able to implement test scripts by their own.
+
+It took three months to rewrite all test scripts from JUnit to Karate. However, just rebuilding the failure detection system was not enough became it established in the team.
 <br />
 
-#### 3. IMPROVE PRODUCT DEVELOPMENT PROCESSES AS A HABIT
-At public APIs and Sticker Shop, we found the effectiveness of working with product development teams to find their real needs and solve them. This approach worked well. However, I thought it was not enough and sufficient. I saw that lots of teams stopped solving problems by themselves after coaches left teams. It is a failure if improvements don't continue after coaches' left. Therefore, I expanded our activities to making product development process improvement as a habit especially at public APIs.
+#### 3. EXERCISE PROCESS IMPROVEMENTS WITH THE TEAM
+Concurrently to rewriting test scripts, we aimed to teach the team members how to use the failure detection system without manuals and solve problems by working together. Therefore, the team and we SET team had been tackling with wide variety of testing issues together; the architecture and the product designs that were hard to test, preparation of test data, extension of Karate features, and so on. Additionally, we had taught the team members how to set goals and milestones, clarify objectives, prioritize APIs to test, provide quantitative information to users, and so forth. For example, we told the team members to order APIs by frequency of outages and monetary impacts to users as priorities to test. In other words, we showed how to apply Three KPIs concretely.
 
-We had found and solved issues as homework every week. We had continued applying new Karate features and refactoring test scripts. Additionally, we had implemented a notification mechanism via slack to reduce MTTR. Moreover, we had asked product development team members for clarifying objectives, quantitative values they will provide to users, and rough milestones of each task every week. We utilized the idea of Scrum framework to make continuous improvement as a habit of the team. We had continued these activities for about 3 months.
+After three months' collaborative work, finally the failure detection system with Karate became established in the team. Now all of the team members including the Product Manager are writing and maintaining test scripts with Karate routinely without our support.
 
-After that, the product development team became able to clarify quarterly milestones, prioritize tasks based on business values, and improve test scripts and the failure detection system by their own. They started decreasing outages dramatically. They really became the self-organized team. Finally, we stopped supporting the team.
+Additionally, the team became self-organized one. They became able to define goals and milestones, prioritize their tasks based on business values, and collaborate with related teams by their own without our help.
+
+Moreover, business impacts started to emerge. They reduced over thirty percent of outages after the above actions. Now many product development teams use the team as a reference of improvements.
 <br />
 <br />
 
 
 ### RETROSPECTIVE
-We could solve essential problems and improve processes of each product development team by working collaboratively and deeply with them. We SET and product development teams implemented Test Automation and related techniques based on the idea of "Product Discovery". Additionally, each team becomes sophisticated. For example, the Product Manager of public APIs writes test scripts with Karate routinely. He often says that the Product Manager may disturb the team by writing production codes, but can contribute to the team by writing test scripts! He is utilizing test scripts to understand behavior of the product deeply, to clarify next actions and goals of the product and the team, and to guide team members doing "Developer Testing" for "Build Quality In".
+Experiencing hardships with the product development team together is a key to an innovative solutions and processes.
 
-Additionally, we learned a lot of things to improve our approaches through working with them. The consulting-style approach is useful to keep the whole image of activities, however, we cannot approach essential problems. On the other hand, the working-together approach is effective to discover and solve essential problems quickly, but we may lose the whole image of activities because of too focusing on one product development team. Therefore, we should utilize both styles based on the phase of activities.
+In Channel Gateway, we could understand the team's contexts deeply by working together. We made the failure detection mechanism become established in the team based on this information. However, I don't think of just working collaboratively with the team is enough to understand the team's context. The experience of struggling with the same problems and solving them together creates "compassion". I think "compassion" is a key driver for problem-solving over difference of contexts. Incidentally, the English word "compassion" derives from Latin's "compatio", which means "suffer with".
 
-The English word "compassion" derives from Latin's "compati", which means "suffer with". We think this is the point of leading and guiding new things like Agile. We SETs and product development teams had been suffering from the same problems by working together. We had considered solutions and solved problems one by one together. These series of activities had constructed real collaborative relationships. Moreover, these relationships had become boosters for adapting to new Test Automation tools and process improvements.
+After this experience, we SET team ruled to work with target product development teams together as the first step. This is our way of problem-solving from scratch.
 <br />
 <br />
 <br />
 
 
 
-## 4. BECOME TRANSFORMATIONAL LEADERS
+## 4. TRANSFORM THE ORGANIZATION WITH BUILT-IN EXPERIMENTS AND LEARNINGS
 
 ### CHALLENGES
-We had been solving a lot of technical and process issues of each product by working together with each product development team's members. These activities and achievements have been recognized as huge successes by executives. However, these successes had led us SET team to the next level of challenges.
+We SET team have been working with three product development teams together as the same as Channel Gateway. We have been finding and solving lots of technical and process issues step by step collaboratively. We believed we were doing well at that time. However, one day, bottlenecks moved and we faced with new urgent challenges.
 
-The first challenge was the company-wide strategic and management problems. A lot of product development teams could not show their own missions, goals, plans, and milestones to decision makers like senior managers and executives beforehand. Additionally, these teams couldn't share their current status and problems in a timely manner. Decision makers had been frustrating that they couldn't make decisions properly and precisely. On the other hand, we SET team had been showing that information timely from the beginning of all activities. Therefore, decision makers requested us SET team to teach product development teams to express that information properly.
+The first challenge was an emergent necessity of onboarding. In July 2019, two new members joined our team. One member was a mid-career employee who had an experience of client-side Test Automation but less experience of Microservices. Another member was a recent graduate who didn't have any experience and knowledge of Agile and Test Automation. Our team had only three existing members at that time. It was obvious that we needed to stop our actions for a certain length of time until finishing onboarding.
 
-The second challenge was about onboarding. In July 2019, our team had 4 members and we hired one recent graduate and one mid-career employee simultaneously as new SETs. To proceed our activities smoothly, we needed to make onboarding as the top priority task.
-
-The third one was a doubt about testing and quality assurance. LINE Corporation hires Test Engineers and Quality Assurance Engineers. However, most of them had only been doing End-to-end testing manually via client applications. In the era of Microservices, I thought it is not practical to detect bugs and solve them beforehand with these activities. Additionally, most of them didn't care about deployment, release, and contribution of our business. They were just interested in doing their own tasks by developer's requests. Such behavior was not what we SET aimed to do. On the other hand, we named our role as "Software Engineer in Test". The word "Test" made our colleagues misunderstand that we SET were the same as Test Engineers and Quality Assurance Engineers. The notion of testing and quality assurance were just a burden and a constraint that narrowed our activities to improve services and products. Therefore, I thought we needed different approaches to change these assumptions drastically.
+The second one was an acute requirement to reduce MTTR on each Microservice. We had implemented the failure detection system with Karate, CI server, and Slack in Channel Gateway. It had reduced over thirty percent of outages. However, we couldn't have identified the root cause of each outage at that time. A chain of API calls among Microservices was too complicated to identify the root cause. Additionally, rapid growth of our business has been adding complexities continuously. Taking one month or more to identify the root cause had been becoming common.
 <br />
 <br />
 
 
 ### ACTIONS
-For solving these totally different challenges, we started lots of actions including not only Test Automation and technical ones, but also engineering management, education, innovation, and so forth.
+We established new solutions really from scratch by continuous experiments. An essential point to these series of experiments was a built-in learning mechanism in our team.
 <br />
 
-#### 1. LEAD ENGINEERING MANAGEMENT IMPROVEMENT
-For solving the company-wide strategic and management problems, we had started showing our activities and installing our ways into other teams. In other words, we had started leading engineering management improvement based on decision makers' demands.
+#### 1. LEARNING SESSION FOR ONBOARDING
+For proceeding the onboarding smoothly, I, as the leader of SET team, decided to try to train new members during business hours as effective as possible by imitating professional sports and military training. I chose the idea of "Learning Session", a way of study sessions during business hours taught by Chris Lucian at Agile2017 [17].
 
-At first, we shared our milestones with other teams over and over again as an example of engineering management strategy and planning. Additionally, we held workshops for these teams to support their planning, defining mission, reporting, and so forth. For example, I held the Drucker Exercise [13] and the User Story Mapping [14] workshops to one team for teaching the idea of product ownership. After these activities, some teams started defining their own milestones and sharing them to decision makers in a timely manner.
+Here are basic rules in our team. We have been holding the Learning Session for thirty to sixty minutes every day during business hours as a work. We can choose any topics we assume it's effective for our daily activities. Anyone can speak and facilitate the session with Mob Programming way. The most important point is doing with a fun and without criticism.
 
-On the other hand, we attended other teams' meetings to improve. If the meeting was full of verbose and meaningless reporting without any decision making and productive communication, we proposed rules like reporting only necessary for decision making and applying timeboxing. We often utilized the idea of Impact Meeting [15] by Mike Cohn. Moreover, we stopped some meetings that couldn't provide any value. Clarified mission and milestones were useful to distinguish whether the meeting was valuable or not. We could use clear mission and milestones as the pointer of conversation as the same as the User Story.
+Through a series of Learning Sessions, we have been learning a wide variety of tools, techniques, Agile methodologies, and so forth that are effective for our daily activities. For example, all of our team members became accustomed to Karate framework. We became able to set up Karate with CI server, implement and refactor test scripts, and teach colleagues usefulness and how to improve API testing with Karate. Now Karate is one of our team's competitive characteristics. Additionally, we have been experimenting Scrum and Kanban to make our team's process improvements second nature. Currently, holding a retrospective meeting biweekly is our key to improving ourselves.
+
+As a result, we smoothly finished onboarding for two newcomers within one month. They became able to release what they implemented to production environment within one week. In other words, they could contribute to our business within one week. Additionally, they became accustomed to getting fast feedbacks by demonstrating what they implemented to users very frequently. It's not too much to say that we scaled out our team by utilizing Learning Session.
 <br />
 
-#### 2. LEARNING SESSION
-For proceeding our onboarding smoothly, I decided to utilize the idea of "Learning Session". Learning Session is a way of study sessions during business hours taught by Chris Lucian at Agile2017 [16].
+#### 2. LEARNING SESSION FOR ORGANIZATIONAL PROCESS IMPROVEMENTS
+The outcome of Learning Session was not only for smooth onboarding. We found that Learning Session gave three additional impacts to our team and our department.
 
-Here are basic rules. We have been holding Learning Session basically for 30 to 60 minutes every day during business hours as a work. We can choose any topics we assume it's necessary for our daily work. Anyone can speak and facilitate it with Mob Programming way with a fun and without criticism.
+The first impact was for our evaluation process. Soon after we started Learning Session, we found that holding Learning Session every day is as the same as evaluating each other on a daily basis. On one hand, I, an evaluator, can touch members' activities, achievements, and impediments directly every day. On the other hand, members can show their achievements to me very easily and quickly. Therefore, we don't need to set evaluation meetings only at the evaluation period. We can adjust behavior each other through daily observations and feedbacks to meet the team's objectives. As a result, we could reduce the burden of personnel evaluation dramatically for both an evaluator and a member to be evaluated.
 
-Through a series of Learning Sessions, we have been learning a wide variety of tools, techniques, process improvements, and so forth. We learned Karate framework. All team members can set up it, write test scripts, run tests, and teach them to other persons. We became accustomed to shortcut keys of IntelliJ IDEA, JIRA, and Confluence. We often review programs via GitHub's Pull Requests together. We refactor test scripts with learning test and architectural design techniques. We frequently demonstrate our work-in-progress tasks to get feedbacks quickly. Moreover, we experiment process improvements like Scrum, Kanban, the Drucker Exercise, and so on.
+The second impact was the psychological one. Through Learning Session, we learned that we don't need to be perfect because we utilized Learning Session as opportunities of experiments. Additionally, we often drilled trouble shootings and recovering services at Learning Session. We have been reducing psychological pressures as a mechanism. Therefore, our team members became accustomed to trying and proposing new ideas to other teams without fear. I will tell one example of a new idea in 4.2.3.
 
-As a result, we smoothly finished onboarding for two newcomers. They could write programs, pass reviews, and deploy their programs within 3 days. They could adapt to our team's rules and culture, like demonstrating their results to users very frequently for getting fast feedbacks, focusing on release, and experimental work style, very quickly. They became contributing to our products and services within 1 or 2 months.
-
-Moreover, we found that Learning Session gave 3 additional impacts to our team.
-
-The first impact was the growth of our team, not only of newcomers. We often shared each work among team members. We frequently solved each member's problem together. As a result, all team members could substitute other's works. We can say we have been doing "handover" every day. We could increase the "truck number" coined by Jim Coplien and enhance our team's capabilities to solve problems.
-
-The second impact was the psychological one. We were accustomed to show work-in-progress tasks and get feedbacks. It made us easier to ask questions and discuss solutions. We could propose, accept, and try new ideas without fear. Additionally, we often drilled trouble shootings and recovering services as Learning Session to acquire skills of "psychological safety". We have been reducing psychological pressures by atmosphere, mechanisms, and skills.
-
-The third and last impact was for evaluation. We could reduce the burden of personnel evaluation dramatically for both an evaluator and a member to be evaluated. On one hand, I, an evaluator, can touch members' activities, achievements, and impediments directly everyday through Learning Sessions. Therefore, I can evaluate each member quickly, easily, and properly every day. On the other hand, members can appeal their achievements to me very easily. Additionally, we can adjust behavior each other through daily observations and feedbacks to meet the team's objective. We didn't need to set evaluation meetings at once around the evaluation period and it saved our time and resources. We can say it as an Agile way of evaluation and human resource management.
+The third and last impact was the expansion to other teams and our department. In our company, it was common for each team and organization to hide its activities and not to collaborate each other. However, after I published a blog about Learning Session [18], some teams and organizations started Learning Session. Soon we found that they just didn't know how to collaborate each other to solve their problems. After that, not only our department but also our team could know each other's objectives and solutions deeply. I will show one good achievement in 4.2.3.
 <br />
 
-#### 3. TEST AUTOMATION FOR RESILIENCE
-For overcoming the limitation of testing and quality assurance in the era of Microservices, we decided to shift our focus to resilience, deployment, and release rather than detecting bugs and solve them beforehand.
+#### 3. ACHIEVE RESILIENCE OF MICROSERVICES FROM SCRATCH
+For making the root cause identification on each Microservice of each outage, we invented a totally new solution from scratch. For innovating this solution, we combined what we learned from a series of Learning Sessions.
 
-At first, we started combining Karate framework with Zipkin [17], a distributed tracing system. Our failure detection system with Karate was good at fast detection of failures and outages. However, it could not pinpoint a root cause in a fleet of Microservices. This was an emerging problem for Product Managers at that time. Therefore, we aimed to make our failure detection system more intelligent.
+At first, we started combining Karate framework with Zipkin [19]. Zipkin is an open-sourced tool to visualize the dependencies of Microservices, orders of APIs called, and problems on each Microservices. We aimed at pinpointing the root cause of failures in a fleet of Microservices with Zipkin. We found that one team in our department was utilizing Zipkin through expanding Learning Session. Therefore, we collaborated combining Karate and Zipkin.
 
-Our approach was to show tracing information of each Microservice on our test report by adding Zipkin's trace ids to call APIs to test. This test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids. It means that we can pinpoint a Product Manager who is responsible for failed Microservice. Additionally, it can reduce MTTR more and save other Product Managers' time. Our approach was utilizing the idea of observability and monitoring via Test Automation. We named this report as "Sebas Report". (The name "Sebas" is derived from a famous butler like Jenkins.)
+Next, we replaced existing reporting function of Karate from scratch. At first, we tried to add Zipkin's "trace id", that tracks APIs called, into Karate's test report. However, after quick investigation, we found it was very difficult from technical aspect. Therefore, we chose to reimplement reporting function with Vue.js [20] from scratch. In this phase, what we learned about Vue.js through Learning Session worked very well.
 
-After the release of Sebas Report, we started promoting Karate and Sebas Report company-wide. Additionally, we started recommending to each product development team to utilize not only reducing MTTR, but reducing lead time for changes, and increasing deployment frequency as KPIs to measure improvement and productivity. I utilized the idea of "Four Key Metrics" [18] as a way of contribution of our business. After these activities, some teams stopped blindly relying on Quality Assurance Engineers and enhanced the ratio of Developer Testing.
+Our approach was utilizing the idea of observability and monitoring via Test Automation. This new test report could pinpoint which Microservice failed by utilizing Zipkin's trace ids on a screen we recreated from scratch with Vue.js. We named this report as "Sebas Report". The name "Sebas" is derived from a famous butler as the same as Jenkins.
+
+After the release of Sebas Report, we could reduce the root cause identification of Channel Gateway from one month to one hour. Additionally, Sebas Report could save each member and Product Managers' total investigation time drastically because we could pinpoint a team that was responsible for failed Microservice. Moreover, we started promoting Karate and Sebas Report company-wide and recommending focusing more on resilience of Microservices rather than detecting all bugs and solve them beforehand from economic efficiency aspect. Now we assume Sebas Report as a way of achieving resilience of Microservices.
+
+By the way, for comparison, the newcomer of a recent graduate led over sixty percent of implementations of Sebas Report.
 <br />
 <br />
 
 
 ### RETROSPECTIVE
-We expanded our activities toward engineering management improvement based on decision makers' demands. Additionally, we experimented new ideas like Learning Session and utilizing Test Automation for resiliency. Through these activities, we have been redefining our goals and responsibilities based on continuous experiments to contribute to our business. We can say we transformed us as a team of "Transformational Leaders".
+Learning Session gave our team, other teams, and other organizations chances and hints to overcome lack of a concept and experience of process improvement in our company.
+
+At first, we utilized Learning Session as a way of smooth onboarding. However, the impact of Learning Session was not limited only in our team. It became an important key factor for collaborations from scratch in our company. Additionally, these new collaborations and what we learned through Learning Session led to an invention of "Sebas Report".
+
+Finally, our company achieved a way how to tame the complexity of Microservices and its outages with collaborations and process improvements from scratch. Our company earned the experiences of process improvements.
 <br />
 <br />
 <br />
@@ -225,15 +231,15 @@ We expanded our activities toward engineering management improvement based on de
 
 
 ## 5. LESSONS LEARNED
-Through these series of activities, we learned three new ideas.
+Through a series of experiences I explained, we learned three key success factors.
 
-At first, Agile methodologies worked for starting up new roles and teams. Product Discovery, Iterative and Incremental Consensus, and showing results iteratively attracted colleagues and decision makers. It helped SET team's starting up a lot.
+At first, Agile methodologies and experiences worked well for establishing SET role in LINE Corporation. Especially, verbalizing stakeholders' concerns and sharing them with decision-makers by Product Discovery was the most important key element in this success. Additionally, attracting decision-makers and colleagues by giving impacts continuously was very effective to start totally new actions.
 
-Second, working closely with product development teams was very effective for improving processes and achieving missions. Just providing guidelines and references to product development teams didn't work. Showing working examples enriched communication. Technical excellence was a necessary piece to provide examples and solutions properly. We utilized technology as a communication driver, however, only technology was not enough. We should leverage communication with both technical excellence and Agile methodologies.
+Second, we could provide innovative ideas and solutions by working closely with product development teams. Especially, experiencing hardships together was an essential factor to find and solve real problems.
 
-Third, it was necessary to change our responsibilities continuously. We have been changing and expanding our responsibilities from Test Automation, engineering management improvement, innovations, to Transformational Leaders. These actions are for contributing to our business based on continuous experiments.
+Third, incorporating experiments and learnings to the team led to huge transformation not only our team but also other teams and our organization. We changed our urgent onboarding as the start of inventing Sebas Report by utilizing Learning Session and continuous experiments. Additionally, the effectiveness of Learning Session has been expanding throughout our company.
 
-We SET team have been finding and solving problems gradually and extensively by combining technical excellence and Agile methodologies, and adjusting our responsibilities for our business.
+The key characteristic of we SET team is experimenting frequently and flexibly based on what we learned from global conferences like Agile20XX, articles, popular open-sourced tools, and so forth. Additionally, we are always aiming at contribution to our company and business. It's not too much to say that we are always pursuing "best for our users and business" fiercely and relentlessly with a series of experiments.
 <br />
 <br />
 <br />
@@ -241,13 +247,13 @@ We SET team have been finding and solving problems gradually and extensively by 
 
 
 ## 6. WHAT'S NEXT?
-Currently, we have been trying and investigating the following ideas for further improvements.
+Currently, we have been experimenting the following ideas for further improvements.
 
-The first one is building "Testable and Disposable Infrastructure". Currently, we don't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It becomes a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism with Docker and Kubernetes for making testing easier without fear. We are aiming to provide immutable and disposable containers, and a way of building their relationships easily. We named this idea and mechanism as "Testable and Disposable Infrastructure". As a preparation, we are adapting to Testcontainers [19] for testing persistence layer like RDBMS and NoSQL.
+The first one is applying "Design Sprint" [21] for solving complicated technical problems at a brownfield product. In July 2019, one product development team which develops and operates one mature product contacted us to help improving their Test Automation activities. However, we soon found that they had been struggling with isolation of problems and disagreements on solutions among team members. To solve confusions and teach the team members how to overcome this situation, we started utilizing Design Sprint by working with the team. Design Sprint is basically for Product Management. However, we have been utilizing this idea for solving technical issues. We try new technical ideas and tools within 1-week. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation cycle until solving problems. After these series of investigation cycles, the team has been simplifying their integration tests by adapting to Testcontainers [22] and improving hidden Slow Tests problem [23] by their own.
 
-The second one is to organize ideas, terminology, and techniques of Test Automation. There are lots of confusion about the difference among Unit Testing, Integration Testing, API Testing, End-to-end Testing, and so on. It is more than Microservices. Therefore, we started summing up these points as a guideline and reference implementations. We clarified how to distinguish Test Levels and design each test as a guideline. Additionally, we implemented and shared reference implementations of them company-wide. Moreover, we held Hackathon events for teaching Karate. At the first event, attendees could implement tests for their product's APIs within 2 hours.
+The second one is building and providing "Testable and Disposable Infrastructure" to product development teams to make testing easier without fear. Currently, our company doesn't have enough production-like test environments. It makes us hard to test enough to detect bugs and reproduce outages quickly without fear for operation miss and misconfiguration. It is becoming a huge barrier for testing. Therefore, we have been trying to build production-like test environments with Container and its orchestration mechanism by Docker [24] and Kubernetes [25]. We are aiming to provide a test environment which is easy to copy, destroy, and restore. We are inspired by the idea of Immutable infrastructure [26].
 
-The last one is experimenting "Design Sprint" [20] for solving complex technical problems at a brownfield product. We have been working with one product development team which develops and operates mature product. There are lots of problems, ideas to solve them, and huge confusion. To clarify each problem, prioritize each idea, and experiment whether the idea is valuable or not, we started utilizing an idea named Design Sprint. We try new ideas within 1-week cycle. We gather feedbacks and decide whether to proceed the idea or switch to other one within this short cycle. We continue this inspection and adaptation approach until solving problems. Currently, this team is adapting to Testcontainers and "Testable and Disposable Infrastructure" with this approach.
+The third one is to scale out our activities. As of this writing, our team has only 4 members. As I explained earlier, we SET team ruled to work with target product development teams together as the first step. However, it is impractical to expand improvements company-wide with only 4 members. Therefore, we have been trying to find practitioners who are interested in Test Automation and Agile throughout the company, unite them by forming an informal team, and expand our activities with them together. We are considering utilizing the idea of "Guild" [27] in Spotify.
 <br />
 <br />
 <br />
@@ -255,19 +261,11 @@ The last one is experimenting "Design Sprint" [20] for solving complex technical
 
 
 ## 7. CONCLUSIONS
-There have been lots of problems. Microservice Architecture is useful for independent develop-ability and deployability, however, it tends to strengthen apathy toward other teams and services/products. Additionally, there are short of leaders who can find and solve problems beyond silos and teams. Moreover, quality assurance approach is not proper for solving outages of Microservices.
+The idea of "SET" is derived from Google. This role is responsible for enhancing productivity of engineers by utilizing test automation, automation infrastructure, and process improvements in Google.
 
-We SET team have been solving these problems as follows.
+SET in LINE Corporation tried to start from this definition at first. However, there was no fertile soil to start and grow SET at that time. I needed to establish SET role in LINE Corporation without a concept of process improvement and clear supporters. After forming SET team, we faced with lots of challenges and failed so many times. However, we learned from these series of failures, found solutions, and achieved lots of results. Now it is safe to say that we have been customizing original SET role in Google to fit our company's contexts and needs based on fierce and continuous experiments. In other words, we created "SET" ourselves from scratch.
 
-At first, we aim to overcome limitations of feature teams for Microservice Architecture. Many Agile enthusiasts and practitioners insist of the importance of a feature team rather than a component team. However, only applying for a feature team cannot tame Microservice Architecture. Therefore, SET team behaves to tie each product development team, service, and product with providing a whole image of business, and ways to test and recover each service.
-
-Second, we train and nurture leaders who can find problems and solve them beyond teams and silos. LINE Corporation has lots of excellent software engineers. However, there are few leaders. Only technical excellence cannot tame complexity of Microservice Architecture and our business. SET team is effective for nurturing these leaders by utilizing both technical skills and Agile methodologies.
-
-Third, we have been building and expanding tools, process improvements, and new KPIs to get over limitations of quality assurance. The combination of Karate framework and Sebas Report makes testing and recovering Microservices easier. Additionally, the idea of "build quality in" is becoming common for some services/products. Focusing on profitability and MTTR rather than the number of bug detection before releases works now in organizational performance and culture perspective.
-
-SET is derived from Google. This role is responsible for enhancing productivity of engineers by utilizing test automation, automation infrastructure, and process improvements in Google. SET in LINE Corporation tried to start from this definition. However, we have been changing responsibilities continuously for pursuing contribution to our company's business performance. We have been expanding our responsibility from Test Automation to company-wide process improvements with continuous impacts to stakeholders.
-
-Currently, we are transforming ourselves as a team of Transformational Leaders. Our latest mission is "WOW DX" [21], achieving a great Developer eXperience for all of product development team members and stakeholders in LINE Corporation with automation techniques and Agile methodologies. We continue to pursue improving all of our business relentlessly.
+As of this writing, we defined our team's philosophy as "WOW DX": the combination of "WOW", LINE Corporation’s action philosophy and mindset [28], and the Developer eXperience. We are pursuing a great Developer eXperience for all of product development team members and stakeholders in LINE Corporation. We will continue experiments relentlessly to pursue "WOW DX", to contribute to our company's business performance, and to make all of our colleagues happy.
 <br />
 <br />
 <br />
@@ -275,24 +273,31 @@ Currently, we are transforming ourselves as a team of Transformational Leaders. 
 
 
 ## REFERENCES
-[1] Transformational leadership. https://en.wikipedia.org/wiki/Transformational_leadership.
-[2] Forsgren, N. Humble, J., & Kim, G. 2018. Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations. IT Revolution Press.
-[3] Fowler, M. 2014. Microservices. https://martinfowler.com/articles/microservices.html.
-[4] Nygard, M. 2018. Release It!: Design and Deploy Production-Ready Software 2nd Edition. Pragmatic Bookshelf.
-[5] Hussman, D. 2015. Product Discovery On A Single Page. http://productdiscoverycanvas.com/tag/david-hussman/.
-[6] SonarQube. https://www.sonarqube.org/.
-[7] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
+[1] LINE. https://linecorp.com/en/.
+[2] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
+[3] LINE. https://linecorp.com/press/2013/0401472.
+[4] Fowler, M. 2014. Microservices. https://martinfowler.com/articles/microservices.html.
+[5] Nygard, M. 2018. Release It!: Design and Deploy Production-Ready Software 2nd Edition. Pragmatic Bookshelf.
+[6] Hussman, D. 2015. Product Discovery On A Single Page. http://productdiscoverycanvas.com/tag/david-hussman/.
+[7] SonarQube. https://www.sonarqube.org/.
 [8] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
-[9] Karate. https://github.com/intuit/karate.
-[10] Docker. https://www.docker.com/.
-[11] Kubernetes. https://kubernetes.io/.
-[12] Locust. https://locust.io/.
-[13] The Agile Warrior. https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/.
-[14] Jeff Patton & Associates. https://www.jpattonassociates.com/user-story-mapping/.
-[15] Mountain Goat Software. https://www.mountaingoatsoftware.com/blog/four-questions-to-fix-low-attendance-at-your-sprint-reviews.
-[16] Lucian, C. 2017. Growing the Mob. https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf.
-[17] Zipkin. https://zipkin.io/.
-[18] ThoughtWorks. https://www.thoughtworks.com/radar/techniques/four-key-metrics.
-[19] Testcontainers. https://www.testcontainers.org/.
-[20] GV. https://www.gv.com/sprint/.
-[21] LINE. https://linecorp.com/en/company/mission.
+[9] Whittaker, J. Arbon, J., & Carollo, J. 2012. How Google Tests Software. Addison-Wesley Professional.
+[10] Slack. https://slack.com/.
+[11] Spring Boot. https://spring.io/projects/spring-boot.
+[12] Karate. https://github.com/intuit/karate.
+[13] Apache Thrift. https://thrift.apache.org/.
+[14] gRPC. https://grpc.io/.
+[15] Cucumber. https://cucumber.io/docs/gherkin/.
+[16] Agile Alliance. https://www.agilealliance.org/glossary/bdd/.
+[17] Lucian, C. 2017. Growing the Mob. https://www.agilealliance.org/wp-content/uploads/2017/02/GrowingTheMob.pdf.
+[18] LINE Engineering Blog. https://engineering.linecorp.com/ja/blog/recommend-learning-session/.
+[19] Zipkin. https://zipkin.io/.
+[20] Vue.js. https://vuejs.org/.
+[21] GV. https://www.gv.com/sprint/.
+[22] Testcontainers. https://www.testcontainers.org/.
+[23] xUnit Patterns.com. http://xunitpatterns.com/Slow%20Tests.html.
+[24] Docker. https://www.docker.com/.
+[25] Kubernetes. https://kubernetes.io/.
+[26] The Digitalocean Community. https://www.digitalocean.com/community/tutorials/what-is-immutable-infrastructure.
+[27] Kniberg, H., & Ivarsson, A. 2012. Scaling Agile @ Spotify with Tribes, Squads, Chapters & Guilds. https://blog.crisp.se/wp-content/uploads/2012/11/SpotifyScaling.pdf.
+[28] LINE. https://linecorp.com/en/company/mission.

@@ -90,6 +90,12 @@ Using [Design Sprint](https://www.thesprintbook.com/)
     - Members summed up actions as a presentation document.
     - POC for MySQL Testcontainers
         - Performance issue + configuration problems -> Let's solve by all!
+
+- 2019/10
+    - Try to cover UI & API E2E Tests -> Focus on API
+
+- 2020/01
+    - Started Scrum-like style
 <br />
 <br />
 <br />
