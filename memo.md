@@ -46,3 +46,17 @@ Invention "Sebas Report":
     1. Preparation
     2. First approach -> Karate
     3. Second approach -> Sebas
+
+- ポイント：Microserviceのoutage削減だけに絞る。
+    - 今回の論文自体は、全体像説明で有効なので、残しておいた方が良いかも（別の場所へ）
+
+- 課題：Microserviceでoutageが増えすぎてつらい。でもできる人いない
+1. 味方を増やす
+    - アプローチそのものは同じでも良いが、書き方変える。
+2. Failure Detection -> 一緒にやって解決
+    - 最初は、こちらから提供した -> 定着せず。しかし課題認識の共有の一歩になった
+    - 一緒に働くことで、Karateの適用へ。
+        - Developer Testingが、結果的に効果あった + Coachingの価値（代行ではないよ）
+3. Identification of failures quickly -> 世界的に例のない話 with Learning Session
+    - こういう解決をした -> CI/CDとかLean Startupとか
+    - そこで役に立ったのがLearning Session
