@@ -24,8 +24,25 @@ How do I recognize either problems that require "solutions from scratch" or outc
 
 
 
-# Idea
+## Idea
 Invention "Sebas Report":
 - I focused on emphasizing that it was the result of "Learning Session".
 - However, it is vague that how Agile methodologies helped.
 - Actually, we utilized 1) "Lean Startup" to know users concerns, 2) released it daily with CI/CD.
+
+
+
+## Solutions to problems
+- Problems
+    - MSA increase of outages but there were no ideas
+- Innovative ideas
+    - e.g.) Test Automation with Zipkin to reduce MTTR
+* Not concrete examples of techniques, tools, and solutions
+
+
+
+# TODO
+- Focus on Abstract
+    1. Preparation
+    2. First approach -> Karate
+    3. Second approach -> Sebas
