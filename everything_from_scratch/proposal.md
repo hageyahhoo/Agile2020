@@ -1,10 +1,11 @@
 
 # Proposal
-https://submissions.agilealliance.org/agile2020/sessions/11481
+https://submissions.agilealliance.org/agile2020/sessions/12225
 
 
 # Title
-Everything from Scratch: Practical Ideas in an Organization without a Concept of Process Improvement
+Everything from Scratch as SET
+:Practical Ideas in an Organization without a Concept of Process Improvement
 
 
 # Presenter
@@ -17,7 +18,7 @@ Hiroyuki Ito
 -
 
 # Track
-Experience Report
+Development & Testing Practices
 
 # Session Type
 Talk
@@ -29,10 +30,10 @@ Practicing
 No Preference
 
 # Maximum Desired Attendees
-30
+-
 
 # Duration
-30 minutes
+75 minutes
 
 
 # Keywords
