@@ -5,6 +5,8 @@ https://submissions.agilealliance.org/agile2020/sessions/11481
 
 # Title
 Everything from Scratch: Practical Ideas in an Organization without a Concept of Process Improvement
+⭐️
+Microservices == "business"
 
 
 # Presenter
@@ -52,6 +54,70 @@ Microservice Architecture
 
 
 # Abstract
+If you are hired and appointed as a leader to solve an urgent and critical business issue by the company, what should you do at first? How do you proceed your activities?
+
+In my case, I was hired by LINE Corporation, a very fast-growing company which mainly provides a free message, voice calls and video calls service for smartphones globally. I was appointed as the first member of SET (Software Engineer in Test) to solve the steep increase of outages in one service for enterprise users. These outages often stopped lots of enterprise users' services, and lost both users and our company's sales and profits. Sometimes, LINE Corporation gave administrative guidance from Japanese government agencies. Therefore, solving this problem was the high-priority mission to our company.
+
+
+# 何を話すか
+In this talk,
+
+I will tell you
+
+as SET
+
+1. 味方を増やす
+    - アプローチそのものは同じでも良いが、書き方変える。
+1) establishing a new role without shared understanding among stakeholders
+to get support and understanding from decision-makers and colleagues
+by giving impacts
+
+
+
+2. Failure Detection -> 一緒にやって解決
+    - 最初は、こちらから提供した -> 定着せず。しかし課題認識の共有の一歩になった
+    - 一緒に働くことで、Karateの適用へ。
+        - Developer Testingが、結果的に効果あった + Coachingの価値（代行ではないよ）
+2) improving product development teams without the relationship of trust, proper tools, and techniques
+
+
+3. Identification of failures quickly -> 世界的に例のない話 with Learning Session
+    - こういう解決をした -> CI/CDとかLean Startupとか
+    - そこで役に立ったのがLearning Session
+3) proceeding company-wide problem-solving without any history of process improvements and proper leaders.
+
+creating solutions "from scratch"
+by combining technical solutions and Agile methodologies
+
+
+I will provide you practical ideas we reflected, experimented, and succeeded as SET in LINE Corporation.
+
+Mission
+- very difficult
+- technically
+- and company-level
+- without supporters
+- Microservices -> need to investigate dependency
+
+
+# Focus on Abstract
+1. Preparation
+2. First approach -> Karate
+3. Second approach -> Sebas
+
+
+
+
+
+
+# 参加者が得られる効果
+After this talk, yo
+
+
+
+
+
+⭐️Original
 If you need to start totally new activities in an organization which doesn't know a concept of process improvement, what should you do at first? Especially in the very strongly technology-oriented one with urgent critical business issues?
 
 It is very hard to get support and understanding from decision-makers and colleagues in such an environment and a situation. However, it is more difficult to proceed with radically new actions alone. Therefore, we need to obtain consent from them to go ahead.
