@@ -1,12 +1,13 @@
 
 # Proposal
+https://submissions.agilealliance.org/agile2020/sessions/12225
+
 https://submissions.agilealliance.org/agile2020/sessions/11481
 
 
 # Title
-Everything from Scratch: Practical Ideas in an Organization without a Concept of Process Improvement
-⭐️
-Microservices == "business"
+Everything from Scratch as SET
+Jorney as Software Engineer in Test
 
 
 # Presenter
@@ -19,7 +20,7 @@ Hiroyuki Ito
 -
 
 # Track
-Experience Report
+Development & Testing Practices
 
 # Session Type
 Talk
@@ -31,10 +32,10 @@ Practicing
 No Preference
 
 # Maximum Desired Attendees
-30
+-
 
 # Duration
-30 minutes
+75 minutes
 
 
 # Keywords
@@ -101,10 +102,9 @@ Mission
 
 
 # Focus on Abstract
-1. Preparation
-2. First approach -> Karate
-3. Second approach -> Sebas
-
+1. Preparation : Get support & know products
+2. Work together to over silos (Karate & Ayapert)
+3. Tame MSA (Sebas)
 
 
 
@@ -179,3 +179,11 @@ Highlights include:
 
 # Presentation Sample
 -
+
+
+# 方針整理
+- "Everything from Scratch" を、"Experience Report" 以外の Track で出してみる
+    - これ自体、SETの歴史整理の資料としての価値が出てきたため
+    - 仮にrejectされても、LINEとして公開するなどの方策はありそう
+- Karate - Sebasにフォーカスした内容で、論文は修正し直す
+    - "Experience Report" は、相当簡略化＆specificなものを求めている
