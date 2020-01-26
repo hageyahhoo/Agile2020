@@ -84,26 +84,40 @@ I hope these ideas will help innovate your testing activities.
 
 
 # Prerequisite Knowledges
-⭐️⭐️⭐️
-- Programming and/or writing test scripts
-- Know differences among Unit Testing, Integration Testing
-- Have experiences of Test Automation (write test scripts)
-- Have experiences of struggling with silos
-- (Optional) Coach/Leader to proceed Test Automation activities in your organization
+
+## Preferable
+- Skills and/or experiences of **developing applications**
+- Skills and/or experiences of **writing test scripts** (Unit Test, Integration Test, API Test, UI E2E Test, etc.)
+- Skills and/or experiences of building **CI/CD** mechanism
+- (Rough) understanding of **Microservice Architecture (MSA)**
+- Passions to enjoy overcoming hurdles
+
+## Optional
+- Experiences of **leading/coaching Test Automation/DevOps activities** in your organization
+- Experiences of **struggling with disputes among developers, testers, managers, and so on**
+- (Rough) understanding of **Behavior-Driven Development (BDD)**
 
 
 
 # Information for Program Team
-⭐️⭐️⭐️
-If roundtable, use pens and cards to share ideas
-- 0:00 - 5:00   Introduction of the session and topic (objective)
-- 5:00 - 10:00  (discussion) what is your blockers for testing activities
-- 10:00 - 30:00  Explanation (Get consent from decision-makers)
-- 30:00 - 35:00  (discussion) how to persuade developers if they stopped testing
-- 35:00 - 50:00  Explanation (Karate)
-- 50:00 - 55:00  (discussion) how to persuade developers if they stopped testing
-- 55:00 - 70:00  Explanation (Sebas)
-- 70:00 - 75:00  Q&A
+I'm planning to switch my talks and group discussions among attendees iteratively to make attendees consider their own ideas deeply.
+
+I hope to provide pens, sticky notes, and papers for supporting group discussions.
+
+Here is my rough plan.
+
+1. Introduction to this session (5 min)
+2. Importance and how to get support and understanding from decision-makers and colleagues
+    - (Discussion) What blocks/blocked Test Automation in your organization (5 min)
+    - Talk (15 min)
+3. Experiencing hardships with product development teams together is a key to proceed with activities
+    - (Discussion) How to persuade developers who stopped writing test scripts (5 min)
+    - Talk (15 min)
+4. "Sebas Report": Our innovative solution example to tame the complexity of Microservices and reduce their outages
+    - (Discussion) What is the difficulty of testing Microservices (5 min)
+    - Talk (15 min)
+5. Conclusion (5 min)
+6. Q&A (5 min)
 
 
 
