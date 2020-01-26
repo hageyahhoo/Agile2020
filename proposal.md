@@ -2,8 +2,6 @@
 # Proposal
 https://submissions.agilealliance.org/agile2020/sessions/12225
 
-https://submissions.agilealliance.org/agile2020/sessions/11481
-
 
 # Title
 Everything from Scratch as SET
@@ -101,17 +99,24 @@ Mission
 - Microservices -> need to investigate dependency
 
 
-# Focus on Abstract
-1. Preparation : Get support & know products
-2. Work together to over silos (Karate & Ayapert)
-3. Tame MSA (Sebas)
 
 
+## 参加者が得られる効果
+After this talk,
+- The importance and ways to obtain consent from decision-makers, developers, testers, and other stakeholders to proceed test-related improvement activities
+    - by discovering their real concerns and providing solutions iteratively and incrementally
+    - Attract them by giving impacts constantly
 
+- Identify the importance of working with product development teams together to discover and solve blockers and problems for proceeding test-related improvement activities over silos.
+    - Karate & Ayapert examples
+    - Compatio
 
+- Link Test Automation, CI/CD, DevOps, and Monitoring to tame complexity of Microservices and reduce their outages
+    - with Sebas Report
 
-# 参加者が得られる効果
-After this talk, yo
+- Identify ideas to nurture members, teams, and organizations for a series of activities mentioned above smoothly and quickly
+    - with Learning Session
+
 
 
 
@@ -129,7 +134,7 @@ In this talk, I will provide you practical ideas we reflected, experimented, and
 After this talk, you will get concrete examples of techniques, tools, and solutions to nurture process improvement in this type of organization, to get support and understanding from strongly technology-oriented persons, and to find a point to start your action.
 
 
-# Lessons Learned from Your Experience
+# ⭐️Lessons Learned from Your Experience
 - Agile methodologies and experiences work well for establishing totally new roles and activities. Especially, verbalizing stakeholders' concerns and sharing them with decision-makers by Product Discovery is very important. Additionally, attracting decision-makers and colleagues by giving impacts continuously is very effective. Establishing SET role in LINE Corporation was analogous to start-up business or building new services to us.
 
 - We could provide innovative ideas and solutions by working closely with product development teams. Especially, experiencing hardships together was an essential factor to find and solve real problems.
@@ -140,7 +145,7 @@ After this talk, you will get concrete examples of techniques, tools, and soluti
 
 
 
-# Information about the Experience
+# ⭐️Information about the Experience
 I am the first member of "SET" (Software Engineer in Test) in LINE Corporation. I joined LINE Corporation in 2017. After a series of improvements, in 2019, we formed a team of SET and became the leader of the team.
 
 From the start of my career as SET in LINE Corporation, our team members and I have been solving a variety of software and organizational problems.
@@ -152,6 +157,30 @@ From the start of my career as SET in LINE Corporation, our team members and I h
 3) Transformed the organization with built-in experiments and learnings. For example, we proceeded onboarding of our team members smoothly with "Learning Session". Additionally, we invented a new tool named "Sebas Report", which can tame the complexity of Microservices based on this onboarding and holding Learning Session continuously.
 
 The key characteristic of our experiments is achieving a lot of technical and process improvements and innovations from scratch by utilizing a series of experiments frequently and flexibly for contribution to our company and business.
+
+
+
+# Learning Outcomes
+- Identify the importance and ways to obtain consent from decision-makers, developers, testers, and other stakeholders to proceed test-related improvement activities.
+
+- Identify the importance of working with product development teams together to discover and solve blockers and problems for going forward improvements.
+
+- Link Test Automation, CI/CD, DevOps, and Monitoring to tame complexity of Microservices and reduce their outages.
+
+- Identify ideas to nurture members, teams, and organizations for a series of activities mentioned above smoothly and quickly.
+
+
+
+# Prerequisite Knowledges
+⭐️
+- Have experiences of Test Automation (write test scripts)
+
+
+
+# Information for Program Team
+⭐️
+5 min: Explanation
+30:00 Workshop with discussions
 
 
 
@@ -179,11 +208,3 @@ Highlights include:
 
 # Presentation Sample
 -
-
-
-# 方針整理
-- "Everything from Scratch" を、"Experience Report" 以外の Track で出してみる
-    - これ自体、SETの歴史整理の資料としての価値が出てきたため
-    - 仮にrejectされても、LINEとして公開するなどの方策はありそう
-- Karate - Sebasにフォーカスした内容で、論文は修正し直す
-    - "Experience Report" は、相当簡略化＆specificなものを求めている
