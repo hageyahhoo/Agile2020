@@ -1,10 +1,10 @@
 
 # Proposal
-https://submissions.agilealliance.org/agile2020/sessions/11481
+https://submissions.agilealliance.org/agile2020/sessions/12225
 
 
 # Title
-Everything from Scratch: Practical Ideas in an Organization without a Concept of Process Improvement
+Everything from Scratch: A journey as Software Engineer in Test to tame Microservices
 
 
 # Presenter
@@ -17,7 +17,7 @@ Hiroyuki Ito
 -
 
 # Track
-Experience Report
+Development & Testing Practices
 
 # Session Type
 Talk
@@ -29,68 +29,100 @@ Practicing
 No Preference
 
 # Maximum Desired Attendees
-30
+-
 
 # Duration
-30 minutes
+75 minutes
 
 
 # Keywords
 SET
 Software Engineer in Test
-Product Discovery
-Iterative and Incremental Consensus
-Developer Testing
 Test Automation
 DevOps
 XP
-Learning Session
-Developer Experience
+Microservice Architecture
+Developer Testing
 Karate
 Zipkin
-Microservice Architecture
+Product Discovery
+Iterative and Incremental Consensus
+Learning Session
+Developer Experience
+
 
 
 # Abstract
-If you need to start totally new activities in an organization which doesn't know a concept of process improvement, what should you do at first? Especially in the very strongly technology-oriented one with urgent critical business issues?
+**If you are hired and appointed as a leader to solve an urgent and critical business issue by a company, what should you do at first? How do you proceed with your activities?**
 
-It is very hard to get support and understanding from decision-makers and colleagues in such an environment and a situation. However, it is more difficult to proceed with radically new actions alone. Therefore, we need to obtain consent from them to go ahead.
+In my case, I was hired by LINE Corporation, a very fast-growing company that mainly provides a free message, voice calls, and video calls service for smartphones globally. I was appointed as the first member of **SET (Software Engineer in Test) to solve the steep increase of outages in one service for enterprise users**. These outages often stopped lots of enterprise users' services and lost both users and our company's sales and profits. Sometimes, LINE Corporation gave administrative guidance from government agencies. Therefore, solving this problem was the high-priority mission of our company.
 
-I experienced that creating solutions "from scratch" by combining technical solutions and Agile methodologies worked well in these challenging conditions.
+In this talk, I will tell you the following practical ideas and solutions I found through my experience as SET **from Scratch**:
 
-In this talk, I will provide you practical ideas we reflected, experimented, and succeeded as SET in LINE Corporation. For example, 1) establishing a new role without shared understanding among stakeholders, 2) improving product development teams without the relationship of trust, proper tools, and techniques, and 3) proceeding company-wide problem-solving without any history of process improvements and proper leaders.
+1) Importance and how to get support and understanding from decision-makers and colleagues
+They are critical to proceed with test-related improvement activities. I will explain useful techniques through my experience of establishing the role of SET in LINE Corporation; **"Product Discovery"** to discover their real concerns, and **"Giving impacts"** to attract them.
 
-After this talk, you will get concrete examples of techniques, tools, and solutions to nurture process improvement in this type of organization, to get support and understanding from strongly technology-oriented persons, and to find a point to start your action.
+2) Experiencing hardships with product development teams together is a key to proceed with activities
+We learned that we could provide innovative ideas and solutions by working closely with product development teams. I will explain through our experience of inventing and improving our failure detection system with **"Karate" framework**.
 
+3) "Sebas Report": Our innovative solution example to tame the complexity of Microservices and reduce their outages
+I will introduce you to our solution as an improvement example by linking Test Automation, CI/CD, DevOps, and Monitoring techniques. Additionally, I will tell you **"Learning Session"**, a way to nurture members, teams, and organizations and one key element to invent **"Sebas Report"**.
 
-# Lessons Learned from Your Experience
-- Agile methodologies and experiences work well for establishing totally new roles and activities. Especially, verbalizing stakeholders' concerns and sharing them with decision-makers by Product Discovery is very important. Additionally, attracting decision-makers and colleagues by giving impacts continuously is very effective. Establishing SET role in LINE Corporation was analogous to start-up business or building new services to us.
-
-- We could provide innovative ideas and solutions by working closely with product development teams. Especially, experiencing hardships together was an essential factor to find and solve real problems.
-
-- It is necessary to adjust my/our responsibilities continuously to meet my/our moving goals based on continuous experiments. Finding and solving problems gradually and extensively by combining technical excellence and Agile methodologies for contributing to our business is a key to success.
-
-- Incorporating experiments and learnings to the team leads to huge transformation beyond the team. It reaches to the organizational level. In our experience, we utilized "Learning Session" as a key driver to improvements. Additionally, we invented a totally new tool named "Sebas Report" to tame the complexity of Microservices by utilizing Learning Session and continuous experiments.
+I hope these ideas will help innovate your testing activities.
 
 
 
-# Information about the Experience
-I am the first member of "SET" (Software Engineer in Test) in LINE Corporation. I joined LINE Corporation in 2017. After a series of improvements, in 2019, we formed a team of SET and became the leader of the team.
+# Learning Outcomes
+- Identify the importance and ways **to obtain consent from decision-makers, developers, testers, and other stakeholders** to proceed with test-related improvement activities.
 
-From the start of my career as SET in LINE Corporation, our team members and I have been solving a variety of software and organizational problems.
+- Identify the importance of **working with product development teams together** to discover and solve blockers and problems for going forward improvements.
 
-1) Established the role of "SET" by attracting decision-makers and colleagues with Product Discovery and giving impacts to them continuously.
+- **Link Test Automation, CI/CD, DevOps, and Monitoring** to tame the complexity of Microservices and reduce their outages.
 
-2) Innovated solutions and processes by experiencing hardships with each product development team together. For example, we rebuilt a failure detection system based on the team's needs and preferences.
+- Identify ideas to nurture members, teams, and organizations for a series of activities mentioned above smoothly and quickly.
 
-3) Transformed the organization with built-in experiments and learnings. For example, we proceeded onboarding of our team members smoothly with "Learning Session". Additionally, we invented a new tool named "Sebas Report", which can tame the complexity of Microservices based on this onboarding and holding Learning Session continuously.
 
-The key characteristic of our experiments is achieving a lot of technical and process improvements and innovations from scratch by utilizing a series of experiments frequently and flexibly for contribution to our company and business.
+
+# Prerequisite Knowledges
+
+## Preferable
+- Skills and/or experiences of **developing applications**
+- Skills and/or experiences of **writing test scripts** (Unit Test, Integration Test, API Test, UI E2E Test, etc.)
+- Skills and/or experiences of building **CI/CD** mechanism
+- (Rough) understanding of **Microservice Architecture (MSA)**
+- Passions to enjoy overcoming hurdles
+
+## Optional
+- Experiences of **leading/coaching Test Automation/DevOps activities** in your organization
+- Experiences of **struggling with disputes among developers, testers, managers, and so on**
+- (Rough) understanding of **Behavior-Driven Development (BDD)**
+
+
+
+# Information for Program Team
+I'm planning to switch my talks and group discussions among attendees iteratively to make attendees consider their own ideas deeply.
+
+I hope to provide pens, sticky notes, and papers for supporting group discussions.
+
+Here is my rough plan.
+
+1. Introduction to this session (5 min)
+2. Importance and how to get support and understanding from decision-makers and colleagues
+    - (Discussion) What blocks/blocked Test Automation in your organization (5 min)
+    - Talk (15 min)
+3. Experiencing hardships with product development teams together is a key to proceed with activities
+    - (Discussion) How to persuade developers who stopped writing test scripts (5 min)
+    - Talk (15 min)
+4. "Sebas Report": Our innovative solution example to tame the complexity of Microservices and reduce their outages
+    - (Discussion) What is the difficulty of testing Microservices (5 min)
+    - Talk (15 min)
+5. Conclusion (5 min)
+6. Q&A (5 min)
 
 
 
 # Presentation History
-I presented at Agile 2014 titled "Technology-Driven/Development" in Experience Report track.
+I presented at **Agile 2014** titled **"Technology-Driven/Development"** in the Experience Report track.
 
 Since Agile 2014, I have presented several sessions at conferences about Agile Metrics and utilizing technical excellence for "successful" Agile adoption.
 Additionally, I have held several workshops about Agile Metrics and Learning Session.
