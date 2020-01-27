@@ -71,6 +71,16 @@ I will introduce you to our solution as an improvement example by linking Test A
 I hope these ideas will help innovate your testing activities.
 
 
+⭐️Advice from Lisa
+The abstract could be more concise and more generic.
+I don't think we need to know specifically who you worked for.
+The first line of the abstract gives no real clue to the content of the talk.
+It sounds like you were put in charge managing a project,
+but that doesn't seem to be the case.
+Can you make that more clear and a bit more concise in the part that precedes
+"In this talk, I will tell you..."
+
+
 
 # Learning Outcomes
 - Identify the importance and ways **to obtain consent from decision-makers, developers, testers, and other stakeholders** to proceed with test-related improvement activities.
@@ -96,6 +106,17 @@ I hope these ideas will help innovate your testing activities.
 - Experiences of **leading/coaching Test Automation/DevOps activities** in your organization
 - Experiences of **struggling with disputes among developers, testers, managers, and so on**
 - (Rough) understanding of **Behavior-Driven Development (BDD)**
+
+
+⭐️Advice from Lisa
+I don't understand your prerequisite knowledge.
+Does one really need experience writing test scripts,
+coding, or building CI/CD pipelines
+to discuss building relationships with decision-makers and developers?
+
+Maybe the prerequisites are only for understanding the microservers?
+I don't know if conference attendees would even bother to read the prerequisite knowledge,
+but if they do, it would probably cut out a lot of the potential audience.
 
 
 
@@ -145,3 +166,13 @@ Highlights include:
 
 # Presentation Sample
 -
+
+
+
+# Memo
+## Feedback from Lisa (2020/01/27)
+I love the proposed content and the format with group discussions.
+I am glad to see you included a failure story, because people learn the most from those.
+
+I think this has potential to be a great learning experience
+and perhaps generate some new ideas from participants.
