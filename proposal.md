@@ -53,7 +53,7 @@ Developer Experience
 
 
 # Abstract
-If you proceed with improvement activities, like introducing Test Automation to your team, you may face with some challenges. Some members and/or teams may oppose your activities. You may find that no one uses tools or solutions you introduced. You may face with shortage of members who have enough skills and knowledge.
+If you proceed with improvement activities, like introducing Test Automation to your team, you may face some challenges. Some members and/or teams may oppose your activities. You may find that no one uses tools or solutions you introduced. You may face a shortage of members who have enough skills and knowledge.
 
 In this talk, I will tell you the following practical ideas and solutions which **relate to testing** I found through my experience as **SET (Software Engineer in Test) from Scratch**:
 
@@ -64,7 +64,7 @@ They are critical to proceed with test-related improvement activities. I will ex
 We learned that we could provide innovative ideas and solutions by working closely with product development teams. I will explain it through our experience of inventing and improving our failure detection system with **"Karate" framework**.
 
 3) How to nurture members/teams/organizations for your innovative activities
-Innovative activities require proper skills, knowledge, persons, and so on. I will tell you **"Learning Session"**, a way to nurture members, teams, and organizations smoothly and quickly. Additionally, I will explain **"Sebas Report"**, our innovative solution example to tame the complexity of Microservices and reduce their outages incubated from Learning Session.
+Innovative activities require proper skills, knowledge, persons, and so on. I will tell you **"Learning Session"**, a way to nurture members, teams, and organizations smoothly and quickly. Additionally, I will explain **"Sebas Report"**, our innovative solution example to tame the complexity of Microservices and reduce their outages incubated from "Learning Session".
 
 I hope these ideas will help innovate your testing activities.
 
@@ -82,7 +82,7 @@ I hope these ideas will help innovate your testing activities.
 
 
 # Prerequisite Knowledges
-Anybody is welcome who has experiences of **struggling with disputes about testing among developers, testers, managers, and so on**
+Anyone who has experiences of **struggling with disputes about testing among developers, testers, and managers**  is welcome!
 
 
 
