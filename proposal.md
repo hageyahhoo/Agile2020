@@ -4,7 +4,7 @@ https://submissions.agilealliance.org/agile2020/sessions/12225
 
 
 # Title
-Everything from Scratch: A journey as Software Engineer in Test to tame Microservices
+Everything from Scratch: A journey as Software Engineer in Test to improve "Testing"
 
 
 # Presenter
@@ -53,32 +53,20 @@ Developer Experience
 
 
 # Abstract
-**If you are hired and appointed as a leader to solve an urgent and critical business issue by a company, what should you do at first? How do you proceed with your activities?**
+If you proceed with improvement activities, like introducing Test Automation to your team, you may face with some challenges. Some members and/or teams may oppose your activities. You may find that no one uses tools or solutions you introduced. You may face with shortage of members who have enough skills and knowledge.
 
-In my case, I was hired by LINE Corporation, a very fast-growing company that mainly provides a free message, voice calls, and video calls service for smartphones globally. I was appointed as the first member of **SET (Software Engineer in Test) to solve the steep increase of outages in one service for enterprise users**. These outages often stopped lots of enterprise users' services and lost both users and our company's sales and profits. Sometimes, LINE Corporation gave administrative guidance from government agencies. Therefore, solving this problem was the high-priority mission of our company.
-
-In this talk, I will tell you the following practical ideas and solutions I found through my experience as SET **from Scratch**:
+In this talk, I will tell you the following practical ideas and solutions which **relate to testing** I found through my experience as **SET (Software Engineer in Test) from Scratch**:
 
 1) Importance and how to get support and understanding from decision-makers and colleagues
-They are critical to proceed with test-related improvement activities. I will explain useful techniques through my experience of establishing the role of SET in LINE Corporation; **"Product Discovery"** to discover their real concerns, and **"Giving impacts"** to attract them.
+They are critical to proceed with test-related improvement activities. I will explain useful techniques; **"Product Discovery"** to discover their real concerns, and **"Giving impacts"** to attract them.
 
 2) Experiencing hardships with product development teams together is a key to proceed with activities
-We learned that we could provide innovative ideas and solutions by working closely with product development teams. I will explain through our experience of inventing and improving our failure detection system with **"Karate" framework**.
+We learned that we could provide innovative ideas and solutions by working closely with product development teams. I will explain it through our experience of inventing and improving our failure detection system with **"Karate" framework**.
 
-3) "Sebas Report": Our innovative solution example to tame the complexity of Microservices and reduce their outages
-I will introduce you to our solution as an improvement example by linking Test Automation, CI/CD, DevOps, and Monitoring techniques. Additionally, I will tell you **"Learning Session"**, a way to nurture members, teams, and organizations and one key element to invent **"Sebas Report"**.
+3) How to nurture members/teams/organizations for your innovative activities
+Innovative activities require proper skills, knowledge, persons, and so on. I will tell you **"Learning Session"**, a way to nurture members, teams, and organizations smoothly and quickly. Additionally, I will explain **"Sebas Report"**, our innovative solution example to tame the complexity of Microservices and reduce their outages incubated from Learning Session.
 
 I hope these ideas will help innovate your testing activities.
-
-
-⭐️Advice from Lisa
-The abstract could be more concise and more generic.
-I don't think we need to know specifically who you worked for.
-The first line of the abstract gives no real clue to the content of the talk.
-It sounds like you were put in charge managing a project,
-but that doesn't seem to be the case.
-Can you make that more clear and a bit more concise in the part that precedes
-"In this talk, I will tell you..."
 
 
 
@@ -87,36 +75,14 @@ Can you make that more clear and a bit more concise in the part that precedes
 
 - Identify the importance of **working with product development teams together** to discover and solve blockers and problems for going forward improvements.
 
-- **Link Test Automation, CI/CD, DevOps, and Monitoring** to tame the complexity of Microservices and reduce their outages.
-
 - Identify ideas to nurture members, teams, and organizations for a series of activities mentioned above smoothly and quickly.
+
+- `(Optional)` **Link Test Automation, CI/CD, DevOps, and Monitoring** to tame the complexity of Microservices and reduce their outages.
 
 
 
 # Prerequisite Knowledges
-
-## Preferable
-- Skills and/or experiences of **developing applications**
-- Skills and/or experiences of **writing test scripts** (Unit Test, Integration Test, API Test, UI E2E Test, etc.)
-- Skills and/or experiences of building **CI/CD** mechanism
-- (Rough) understanding of **Microservice Architecture (MSA)**
-- Passions to enjoy overcoming hurdles
-
-## Optional
-- Experiences of **leading/coaching Test Automation/DevOps activities** in your organization
-- Experiences of **struggling with disputes among developers, testers, managers, and so on**
-- (Rough) understanding of **Behavior-Driven Development (BDD)**
-
-
-⭐️Advice from Lisa
-I don't understand your prerequisite knowledge.
-Does one really need experience writing test scripts,
-coding, or building CI/CD pipelines
-to discuss building relationships with decision-makers and developers?
-
-Maybe the prerequisites are only for understanding the microservers?
-I don't know if conference attendees would even bother to read the prerequisite knowledge,
-but if they do, it would probably cut out a lot of the potential audience.
+Anybody is welcome who has experiences of **struggling with disputes about testing among developers, testers, managers, and so on**
 
 
 
