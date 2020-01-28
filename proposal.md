@@ -53,6 +53,23 @@ Developer Experience
 
 
 # Abstract
+⭐️
+- needs a much so that it will stand out from the rest
+- opportunity to "sell" or "hook" them
+- help them sense the passion you feel for the topic
+- Then give them some idea of how you'll cover the material and some more detail about what you'll cover.
+**Consider having a strong close to the abstract to re-engage the reader**.
+
+⭐️ここをよりattractiveに！
+- 参加者が共感できるものに
+    - 私は、QAの経験がない
+    - 強い反対を乗り越え、今では多くの方から関心を持ってもらえている（仕事も増えている）
+    - お互いのサイロを乗り越え、お互いが喜び合える方法ってないかな？
+    - あります！
+
+
+
+⭐️Original
 If you proceed with improvement activities, like introducing Test Automation to your team, you may face some challenges. Some members and/or teams may oppose your activities. You may find that no one uses tools or solutions you introduced. You may face a shortage of members who have enough skills and knowledge.
 
 In this talk, I will tell you the following practical ideas and solutions which **relate to testing** I found through my experience as **SET (Software Engineer in Test) from Scratch**:
@@ -142,3 +159,10 @@ I am glad to see you included a failure story, because people learn the most fro
 
 I think this has potential to be a great learning experience
 and perhaps generate some new ideas from participants.
+
+
+## Feedback from Ranjith Tharayil (2020/01/27)
+- good but needs more punch in your abstract
+- It's through contributions like this that we're able to grow and extend the community and build a rich program for attendees.
+- Your topic is good as your focusing on a key problem of adoption and i feel your abstract is pretty detail.
+- This feedback is intended to make it even better. I encourage submitters to do such a good job that evaluators are eager to see their material included in the program. Please let me know if this feedback fits with the help you were seeking, or if there are other elements where you'd like assistance.
