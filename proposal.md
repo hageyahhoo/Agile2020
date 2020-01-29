@@ -53,26 +53,13 @@ Developer Experience
 
 
 # Abstract
-⭐️
-- needs a much so that it will stand out from the rest
-- opportunity to "sell" or "hook" them
-- help them sense the passion you feel for the topic
-- Then give them some idea of how you'll cover the material and some more detail about what you'll cover.
-**Consider having a strong close to the abstract to re-engage the reader**.
+**We can change difficulties into something special with proper approaches!**
 
-⭐️ここをよりattractiveに！
-- 参加者が共感できるものに
-    - 私は、QAの経験がない
-    - 強い反対を乗り越え、今では多くの方から関心を持ってもらえている（仕事も増えている）
-    - お互いのサイロを乗り越え、お互いが喜び合える方法ってないかな？
-    - あります！
-
-
-
-⭐️Original
 If you proceed with improvement activities, like introducing Test Automation to your team, you may face some challenges. Some members and/or teams may oppose your activities. You may find that no one uses tools or solutions you introduced. You may face a shortage of members who have enough skills and knowledge.
 
-In this talk, I will tell you the following practical ideas and solutions which **relate to testing** I found through my experience as **SET (Software Engineer in Test) from Scratch**:
+As an **SET (Software Engineer in Test)** at LINE Corporation, **I faced with a lot of challenges and failures**. No clear goals. Dissension among developers, testers, and managers. Negative feedback to my/our solutions... **However, I could overcome them and finally achieved something great!**
+
+In this talk, I will tell you the following practical ideas and solutions which **relate to testing** I found through my experience as SET **from Scratch**:
 
 1) Importance and how to get support and understanding from decision-makers and colleagues
 They are critical to proceed with test-related improvement activities. I will explain useful techniques; **"Product Discovery"** to discover their real concerns, and **"Giving impacts"** to attract them.
@@ -83,7 +70,7 @@ We learned that we could provide innovative ideas and solutions by working close
 3) How to nurture members/teams/organizations for your innovative activities
 Innovative activities require proper skills, knowledge, persons, and so on. I will tell you **"Learning Session"**, a way to nurture members, teams, and organizations smoothly and quickly. Additionally, I will explain **"Sebas Report"**, our innovative solution example to tame the complexity of Microservices and reduce their outages incubated from "Learning Session".
 
-I hope these ideas will help innovate your testing activities.
+I hope these ideas will help innovate your testing activities!
 
 
 
