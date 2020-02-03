@@ -1,47 +1,4 @@
 
-# ⭕️
-> The opening statements seems out of place.
-> Maybe move after the second paragraph
-I tried it and it looks better than before, thanks!
-
-
-# ⭕️
-> there is no doubt there will be challenges
-Exactly! I agree with your advice and I corrected this part.
-
-
-# ⭕️
-> I agree with Lisa that the actual company is not important in the abstract.
-After Lisa's feedback, I had removed the company name.
-https://submissions.agilealliance.org/agile2020/revisions/175379
-
-However, Ranjith Tharayil gave me advice to make this abstract more impactful.
-After lots of consideration, I daringly added the actual company name again.
-https://submissions.agilealliance.org/agile2020/revisions/176441
-
-But this is the second advice to delete the company name.
-Therefore, I deleted the company name again. Please check it :)
-
-
-# ⭕️
-> What is "Karate" framework?
-"Karate" is an open-sourced API Testing framework which we can write test scripts with BDD (Behavior-Driven Development) style.
-I clarified this information on Abstract.
-Thank you for giving me a nice question!
-
-
-# ⭕️
-> Have you found that people need to convince themselves that your improvement idea might work?
-
-Yes!
-Last year, I shared my improvement ideas over 10 times with our company members. After that, some teams started utilizing my ideas. One team made its slow test problems by their own. Another team invented new test infrastracture which made testing easier.
-
-BTW, Should I add this information around the last sentence?
-
-
-
-
-
 # Proposal
 https://submissions.agilealliance.org/agile2020/sessions/12225
 
@@ -98,7 +55,7 @@ Developer Experience
 # Abstract
 When introducing improvement activities to your team, like Test Automation, you will face challenges. Some members and/or teams may oppose your activities. You may find that no one uses tools or solutions you introduced. You may face a shortage of members who have enough skills and knowledge.
 
-As an **SET (Software Engineer in Test)**, **I faced with a lot of challenges and failures**. No clear goals. Dissension among developers, testers, and managers. Negative feedback to my/our solutions... **However, I could overcome them and finally achieved something great!**
+As an **SET (Software Engineer in Test)**, **I faced a lot of challenges and failures**. No clear goals. Dissension among developers, testers, and managers. Negative feedback to my/our solutions... **However, I could overcome them and finally achieved something great!**
 
 **We can change difficulties into something special with proper approaches!**
 
