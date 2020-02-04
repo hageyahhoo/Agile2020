@@ -65,15 +65,12 @@ In this talk, I will tell you the following practical ideas and solutions which 
 They are critical to proceed with test-related improvement activities. I will explain useful techniques; **"Product Discovery"** to discover their real concerns, and **"Giving impacts"** to attract them.
 
 2) Experiencing hardships with product development teams together is a key to proceed with activities
-We learned that we could provide innovative ideas and solutions by working closely with product development teams. I will explain it through our experience of inventing and improving our failure detection system with **"Karate" framework**, an open-sourced API Testing framework which we can write test scripts with BDD (Behavior-Driven Development) style.
+We learned that we could provide innovative ideas and solutions by working closely with product development teams. I will explain it through our experience of inventing and improving our failure detection system with **"Karate" framework**, an open-sourced API Testing framework in which we can write test scripts with BDD (Behavior-Driven Development) style.
 
 3) How to nurture members/teams/organizations for your innovative activities
 Innovative activities require proper skills, knowledge, persons, and so on. I will tell you **"Learning Session"**, a way to nurture members, teams, and organizations smoothly and quickly. Additionally, I will explain **"Sebas Report"**, our innovative solution example to tame the complexity of Microservices and reduce their outages incubated from "Learning Session".
 
-⭐️Comment
-If that is part of your experience that people need to convince themselves, you should mention it. I have found that to be true in teaching tdd. They have to do tdd to convince themselves.
-
-**Last year, I shared my improvement ideas over 10 times with our company members. After that, some teams started utilizing my ideas. One team made its slow test problems by their own. Another team invented new test infrastructure which made testing easier. My colleagues convinced themselves by my idea!**
+I have been sharing these my improvement ideas over 10 times with our company members. After that, some teams convinced themselves with my ideas and started utilizing them. One team solved its slow test problems on their own. Another team invented a new test infrastructure which made testing easier.
 
 I hope these ideas will help innovate your testing activities!
 
