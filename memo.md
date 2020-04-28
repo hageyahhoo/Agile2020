@@ -1,16 +1,14 @@
 
 # Doing
-- Appendix
-    - Add links
+- Fontの統一
+    - タイトル
+    - 本文
+- 画像の挿入
 
 
 
 # TODO
-- Fontの統一
-    - タイトル
-    - 本文
 - 箇条書きの位置の統一
-- 画像の挿入
 - Agile2020用テンプレートの適用（必要になった場合）
 ⭐️初めは長さを気にしなくて良い。あとで全体でまとめて調整する。
 
@@ -30,3 +28,4 @@
     - Learning Session
     - Sebas
 - Conclusion
+- Appendix
