@@ -1,10 +1,15 @@
 
 # Doing
 - 画像の挿入
+    - いらすとやとPixabayを混ぜているが、統一した方が良いような？
+    - 見せ方も統一した方が良いような？
 - Fontの統一
-    - タイトル
     - 本文
+        - 32px
+        - 28px
 - 箇条書きの位置の統一
+- 表記揺れの修正
+    - Channel Gateway -> CGWで統一
 
 
 
@@ -29,3 +34,6 @@
     - Sebas
 - Conclusion
 - Appendix
+- Fontの統一
+    - 各ページの見出し
+        - ヒラギノ角ゴ ProN, 48px, Plain, White, center/center
