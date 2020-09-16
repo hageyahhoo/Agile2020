@@ -50,14 +50,19 @@ DevOps
 
 
 
-# ⭐️Abstract
-When introducing improvement activities to your team, like Test Automation, you will face challenges. Some members and/or teams may oppose your activities. You may find that no one uses tools or solutions you introduced. You may face a shortage of members who have enough skills and knowledge.
+# Abstract
+⭐️⭐️⭐️
+Developing and maintaining in-house developer products has its own difficulties compared to public products for external users.
 
-As an **SET (Software Engineer in Test)**, **I faced a lot of challenges and failures**. No clear goals. Dissension among developers, testers, and managers. Negative feedback to my/our solutions... **However, I could overcome them and finally achieved something great!**
+As SET (Software Engineer in Test), we have been developing and maintaining lots of products to improve productivity of developers. We faced with the following problems and solved them one by one. Developers of these products tend to consider that they already know all of user needs. They often insist on getting centered on development. They become reluctant to demonstrate product increments to users.
 
-**We can change difficulties into something special with proper approaches!**
+We can overcome these problems with ⭐️additional techniques.
 
+⭐️
 In this talk, I will tell you the following practical ideas and solutions which **relate to testing** I found through my experience as SET **from Scratch**:
+
+そこで当セッションでは、特に社内ツール・サービス・プラットフォームにおける、プロダクトマネジメントの適用の勘所・Tips・パターン・アンチパターンについて、私たちの現場での実践例を元に、参加者の皆さまが活用できる知見として紹介します。
+
 
 1) Importance and how to get support and understanding from decision-makers and colleagues
 They are critical to proceed with test-related improvement activities. I will explain useful techniques; **"Product Discovery"** to discover their real concerns, and **"Giving impacts"** to attract them.
@@ -71,17 +76,6 @@ Innovative activities require proper skills, knowledge, persons, and so on. I wi
 I have been sharing these my improvement ideas over 10 times with our company members. After that, some teams convinced themselves with my ideas and started utilizing them. One team solved its slow test problems on their own. Another team invented a new test infrastructure which made testing easier.
 
 I hope these ideas will help innovate your testing activities!
-
-
-
-# ⭐️Abstract (JP)
-私たちLINEのSETチームは、プロダクト開発チームのプロセス改善と生産性向上を実現・推進するため、多くの社内ツール・サービス・プラットフォームを提案・開発・運用しています。
-
-その経験で私たちは、技術的に優れた最先端のモノを提供し続けるだけでは不足で、ユーザの真のニーズの発見とその実装、施策を続けるための意思決定者からの支持の取り付け、社内でのプロモーション活動といった、プロダクトマネジメントの要素が必要不可欠であるとの認識に至りました。
-
-一方で、ThoughtWorks社の"Technology Radar"などによると、プロダクトマネジメントの知見・方法論を社内ツール・サービス・プラットフォームへ適用する傾向が世界的に広まりつつある一方で、そのための知見がまだまだ不足していることも分かりました。
-
-そこで当セッションでは、特に社内ツール・サービス・プラットフォームにおける、プロダクトマネジメントの適用の勘所・Tips・パターン・アンチパターンについて、私たちの現場での実践例を元に、参加者の皆さまが活用できる知見として紹介します。
 
 
 
