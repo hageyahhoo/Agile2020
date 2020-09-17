@@ -51,17 +51,24 @@ DevOps
 
 
 # Abstract
-⭐️⭐️⭐️
 Developing and maintaining in-house developer products has its own difficulties compared to public products for external users.
 
-As SET (Software Engineer in Test), we have been developing and maintaining lots of products to improve productivity of developers. We faced with the following problems and solved them one by one. Developers of these products tend to consider that they already know all of user needs. They often insist on getting centered on development. They become reluctant to demonstrate product increments to users.
+As SET (Software Engineer in Test), we have been developing and maintaining lots of products to improve developers' productivity. We faced with the following problems and solved them one by one. Developers of these products tend to consider that they already know all of user needs. They often insist on getting centered on development. They become reluctant to demonstrate product increments to users.
 
-We can overcome these problems with ⭐️additional techniques.
+**Managing in-house developer products requires its own aspects and techniques.**
+
+In this talk, I will tell you the following practical aspects and techniques which are essential to managing in-house developer products:
 
 ⭐️
-In this talk, I will tell you the following practical ideas and solutions which **relate to testing** I found through my experience as SET **from Scratch**:
+1) "Want to get centered on development" syndrome
+技術的に優れた最先端のモノを提供し続けるだけでは不足で、
+ユーザの真のニーズの発見とその実装、
 
-そこで当セッションでは、特に社内ツール・サービス・プラットフォームにおける、プロダクトマネジメントの適用の勘所・Tips・パターン・アンチパターンについて、私たちの現場での実践例を元に、参加者の皆さまが活用できる知見として紹介します。
+2) Importance to focus on "users" and "stakeholders" intentionally to get supports
+施策を続けるための意思決定者からの支持の取り付け、
+
+3) Importance of internal (and external) promotions
+社内でのプロモーション活動
 
 
 1) Importance and how to get support and understanding from decision-makers and colleagues
@@ -73,6 +80,7 @@ We learned that we could provide innovative ideas and solutions by working close
 3) How to nurture members/teams/organizations for your innovative activities
 Innovative activities require proper skills, knowledge, persons, and so on. I will tell you **"Learning Session"**, a way to nurture members, teams, and organizations smoothly and quickly. Additionally, I will explain **"Sebas Report"**, our innovative solution example to tame the complexity of Microservices and reduce their outages incubated from "Learning Session".
 
+⭐️
 I have been sharing these my improvement ideas over 10 times with our company members. After that, some teams convinced themselves with my ideas and started utilizing them. One team solved its slow test problems on their own. Another team invented a new test infrastructure which made testing easier.
 
 I hope these ideas will help innovate your testing activities!
